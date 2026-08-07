@@ -3,9 +3,6 @@ type: software
 license: Creative Commons BY-NC 4.0
 title: 'Мацевалог'
 version: '1.0.0'
-identifiers:
-- type: doi
-  value: 10.xxxx/yyyy
 abstract: Онлайн-база данных для сбора, хранения и публикации памятников еврейской эпиграфики в цифровом формате.
 authors:
 - given-names: Георгий Алексеевич
