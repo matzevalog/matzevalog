@@ -1,0 +1,179 @@
+---
+title: "QBA0355"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    ЛИВИЕВ Элиягу, сын Йешаягу (Ильягу)
+    
+    אליהו בן ישעיה
+name-he: |
+    אליהו בן ישעיה
+    
+    ЛИВИЕВ Элиягу, сын Йешаягу (Ильягу)
+year-gr: 1932
+year-he: 5692
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:стела
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:традиционная символика
+  - m:известняк
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0355
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0355.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+ЛИВИЕВ Элиягу, сын Йешаягу (Ильягу)
+:::
+
+::: {style="font-size: 1.2em;"}
+אליהו בן ישעיה
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1896 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1932 / -.-.5692
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳נ׳
+ Левиев
+Ильягу Я.
+1896-1932
+память от детей
+האיש הנעים והנכבד
+מ״ו אליהו בן ישעיה נ״ע
+והמ״כ לשנת ה׳ת׳ר׳צ׳ב׳",
+       `Перевод` = "Здесь покоится
+Левиев 
+Илиягу Я.
+1896-1932
+память от детей
+Человек приятный и уважемый,
+наш учитель Элиягу, сын Йешаягу, да упокоится в раю,
+да упокоится во славе, в году 5672-м") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |стела                                                                         |
+|**Материал**        |известняк (следы эрозии, трещины)                                                     |
+|**Размеры**         |102×50×20                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, традиционная символика                                                                        |
+|**Элементы декора** |полукруглое завершение со звездой Давида                                                                          |
+|**Координаты**      |[41.37070055, 48.50745597](https://www.google.com/maps/place/41.37070055, 48.50745597)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

@@ -1,0 +1,184 @@
+---
+title: "QBA0233"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Шалом, сын Йосефа
+    
+    שלום בן יוסף
+name-he: |
+    שלום בן יוסף
+    
+    Шалом, сын Йосефа
+year-gr: 1888
+year-he: 5649
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:стела
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - m:известняк
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0233
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0233_0.JPG")
+knitr::include_graphics("../images/QBA0233_1.JPG")
+knitr::include_graphics("../images/QBA0233_2.JPG")
+knitr::include_graphics("../images/QBA0233_3.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Шалом, сын Йосефа
+:::
+
+::: {style="font-size: 1.2em;"}
+שלום בן יוסף
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+11.09.1888* / 06.Ti.5649
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פה ציון על גו
+ה[נדיב] המנוח
+והוקם
+[...] י[ר...] ו״רי
+[ירא] אלקים
+שלום בן יוסף
+שמו וישר עמו
+כבה אשו וקדר
+שמש יום ג֗֗ ו֗ תשרי
+שנת תרמ״ט לפ״ק",
+       `Перевод` = "Здесь знак над телом
+щедрого почившего,
+и воздвигнут
+…
+богобоязненный
+Шалом, сын Йосефа
+имя его, и прямодушен народ его.
+Погас его огонь и потухло
+его солнце во вторник, 6 тишрея
+года 649 по малому летоисчислению.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |стела                                                                         |
+|**Материал**        |известняк (следы эрозии, ремонта и сколы)                                                     |
+|**Размеры**         |143×48×23  --- стела                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный                                                                        |
+|**Элементы декора** |три фигурные ниши для текста, между ними круги, рамка                                                                          |
+|**Координаты**      |[41.37099259, 48.50651298](https://www.google.com/maps/place/41.37099259, 48.50651298)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

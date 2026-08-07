@@ -1,0 +1,181 @@
+---
+title: "QBA0604"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    МИШИЕВА Мазанту, дочь Авшалома (Мазанту Авшалумовна)
+    
+    מזנתוב בת אבשלום
+name-he: |
+    מזנתוב בת אבשלום
+    
+    МИШИЕВА Мазанту, дочь Авшалома (Мазанту Авшалумовна)
+year-gr: 1951
+year-he: 5711
+categories:
+  - c:QBA
+  - g:женский
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0604
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0604_1.JPG")
+knitr::include_graphics("../images/QBA0604_2.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+МИШИЕВА Мазанту, дочь Авшалома (Мазанту Авшалумовна)
+:::
+
+::: {style="font-size: 1.2em;"}
+מזנתוב בת אבשלום
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1919 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1951 / 27.El.5711
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ נ 
+מזנתוב בת אבשלום
+כז אלול ה֗תשי׳א
+МИШИЕВА
+МАЗАНТУ
+АВШАЛУМОВНА
+1919-1951
+ОТ СЕМЬИ",
+       `Перевод` = "Здесь покоится
+Мазантов, дочь Авшалома.
+27 элула 5711.
+МИШИЕВА
+МАЗАНТУ
+АВШАЛУМОВНА
+1919 - 1951
+ОТ СЕМЬИ") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, мрамор (мраморная вставка для текста, керамический медальон, следы эрозии, цементный раствор)                                                     |
+|**Размеры**         |155×62×30  --- стела; 15×53×118  --- плита; 35×72×170  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, традиционная символика                                                                        |
+|**Элементы декора** |фигурное завершение с волютами и растительным мотивом, конек, фотопортрет на медальоне, витые полуколонны, звезда Давида на вставке                                                                          |
+|**Координаты**      |[41.37078014, 48.50827023](https://www.google.com/maps/place/41.37078014, 48.50827023)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

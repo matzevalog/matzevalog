@@ -1,0 +1,186 @@
+---
+title: "QBA0123"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Сара, дочь Абайи
+    
+    שרה בת אביי
+name-he: |
+    שרה בת אביי
+    
+    Сара, дочь Абайи
+year-gr: 0
+year-he: 5687
+categories:
+  - c:QBA
+  - g:женский
+  - tt:L-образный
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:известняк
+  - m:кирпич
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0123
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0123_1.JPG")
+knitr::include_graphics("../images/QBA0123_2.JPG")
+knitr::include_graphics("../images/QBA0123_3.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Сара, дочь Абайи
+:::
+
+::: {style="font-size: 1.2em;"}
+שרה בת אביי
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+  / 8.Ad1.5687
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳נ׳
+האשה המהוללה
+אשת חיל
+עטרת בעלה כשרה
+וצנועה בעלת צדקה
+וגמ״ח שרה בת אביי 
+ת֗נ֗צ֗ב֗ה֗ בת ס֗א שנה
+לחייה והמ֗כ ביום ה׳
+ח׳ לאדר א׳ ה׳ תר״פז
+ל֗ב֗ע֗",
+       `Перевод` = "Здесь покоится
+женщина, прославлена
+добродетельная жена,
+венец мужа своего*, праведная
+и скромная, щедрая
+и воздающая милость, Сара, дочь Абайи,
+да будет душа её завязана в узле жизни. <Скончалась на> 61 году
+жизни, да будет благословен её покой, в четверг,
+8 адара I 5687 <года>
+от сотворения мира.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, кирпич (следы эрозии, в основании кирпичи, цементный раствор)                                                     |
+|**Размеры**         |150×53×24  --- стела; 41×51×133  --- Саркофаг; 100×92×240  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |полукруглое завершение со звездой Давида в центре, ветви по сторонам, рамка для текста                                                                          |
+|**Координаты**      |[41.36963098, 48.50653207](https://www.google.com/maps/place/41.36963098, 48.50653207)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

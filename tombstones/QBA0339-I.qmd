@@ -1,0 +1,185 @@
+---
+title: "QBA0339"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    АВШАЛУМОВ Мордехай, сын Эзры (Мардахай Израевич)
+    
+    מרדכי בן עזרה
+name-he: |
+    מרדכי בן עזרה
+    
+    АВШАЛУМОВ Мордехай, сын Эзры (Мардахай Израевич)
+year-gr: 1943
+year-he: 5704
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0339
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0339_1.JPG")
+knitr::include_graphics("../images/QBA0339_2.JPG")
+knitr::include_graphics("../images/QBA0339_3.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+АВШАЛУМОВ Мордехай, сын Эзры (Мардахай Израевич)
+:::
+
+::: {style="font-size: 1.2em;"}
+מרדכי בן עזרה
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1873 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+18.07.1943 / 25.Ta.5704
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ״נ״
+מרדכי במ׳ו עזרה
+יום א׳ בשבת כ׳ה
+חודש תמוז שנת
+התש׳ד לב׳ע
+Авшалумов
+Мардахай
+Израевич
+1873 - 19 18/VII 43",
+       `Перевод` = "Здесь покоится
+Мордехай, сын учителя нашего Эзры,
+в воскресенье, 25-го
+таммуза, год
+5704 от сотворения мира.
+Авшалумов
+Мардахай
+Израевич
+1873 - 19 18/VII 43") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, мрамор (мраморная вставкк для текста, следы эрозии)                                                     |
+|**Размеры**         |169×58×35  --- стела; 19×53×120  --- плита; 35×80×193  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |квадратное завершение с звездой Давида и двуми перекрещенными ветвями и лентой, вставка с текстом и звездой Давида, две перекрещенные ветви с лентой под вставкой  с текстом                                                                          |
+|**Координаты**      |[41.37077532, 48.50737264](https://www.google.com/maps/place/41.37077532, 48.50737264)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

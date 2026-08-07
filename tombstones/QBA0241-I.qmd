@@ -1,0 +1,183 @@
+---
+title: "QBA0241"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    АБРАМОВА Хивит, дочь Михаэля (Мухоиловна)
+    
+    כבית בת מכאל
+name-he: |
+    כבית בת מכאל
+    
+    АБРАМОВА Хивит, дочь Михаэля (Мухоиловна)
+year-gr: 1977
+year-he: 5738
+categories:
+  - c:QBA
+  - g:женский
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0241
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0241_0.JPG")
+knitr::include_graphics("../images/QBA0241_1.JPG")
+knitr::include_graphics("../images/QBA0241_2.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+АБРАМОВА Хивит, дочь Михаэля (Мухоиловна)
+:::
+
+::: {style="font-size: 1.2em;"}
+כבית בת מכאל
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1903 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+05.12.1977 / 24.Ki.5738
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳ נ׳
+יום ש֗ל׳ע כבית בּת
+מכאל יום בּ״ שׂבּת
+כ״ד כסליו שנ״ת תש״לח
+АБРАМОВА
+ХИВИТ
+МУХОИЛОВНА
+1903 – 5/XII 1977.",
+       `Перевод` = "Здесь покоится.
+День, когда скончалась Хивит, дочь
+Михаэля, понедельник,
+24 кислева года 738.
+АБРАМОВА
+ХИВИТ
+МУХОИЛОВНА
+1903 – 05.12.1977") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, мрамор (мраморная вставка с текстом, цементный раствор, следы эрозии, трещины)                                                     |
+|**Размеры**         |148×60×27  --- стела; 17×61×120  --- плита; 35×76×182  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |треугольное завершение с волютами и растительным мотивом, витые фрагменты по двум сторонам от надписи, звезда Давида на вставке                                                                          |
+|**Координаты**      |[41.37026752, 48.50692934](https://www.google.com/maps/place/41.37026752, 48.50692934)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

@@ -1,0 +1,187 @@
+---
+title: "QBA0567"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    ЕВДАЕВ Ариэль, сын Менахема (Ариил Манахимович)
+    
+    אריאל בן מנחם
+name-he: |
+    אריאל בן מנחם
+    
+    ЕВДАЕВ Ариэль, сын Менахема (Ариил Манахимович)
+year-gr: 2000
+year-he: 5760
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:традиционная символика
+  - m:гранит
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0567
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0567_1.JPG")
+knitr::include_graphics("../images/QBA0567_2.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+ЕВДАЕВ Ариэль, сын Менахема (Ариил Манахимович)
+:::
+
+::: {style="font-size: 1.2em;"}
+אריאל בן מנחם
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+20.03.1949 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+15.02.2000 / 09.Ad.5760
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "сверху
+פ״ נ״
+אראל בן מנחם
+ט אדר תש״ס
+Евдаев 
+Ариил 
+Манахимович 
+20-III-1949-15-II-2000
+
+снизу
+Память от брата
+жены и детей",
+       `Перевод` = "
+Здесь покоится
+Ариэль, сын Менахема.
+9 адара {5}760.
+Евдаев 
+Ариил 
+Манахимович 
+20.03.1949 - 15.02.2000
+
+ 
+Память от брата,
+жены и детей.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |гранит (следы цементного раствора)                                                     |
+|**Размеры**         |218×86×24  --- стела; 18×92×196  --- основание; 13×58×147  --- плита                                                                        |
+|**Тип декора**      |традиционная символика                                                                        |
+|**Элементы декора** |звезда Давида и фотопортрет; фотопортрет на обратной стороне стелы; изображение вазы с двумя розами на плите; гранитная ваза                                                                          |
+|**Координаты**      |[41.37113482, 48.50800355](https://www.google.com/maps/place/41.37113482, 48.50800355)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

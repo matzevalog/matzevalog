@@ -1,0 +1,184 @@
+---
+title: "QBA0458"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    АВШАЛУМОВ Беньямин-Зеэв, сын Гавриэля (Бинямин-Зив Гаврилович)
+    
+    בנימין זאב בן גבריאל
+name-he: |
+    בנימין זאב בן גבריאל
+    
+    АВШАЛУМОВ Беньямин-Зеэв, сын Гавриэля (Бинямин-Зив Гаврилович)
+year-gr: 1968
+year-he: 5728
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0458
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0458_0.JPG")
+knitr::include_graphics("../images/QBA0458_1.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+АВШАЛУМОВ Беньямин-Зеэв, сын Гавриэля (Бинямин-Зив Гаврилович)
+:::
+
+::: {style="font-size: 1.2em;"}
+בנימין זאב בן גבריאל
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1913 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1968 / 09.Sh.5728
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳ נ׳
+בּנימין זאב בּן גבריאל
+נפ׳ יום ה׳ בּש׳ ט׳ לח׳
+שבט ת֗ש֗כ֗ח֗
+АВШАЛУМОВ
+БИНЯМИН-ЗИВ
+ГАВРИЛОВИЧ
+1913-1968
+ОТ СЕМЬИ",
+       `Перевод` = "Здесь покоится
+Беньямин Зеэв, сын Габриэля,
+скончался в четверг девятой недели, в месяц 
+шват {5}728 года
+Авшалумов
+Бинямин-Зив
+Гаврилович
+1913-1968
+От семьи") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, мрамор (мраморные вставки для текста, керамический медальон, цементный раствор, стоит на бетонной плите)                                                     |
+|**Размеры**         |215×70×50  --- стела; 20×59×113  --- плита; 22×90×190  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |навершие со звездой Давида, пояс из пальметок, треугольный портал с витыми полуколоннами, лента с розеткой, фотопортрет, звезда Давида на вставке                                                                          |
+|**Координаты**      |[41.37101354, 48.50766093](https://www.google.com/maps/place/41.37101354, 48.50766093)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

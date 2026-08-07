@@ -1,0 +1,235 @@
+---
+title: "QBA0558"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    НИСАНОВ Гуршум Нисанович
+    
+    
+name-he: |
+    
+    
+    НИСАНОВ Гуршум Нисанович
+year-gr: 1993
+year-he: 0
+categories:
+  - c:QBA
+  - c:QBA
+  - g:мужской
+  - g:женский
+  - tt:L-образный
+  - tt:L-образный
+
+
+  - l:иврит
+  - l:русский
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:песчаник
+  - m:известняк
+  - m:гранит
+  - m:песчаник
+  - m:известняк
+  - m:гранит
+  
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0558
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0558_0.JPG")
+knitr::include_graphics("../images/QBA0558_1.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+НИСАНОВ Гуршум Нисанович
+:::
+
+::: {style="font-size: 1.2em;"}
+
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1954 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1993 /  
+:::
+
+::::
+
+---
+
+::: {.name-style}
+НИСАНОВА Малка, дочь Нисана (Малька Нисановна)
+:::
+
+::: {style="font-size: 1.2em;"}
+מלכה בת ניסן
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1912 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+24.02.2005 / 15.Ad1.5765
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "Нисанов 
+Гуршум 
+Нисанович
+1954-1993
+פ״נ״
+מלכה בת ניסן
+טו״ ארר ״א״
+בשנת תשס״ה
+ Нисанова
+Малька
+Нисановна
+1912-2005 24.II
+Память от внука",
+       `Перевод` = "Нисанов 
+Гуршум 
+Нисанович
+1954-1993.
+Здесь покоится
+Малка, дочь Нисана.
+15 адара-I
+года {5}765.
+Нисанова
+Малька
+Нисановна,
+1912 -24.02.2005.
+Память от внука.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |песчаник, известняк, гранит (следы эрозии, трещины, гранитная табличка для текста)                                                     |
+|**Размеры**         |180×69×32  --- стела; 16×57×114  --- плита; 38×85×170  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |фигурное завершение с волютами и растительными мотивами, конек, звезда Давида в нише, пояс из розеток, два фотопортрета на вставке, звезда Давида на вставке                                                                          |
+|**Координаты**      |[41.37111179, 48.50793829](https://www.google.com/maps/place/41.37111179, 48.50793829)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

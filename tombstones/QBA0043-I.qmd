@@ -1,0 +1,182 @@
+---
+title: "QBA0043"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Рахель Лея, дочь Моше (Рахил Лиё)
+    
+    רחל לאה בת משה
+name-he: |
+    רחל לאה בת משה
+    
+    Рахель Лея, дочь Моше (Рахил Лиё)
+year-gr: 1883
+year-he: 5643
+categories:
+  - c:QBA
+  - g:женский
+  - tt:стела
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - m:природный камень
+  - m:ракушечник
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0043
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0043_0.JPG")
+knitr::include_graphics("../images/QBA0043_1.JPG")
+knitr::include_graphics("../images/QBA0043_2.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Рахель Лея, дочь Моше (Рахил Лиё)
+:::
+
+::: {style="font-size: 1.2em;"}
+רחל לאה בת משה
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+31.07.1883* / 26.Ta.5643
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ״נ
+הצנועה
+מרת
+רחל לאה
+בת ר׳ משה
+נפטרה [ביום]
+ג׳ בשבת כ״ו
+לתמוז שנת
+תרמ״ג לפ״ק",
+       `Перевод` = "Здесь покоится
+скромная
+госпожа
+Рахель Лея,
+дочь р. Моше.
+Скончалась
+во вторник, 26
+таммуза, год
+5643 по малому исчислению.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |стела                                                                         |
+|**Материал**        |природный камень, ракушечник (разбит на два фрагмента, один из которых лежит лицевой частью вниз)                                                     |
+|**Размеры**         |64×43×22  --- Высота нижнего фрагмента - 64, высота верхнего - 74                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный                                                                        |
+|**Элементы декора** |на нижнем фрагменте - ниша для текста                                                                          |
+|**Координаты**      |[41.3706984, 48.50615906](https://www.google.com/maps/place/41.3706984, 48.50615906)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

@@ -1,0 +1,186 @@
+---
+title: "QBA0133"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Элия, сын Леви (Илия)
+    
+    אליה בן לוי
+name-he: |
+    אליה בן לוי
+    
+    Элия, сын Леви (Илия)
+year-gr: 1901
+year-he: 5661
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:L-образный
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  - t:юноша
+  - t:насильственная смерть
+  - t:левит
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0133
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0133_0.JPG")
+knitr::include_graphics("../images/QBA0133_1.JPG")
+knitr::include_graphics("../images/QBA0133_2.JPG")
+knitr::include_graphics("../images/QBA0133_3.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Элия, сын Леви (Илия)
+:::
+
+::: {style="font-size: 1.2em;"}
+אליה בן לוי
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+20.04.1901* / 1.Iy.5661
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פה נקבר
+הנחמד בר יח
+שנה
+אליא בר לוי
+שנהרג ליל
+שבת ר״ח
+אייר שנת
+תר'סא
+לבע",
+       `Перевод` = "Здесь похоронен
+милый 18-
+летний <юноша>,
+Элия, сын Леви,
+убитый в ночь
+субботы, в новомесячье
+ияра, год
+{5}661
+от сотворения мира.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит    |
+|**Метки**     |юноша, насильственная смерть, левит    |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, мрамор (мраморная вставка для текста, керамический медальон с портретом, следы эрозии, цементный раствор)                                                     |
+|**Размеры**         |130×52×22                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, традиционная символика                                                                        |
+|**Элементы декора** |навершие стелы в виде книги соединяет этот памятник с соседним 469 памятником. Звезда Давида на мраморной вставке, фото-портрет на медальоне.                                                                          |
+|**Координаты**      |[41.37088617, 48.50607698](https://www.google.com/maps/place/41.37088617, 48.50607698)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

@@ -1,0 +1,182 @@
+---
+title: "QBA0381"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    ИЗРАИЛОВА Хибо, дочь Эфраима (Ифраимовна)
+    
+    חיבּה בת אפרים
+name-he: |
+    חיבּה בת אפרים
+    
+    ИЗРАИЛОВА Хибо, дочь Эфраима (Ифраимовна)
+year-gr: 1977
+year-he: 5737
+categories:
+  - c:QBA
+  - g:женский
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0381
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0381_0.JPG")
+knitr::include_graphics("../images/QBA0381_1.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+ИЗРАИЛОВА Хибо, дочь Эфраима (Ифраимовна)
+:::
+
+::: {style="font-size: 1.2em;"}
+חיבּה בת אפרים
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+19.02.1977 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1977 / 16.El.5737
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳ נ׳
+חיבּה בּת אפרים יום
+ג״ טז״ אלול ת֗ש֗ל֗ז֗
+Израилова
+Хибо
+Ифраимовна
+1902 - 1977 г.
+от дочерей.",
+       `Перевод` = "Здесь покоится
+Хибо, дочь Эфраима,
+во вторник, 16 элула, 5737 год.
+Израилова
+Хибо
+Ифраимовна
+1902 – 1977 г.
+от дочерей") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, мрамор (мраморная вставка для текста, цементный раствор, следы ремонта)                                                     |
+|**Размеры**         |158×61×32  --- стела; 18×54×122  --- плита; 17×70×171  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |вставка для текста с рамкой, над которой звезда Давида в окружении веток и лент, ниже снова ленты и листья                                                                          |
+|**Координаты**      |[41.37104613, 48.5074776](https://www.google.com/maps/place/41.37104613, 48.5074776)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

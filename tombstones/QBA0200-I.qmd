@@ -1,0 +1,179 @@
+---
+title: "QBA0200"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Сасон, сын Хизкии (Сасун)
+    
+    ששון בן חזקיה
+name-he: |
+    ששון בן חזקיה
+    
+    Сасон, сын Хизкии (Сасун)
+year-gr: 1871
+year-he: 5631
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:стела
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - m:известняк
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0200
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0200_1.JPG")
+knitr::include_graphics("../images/QBA0200_2.JPG")
+knitr::include_graphics("../images/QBA0200_3.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Сасон, сын Хизкии (Сасун)
+:::
+
+::: {style="font-size: 1.2em;"}
+ששון בן חזקיה
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+30.04.1871* / 09.Iy.5631
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פה נטמן
+איש הישר 
+ששון ב׳ חזקיה 
+נ״ע יום ראשון 
+בשבת תשעה
+לחודש אייר
+שנת תר״לא
+לפ״ק",
+       `Перевод` = "Здесь похоронен
+честный человек,
+Сасон, сын Хизкии,
+да упокоится он в раю. <Скончался> в воскресенье,
+девятого <числа>
+месяца ияр,
+год 631
+по малому исчислению.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |стела                                                                         |
+|**Материал**        |известняк (следы эрозии)                                                     |
+|**Размеры**         |109×40×21                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный                                                                        |
+|**Элементы декора** |двойная фигурная ниша для текста                                                                          |
+|**Координаты**      |[41.37059539, 48.5066793](https://www.google.com/maps/place/41.37059539, 48.5066793)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

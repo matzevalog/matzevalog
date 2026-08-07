@@ -1,0 +1,179 @@
+---
+title: "QBA0549"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    ШАРБАТОВА Тамар, дочь Шарбата (Томор Ш.)
+    
+    תמר בת שרבת
+name-he: |
+    תמר בת שרבת
+    
+    ШАРБАТОВА Тамар, дочь Шарбата (Томор Ш.)
+year-gr: 1924
+year-he: 5684
+categories:
+  - c:QBA
+  - g:женский
+  - tt:стела
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - m:известняк
+  - m:мрамор
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0549
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0549.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+ШАРБАТОВА Тамар, дочь Шарбата (Томор Ш.)
+:::
+
+::: {style="font-size: 1.2em;"}
+תמר בת שרבת
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1920 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1924 / 14.Si.5684
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "תמר בת שרבת
+נפ״ יום י״ד סיון ש״
+תרפד תנצבה
+Шарбатова
+Томор Ш.
+1920-1924
+память от брата
+Исроил",
+       `Перевод` = "Тамар, дочь Шарбата.
+Скончалась 14 сивана, года
+{5}684. Да будет душа ее завязана в узле жизни.
+Шарбатова
+Томор Ш.
+1920-1924.
+Память от брата
+Исроила.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |стела                                                                         |
+|**Материал**        |известняк, мрамор (следы эрозии, мраморная вставка для текста)                                                     |
+|**Размеры**         |55×40×11                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный                                                                        |
+|**Элементы декора** |треугольное завершение                                                                          |
+|**Координаты**      |[41.37096148, 48.50790443](https://www.google.com/maps/place/41.37096148, 48.50790443)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

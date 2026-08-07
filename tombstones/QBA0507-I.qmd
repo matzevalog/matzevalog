@@ -1,0 +1,209 @@
+---
+title: "QBA0507"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центр.)
+
+    Азербайджан
+name-ru: |
+    МАРДАХАЕВ Талхум, сын Иосифа (Юсуфович)
+    
+    תלחום בן יוסף
+name-he: |
+    תלחום בן יוסף
+    
+    МАРДАХАЕВ Талхум, сын Иосифа (Юсуфович)
+year-gr: 1945
+year-he: 5706
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:традиционная символика
+  - m:песчаник
+  - m:гранит
+  - t:
+
+
+
+
+
+
+
+
+
+
+
+
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центр.) Азербайджан](../cemeteries/QBA.html) > QBA0507
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0507_0.JPG")
+knitr::include_graphics("../images/QBA0507_1.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+МАРДАХАЕВ Талхум, сын Иосифа (Юсуфович)
+:::
+
+::: {style="font-size: 1.2em;"}
+תלחום בן יוסף
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+19.11.1945 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+19.11.1945 / 14.Ki.5706
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳נ׳
+איש עעיד חחם
+תלחום בן יוסף
+נפתר בן בו למו יד כסלו
+התשן לבע
+ת.נ.צ.ב.ה.
+Мардахаев Талхум
+Юсуфович
+19.XI.1945",
+       `Перевод` = "Здесь покоится 
+молодой и честный человек,
+Талхум, сын Иосифа.
+скончался в возрасте 26 лет, 14 числа месяца кислев 
+5706 года. 
+Да будет душа его связана в узеле жизни.
+Мардахаев Талхум
+Юсуфович
+19.11.1945") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**|Написание букв во второй и четвертой строках еврейской надписи искажено.  Предполагаемое чтение:
+איש צעיר ותם
+נפטר בן כו לימיו יד כסלו|
+|**Язык**      |иврит, русский    |
+|**Метки**     |
+
+
+
+
+
+
+
+
+
+
+
+    |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |песчаник, гранит (следы эрозии; гранитная табличка с текстом фотопортретом)                                                     |
+|**Размеры**         |134×59×23  --- стела; 18×57×103  --- плита; 19×85×141  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, традиционная символика                                                                        |
+|**Элементы декора** |полукруглое завершение; с лицевой стороны: гранитная табличка с фотопортретом и звездой Давида над эпитафией; с обратной стороны: фигурная ниша с текстом эпитафии и звездой Давида над ней                                                                          |
+|**Координаты**      |[41.37073739, 48.50791178](https://www.google.com/maps/place/41.37073739, 48.50791178)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

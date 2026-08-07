@@ -1,0 +1,187 @@
+---
+title: "QBA0152a"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Беньямин, сын Менахема Нахума (Бинямин)
+    
+    בנימין בן מנחם
+name-he: |
+    בנימין בן מנחם
+    
+    Беньямин, сын Менахема Нахума (Бинямин)
+year-gr: 1859
+year-he: 5620
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:стела
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - m:песчаник
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0152a
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0152a_1.JPG")
+knitr::include_graphics("../images/QBA0152a_2.JPG")
+knitr::include_graphics("../images/QBA0152a_3.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Беньямин, сын Менахема Нахума (Бинямин)
+:::
+
+::: {style="font-size: 1.2em;"}
+בנימין בן מנחם
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+01.11.1859* / 4.Ch.5620
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פה נטמן
+איש תם
+וישר בנדיבים
+גופו מושכב
+ארצה ונשמתו 
+לגן עדן נרצ
+ה״ה כק״ש
+ר׳ בנימין ב׳ר מנחם
+נ[...] יום ג׳
+בש״ב [ד] לח׳
+חשון שנ׳
+תר״ך לפק",
+       `Перевод` = "Здесь похоронен
+человек честный
+и праведный среди великодушных,
+его тело покоится
+в земле, а душа
+призвана в райский сад,
+которого зовут, благословенно его святое имя,
+р. Беньямин, сын р. Менахема,
+[Нахума]. <Скончался> во вторник,
+4 <числа> месяца
+хешван, год
+620 по малому исчислению.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**|Текст на надгробии практически полностью повторяет эпитафию на памятнике №152. Вероятно, превоначальное надгробие (№152а) было повреждено или сломано, после чего вместо него был изготовлен и установлен новый памятник (№151).|
+|**Язык**      |иврит    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |стела                                                                         |
+|**Материал**        |песчаник (следы эрозии, сколы, разрушен на две части)                                                     |
+|**Размеры**         |207×52×25                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный                                                                        |
+|**Элементы декора** |две фигурные ниши для текста                                                                          |
+|**Координаты**      |[41.36975623, 48.50664026](https://www.google.com/maps/place/41.36975623, 48.50664026)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

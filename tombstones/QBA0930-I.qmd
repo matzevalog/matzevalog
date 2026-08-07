@@ -1,0 +1,255 @@
+---
+title: "QBA0930"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    ИЛХАНАНОВ Хаим Моше, сын Инйона (Хаймиши Юнунович)
+    
+    חיים משה בן יניון
+name-he: |
+    חיים משה בן יניון
+    
+    ИЛХАНАНОВ Хаим Моше, сын Инйона (Хаймиши Юнунович)
+year-gr: 1977
+year-he: 5737
+categories:
+  - c:QBA
+  - c:QBA
+  - g:мужской
+  - g:мужской
+  - tt:L-образный
+  - tt:L-образный
+
+
+  - l:иврит
+  - l:русский
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  - m:известняк
+  - m:мрамор
+  
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0930
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0930_1.JPG")
+knitr::include_graphics("../images/QBA0930_2.JPG")
+knitr::include_graphics("../images/QBA0930_3.JPG")
+knitr::include_graphics("../images/QBA0930_4.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+ИЛХАНАНОВ Хаим Моше, сын Инйона (Хаймиши Юнунович)
+:::
+
+::: {style="font-size: 1.2em;"}
+חיים משה בן יניון
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1897 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+28.08.1977 / 14.El.5737
+:::
+
+::::
+
+---
+
+::: {.name-style}
+ИЛХАНАНОВ Юнун Хаймишиевич
+:::
+
+::: {style="font-size: 1.2em;"}
+
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1923 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1944 /  
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳ נ׳
+יום ש׳ל׳ ע׳ חיים משה בּר
+יניון יום רושון בּשבּת י֗ד֗
+אלול שנת ת֗ש֗ל֗״ז.
+Илхананов
+Хаймиши
+Юнунович. 
+1897 -  28/VIII 1977.
+ ПАМЯТЬ ОТ СЫНА.
+
+снизу
+Илхананов
+Юнун
+Хаймишиевич
+1923 - 1944.
+ПОГИБ В ВЕЛИКОЙ
+ОТЕЧЕСТВЕННОЙ ВОЙНЕ
+ТЫ РАНО ПОКИНУЛ
+МЕНЯ, НО СВЕТЛАЯ
+ПАМЯТЬ ТВОЯ,
+ВСЕГДА ОСТАНЕТСЯ
+В МОЕМ СЕРДЦЕ.
+ПАМЯТЬ ОТ БРАТА",
+       `Перевод` = "Здесь покоится.
+День, когда ушел навеки Хаим Моше, сын р.
+Юнуна, воскресенье, 14
+элула года 737.
+Илхананов
+Хаймиши
+Юнунович. 
+1897 -  28/VIII 1977.
+ ПАМЯТЬ ОТ СЫНА.
+
+
+Илхананов
+Юнун
+Хаймишиевич
+1923 - 1944.
+ПОГИБ В ВЕЛИКОЙ
+ОТЕЧЕСТВЕННОЙ ВОЙНЕ
+ТЫ РАНО ПОКИНУЛ
+МЕНЯ, НО СВЕТЛАЯ
+ПАМЯТЬ ТВОЯ,
+ВСЕГДА ОСТАНЕТСЯ
+В МОЕМ СЕРДЦЕ.
+ПАМЯТЬ ОТ БРАТА") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, мрамор (следы эрозии, цементный раствор, мраморная вставка для текста, два керамических медальона с фотографиями)                                                     |
+|**Размеры**         |152×60×30  --- стела; 16×52×117  --- плита; 40×75×182  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |архитектурное завершение с двумя волютами, конёк, фото-портреты в медальонах, витые полуколонны                                                                          |
+|**Координаты**      |[41.37130276, 48.50928027](https://www.google.com/maps/place/41.37130276, 48.50928027)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

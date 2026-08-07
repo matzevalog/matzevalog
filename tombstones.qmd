@@ -1,0 +1,64 @@
+---
+title: "Именной указатель"
+sidebar: filter-list
+listing:
+  - id: rus-heb
+    contents: "../tombstones/"
+    type: table
+    categories: false
+    table-striped: true
+    table-hover: true
+    sort: "name-ru"
+    fields: [title, name-ru, year-gr, year-he, place]
+    filter-ui: [title, name-ru, year-gr, year-he]
+    sort-ui: [title, name-ru, year-gr, year-he, place]
+    field-display-names:
+      title: "Памятник"
+      name-ru: "Имя"
+      sex: "Пол"
+      year-gr: 'Гр. год'
+      year-he: 'Ев. год'
+      place: "Место"
+  - id: heb-rus
+    contents: "../tombstones/"
+    type: table
+    categories: false
+    table-striped: true
+    table-hover: true
+    sort: "name-he"
+    fields: [title, name-he, year-gr, year-he, place]
+    filter-ui: [title, name-he, year-gr, year-he]
+    sort-ui: [title, name-he, year-gr, year-he, place]
+    field-display-names:
+      title: "Памятник"
+      name-he: "Имя"
+      sex: "Пол"
+      year-gr: "Гр. год"
+      year-he: "Ев. год"
+      place: "Место"
+include-in-header:
+  - text: |
+      <style>
+         .reduced-intervals p {
+            margin-bottom: 0em;
+          }
+
+         .sidebar-item-text.sidebar-link.text-start {
+            font-weight: regular;
+          }
+      </style>
+---
+
+::: {.panel-tabset .reduced-intervals}
+
+### Рус/Евр
+
+:::{#rus-heb}
+:::
+
+### Евр/Рус
+
+:::{#heb-rus}
+:::
+
+:::

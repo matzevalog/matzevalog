@@ -1,0 +1,184 @@
+---
+title: "QBA0408"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    АБРАМОВА Эстер, дочь Нисана (Истир Нисановна)
+    
+    אסתר בת ניסן
+name-he: |
+    אסתר בת ניסן
+    
+    АБРАМОВА Эстер, дочь Нисана (Истир Нисановна)
+year-gr: 1953
+year-he: 5713
+categories:
+  - c:QBA
+  - g:женский
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0408
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0408_1.JPG")
+knitr::include_graphics("../images/QBA0408_2.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+АБРАМОВА Эстер, дочь Нисана (Истир Нисановна)
+:::
+
+::: {style="font-size: 1.2em;"}
+אסתר בת ניסן
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1882 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.12.1953 / -.Ki.5713
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳נ׳
+אסתר בּת ניסן נ״ע
+נפ׳ לח׳ כּסלו ת׳ש׳י׳ג׳
+Абрамова
+Истир
+Нисановна
+1882 - 1953 XII
+Бабушке от внука
+Борух-Сави",
+       `Перевод` = "Здесь покоится
+Эстер, дочь Нисана, да упокоится её душа в раю,
+Умерла в месяце кислев в 5713 году
+Абрамова
+Истир
+Нисановна
+1882 – 12.1953
+Бабушке от внука
+Борух-Сави") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, мрамор (мраморная  вставка для текста, следы эрозии,цементный раствор)                                                     |
+|**Размеры**         |182×59×36  --- стела; 23×50×111  --- плита; 20×70×164  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |архитектурное завершение с волютами и растительным элементом, орнаментальный пояс с разными пальметками. Витые грани по краям от мраморной вставки с текстом, на которой изображена звезда Давида.                                                                          |
+|**Координаты**      |[41.3708428, 48.50761102](https://www.google.com/maps/place/41.3708428, 48.50761102)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

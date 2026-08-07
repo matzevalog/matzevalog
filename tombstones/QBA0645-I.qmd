@@ -1,0 +1,187 @@
+---
+title: "QBA0645"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    АВШАЛУМОВА Зильпа, дочь Ицхака (Зульпо Исаковна)
+    
+    זילפה בת יצחק
+name-he: |
+    זילפה בת יצחק
+    
+    АВШАЛУМОВА Зильпа, дочь Ицхака (Зульпо Исаковна)
+year-gr: 2015
+year-he: 5774
+categories:
+  - c:QBA
+  - g:женский
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:традиционная символика
+  - m:габбро-диорит
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0645
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0645_1.JPG")
+knitr::include_graphics("../images/QBA0645_2.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+АВШАЛУМОВА Зильпа, дочь Ицхака (Зульпо Исаковна)
+:::
+
+::: {style="font-size: 1.2em;"}
+זילפה בת יצחק
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+25.12.1930 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+04.10.2015 / 21.Ti.5774
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "сверху
+פ׳ נ׳
+זילפה בת יצחק
+כא׳ תשרי תשע״[ד]
+ת.נ.צ.ב.ת
+Авшалумова
+Зульпо
+Исаковна
+25 XII 1930 - 04 X 2015
+
+снизу
+от семьи",
+       `Перевод` = "
+Здесь покоится
+Зильпа, дочь Ицхака.
+21 тишрея {5}774 года.
+Да будет душа ее завязана в узле жизни.
+Авшалумова
+Зульпо
+Исаковна
+25.12.1930 - 04.10.2015
+
+ 
+от семьи") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |габбро-диорит (трещины, стоит на мраморной платформе)                                                     |
+|**Размеры**         |220×99×30  --- стела; 12×60×123  --- плита; 20×90×145  --- основание                                                                        |
+|**Тип декора**      |традиционная символика                                                                        |
+|**Элементы декора** |звезда Давида, фотопортрет, вазы                                                                          |
+|**Координаты**      |[41.3710263, 48.50832567](https://www.google.com/maps/place/41.3710263, 48.50832567)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

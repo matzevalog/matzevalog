@@ -1,0 +1,189 @@
+---
+title: "QBA0074"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Йосеф, сын Эфраима (Юсуф)
+    
+    יוסף בן אפרים
+name-he: |
+    יוסף בן אפרים
+    
+    Йосеф, сын Эфраима (Юсуф)
+year-gr: 1906
+year-he: 5666
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:стела
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:песчаник
+  - t:юноша
+  - t:насильственная смерть
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0074
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0074_0.JPG")
+knitr::include_graphics("../images/QBA0074_1.JPG")
+knitr::include_graphics("../images/QBA0074_2.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Йосеф, сын Эфраима (Юсуф)
+:::
+
+::: {style="font-size: 1.2em;"}
+יוסף בן אפרים
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+13.07.1906* / 20.Ta.5666
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳נ׳
+הבחור
+הנעים
+וצעיר
+בימים ונהרג
+בדמי עלומים
+ירא אלהים
+נ׳ע׳ יוסף בן
+אפרים כ׳
+תמוז הת״רסו
+ת׳נ׳צ׳ב׳ה׳ י׳ש׳יע׳מ׳",
+       `Перевод` = "Здесь покоится
+молодой человек
+милый и
+юный
+днями, убитый
+в расцвете молодости,
+богобоязненный,
+да упокоится он в раю, Йосеф, сын
+Эфраима. <Скончался> 20
+таммуза 5666 <года>.
+Да будет душа его завязана в узле жизни. Он обретает покой! Те, кто идет прямым путем, отдохнут на своём ложе*.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**|* Цит. Ис 57:2|
+|**Язык**      |иврит    |
+|**Метки**     |юноша, насильственная смерть    |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |стела                                                                         |
+|**Материал**        |песчаник (следы эрозии)                                                     |
+|**Размеры**         |148×45×18                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |две фигурные ниши для текста, две Звезды Давида на верхних углах, оформленные в форме цветов, цветочный орнамент между нишами
+                                                                          |
+|**Координаты**      |[41.36976849, 48.5064637](https://www.google.com/maps/place/41.36976849, 48.5064637)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

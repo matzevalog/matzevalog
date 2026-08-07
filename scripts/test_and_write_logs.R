@@ -1,0 +1,7 @@
+file.remove("test_logs.txt")
+testthat::set_max_fails(Inf)
+testthat::test_dir("tests", stop_on_failure = FALSE)
+suppressPackageStartupMessages(library(tidyverse))
+test_logs <- read_lines("test_logs.txt")
+read_lines("test_logs.txt") %>% cat(sep = "\n")
+system("git add -u")

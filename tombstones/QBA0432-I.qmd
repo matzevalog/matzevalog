@@ -1,0 +1,181 @@
+---
+title: "QBA0432"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    АГАБАБАЕВ Асаф, сын Агабабы (Агабабаевич)
+    
+    אסף בן אקאבבא
+name-he: |
+    אסף בן אקאבבא
+    
+    АГАБАБАЕВ Асаф, сын Агабабы (Агабабаевич)
+year-gr: 1933
+year-he: 5693
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:плита/саркофаг
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:традиционная символика
+  - m:гранит
+  - m:мрамор
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0432
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0432_0.JPG")
+knitr::include_graphics("../images/QBA0432_1.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+АГАБАБАЕВ Асаф, сын Агабабы (Агабабаевич)
+:::
+
+::: {style="font-size: 1.2em;"}
+אסף בן אקאבבא
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1871 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1933 / 24.Ki.5693
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פה נטמן גביר נאמן
+נגיד ושוע וסר מרע ה״ה
+מ׳ אסף בן אקאבבא נע ומכ 
+ביום עש׳ק כד כסלו ש׳ הא
+תרצ״ג לבע
+Агабабаев
+Асаф Агабабаевич
+1871 - 1933",
+       `Перевод` = "Здесь покоится верный мужчина
+[...] и уклоняющийся от зла, по имени
+г-н Асаф, сын Агабабы, да упокоится в раю, и будет благословен его покой.
+В день святой субботы, 24 кислева, год
+5693 от сотворения мира
+Агабабаев
+Асаф Агабабаевич
+1871 - 1933") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |плита/саркофаг                                                                         |
+|**Материал**        |гранит, мрамор (гранитная плита, основание состоит из мрамора и известняка, цементный раствор, трещины)                                                     |
+|**Размеры**         |14×70×179  --- плита; 35×91×201  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, традиционная символика                                                                        |
+|**Элементы декора** |на плите звезда Давида и орнаментальное обрамление                                                                          |
+|**Координаты**      |[41.37090448, 48.50763832](https://www.google.com/maps/place/41.37090448, 48.50763832)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

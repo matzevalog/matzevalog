@@ -1,0 +1,185 @@
+---
+title: "QBA0126"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    РАФАИЛОВ Шломо, сын Рафаэля (Шельма Рафаилович)
+    
+    שלמה בן רפאל
+name-he: |
+    שלמה בן רפאל
+    
+    РАФАИЛОВ Шломо, сын Рафаэля (Шельма Рафаилович)
+year-gr: 1931
+year-he: 5691
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  - t:пожилой(-ая)
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0126
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0126_1.JPG")
+knitr::include_graphics("../images/QBA0126_2.JPG")
+knitr::include_graphics("../images/QBA0126_3.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+РАФАИЛОВ Шломо, сын Рафаэля (Шельма Рафаилович)
+:::
+
+::: {style="font-size: 1.2em;"}
+שלמה בן רפאל
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1856 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1931 / 18.Sh.5691
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ֗ נ֗
+האיש הזקן
+מ֗ שלמה בן רפאל
+נ֗ע֗ ו֗ה֗מ֗כ֗ ביום י֗ח֗
+שבט ה֗ת֗ר֗צ֗א֗ ל֗ב֗ע֗
+ת֗נ֗צ֗ב֗ה֗
+Рафаилов
+Шельме
+Рафаилович
+1856 – 1931",
+       `Перевод` = "Здесь покоится
+пожилой человек,
+г-н Шломо, сын Рафаэля,
+да упокоится в раю, и будет благословен его покой. <Скончался> в 18 день
+швата, 5691 <года> от сотворения мира.
+Да будет его душа завязана в узле жизни.
+Рафаилов
+Шельма
+Рафаилович
+1856 – 1931") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |пожилой(-ая)    |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, мрамор (мраморная вставка для текста, керамический медальон с портретом, следы эрозии, цементный раствор, трещины)                                                     |
+|**Размеры**         |160×53×21                                                                        |
+|**Тип декора**      |традиционная символика                                                                        |
+|**Элементы декора** |звезда Давида на вставке для текста, медальон с портретом                                                                          |
+|**Координаты**      |[41.36974095, 48.50659825](https://www.google.com/maps/place/41.36974095, 48.50659825)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

@@ -1,0 +1,177 @@
+---
+title: "QBA0500"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    РАФАИЛОВ Альберт, сын Бориса
+    
+    אלברט בן בוריס
+name-he: |
+    אלברט בן בוריס
+    
+    РАФАИЛОВ Альберт, сын Бориса
+year-gr: 1994
+year-he: 5754
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:L-образный
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - m:известняк
+  - m:гранит
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0500
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0500_1.JPG")
+knitr::include_graphics("../images/QBA0500_2.JPG")
+knitr::include_graphics("../images/QBA0500_3.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+РАФАИЛОВ Альберт, сын Бориса
+:::
+
+::: {style="font-size: 1.2em;"}
+אלברט בן בוריס
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+05.07.1994* / 26.Ta.5754
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "נ״פ
+אלברט רפאלוב
+בן סוניה ובוריס ז״ל.
+נפטר כו׳ תמוז התשנ״ד
+איש אשר רוח בו
+ת.נ.צ.ב.ה.",
+       `Перевод` = "Здесь покоится 
+Альберт Рафаилов,
+сын Сони и Бориса, да будет благословенна его память.
+Скончался 26 таммуза 5754 <года>,
+«человек, в котором есть дух».*
+Да будет душа его завязана в узле жизни.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**|*Цит. Числа 27:18|
+|**Язык**      |иврит    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, гранит (незначительные следы эрозии и цементного раствора)                                                     |
+|**Размеры**         |168×60×30  --- стела; 13×55×119  --- плита; 16×74×170  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный                                                                        |
+|**Элементы декора** |в завершении волюты с растительным орнаментом и геометрическим узором; по бокам витые полуколонны; гранитная табличка с портретом                                                                          |
+|**Координаты**      |[41.37100737, 48.50775148](https://www.google.com/maps/place/41.37100737, 48.50775148)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

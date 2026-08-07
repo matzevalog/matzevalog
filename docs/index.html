@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.29">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Мацевалог</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dfa48a90d809c806c7ea2d5aecd9fc66.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-f149611b374c44c65765c941b8dc926a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Поиск не дал результатов",
+    "search-matching-documents-text": "Результаты поиска",
+    "search-copy-link-title": "Скопировать ссылку",
+    "search-hide-matches-text": "Скрыть дополнительные результаты",
+    "search-more-match-text": "дополнительный результат в этом документе",
+    "search-more-matches-text": "дополнительных результата(-ов) в этом документе",
+    "search-clear-button-title": "Очистить",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Отменить",
+    "search-submit-button-title": "Найти",
+    "search-label": "Поиск"
+  }
+}</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: rgba(255, 255, 255, 0.9);
+background: #00000000;
+      }
+</style>
+<style>
+.reduced-intervals p { margin-bottom: 0.3em; }
+
+.panel-tabset { margin-left: 2em; }
+
+#quarto-document-content {
+      margin-top: 0px !important;
+    }
+
+#title-block-header.quarto-title-block.default .quarto-title-meta {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.quarto-title-block .quarto-title-banner {
+  height: 0;
+}
+
+#title-block-header {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url(./additional_images/main_banner.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  aspect-ratio: 1920 / 380;
+  background-position-y: top;
+  opacity: 1;
+  z-index: -1;
+}
+</style>
+<style>
+div.callout-tip-callout.callout {
+  border-left-color: #dbae63;
+}
+div.callout-tip-callout.callout-style-default .callout-header {
+  background-color: rgba(219, 174, 99, 0.13);
+}
+div.callout-tip-callout .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-tip-callout.callout-style-default .callout-icon::before, div.callout-tip-callout.callout-titled .callout-icon::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23dbae63" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
+}
+</style>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./additional_images/Logo.svg" alt="" class="navbar-logo light-content">
+    <img src="./additional_images/Logo.svg" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Мацевалог</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Поиск"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Переключить навигацию" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Главная</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cemeteries.html"> 
+<span class="menu-text">Кладбища</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./tombstones.html"> 
+<span class="menu-text">Памятники</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
+    <h2 id="toc-title">Содержание</h2>
+   
+  <ul>
+  <li><a href="#о-проекте" id="toc-о-проекте" class="nav-link active" data-scroll-target="#о-проекте">О проекте</a></li>
+  <li><a href="#навигация" id="toc-навигация" class="nav-link" data-scroll-target="#навигация">Навигация</a></li>
+  <li><a href="#публикация" id="toc-публикация" class="nav-link" data-scroll-target="#публикация">Публикация</a></li>
+  <li><a href="#условия-использования" id="toc-условия-использования" class="nav-link" data-scroll-target="#условия-использования">Условия использования</a></li>
+  <li><a href="#правила-цитирования" id="toc-правила-цитирования" class="nav-link" data-scroll-target="#правила-цитирования">Правила цитирования</a></li>
+  <li><a href="#ответственность" id="toc-ответственность" class="nav-link" data-scroll-target="#ответственность">Ответственность</a></li>
+  <li><a href="#о-создателях" id="toc-о-создателях" class="nav-link" data-scroll-target="#о-создателях">О создателях</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+<section id="о-проекте" class="level3">
+<h3 class="anchored" data-anchor-id="о-проекте">О проекте</h3>
+<p><strong>Мацевалог</strong> — онлайн-база данных для сбора, хранения и публикации памятников еврейской эпиграфики в цифровом формате. В базе представлены описания и каталоги исторических еврейских некрополей, расположенных в России, Восточной Европе, на Кавказе и других традиционных регионах проживания евреев.</p>
+<p>Мацевалог является открытым исследовательским и образовательным ресурсом для всех, кто занимается или интересуется изучением и сохранением еврейских кладбищ. Он позволяет:</p>
+<ul>
+<li>Просматривать каталоги памятников</li>
+<li>Работать с детальными картами кладбищ</li>
+<li>Выполнять поиск памятников по именам, датам, месту и ключевым словам</li>
+<li>Загружать и публиковать каталоги кладбищ и другие материалы собственных полевых исследований</li>
+<li>Скачивать и анализировать текстовые данные в табличном формате</li>
+</ul>
+</section>
+<section id="навигация" class="level3">
+<h3 class="anchored" data-anchor-id="навигация">Навигация</h3>
+<ul>
+<li>Список опубликованных каталогов доступен на странице <a href="./cemeteries.html">Кладбища</a>.</li>
+<li>Сводный каталог всех памятников размещён на странице <a href="./tombstones.html">Памятники</a>.</li>
+<li>Для поиска по спискам кладбищ и памятников используйте панели сортировки и фильтров.</li>
+<li>Для быстрого поиска по сайту нажмите <span style="vertical-align: middle;"><i class="fa-solid fa-magnifying-glass fa-sm" aria-label="magnifying-glass"></i></span> в главном меню.</li>
+</ul>
+</section>
+<section id="публикация" class="level3">
+<h3 class="anchored" data-anchor-id="публикация">Публикация</h3>
+<p>Мацевалог — краудсорсинговый ресурс, который пополняется самими пользователями: участниками научных, исследовательских и волонтёрских проектов, а также независимыми исследователями из России и других стран.</p>
+<p>Разместить свои материалы в Мацевалоге может любой желающий (при соответствии требованиям к оформлению). К публикации принимаются как полные каталоги еврейских кладбищ, так и сведения об отдельных надгробиях и эпиграфических памятниках.</p>
+<p>Публикация осуществляется бесплатно. Авторы сохраняют все права на публикуемые материалы, а также сами определяют условия их размещения и дальнейшего использования.</p>
+<p>Для размещения данных на сайте напишите нам по адресу <a href="mailto:matzevalog@gmail.com">matzevalog@gmail.com</a> – мы пришлём необходимую документацию и расскажем, как подготовить материалы к загрузке. Если вы только планируете работу по изучению или каталогизации еврейского кладбища, свяжитесь с нами заранее: это поможет правильно собрать и отформатировать данные, что существенно упростит публикацию каталога.</p>
+</section>
+<section id="условия-использования" class="level3">
+<h3 class="anchored" data-anchor-id="условия-использования">Условия использования</h3>
+<ul>
+<li>Большинство данных, представленных на сайте, доступны по лицензии <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.ru">Creative Commons BY-NC 4.0</a>: вы можете свободно копировать и распространять материалы при условии указания авторства, коммерческое использование запрещено. В случае дополнительных ограничений это указывается отдельно на странице соответствующего памятника (вкладка <em>Источник</em>).</li>
+<li>Авторские права на каталоги и другие материалы, размещённые в базе данных, принадлежат предоставившим их владельцам. Связаться с правообладателями можно по адресу, указанному в поле <em>Контакты</em> (там же).</li>
+<li>При использовании материалов сайта обязательно наличие действующей ссылки.</li>
+</ul>
+</section>
+<section id="правила-цитирования" class="level3">
+<h3 class="anchored" data-anchor-id="правила-цитирования">Правила цитирования</h3>
+<ul>
+<li>Для ссылок в электронном формате укажите название ресурса и активную ссылку (встроенную или отдельно):</li>
+</ul>
+<div style="margin-left: 2em;">
+<p><a href="https://matzevalog.github.io/matzevalog">Мацевалог</a> <em>или</em> Мацевалог (<a href="https://matzevalog.github.io/matzevalog">https://matzevalog.github.io/matzevalog</a>)</p>
+</div>
+<ul>
+<li>Для ссылок в печатных изданиях используйте текст:</li>
+</ul>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Текст ссылки</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">BibTeX формат</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>Васильев, М. Е., Мороз, Г. А. (2026). Мацевалог: корпус еврейской надгробной эпиграфики (v1.0.0). Москва. DOI: 10.5281/zenodo.xxxxxxx. <a href="https://matzevalog.github.io/matzevalog" class="uri">https://matzevalog.github.io/matzevalog</a>.</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<pre><code>@misc{matzevalog,
+  title = {Мацевалог: корпус еврейской надгробной эпиграфики (v1.0.0)},
+  author = {Васильев, Михаил Евгеньевич and Мороз, Георгий Алексеевич},
+  year = {2026},
+  publisher = {НИУ ВШЭ, ИВ РАН},
+  address = {Москва},
+  url = {https://matzevalog.github.io/matzevalog},
+  doi = {10.5281/zenodo.xxxxxxx},
+}</code></pre>
+</div>
+</div>
+</div>
+</section>
+<section id="ответственность" class="level3">
+<h3 class="anchored" data-anchor-id="ответственность">Ответственность</h3>
+<p>Вся информация, размещенная на сайте, предоставляется на условиях «как есть» и «насколько доступно». Команда Мацевалога стремится следовать академическим принципам и стандартам при публикации материалов, однако не может гарантировать полноту, точность и надёжность данных, а также отсутствие ошибок, допущенных авторами или возникших в ходе загрузки. Создатели ресурса не несут ответственности за ущерб и любые другие нежелательные последствия, наступившие вследствие использования материалов, представленных на сайте, или их недоступности.</p>
+</section>
+<section id="о-создателях" class="level3">
+<h3 class="anchored" data-anchor-id="о-создателях">О создателях</h3>
+<p>Мацевалог придумали и сделали:</p>
+<div class="columns reduced-intervals">
+<div class="column text-center" style="width:20%;">
+
+</div><div class="column text-center" style="width:26%;">
+<p><img src="additional_images/MV.png" class="img-fluid" style="width:12em"></p>
+<p><strong>Михаил Васильев</strong></p>
+<p>ИВ РАН</p>
+</div><div class="column text-center" style="width:8%;">
+
+</div><div class="column text-center" style="width:26%;">
+<p><img src="additional_images/GM.png" class="img-fluid" style="width:12em"></p>
+<p><strong>Георгий Мороз</strong></p>
+<p>НИУ ВШЭ</p>
+</div><div class="column text-center" style="width:20%;">
+
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Скопировано");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Скопировано");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/agricolamz\.github\.io\/sfira_clone\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><a href="../index.qmd"><img src="./additional_images/Logo-light.svg" style="height:3.5em"></a></p>
+</div>   
+    <div class="nav-footer-center">
+<p><span style="vertical-align: middle; color: #dbae63;"><i class="fa-regular fa-envelope fa-lg" aria-label="envelope"></i></span> <a href="mailto:matzevalog@gmail.com">matzevalog@gmail.com</a></p>
+</div>
+    <div class="nav-footer-right">
+<p><span style="vertical-align: middle; color: #dbae63;"><i class="fa-brands fa-creative-commons fa-lg" aria-label="creative-commons"></i></span> <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.ru">Creative Commons BY-NC 4.0</a>, 2026</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

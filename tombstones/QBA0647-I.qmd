@@ -1,0 +1,224 @@
+---
+title: "QBA0647"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    НАХУМОВ Мататья, сын Асафа (Нахумов)
+    
+    מתתיא בן אסף
+name-he: |
+    מתתיא בן אסף
+    
+    НАХУМОВ Мататья, сын Асафа (Нахумов)
+year-gr: 1943
+year-he: 5703
+categories:
+  - c:QBA
+  - c:QBA
+  - g:мужской
+  - g:мужской
+  - tt:плита/саркофаг
+  - tt:плита/саркофаг
+
+
+  - l:иврит
+  - l:русский
+  - l:иврит
+  - l:русский
+  - d:традиционная символика
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  - m:известняк
+  - m:мрамор
+  
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0647
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0647_0.JPG")
+knitr::include_graphics("../images/QBA0647_1.JPG")
+knitr::include_graphics("../images/QBA0647_2.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+НАХУМОВ Мататья, сын Асафа (Нахумов)
+:::
+
+::: {style="font-size: 1.2em;"}
+מתתיא בן אסף
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1925 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1943 / 23.Ti.5703
+:::
+
+::::
+
+---
+
+::: {.name-style}
+Асаф
+:::
+
+::: {style="font-size: 1.2em;"}
+אסף בן פסח
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1943 / 
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳ נ׳
+הבחור מתתיא בן אסף
+נפ׳ כ״ג לד׳ תשרי ת׳ש׳ג׳
+Нахумов
+Мататия Асафович 1925 - 1943
+אסף בר פסח נע בן מז שנה
+Нахумов
+Асаф Песахович
+погиб на фронте великой
+отечественной войне в 1943",
+       `Перевод` = "Здесь покоится
+юноша Мататья, сын Асафа.
+Скончался 23 числа месяца тишрей {5}703 года.
+Нахумов
+Мататия Асафович 1925 - 1943
+Асаф, сын Песаха, душа его в раю, в возрасте 47 лет.
+Нахумов
+Асаф Песахович.
+Погиб на фронте в Великой
+Отечественной Войне в 1943 году.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |плита/саркофаг                                                                         |
+|**Материал**        |известняк, мрамор (следы эрозии, трещины, сколы, цементный раствор, мраморная вставка для текста)                                                     |
+|**Размеры**         |31×55×120  --- плита; 30×92×167  --- основание                                                                        |
+|**Тип декора**      |традиционная символика                                                                        |
+|**Элементы декора** |звезда Давида на плите, звезда Давида на вставке                                                                          |
+|**Координаты**      |[41.37084501, 48.50842626](https://www.google.com/maps/place/41.37084501, 48.50842626)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

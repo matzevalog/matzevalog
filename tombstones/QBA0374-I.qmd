@@ -1,0 +1,180 @@
+---
+title: "QBA0374"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Йелта, дочь Шмуэля
+    
+    ילתא בת שמואל
+name-he: |
+    ילתא בת שמואל
+    
+    Йелта, дочь Шмуэля
+year-gr: 1904
+year-he: 5665
+categories:
+  - c:QBA
+  - g:женский
+  - tt:стела
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - d:традиционная символика
+  - m:песчаник
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0374
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0374.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Йелта, дочь Шмуэля
+:::
+
+::: {style="font-size: 1.2em;"}
+ילתא בת שמואל
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+08.12.1904* / 30.Ki.5665
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פה נטמן
+אשה נאמנ׳
+הצנועה בנשים
+ילתא
+בת שמואל
+מ״כ ביום ש״ק
+יוד׳ ל׳ כסלו
+שנת ת֗ר֗ס֗ה֗
+לפק״ ת׳נ׳צ׳ב׳ה׳",
+       `Перевод` = "Здесь погребена
+женщина верная,
+скромнейшая из женщин,
+Йелта
+дочь Шмуэля.
+Скончалась в день святой субботы,
+30-го кислева,
+в году 5665 по малому летоисчислению.
+Да будет её душа завязана в узле жизни") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |стела                                                                         |
+|**Материал**        |песчаник (следы эрозии, сколы)                                                     |
+|**Размеры**         |145×42×17                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, традиционная символика                                                                        |
+|**Элементы декора** |звезда Давида над двумя фигурными нишами с текстом, медальоны, между ним звезда Давида, фигурная ниша с текстом двух уровней, по бокам полуцилиндры                                                                          |
+|**Координаты**      |[41.37080422, 48.50746411](https://www.google.com/maps/place/41.37080422, 48.50746411)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

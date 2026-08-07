@@ -1,0 +1,241 @@
+---
+title: "Куба (центральное)"
+subtitle: "Азербайджан"
+description: Центральное кладбище
+short-title: "Куба--I"
+place: "Куба (Красная Слобода)"
+country: "Азербайджан"
+hist-location: "Российская империя, Дербентская губерния, Бакинская губерния"
+catalog: '[Cмотреть](/tombstones.qmd#category=c:QBA) [{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"}'
+lat: 41.370501
+lng: 48.507433
+community: "горские евреи"
+tomb-dating: "1806--2024"
+status: "недействующее"
+tomb-amount: 1194
+area: "6,7 га"
+year: 2025
+code: "QBA"
+source: "Архив полевых исследований Центра «Сэфер»"
+link: https://sfira.org
+contact: students@sefercenter.org
+image: ../additional_images/QBA_01.JPG
+lightbox: true
+df-print: kable
+format: 
+  html:
+    custom-callout:
+      tip-callout:
+        icon: false 
+        color: "#dbae63"
+    filters:
+      - custom-callout
+    title-block-banner: "#00000000"
+    title-block-banner-color: "rgba(255, 255, 255, 0.9)"
+include-in-header:
+  - text: |
+      <style>
+      .description { display: none; }
+
+      .reduced-intervals p { margin-bottom: 0.3em; }
+
+      .panel-tabset { margin-top: 2em; }
+
+      .d-flex { display: none !important; 
+          }
+
+      .callout.callout-style-default .callout-body {
+            padding-left: 1em;
+          }
+
+      .quarto-title-block .quarto-title-banner {
+        height: 0;
+      }
+
+      #title-block-header.quarto-title-block.default .quarto-title-meta {
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      #title-block-header {
+        background: 
+          linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0)
+          ),
+          url(../additional_images/QBA_banner.png);
+        background-size: contain; 
+        background-repeat: no-repeat;
+        aspect-ratio: 1920 / 360;
+        background-position-y: top;
+        margin-block-end: 0em;
+        opacity: 1;
+        z-index: -1;
+      }
+      
+      table tbody tr:nth-of-type(odd) {
+          background-color: rgba(0, 0, 0, 0.04) !important;
+      }
+        
+      table, table tr, table th, table td {
+        border: none !important;
+        border-bottom: none !important;
+        border-top: none !important;
+      }  
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.5em"}
+[Кладбища](../cemeteries.qmd) > QBA
+:::
+
+|||||
+|--|-----|--|-----|
+| **Место:**       | Куба́ (Губа́), *азерб.* Quba, *лезг.* Къуба                          | **Площадь:**         | 6,7 га |
+| **Расположение:**| Азербайджан, Губинский район                                       | **Памятников:**      | 1194 |
+| **Координаты:**  | [41°22'13"N 48°30'27"E](https://maps.app.goo.gl/kzjccoRgN5MnRHhX6) | **Датировка:**       | 1806--2024 |
+| **Община:**      | горские евреи                                                      | **Год описания:**    | 2025 |
+| **Статус:**      | недействующее                                                      | **Источник данных:** | Архив полевых исследований Центра «Сэфер»|
+
+:::: {.panel-tabset}
+
+### [{{< fa circle-info size=sm >}}]{style="vertical-align: middle;"}  О кладбище
+
+Центральное кладбище Красной слободы *(Qırmızı Qəsəbə)* расположено на возвышенности на левом берегу р. Кудиалчай и является старейшим из трёх еврейских некрополей Кубы. 
+
+Время основания кладбища неизвестно, однако, по всей видимости, совпадет с появлением крупной еврейской общины в Кубе в середине -- второй половине XVIII в. Самые ранние датированные стелы, сохранившиеся у южной границы кладбища, относятся к 1806--1814 гг. ([1112](../tombstones/QBA1112-I.html) и  [1158](../tombstones/QBA1158-I.html) в каталоге).
+
+Территория некрополя пересеченная и делится рельефом на две части: нижний (старый) участок располагается на покатом склоне, начинающемся от северной границы Красной слободы, верхний (более поздний) -- на небольшом плато, вытянутом вдоль автодороги Куба-Кусары. Современная площадь кладбища составляет около 7 гектаров, при этом часть исторической территории, примыкающая к ул. Мухаммеда Асадова, в настоящее время занята домами и частными земельными участками.
+
+Заполнение кладбища происходило от нижнего края к верхнему, захоронения выполнялись рядами, расположенными поперёк склона, с юга на север. Большинство памятников ориентированы на восток, однако на некоторых участках используется западная ориентация надгробий -- характерная для восточных еврейских общин. В восточной части кладбища выделяется участок с захоронениями наиболее выдающихся и почётных членов общины, в центре которого находится надгробие Гершона, сына Реувена Мизрахи ([1051](../tombstones/QBA1051-I.html)) -- известного раввина, главы еврейского религиозного суда, а также духовного лидера горско-еврейских общин на Кавказе во второй половине XIX в. Над захоронением возведена шатровая постройка (охель), к которой ведёт лестница от нижнего входа на кладбище. У юго-восточного угла охеля также сохранилось надгробие Ицхака Мизрахи ([1029](../tombstones/QBA1029-I.html)), сына Гершона, занимавшего должность раввина Кубы до 1930 г. 
+
+На кладбище насчитывается около 1200 надгробных памятников (по состоянию на 2025 год). Надгробия XIX в. представлены почти исключительно традиционными каменными стелами (мацевами), изготовленными из известняка или песчаника. В межвоенный период появляются горизонтальные памятники в виде надмогильных саркофагов с небольшим изголовьем. Со второй половины XX в. наиболее распространёнными становятся двухчастные надгробия, состоящие из стелы и горизонтального элемента (надмогильной плиты или саркофага). В новой части кладбища наряду с типовыми современными памятниками встречаются традиционные надгробия, а также скульптурные композиции, созданные по индивидуальным проектам. 
+
+Основным языком надгробных надписей на протяжении XIX -- начала XX вв. является иврит. Помимо основных данных (имя, патроним, дата смерти) в эпитафии могут содержаться различные биографические сведения о возрасте, образовании, профессии, а также обстоятельствах смерти покойного. Во многих текстах цитируются библейские стихи, подчеркивающие добродетельность покойного, выражающие благопожелания или скорбь по умершему. Для советского периода более характерны краткие двуязычные надписи на иврите и русском языках. В послевоенное время русскоязычные эпитафии становится преобладающими и постепенно вытесняют еврейские (на иврите записывают только имя и дату смерти покойного). На нескольких поздних памятниках (1990--2000 гг.) приводятся короткие поэтические вставки на джуури и азербайджанском языке.
+
+В настоящее время кладбище является недействующим, новые захоронения не проводятся (за исключением подзахоронения родственников). Вся территория некрополя обнесена оградой, два входа (нижний и верхний) расположены в его восточной части. Силами еврейской общины Красной Слободы осуществляется регулярный уход за захоронениями и уборка территории, а также ремонт и подновление памятников.
+
+Обследование и полная каталогизация кладбища проведены в 2025 году в ходе [научно-исследовательской экспедиции](https://sefercenter.org/rus/education/educational_programmes/Summer/azerbaydzhan2025.php), организованной Центром «Сэфер» при поддержке фонда СТМЭГИ.
+
+### [{{< fa regular map size=sm >}}]{style="vertical-align: middle;"}  Карта
+
+**PDF--карта**
+
+::: {style="margin-left: 1em;"}
+[{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} [Скачать файл](../data/QBA_map.pdf)
+:::
+
+---
+
+**Онлайн карта**
+
+- Нажмите [{{< fa layer-group size=sm >}}]{style="vertical-align: middle;"} чтобы выбрать вид карты и тип отображаемых памятников
+- Нажмите [{{< fa magnifying-glass size=sm >}}]{style="vertical-align: middle;"} для поиска памятника по номеру
+
+```{r}
+#| fig-height: 9
+#| fig-width: 9
+
+suppressPackageStartupMessages(library(tidyverse))
+library(leaflet)
+library(leaflet.extras)
+
+read_csv("../data/data.csv", show_col_types = FALSE, progress = FALSE) |> 
+  filter(place == "Куба (центральное)\n\n    Азербайджан",
+         !is.na(Longitude),
+         !is.na(Latitude)) |> 
+  mutate(Sex = case_when(Sex == "женский" ~ "женские", 
+                         Sex == "мужской" ~ "мужские",
+                         Sex == "неизвестный" ~ "неизвестные",
+                         TRUE ~ "смешанные"),
+         Sex = factor(Sex, levels = c("мужские", "женские", "смешанные", "неизвестные")),
+         icons = case_when(Sex == "мужские" ~ "../additional_images/Tomb-men.svg",
+                           Sex == "женские" ~ "../additional_images/Tomb-women.svg",
+                           Sex == "смешанные" ~ "../additional_images/Tomb-mix.svg",
+                           Sex == "неизвестные" ~ "../additional_images/Tomb-unknown.svg"),
+         url = str_c("<div style='text-align: center;'><b>", Number, "</b>", "<br>",
+                     "<a href = ../tombstones/", Number, "-I.html>На страницу памятника</a></div>")) ->
+  for_map
+
+pal_gender <- colorFactor(palette = c("#964265", "#4B64BE", "#A7A7A7", "#E9B424"), 
+                          domain = c("мужские","женские","смешанные","неизвестные"))
+
+tombIcons <- icons(
+  iconUrl = for_map$icons,
+  iconWidth = 10, iconHeight = 12,
+  iconAnchorX = 5, iconAnchorY = 12
+)
+
+for_map |> 
+  leaflet() |>  
+  addTiles(group = "OSM") |> 
+  addProviderTiles(providers$Esri.WorldImagery, group = "Esri") |> 
+  addMarkers(lng = ~Longitude,
+             lat = ~Latitude,
+             label = ~Number,
+             icon = tombIcons,
+             group = ~Sex,
+             popup =  ~url) |> 
+  addLegend(pal = pal_gender,
+            values = ~Sex,
+            title = "", 
+            position = "bottomleft") |>
+  addLayersControl(baseGroups = c("Esri","OSM"), 
+                   overlayGroups = c("мужские","женские","смешанные","неизвестные")) |> 
+  addSearchFeatures(targetGroups = c("мужские","женские","смешанные","неизвестные"),
+                    options = searchFeaturesOptions(zoom = 20,
+                                                    position = "topright"))
+```
+
+
+### [{{< fa regular images size=sm >}}]{style="vertical-align: middle;"}  Фотогалерея
+
+::: {layout-ncol=4}
+
+![Надгробия середины XIX в. на старом участке кладбища](../additional_images/QBA_01.JPG){group="my-gallery"}
+
+![Панорамный вид верхней части кладбища](../additional_images/QBA_02.JPG){group="my-gallery"}
+
+![Вид на современный участок кладбища](../additional_images/QBA_03.JPG){group="my-gallery"}
+
+![Современные памятники рядом с верхним (северным) входом на кладбище](../additional_images/QBA_04.JPG){group="my-gallery"}
+
+![Стелы начала XX в. на верхнем участке кладбища](../additional_images/QBA_05.JPG){group="my-gallery"}
+
+![Надгробие в виде саркофага, 1935 г.](../additional_images/QBA_06.JPG){group="my-gallery"}
+
+![Памятники разных типов в центральной части кладбища, середина XX в.](../additional_images/QBA_07.JPG){group="my-gallery"}
+
+![Горизонтальные надгробия в форме плиты с изголовьем, 1930--1940 гг.](../additional_images/QBA_08.JPG){group="my-gallery"}
+
+![Памятник с надмогильным саркофагом, 1912 г.](../additional_images/QBA_09_1.JPG){group="my-gallery"}
+
+![Семейное захоронение в центральной части кладбища, середина -- конец XX в.](../additional_images/QBA_10.JPG){group="my-gallery"}
+
+![Геометрический орнамент на стеле середины XIX в.](../additional_images/QBA_11.JPG){group="my-gallery"}
+
+![Памятники с навершиями-вазонами в форме бутонов, 1900--2000 гг.](../additional_images/QBA_13.JPG){group="my-gallery"}
+
+![Резной декор на надгробии в виде цветков и звезды Давида, 1911 г.](../additional_images/QBA_12.JPG){group="my-gallery"}
+
+![Древовидное навершие с обломленной ветвью и фигуркой горлицы, 1964 г.](../additional_images/QBA_14.JPG){group="my-gallery"}
+
+![Старейшее датированное надгробие, сохранившееся на кладбище, 1806/1807 г.](../additional_images/QBA_15.JPG){group="my-gallery"}
+
+![Надгробие Гершона, сына Реувена Мизрахи (1815--1891) -- раввина Кубы и духовного лидера общины с 1853 по 1891 г.](../additional_images/QBA_16.JPG){group="my-gallery"}
+:::
+
+### [{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle;"}  Каталог
+
+Исследование и каталогизация кладбища проведены в 2025 году в рамках [научно-исследовательской экспедиции](https://sefercenter.org/rus/education/educational_programmes/Summer/azerbaydzhan2025.php), организованной Центром «Сэфер» при поддержке фонда СТМЭГИ.
+
+Работа по каталогизации включала комплексное описание всех сохранившихся надгробных памятников, а также выполнение геодезической съёмки некрополя. В электронном каталоге, подготовленном по результатам экспедиции, доступны подробные сведения о каждом надгробии, а также карта кладбища в онлайн- и pdf-форматах. 
+
+Материалы предоставлены для публикации Центром «Сэфер».
+
+::: {.reduced-intervals style="margin-left: 1em;"}
+[{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} [Перейти в каталог](/tombstones.qmd#category=c:QBA)
+
+[{{< fa file-excel size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} [Скачать данные (XLS-файл)](../data/QBA_data.xlsx)
+:::
+
+::::

@@ -1,0 +1,183 @@
+---
+title: "QBA0109"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    МАТАТЬЕВ Ицхак, сын Ицхака (Исок)
+    
+    יצחק בן יצחק
+name-he: |
+    יצחק בן יצחק
+    
+    МАТАТЬЕВ Ицхак, сын Ицхака (Исок)
+year-gr: 1980
+year-he: 5740
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:плита/саркофаг
+
+  - l:иврит
+  - l:русский
+  - d:традиционная символика
+  - m:песчаник
+  - m:известняк
+  - t:юноша
+  - t:преждевременная смерть
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0109
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0109_1.JPG")
+knitr::include_graphics("../images/QBA0109_2.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+МАТАТЬЕВ Ицхак, сын Ицхака (Исок)
+:::
+
+::: {style="font-size: 1.2em;"}
+יצחק בן יצחק
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+13.04.1980* / 27.Ni.5740
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳ נ׳
+הנעים והנכבד
+הבחור מ״ו יצחק
+במ״ו יצחק והמ״כ
+יום חמישי ב״ש
+כ״ז לחו״ד ניסן
+ונקבר יום ו״ בש״
+שנת תש״ם לפ״ק
+Мататьев Исок",
+       `Перевод` = "Здесь покоится
+милый и уважаемый
+юноша, наш учитель Ицхак,
+сын нашего учителя Ицхака, да будет благословен его покой.
+<Скончался> в четверг,
+27 <числа> месяца нисан,
+и похоронен в пятницу,
+год 740 по малому исчислению.
+Мататьев Исок") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**|Возможно, в тексте на иврите вместо имени отца (Мататья) по ошибке повторно указано имя покойного - Ицхак.|
+|**Язык**      |иврит, русский    |
+|**Метки**     |юноша, преждевременная смерть    |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |плита/саркофаг                                                                         |
+|**Материал**        |песчаник, известняк (портрет на керамическом медальоне, основание из цементного раствора и известковых блоков, трещины, следы эрозии)                                                     |
+|**Размеры**         |21×57×110  --- плита; 50×79×164  --- основание                                                                        |
+|**Тип декора**      |традиционная символика                                                                        |
+|**Элементы декора** |фотопортрет на медальоне, звезда Давида на плите                                                                          |
+|**Координаты**      |[41.36984015, 48.50655401](https://www.google.com/maps/place/41.36984015, 48.50655401)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

@@ -1,0 +1,11 @@
+.Rproj.user/*
+data/QBA_*.xlsx
+data/SDB_*.xlsx
+*.~lock.*
+
+/.quarto/
+**/*.quarto_ipynb
+
+*.Rproj
+.Rproj.user
+.positai

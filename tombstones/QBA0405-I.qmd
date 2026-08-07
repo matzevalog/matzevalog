@@ -1,0 +1,196 @@
+---
+title: "QBA0405"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    АГАБАБАЕВА Зилпо, дочь Яакова (Зульпо)
+    
+    זלפה בת יעקב
+name-he: |
+    זלפה בת יעקב
+    
+    АГАБАБАЕВА Зилпо, дочь Яакова (Зульпо)
+year-gr: 1956
+year-he: 5717
+categories:
+  - c:QBA
+  - g:женский
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:традиционная символика
+  - m:известняк
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0405
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0405_1.JPG")
+knitr::include_graphics("../images/QBA0405_2.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+АГАБАБАЕВА Зилпо, дочь Яакова (Зульпо)
+:::
+
+::: {style="font-size: 1.2em;"}
+זלפה בת יעקב
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1888 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1956 / 10.Te.5717
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳נ׳
+הגבירה המהול׳
+אשת חיל
+עטרת בעלה
+ותפראת בניה
+ובני בניה ה״ה א֗שה
+יראת אלהים ופועל
+טוב כל ימיה היקר׳
+מ׳ זלפה בת יעקב נ״ע
+מתה בזקנה ושיבה
+טובה יום ו׳ בשב׳ יו״ד
+בטבת שנת ה֗ת֗ש֗י֗ז֗
+ל֗פ֗ק֗ ת֗נ֗צ֗ב֗ה֗.
+Агабабаева
+Зульпо Якуб,
+1888-1956 г.",
+       `Перевод` = "Здесь покоится
+почтенная госпожа,
+женщина добродетельная,
+венец для мужа своего
+и гордость для сыновей
+и внуков своих, уважаемая и почтенная женщина.
+Боящаяся Бога и творившая добрые дела
+все свои дни.
+Госпожа Зильпо, дочь Яакова, да упокоится в раю.
+Скончалась в старости и преклонных годах
+в пятницу, 10-го тевета,
+в 5717 году по малому летоисчислению
+Да будет её душа связана в узле жизни.
+Агабабаева
+Зульпо Якуб,
+1888-1956") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк (следы эрозии, цементный раствор, трещины)                                                     |
+|**Размеры**         |210×63×44  --- Стелы; 31×50×100  --- Саркофаг; 33×70×160  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, традиционная символика                                                                        |
+|**Элементы декора** |архитектурное навершение, увенчанное звездой Давида, стрельчатые арки на витых колоннах со всех сторон.                                                                          |
+|**Координаты**      |[41.37090012, 48.50758372](https://www.google.com/maps/place/41.37090012, 48.50758372)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

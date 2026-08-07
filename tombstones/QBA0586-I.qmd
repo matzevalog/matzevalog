@@ -1,0 +1,183 @@
+---
+title: "QBA0586"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    АЗАРЬЯЕВА Михаль, дочь Ишая (Ишаевна)
+    
+    מיכל בת ישי
+name-he: |
+    מיכל בת ישי
+    
+    АЗАРЬЯЕВА Михаль, дочь Ишая (Ишаевна)
+year-gr: 1997
+year-he: 5758
+categories:
+  - c:QBA
+  - g:женский
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:известняк
+  - m:гранит
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0586
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0586_1.JPG")
+knitr::include_graphics("../images/QBA0586_2.JPG")
+knitr::include_graphics("../images/QBA0586_3.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+АЗАРЬЯЕВА Михаль, дочь Ишая (Ишаевна)
+:::
+
+::: {style="font-size: 1.2em;"}
+מיכל בת ישי
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+20.11.1938 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+04.11.1997 / 04.Ch.5758
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳ נ׳
+מיכל בּת ישי
+ד׳ חשון תשנ׳ח
+АЗАРЬЯЕВА
+МИХАЛ
+ИШАЕВНА
+20.XI.1938-1997 4.XI
+ОТ РОДСТВЕННИКОВ",
+       `Перевод` = "Здесь покоится
+Михаль, дочь Ишая.
+4 хешвана {5}758.
+АЗАРЬЯЕВА
+МИХАЛ
+ИШАЕВНА
+20.11.1938 - 04.11.1997
+ОТ РОДСТВЕННИКОВ") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, гранит (цементный раствор, гранитная вставка, следы эрозии, трещины)                                                     |
+|**Размеры**         |170×66×28  --- стела; 15×54×117  --- плита; 40×80×174  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |фотопортрет на вставке, фигурное завершение с волютами и растительными мотивами, конек, звезда Давида на вставке, витые полуколонны                                                                          |
+|**Координаты**      |[41.3710548, 48.50804937](https://www.google.com/maps/place/41.3710548, 48.50804937)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

@@ -1,0 +1,55 @@
+/*-- scss:defaults --*/
+$primary:                   #363636;
+$info:                      #DBAE63;
+$navbar-light-hover-color:  #FFE092;
+
+
+/*-- scss:rules --*/
+@mixin btn-shadow($color) {
+  background-color: $color;
+  filter: none;
+  border: 1px solid shade-color($color, 20%);
+}
+
+@font-face {
+  font-family: "GaramondPremrPro-Smbd";
+  src: url("Garamond-Premier-Pro-Semibold.ttf");
+}
+
+.navbar-title {
+  font-family: GaramondPremrPro-Smbd;
+  color: #ffffff;
+}
+
+.navbar-title:hover {
+  color: #DBAE63;
+}
+
+.quarto-title-banner {
+    margin-bottom: 0em;
+}
+
+.quarto-listing-table {
+    @extend .table-striped !optional;
+}
+
+
+.nav-footer {
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+.nav-footer a {
+    color: $link-color;
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+.callout.no-title .callout-header {
+  display: none !important;
+}
+
+body {
+  line-height: 1.6;
+}

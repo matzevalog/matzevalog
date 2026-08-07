@@ -1,0 +1,187 @@
+---
+title: "QBA1134"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Шмуэль Занвиль, сын Беньямина
+    
+    שמואל זנוויל בן בינימין
+name-he: |
+    שמואל זנוויל בן בינימין
+    
+    Шмуэль Занвиль, сын Беньямина
+year-gr: 1842
+year-he: 5602
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:стела
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - m:ракушечник
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA1134
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA1134.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Шмуэль Занвиль, сын Беньямина
+:::
+
+::: {style="font-size: 1.2em;"}
+שמואל זנוויל בן בינימין
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+04.05.1842* / 24.Iy.5602
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ֗נ֗
+ונקבר הבח֗
+החשוב כמה
+שמואל זנוויל
+בן מוהרר בנימין
+אשכנזי ונפטר
+והלך לעולמו יום
+הרביעי ארבעה
+ועשרים יום בחו׳
+אייר דשנת
+ת֗ר֗ב֗ לפק בלע המ֗
+לנצח ומחה הדמעה
+מעל כל פנים",
+       `Перевод` = "Здесь покоится
+и похоронен юноша
+почтенный, наш учитель
+Шмуэль Занвл,
+сын нашего великого учителя Беньямина,
+ашкеназ, и скончался
+и ушел в вечность
+в среду, 24
+числа месяца
+ияр года
+602 по малому летоисчислению. Проглотила смерть
+навеки и стерла слезу
+на всяком лице.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |стела                                                                         |
+|**Материал**        |ракушечник (сколы, следы эрозии, следы ремонта)                                                     |
+|**Размеры**         |138×46×25                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный                                                                        |
+|**Элементы декора** |фигурная ниша для текста                                                                          |
+|**Координаты**      |[41.36947721, 48.5070571](https://www.google.com/maps/place/41.36947721, 48.5070571)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

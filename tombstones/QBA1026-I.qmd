@@ -1,0 +1,183 @@
+---
+title: "QBA1026"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Ривка, дочь Гершона
+    
+    רבקה בת גרשון
+name-he: |
+    רבקה בת גרשון
+    
+    Ривка, дочь Гершона
+year-gr: 1908
+year-he: 5669
+categories:
+  - c:QBA
+  - g:женский
+  - tt:стела
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - d:традиционная символика
+  - m:известняк
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA1026
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA1026_1.JPG")
+knitr::include_graphics("../images/QBA1026_2.JPG")
+knitr::include_graphics("../images/QBA1026_3.JPG")
+knitr::include_graphics("../images/QBA1026_4.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Ривка, дочь Гершона
+:::
+
+::: {style="font-size: 1.2em;"}
+רבקה בת גרשון
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+06.11.1908* / 12.Ch.5669
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פה אשה
+נקברה היקרה
+הצנועה והכשרה
+אשת חיל*
+עטרת בעלה
+מ׳ רבקה בת הר׳
+מו׳ גרשון ז׳ל׳ נ״ע
+יום ו׳ י״ב מרחשון
+ש׳ התר״סט לב׳ע",
+       `Перевод` = "Здесь женщина
+покоится дорогая,
+скромная и праведная,
+доблестная жена,
+венец ее мужа,
+г-жа Ривка, дочь р.,
+Нашего учителя Гершона, благословенной памяти, душа ее в раю.
+Пятница, 12 мархешвана
+года 5669 от сотворения мира.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**|* Притчи 30:1|
+|**Язык**      |иврит    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |стела                                                                         |
+|**Материал**        |известняк (следы эрозии, сколы)                                                     |
+|**Размеры**         |148×44×18                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, традиционная символика                                                                        |
+|**Элементы декора** |три фигурные ниши для текста, две звезды Давида                                                                          |
+|**Координаты**      |[41.37053366, 48.5090196](https://www.google.com/maps/place/41.37053366, 48.5090196)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

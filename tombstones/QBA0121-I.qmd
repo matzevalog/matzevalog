@@ -1,0 +1,185 @@
+---
+title: "QBA0121"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Йехонатан, сын Беньямина (Ювнотон)
+    
+    יהונתן בן בנימן
+name-he: |
+    יהונתן בן בנימן
+    
+    Йехонатан, сын Беньямина (Ювнотон)
+year-gr: 1940
+year-he: 5700
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:плита/саркофаг
+
+  - l:иврит
+  - l:русский
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  - t:пожилой(-ая)
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0121
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0121_1.JPG")
+knitr::include_graphics("../images/QBA0121_2.JPG")
+knitr::include_graphics("../images/QBA0121_3.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Йехонатан, сын Беньямина (Ювнотон)
+:::
+
+::: {style="font-size: 1.2em;"}
+יהונתן בן בנימן
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1940 / 13.Si.5700
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פנ
+יחב יעמ
+האיש הזקן הנעים
+והנכבד רצ״ו מ֗ו
+יהונתן בן בנימן
+נ֗ע והמ֗כ יום ד
+בש֗ יג לחד סיון
+שנת התש לפק
+תנצבה 
+ск 1940 г.",
+       `Перевод` = "Здесь покоится –
+пусть торжествуют праведники во славе и радуются на ложах своих* – 
+пожилой человек, милый
+и уважаемый, правдолюбивый и милостивый, наш учитель
+Йехонатан, сын Беньямина,
+да упокоится в раю, и будет благословен его покой. <Скончался> в среду
+13 числа месяца сиван,
+год 5700 по малому исчислению.
+Да будет его душа завязана в узле жизни.
+Скончался в 1940 г.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**|*Цит. Пс 149:2|
+|**Язык**      |иврит, русский    |
+|**Метки**     |пожилой(-ая)    |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |плита/саркофаг                                                                         |
+|**Материал**        |известняк, мрамор (мраморная вставка для текста)                                                     |
+|**Размеры**         |34×54×124  --- плита; 42×91×195  --- основание                                                                        |
+|**Тип декора**      |традиционная символика                                                                        |
+|**Элементы декора** |звезда Давида на вставке                                                                          |
+|**Координаты**      |[41.36964086, 48.50653333](https://www.google.com/maps/place/41.36964086, 48.50653333)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

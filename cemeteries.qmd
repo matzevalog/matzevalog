@@ -1,0 +1,68 @@
+---
+title: "Кладбища"
+listing:
+  - id: grid-view
+    contents: "../cemeteries/"
+    type: grid
+    grid-columns: 4
+    fields: [image, title, subtitle, status, area, tomb-dating, tomb-amount, catalog]
+    sort-ui: [title, status, area, tomb-dating, tomb-amount]
+    filter-ui: [title, subtitle, status]    
+    field-display-names:
+      tomb-dating: "Датировка"
+      status: "Статус"
+      area: "Площадь"
+      tomb-amount: "Памятников"
+      catalog: "Каталог"
+  - id: table-view
+    contents: "../cemeteries/"
+    type: table
+    table-striped: true
+    table-hover: false
+    fields: [code, title, country, status, tomb-dating, tomb-amount, catalog]
+    sort-ui: [code, title, country, status, tomb-dating, tomb-amount]
+    filter-ui: [code, title, country, status]    
+    field-links: [title]
+    field-display-names:
+      code: "Код"
+      title: "Место"
+      country: "Cтрана"
+      tomb-dating: "Датировка"
+      status: "Статус"
+      tomb-amount: "Памятников"
+      catalog: "Каталог"
+include-in-header:
+  - text: |
+      <style>
+          .reduced-intervals p {
+            margin-bottom: 0.3em;
+          }
+
+         .quarto-grid-item .card-title {
+            font-weight: bold;
+          }
+
+         .quarto-grid-item .card-other-values tr>td:first-of-type {
+            padding-left: 0px;
+            vertical-align: middle;
+          }
+       
+      </style>
+---
+
+:::: {.panel-tabset .reduced-intervals}
+
+### {{< fa table-cells-large size=sm title="Плиткой" >}} Плиткой
+
+:::{#grid-view}
+:::
+
+### {{< fa table-list size=sm title="Списком" >}} Списком
+
+:::{#table-view}
+:::
+
+### {{< fa regular map size=sm title="На карте" >}} На карте
+
+
+::::

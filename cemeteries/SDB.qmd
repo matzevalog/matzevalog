@@ -1,0 +1,241 @@
+---
+title: "Cтародуб"
+subtitle: "Россия"
+place: "Стародуб"
+country: "Россия"
+hist-location: "Российская империя, Черниговская губерния, Гомельская губерния"
+catalog: 'Cмотреть [{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle; "}'
+lat: 41.370501
+lng: 48.507433
+community: "евреи-ашкеназы"
+tomb-dating: "1847--2011"
+status: "недействующее"
+tomb-amount: 791
+area: "3 га"
+year: 2018
+code: "SDB"
+source: "Архив полевых исследований Центра «Сэфер»"
+link: https://sfira.org
+contact: students@sefercenter.org
+image: ../additional_images/SDB_01.JPG
+lightbox: true
+df-print: kable
+format: 
+  html:
+    custom-callout:
+      tip-callout:
+        icon: false 
+        color: "#dbae63"
+    filters:
+      - custom-callout
+    title-block-banner: "#00000000"
+    title-block-banner-color: "rgba(255, 255, 255, 0.9)"
+include-in-header:
+  - text: |
+      <style>
+      .description { display: none; }
+
+      .reduced-intervals p { margin-bottom: 0.3em; }
+
+      .panel-tabset { margin-top: 2em; }
+
+      .d-flex { display: none !important; 
+          }
+
+      .callout.callout-style-default .callout-body {
+            padding-left: 1em;
+          }
+
+      .quarto-title-block .quarto-title-banner {
+        height: 0;
+      }
+
+      #title-block-header.quarto-title-block.default .quarto-title-meta {
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      #title-block-header {
+        background: 
+          linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0)
+          ),
+          url(../additional_images/QBA_banner.png);
+        background-size: contain; 
+        background-repeat: no-repeat;
+        aspect-ratio: 1920 / 360;
+        background-position-y: top;
+        margin-block-end: 0em;
+        opacity: 1;
+        z-index: -1;
+      }
+      
+      table tbody tr:nth-of-type(odd) {
+          background-color: rgba(0, 0, 0, 0.04) !important;
+      }
+        
+      table, table tr, table th, table td {
+        border: none !important;
+        border-bottom: none !important;
+        border-top: none !important;
+      }  
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.5em"}
+[Кладбища](../cemeteries.qmd) > SDB
+:::
+
+|||||
+|--|-----|--|-----|
+| **Место:**       | Стародуб                                                             | **Площадь:**         | 3 га |
+| **Расположение:**| Россия, Брянская область                                             | **Памятников:**      | 791 |
+| **Координаты:**  | [52°35'22"N 32°44'30"E](https://www.google.com/maps/place/41.37067061, 48.50581156)   | **Датировка:**       | 1847--2011 |
+| **Община:**      | евреи-ашкеназы                                                       | **Год описания:**    | 2018 |
+| **Статус:**      | недействующее                                                        | **Источник данных:** | Архив полевых исследований центра «Сэфер»|
+
+:::: {.panel-tabset}
+
+### [{{< fa circle-info size=sm >}}]{style="vertical-align: middle;"}  О кладбище
+
+Кладбище расположено на юго-западной окраине г. Стародуба в небольшой роще между ул. Совхозная и озером. По периметру некрополь обнесён земляным рвом, обозначающим его границы. Общая площадь участка составляет около 3 гектар, значительная часть территории покрыта зарослями деревьев и густого кустарника.
+
+В ходе инвентаризации на кладбище выявлено свыше 790 надгробий и их фрагментов, 80% из которых расположены в его центральной и южной частях и датируются 1870--1920 гг. Датировка сохранившихся памятников указывает на то, что заполнение кладбища происходило с севера на юг. Ряды, ориентированные с запада на восток, прослеживаются только в южной части некрополя, тогда как в наиболее старой северной части сохранились лишь небольшие редкие группы или отдельно стоящие надгробия. Самый ранний из обнаруженных памятников датируется 1847 г., последнее захоронение сделано в 2011 г. (по состоянию на 2018 г.).
+
+Основным языком надгробных надписей вплоть до конца 19 в. является иврит, начиная с 1910-х гг. появляются двуязычные надписи на русском и еврейском языках. К середине 20 в. иврит практически выходит из употребления, и эпитафии становятся полностью русскоязычными. Надписи, как правило, нанесены углублённым шрифтом, в нескольких случаях использована рельефная техника. Краска, сохранившаяся в углублениях букв на многих надгробиях, свидетельствует о том, что вырезанный текст часто дополнительно подкрашивался.
+
+Большинство надгробий изготовлены из гранита или известняка и имеют форму традиционных стел (мацев) с прямоугольным, полукруглым или фигурным верхом. С начала 20 в. также встречаются памятники в виде разнообразных тумб и обелисков. В советский (особенно, послевоенный) период преобладают типовые конструкции из бетона, металла или кирпича --- пирамидки, плиты и т.д.
+
+Отличительной особенностью кладбища является большое количество памятников, изготовленных из мельничных жерновов. При этом каменный диск мог использоваться как целиком, так и распиливаться на несколько фрагментов, каждый из которых затем устанавливался в виде отдельной стелы. На кладбище насчитывается свыше 130 надгробий-жерновов, причем к ним относятся как самые ранние памятники середины 19 в., так и более поздние --- вплоть до 1920-х гг.
+
+Декоративное оформление памятников в большинстве случаев отсутствует или представлено простейшими геометрическими орнаментами, а также традиционными еврейскими символами, чаще всего --- звездой Давида или менорой. На отдельных стелах можно увидеть одиночные либо парные изображения растений и животных --- птиц, львов, оленей. В единичных случаях встречаются более сложные многофигурные композиции.
+
+В настоящее время кладбище является недействующим, ограждение вокруг некрополя отсутствует, постоянный уход за территорией и надгробиями не осуществляется. Состояние памятников, большинство из которых повалены и сильно повреждены, быстро ухудшается из-за естественных причин (эрозия, заглубление в грунт, буреломы), а также в результате деятельности человека (вандализм, отдых на кладбище, использование камней для строительных и бытовых нужд).
+
+В 2018 г., благодаря усилиям местной администрации и помощи жителей г. Стародуб, была проведена масштабная работа по расчистке территории кладбища от мусора, а также кустарника и подлеска.
+
+Каталогизация и геодезическая съёмка кладбища выполнены в августе 2018 г. в рамках [исследовательской полевой школы](https://sefer.ru/rus/education/educational_programmes/Summer/breansk_starodub.php) Центра «Сэфер» в Брянской области.
+
+### [{{< fa regular map size=sm >}}]{style="vertical-align: middle;"}  Карта
+
+**PDF--карта**
+
+::: {style="margin-left: 1em;"}
+[{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} [Скачать файл](../data/SDB_map.pdf)
+:::
+
+---
+
+**Онлайн карта**
+
+- Нажмите [{{< fa layer-group size=sm >}}]{style="vertical-align: middle;"} чтобы выбрать вид карты и тип отображаемых памятников
+- Нажмите [{{< fa magnifying-glass size=sm >}}]{style="vertical-align: middle;"} для поиска памятника по номеру
+
+```{r}
+#| fig-height: 9
+#| fig-width: 9
+
+suppressPackageStartupMessages(library(tidyverse))
+library(leaflet)
+library(leaflet.extras)
+
+read_csv("../data/data.csv", show_col_types = FALSE, progress = FALSE) |> 
+  filter(place == "Стародуб\n\n    Россия",
+         !is.na(Longitude),
+         !is.na(Latitude)) |> 
+  mutate(Sex = case_when(Sex == "женский" ~ "женские", 
+                         Sex == "мужской" ~ "мужские",
+                         Sex == "неизвестный" ~ "неизвестные",
+                         TRUE ~ "смешанные"),
+         Sex = factor(Sex, levels = c("мужские", "женские", "смешанные", "неизвестные")),
+         icons = case_when(Sex == "мужские" ~ "../additional_images/Tomb-men.svg",
+                           Sex == "женские" ~ "../additional_images/Tomb-women.svg",
+                           Sex == "смешанные" ~ "../additional_images/Tomb-mix.svg",
+                           Sex == "неизвестные" ~ "../additional_images/Tomb-unknown.svg"),
+         url = str_c("<div style='text-align: center;'><b>", Number, "</b>", "<br>",
+                     "<a href = ../tombstones/", Number, "-I.html>На страницу памятника</a></div>")) ->
+  for_map
+
+pal_gender <- colorFactor(palette = c("#964265", "#4B64BE", "#A7A7A7", "#E9B424"), 
+                          domain = c("мужские","женские","смешанные","неизвестные"))
+
+tombIcons <- icons(
+  iconUrl = for_map$icons,
+  iconWidth = 10, iconHeight = 12,
+  iconAnchorX = 5, iconAnchorY = 12
+)
+
+for_map |> 
+  leaflet() |>  
+  addTiles(group = "OSM") |> 
+  addProviderTiles(providers$Esri.WorldImagery, group = "Esri") |> 
+  addMarkers(lng = ~Longitude,
+             lat = ~Latitude,
+             label = ~Number,
+             icon = tombIcons,
+             group = ~Sex,
+             popup =  ~url) |> 
+  addLegend(pal = pal_gender,
+            values = ~Sex,
+            title = "", 
+            position = "bottomleft") |>
+  addLayersControl(baseGroups = c("Esri","OSM"), 
+                   overlayGroups = c("мужские","женские","смешанные","неизвестные")) |> 
+  addSearchFeatures(targetGroups = c("мужские","женские","смешанные","неизвестные"),
+                    options = searchFeaturesOptions(zoom = 20,
+                                                    position = "topright"))
+```
+
+
+### [{{< fa regular images size=sm >}}]{style="vertical-align: middle;"}  Фотогалерея
+
+::: {layout-ncol=4}
+
+![Надгробия середины XIX в. на старом участке кладбища](../additional_images/QBA_01.JPG){group="my-gallery"}
+
+![Панорамный вид верхней части кладбища](../additional_images/QBA_02.JPG){group="my-gallery"}
+
+![Вид на современный участок кладбища](../additional_images/QBA_03.JPG){group="my-gallery"}
+
+![Современные памятники рядом с верхним (северным) входом на кладбище](../additional_images/QBA_04.JPG){group="my-gallery"}
+
+![Стелы начала XX в. на верхнем участке кладбища](../additional_images/QBA_05.JPG){group="my-gallery"}
+
+![Надгробие в виде саркофага, 1935 г.](../additional_images/QBA_06.JPG){group="my-gallery"}
+
+![Памятники разных типов в центральной части кладбища, середина XX в.](../additional_images/QBA_07.JPG){group="my-gallery"}
+
+![Горизонтальные надгробия в форме плиты с изголовьем, 1930--1940 гг.](../additional_images/QBA_08.JPG){group="my-gallery"}
+
+![Памятник с надмогильным саркофагом, 1912 г.](../additional_images/QBA_09_1.JPG){group="my-gallery"}
+
+![Семейное захоронение в центральной части кладбища, середина -- конец XX в.](../additional_images/QBA_10.JPG){group="my-gallery"}
+
+![Геометрический орнамент на стеле середины XIX в.](../additional_images/QBA_11.JPG){group="my-gallery"}
+
+![Памятники с навершиями-вазонами в форме бутонов, 1900--2000 гг.](../additional_images/QBA_13.JPG){group="my-gallery"}
+
+![Резной декор на надгробии в виде цветков и звезды Давида, 1911 г.](../additional_images/QBA_12.JPG){group="my-gallery"}
+
+![Древовидное навершие с обломленной ветвью и фигуркой горлицы, 1964 г.](../additional_images/QBA_14.JPG){group="my-gallery"}
+
+![Старейшее датированное надгробие, сохранившееся на кладбище, 1806/1807 г.](../additional_images/QBA_15.JPG){group="my-gallery"}
+
+![Надгробие Гершона, сына Реувена Мизрахи (1815--1891) -- раввина Кубы и духовного лидера общины с 1853 по 1891 г.](../additional_images/QBA_16.JPG){group="my-gallery"}
+:::
+
+### [{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle;"}  Каталог
+
+Исследование и каталогизация кладбища проведены в 2018 году в рамках [исследовательской полевой школы](https://sefer.ru/rus/education/educational_programmes/Summer/breansk_starodub.php), организованной Центром «Сэфер» и Институтом славяноведения РАН.
+
+Работа по каталогизации включала комплексное описание всех сохранившихся надгробных памятников, а также выполнение геодезической съёмки некрополя. В электронном каталоге, подготовленном по результатам экспедиции, доступны подробные сведения о каждом надгробии, а также карта кладбища в онлайн- и pdf-форматах. 
+
+Материалы предоставлены для публикации Центром «Сэфер», каталог готовится к публикации.
+
+::: {.reduced-intervals style="margin-left: 1em;"}
+[{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle; "} Перейти в каталог
+
+[{{< fa file-excel size=sm >}}]{style="vertical-align: middle; "} Скачать данные (XLS-файл)
+:::
+
+::::

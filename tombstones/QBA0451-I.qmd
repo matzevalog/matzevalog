@@ -1,0 +1,243 @@
+---
+title: "QBA0451"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    ЯКУБОВ Шалом, сын Йеремии (Шалум Ирмияевич)
+    
+    שלום בן ירמיהו
+name-he: |
+    שלום בן ירמיהו
+    
+    ЯКУБОВ Шалом, сын Йеремии (Шалум Ирмияевич)
+year-gr: 1948
+year-he: 5708
+categories:
+  - c:QBA
+  - c:QBA
+  - g:мужской
+  - g:женский
+  - tt:L-образный
+  - tt:L-образный
+
+
+  - l:иврит
+  - l:русский
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:традиционная символика
+  - d:архитектурно-орнаментальный
+  - d:традиционная символика
+  - m:гранит
+  - m:гранит
+  - t:муж
+  - t:жена
+  - t:муж
+  - t:жена
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0451
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0451_0.JPG")
+knitr::include_graphics("../images/QBA0451_1.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+ЯКУБОВ Шалом, сын Йеремии (Шалум Ирмияевич)
+:::
+
+::: {style="font-size: 1.2em;"}
+שלום בן ירמיהו
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1897 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1948 / -.-.5708
+:::
+
+::::
+
+---
+
+::: {.name-style}
+ЯКУБОВА Михал, дочь Авшалома (Авшалумовна)
+:::
+
+::: {style="font-size: 1.2em;"}
+מיכל בת אבשלום
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1906 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1982 / -.-.5742
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "слева
+פ״ נ״
+שלום בן ירמיהו זייל
+נפטר תש״ח
+ת.נ.צ.ב.ה.
+ЯКУБОВ
+ШАЛУМ
+ИРМИЯЕВИЧ
+1897-1948
+
+справа
+פ׳ נ׳
+מיכל בת אבשלום ז״ל
+נפטרה תשמ״ב
+ת.נ.צ.ב.ה.
+ЯКУБОВА
+МИХАЛ
+АВШАЛУМОВНА
+1906-1982",
+       `Перевод` = "
+Здесь покоится
+Шалум, сын Йеремии, да будет благословенна его память
+Скончался в {5}708 году
+Да будет душа его завязана в узле жизни
+Якубов 
+Шалум
+Ирмияевич
+1897-1948
+
+ 
+Здесь покоится 
+Михал, дочь Авшалома, да будет благословенна ее память
+Скончалась в {5}742 году
+Да будет душа ее завязана в узле жизни
+Якубова
+Михал
+Авшалумовна
+1906-1982") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |муж, жена    |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |гранит (стоит на гранитных плитах)                                                     |
+|**Размеры**         |171×70×12  --- стела; 16×72×170  --- плита                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, традиционная символика                                                                        |
+|**Элементы декора** |звезда Давида и менора, два фотопортрета, волнистое звершение, ваза для цветов                                                                          |
+|**Координаты**      |[41.370805, 48.50771099](https://www.google.com/maps/place/41.370805, 48.50771099)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

@@ -1,0 +1,190 @@
+---
+title: "QBA0206"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    ИСАКОВ Хаим-Моше, сын Йосефа (Хаим-Миши Юсуфович)
+    
+    חיים משה בן יוסף
+name-he: |
+    חיים משה בן יוסף
+    
+    ИСАКОВ Хаим-Моше, сын Йосефа (Хаим-Миши Юсуфович)
+year-gr: 1957
+year-he: 5717
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:традиционная символика
+  - m:ракушечник
+  - m:мрамор
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0206
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0206_0.JPG")
+knitr::include_graphics("../images/QBA0206_1.JPG")
+knitr::include_graphics("../images/QBA0206_2.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+ИСАКОВ Хаим-Моше, сын Йосефа (Хаим-Миши Юсуфович)
+:::
+
+::: {style="font-size: 1.2em;"}
+חיים משה בן יוסף
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1901 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1957 / 19.Ta.5717
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ֗ נ֗
+איש היקר
+קטפהו המות מ׳
+חיים משה בן יוסף נ״ע
+וה״מכ ביום י֗ט֗ לחדש
+תמוז שנת ה֗א֗ ת֗ש֗י֗ז֗
+ל֗ב֗ע֗ ת֗נ֗צ֗ב֗ה֗
+ПАМЯТЬ ОТ СЫНОВЯ
+ИСАКОВ
+ХАИМ-МИШИ
+ЮСУФОВИЧ
+1901 г – 1957 г",
+       `Перевод` = "Здесь покоится
+человек дорогой,
+сорвала его смерть, г-н
+Хаим Моше, сын Йосефа, душа его в раю
+и благословен его покой. 19 числа месяца
+таммуз года 5717
+от сотворения мира. Да будет душа его завязана в узле жизни.
+ПАМЯТЬ ОТ СЫНОВЕЙ
+ИСАКОВ
+ХАИМ-МИШИ
+ЮСУФОВИЧ
+1901 г – 1957 г") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |ракушечник, мрамор (мраморная вставка для текста, керамический медальон для портрета, цементный раствор, следы эрозии)                                                     |
+|**Размеры**         |155×59×33  --- стела; 18×57×108  --- плита; 38×74×169  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, традиционная символика                                                                        |
+|**Элементы декора** |треугольное завершение с силуэтами волют, портрет на медальоне, звезда Давида на вставке                                                                          |
+|**Координаты**      |[41.37032068, 48.50680919](https://www.google.com/maps/place/41.37032068, 48.50680919)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

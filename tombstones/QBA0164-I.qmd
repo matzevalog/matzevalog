@@ -1,0 +1,194 @@
+---
+title: "QBA0164"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    ЯКУБОВ Эзра, сын Циона (Изро Сионович)
+    
+    עיזרא בן ציון
+name-he: |
+    עיזרא בן ציון
+    
+    ЯКУБОВ Эзра, сын Циона (Изро Сионович)
+year-gr: 1964
+year-he: 5724
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:зооморфный
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  - t:юноша
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0164
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0164_1.JPG")
+knitr::include_graphics("../images/QBA0164_2.JPG")
+knitr::include_graphics("../images/QBA0164_3.JPG")
+knitr::include_graphics("../images/QBA0164_4.JPG")
+knitr::include_graphics("../images/QBA0164_5.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+ЯКУБОВ Эзра, сын Циона (Изро Сионович)
+:::
+
+::: {style="font-size: 1.2em;"}
+עיזרא בן ציון
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+12.03.1947 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+24.05.1964 / 13.Si.5724
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "сверху
+פ נ
+הבחור עיזרא בר ציון
+שהלך לבית עולמו יום 
+ראשון בשבת יג חודש
+סיון שנת תשכד
+
+снизу
+ЯКУБОВ
+ИЗРО
+СИОНОВИЧ
+12/III 1947 – 24/V 1964",
+       `Перевод` = "
+Здесь покоится
+юноша Эзра, сын р. Циона,
+ушедший в дом вечности в
+воскресенье, 13 <числа> месяца
+сиван, год {5}724.
+
+ 
+Якубов
+Изро
+Сионович
+12.03.1947 – 24.05.1964") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |юноша    |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, мрамор (две мраморные вставки для текста, следы эрозии, керамический медальон с фрагментом золотого цвета и фото-портретом)                                                     |
+|**Размеры**         |270×76×70  --- стела; 28×54×115  --- Саркофаг; 17×78×191  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, зооморфный, традиционная символика                                                                        |
+|**Элементы декора** |древовидное навершие в виде спиленного дерева, которое обвивает поникшая ветвь с листьями. На спиле скульптурная фигурка птицы, похожей на горлицу. Витые полуколонны на лицевых гранях стелы, гирлянда из лент, цветов и листьев на лицевой стороне. Ветка и звезда Давида на мраморной вставке. Три орнаментальных пояса, на верхнем – пальметки. На медальоне фотопортрет. Рамки на боковых и задней сторонах.                                                                          |
+|**Координаты**      |[41.36983594, 48.50670237](https://www.google.com/maps/place/41.36983594, 48.50670237)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

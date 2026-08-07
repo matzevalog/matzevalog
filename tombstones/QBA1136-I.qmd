@@ -1,0 +1,185 @@
+---
+title: "QBA1136"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Батья, дочь Нисима
+    
+    בתיה בת ניסים
+name-he: |
+    בתיה בת ניסים
+    
+    Батья, дочь Нисима
+year-gr: 1853
+year-he: 5613
+categories:
+  - c:QBA
+  - g:женский
+  - tt:стела
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - m:ракушечник
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA1136
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA1136_1.JPG")
+knitr::include_graphics("../images/QBA1136_2.JPG")
+knitr::include_graphics("../images/QBA1136_3.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Батья, дочь Нисима
+:::
+
+::: {style="font-size: 1.2em;"}
+בתיה בת ניסים
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+29.01.1853* / 20.Sh.5613
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פה
+נטמנת אש֗
+חיל צדקה
+עשתה כבנו֗
+ישראל ישר
+פעליה הרי
+היא בתיה בת
+ניסים שהלכה
+לבע֗ יום ב֗ בש׳
+ך֗ לח שב֗ תריג
+לפ֗ג֗",
+       `Перевод` = "Здесь
+покоится жена
+доблестная, праведная,
+поступала как дочери
+Израиля, честны 
+поступки ее,
+г-жа Батья, дочь
+Нисима, которая ушла
+в дом вечности в понедельник,
+20 числа месяца шват 613 года
+по малому летоисчислению.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |стела                                                                         |
+|**Материал**        |ракушечник (сколы, следы эрозии)                                                     |
+|**Размеры**         |143×57×27                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный                                                                        |
+|**Элементы декора** |фигурная ниша для текста                                                                          |
+|**Координаты**      |[41.36962547, 48.50687048](https://www.google.com/maps/place/41.36962547, 48.50687048)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

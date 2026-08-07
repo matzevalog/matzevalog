@@ -1,0 +1,196 @@
+---
+title: "QBA1047"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Йехуда, сын Йешайаху
+    
+    יהודה בן ישעיה
+name-he: |
+    יהודה בן ישעיה
+    
+    Йехуда, сын Йешайаху
+year-gr: 1911
+year-he: 5671
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:стела
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:песчаник
+  - m:кирпич
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA1047
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA1047.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Йехуда, сын Йешайаху
+:::
+
+::: {style="font-size: 1.2em;"}
+יהודה בן ישעיה
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+12.09.1911* / 19.El.5671
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "ציו׳
+פ׳נ׳
+גבר נאמן 
+הולך בתומו
+ובישר׳ לב פנימו
+ר״צ
+ובמד׳ תרומי׳
+קד׳ שמשו חשך
+תוארו ואישו-
+במב׳ שנו׳ ה״ה הנ׳
+יהודה בן ישעיה 
+נ״ע ות״מך ומ״נוח
+אי״שה יום ג׳ בש׳
+י״ט אלול שנת 
+ה״א תר״עא לב״ע
+יש״ יע״מ ה״נ",
+       `Перевод` = "Знак.
+Здесь покоится
+верный мужчина,
+ходивший честно
+и прямодушно, в сердце своем
+стремился к правде,
+и славился добродетелями и щедростью.
+Его солнце погасло, потемнел
+свет его, и он ушел
+в свои лучшие годы, г-н уважаемый
+Йехуда, сын Йешайяху,
+душа его в раю, и благословен его покой, и [оставил 
+жену] во вторник,
+19 элула года
+5671 от сотворения мира.
+Он обретёт покой! Те, кто идёт путем прямым, возлягут и отдохнут.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |стела                                                                         |
+|**Материал**        |песчаник, кирпич (следы эрозии и цементного раствора)                                                     |
+|**Размеры**         |152×43×18  --- стела; 105×101×240  --- саркофаг                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |звезда Давида в обрамлении цветочной композиции; две фигурные ниши для текста, разделенные растительными элементами; у основания стелы две ветви; скошенные грани;                                                                          |
+|**Координаты**      |[41.37056821, 48.50883341](https://www.google.com/maps/place/41.37056821, 48.50883341)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

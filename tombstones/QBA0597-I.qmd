@@ -1,0 +1,183 @@
+---
+title: "QBA0597"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    ИЛЬЯГУЕВ Абай, сын Элияху (Абаи Ильяевич)
+    
+    אביי בן אליהו
+name-he: |
+    אביי בן אליהו
+    
+    ИЛЬЯГУЕВ Абай, сын Элияху (Абаи Ильяевич)
+year-gr: 1966
+year-he: 5726
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0597
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0597_1.JPG")
+knitr::include_graphics("../images/QBA0597_2.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+ИЛЬЯГУЕВ Абай, сын Элияху (Абаи Ильяевич)
+:::
+
+::: {style="font-size: 1.2em;"}
+אביי בן אליהו
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1887 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+-.-.1966 / 15.Te.5726
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳נ׳
+שהלך לבית עלמו אבי ומורי
+ועטרת ראשי אביי במ״ו
+אליהו יום שש בשבת ט״ו
+חודש טבת התשכ״ו לב״ע
+ИЛЬЯГУЕВ
+АБАИ ИЛЬЯЕВИЧ
+род. 1887 - умер 1966
+ПАМЯТЬ ОТ СЫНА",
+       `Перевод` = "Здесь покоится тот,
+кто ушел в дом вечности, мой отец и учитель,
+венец главы моей, Абай, сын нашего учителя
+Элияху. В пятницу, 15
+числа месяца тевет 5726 от сотворения мира.
+ИЛЬЯГУЕВ
+АБАИ ИЛЬЯЕВИЧ
+Родился 1887 - умер 1966.
+ПАМЯТЬ ОТ СЫНА.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, мрамор (следы эрозии, мраморная вставка для текста, керамический медальон)                                                     |
+|**Размеры**         |158×56×50  --- стела; 20×50×110  --- плита; 30×75×181  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, традиционная символика                                                                        |
+|**Элементы декора** |фигурное завершение с волютами и растительным мотивом и коньком, фотопортрет на медальоне, пояс из пальметок, витые полуколонны, звезда Давида на вставке                                                                          |
+|**Координаты**      |[41.37104841, 48.50813086](https://www.google.com/maps/place/41.37104841, 48.50813086)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

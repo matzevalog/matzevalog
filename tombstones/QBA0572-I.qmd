@@ -1,0 +1,188 @@
+---
+title: "QBA0572"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    СОЛОМОНОВА Билха, дочь Симан-Това (Билга Симондуевна)
+    
+    בלהה בת סימן טוב
+name-he: |
+    בלהה בת סימן טוב
+    
+    СОЛОМОНОВА Билха, дочь Симан-Това (Билга Симондуевна)
+year-gr: 1973
+year-he: 5733
+categories:
+  - c:QBA
+  - g:женский
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0572
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0572_1.JPG")
+knitr::include_graphics("../images/QBA0572_2.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+СОЛОМОНОВА Билха, дочь Симан-Това (Билга Симондуевна)
+:::
+
+::: {style="font-size: 1.2em;"}
+בלהה בת סימן טוב
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1901 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+07.09.1973 / 10.El.5733
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פ׳ נ׳
+בלהה בת סימןטוב
+יום ו׳ שבת י׳ אלול תשל״ג
+Соломонова
+Билга
+Симондуевна
+1901 - 1973 7/IX
+Память от сыновей
+Ифраима Дона
+Бариса и 
+Михаила",
+       `Перевод` = "Здесь покоится
+Билга, дочь Симантова.
+В пятницу, 10 элула {5}733.
+Соломонова
+Билга
+Симондуевна
+1901 - 07.09.1973
+Память от сыновей
+Ифраима, Дона
+Бариса и 
+Михаила.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, мрамор (следы эрозии и цементного раствора; мраморная табличка для текста; керамический медальон с фотопортретом)                                                     |
+|**Размеры**         |213×58×43  --- стела; 19×51×120  --- плита; 7×70×177  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |архитектурное завершение с бутоном; полукруглые арки на полуколоннах; звезда Давида на табличке; медальон с фотопортретом                                                                          |
+|**Координаты**      |[41.37105772, 48.50800865](https://www.google.com/maps/place/41.37105772, 48.50800865)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

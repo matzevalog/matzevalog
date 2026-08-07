@@ -1,0 +1,323 @@
+project:
+  type: website
+  output-dir: ./docs
+
+execute:
+  freeze: auto
+  eval: true
+  echo: false
+
+website:
+  site-url: "https://agricolamz.github.io/sfira_clone/"
+  title: "Мацевалог"
+  navbar:
+    logo: "additional_images/Logo.svg"
+    right:
+      - href: index.qmd
+        text: Главная
+      - href: cemeteries.qmd
+        text: Кладбища
+      - href: tombstones.qmd
+        text: Памятники
+    search: true
+  page-footer:
+    border: false
+    background: "#363636"
+    left: '[![](/additional_images/Logo-light.svg){height=3.5em}](../index.qmd)'
+    center: '[{{< fa regular envelope size=lg >}}]{style="vertical-align: middle; color: #dbae63;"} [matzevalog@gmail.com](mailto:matzevalog@gmail.com)'
+    right: '[{{< fa brands creative-commons size=lg >}}]{style="vertical-align: middle; color: #dbae63;"} [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru), 2026'
+  bread-crumbs: false
+  sidebar:
+      - id: tomb-list
+        style: "floating"
+        alignment: left
+        collapse-level: 2
+        search: true
+        contents:
+          - section: "**Cписок памятников**"
+            contents: 
+              - auto: "tombstones/*.qmd"
+      - id: filter-list
+        style: "floating"
+        alignment: left
+        collapse-level: 2
+        search: false
+        contents:
+          - section: "**Фильтры**"
+            contents:
+            - text: "Сбросить"
+              href: tombstones.qmd
+            - text: "---"
+            - section: "МЕСТА"
+              contents:
+                - text: "Куба--I"
+                  href: "tombstones.qmd#category=c:QBA"
+                - text: "Cтародуб"
+                  href: "tombstones.qmd#category=c:SDB"
+            - text: "---"
+            - section: "ПОЛ"
+              contents:
+                - text: "мужской"
+                  href: tombstones.qmd#category=g:мужской
+                - text: "женский"
+                  href: tombstones.qmd#category=g:женский
+                - text: "неизвестен"
+                  href: tombstones.qmd#category=g:неизвестный
+            - text: "---"
+            - section: "МЕТКИ"
+              contents:
+                - section: "Возраст и семейное положение"
+                  contents:
+                    - text: "младенец"
+                      href: tombstones.qmd#category=t:младенец
+                    - text: "ребенок"
+                      href: tombstones.qmd#category=t:ребенок
+                    - text: "девушка"
+                      href: tombstones.qmd#category=t:девушка
+                    - text: "юноша"
+                      href: tombstones.qmd#category=t:юноша
+                    - text: "молодой человек (*аврех*)"
+                      href: tombstones.qmd#category=t:молодой человек (аврех)
+                    - text: "жених"
+                      href: tombstones.qmd#category=t:жених
+                    - text: "невеста"
+                      href: tombstones.qmd#category=t:невеста
+                    - text: "пожилой(-ая)"
+                      href: tombstones.qmd#category=t:пожилой(-ая)
+                    - text: "овдовевший(-ая)"
+                      href: tombstones.qmd#category=t:овдовевший(-ая)
+                - section: "Термины родства"
+                  contents:
+                    - text: "брат"
+                      href: tombstones.qmd#category=t:брат
+                    - text: "сестра"
+                      href: tombstones.qmd#category=t:сестра
+                    - text: "муж"
+                      href: tombstones.qmd#category=t:муж
+                    - text: "жена"
+                      href: tombstones.qmd#category=t:жена
+                    - text: "мать"
+                      href: tombstones.qmd#category=t:мать
+                    - text: "отец"
+                      href: tombstones.qmd#category=t:отец
+                    - text: "внук (внучка)"
+                      href: tombstones.qmd#category=t:внук (внучка)
+                    - text: "правнук, потомок"
+                      href: tombstones.qmd#category=t:правнук, потомок
+                    - text: "сирота"
+                      href: tombstones.qmd#category=t:сирота
+                - section: "Профессия или род занятий"
+                  contents:
+                    - text: "резник"
+                      href: tombstones.qmd#category=t:резник
+                    - text: "переписчик"
+                      href: tombstones.qmd#category=t:переписчик
+                    - text: "торговец"
+                      href: tombstones.qmd#category=t:торговец
+                    - text: "судья"
+                      href: tombstones.qmd#category=t:судья
+                    - text: "врач"
+                      href: tombstones.qmd#category=t:врач
+                    - text: "учитель"
+                      href: tombstones.qmd#category=t:учитель
+                - section: "Общественная деятельность"
+                  contents:
+                    - text: "раввин"
+                      href: tombstones.qmd#category=t:раввин
+                    - text: "глава иешивы"
+                      href: tombstones.qmd#category=t:глава иешивы
+                    - text: "учитель праведности"
+                      href: tombstones.qmd#category=t:учитель праведности
+                    - text: "казенный раввин"
+                      href: tombstones.qmd#category=t:казенный раввин
+                    - text: "кантор"
+                      href: tombstones.qmd#category=t:кантор
+                    - text: "проповедник"
+                      href: tombstones.qmd#category=t:проповедник
+                    - text: "служитель (*шамаш*)"
+                      href: tombstones.qmd#category=t:служитель (шамаш)
+                    - text: "представитель общины (*штадлан*)"
+                      href: tombstones.qmd#category=t:представитель общины (штадлан)
+                    - text: "глава общины (*парнас*)"
+                      href: tombstones.qmd#category=t:глава общины (парнас)
+                    - text: "управляющий, староста (*габбай*)"
+                      href: tombstones.qmd#category=t:управлящий, староста (габбай)
+                    - text: "погребальное братство"
+                      href: tombstones.qmd#category=t:член погребального братства
+                    - text: "член общества"
+                      href: tombstones.qmd#category=t:член общества
+                    - text: "сионист"
+                      href: tombstones.qmd#category=t:сионист
+                - section: "Происхождение"
+                  contents:
+                    - text: "левит"
+                      href: tombstones.qmd#category=t:левит
+                    - text: "коэн"
+                      href: tombstones.qmd#category=t:коэн
+                    - text: "потомок известного рода"
+                      href: tombstones.qmd#category=t:потомок известного, знатного рода
+                - section: "Ученость"
+                  contents:
+                    - text: "ученик, студент иешивы"
+                      href: tombstones.qmd#category=t:ученик, студент иешивы
+                    - text: "знаток Писания"
+                      href: tombstones.qmd#category=t:знаток Писания
+                    - text: "ученый, знаток Талмуда"
+                      href: tombstones.qmd#category=t:ученый, знаток Талмуда
+                    - text: "автор сочинения"
+                      href: tombstones.qmd#category=t:автор сочинения
+                    - text: "маскил"
+                      href: tombstones.qmd#category=t:маскил
+                - section: "Традиционные титулы"
+                  contents:
+                    - text: "хахам"
+                      href: tombstones.qmd#category=t:хахам
+                    - text: "выдающийся учёный"
+                      href: tombstones.qmd#category=t:алуф
+                    - text: "гаон"
+                      href: tombstones.qmd#category=t:гаон
+                    - text: "адмор"
+                      href: tombstones.qmd#category=t:адмор
+                    - text: "цадик"
+                      href: tombstones.qmd#category=t:цадик
+                - section: "Обстоятельства смерти"
+                  contents:
+                    - text: "преждевременная смерть"
+                      href: tombstones.qmd#category=t:преждевременная смерть
+                    - text: "болезнь"
+                      href: tombstones.qmd#category=t:болезнь
+                    - text: "роды"
+                      href: tombstones.qmd#category=t:роды
+                    - text: "эпидемия"
+                      href: tombstones.qmd#category=t:эпидемия
+                    - text: "голод"
+                      href: tombstones.qmd#category=t:голод
+                    - text: "пожар"
+                      href: tombstones.qmd#category=t:пожар
+                    - text: "стихийное бедствие"
+                      href: tombstones.qmd#category=t:стихийное бедствие
+                    - text: "насильственная смерть"
+                      href: tombstones.qmd#category=t:насильственная смерть
+                    - text: "несчастный случай"
+                      href: tombstones.qmd#category=t:несчастный случай
+                    - text: "погром"
+                      href: tombstones.qmd#category=t:погром
+                    - text: "мученическая смерть"
+                      href: tombstones.qmd#category=t:мученическая смерть
+                    - text: "военные действия"
+                      href: tombstones.qmd#category=t:военные действия
+                    - text: "Холокост"
+                      href: tombstones.qmd#category=t:Холокост
+                - section: "География"
+                  href: tombstones.qmd#category=t:География
+            - text: "---"
+            - section: "ЯЗЫК"
+              contents:
+                - text: "азербайджанский"
+                  href: tombstones.qmd#category=l:азербайджанский
+                - text: "английский"
+                  href: tombstones.qmd#category=l:английский
+                - text: "арамейский"
+                  href: tombstones.qmd#category=l:арамейский
+                - text: "белорусский"
+                  href: tombstones.qmd#category=l:белорусский
+                - text: "джуури"
+                  href: tombstones.qmd#category=l:джуури
+                - text: "иврит"
+                  href: tombstones.qmd#category=l:иврит
+                - text: "идиш"
+                  href: tombstones.qmd#category=l:идиш
+                - text: "латышский"
+                  href: tombstones.qmd#category=l:латышский
+                - text: "лезгинский"
+                  href: tombstones.qmd#category=l:лезгинский
+                - text: "литовский"
+                  href: tombstones.qmd#category=l:литовский
+                - text: "немецкий"
+                  href: tombstones.qmd#category=l:немецкий
+                - text: "польский"
+                  href: tombstones.qmd#category=l:польский
+                - text: "русский"
+                  href: tombstones.qmd#category=l:русский
+            - text: "---"
+            - section: "ТИП ПАМЯТНИКА"
+              contents:
+                - text: "стела"
+                  href: tombstones.qmd#category=tt:стела
+                - text: "L-образный"
+                  href: tombstones.qmd#category=tt:L-образный
+                - text: "плита/саркофаг"
+                  href: tombstones.qmd#category=tt:саркофаг
+                - text: "шатер (*охель*)"
+                  href: tombstones.qmd#category=tt:шатер
+                - text: "особый"
+                  href: tombstones.qmd#category=tt:индивидуальный
+                - text: "табличка"
+                  href: tombstones.qmd#category=tt:табличка
+            - text: "---"
+            - section: "МАТЕРИАЛ"
+              contents:
+                - text: "природный камень"
+                  href: tombstones.qmd#category=m:природный камень
+                - text: "песчаник"
+                  href: tombstones.qmd#category=m:песчаник
+                - text: "известняк"
+                  href: tombstones.qmd#category=m:известняк
+                - text: "ракушечник"
+                  href: tombstones.qmd#category=m:ракушечник
+                - text: "гранит"
+                  href: tombstones.qmd#category=m:гранит
+                - text: "габбро-диорит"
+                  href: tombstones.qmd#category=m:габбро-диорит
+                - text: "лабрадорит"
+                  href: tombstones.qmd#category=m:лабрадорит
+                - text: "мрамор"
+                  href: tombstones.qmd#category=m:мрамор
+                - text: "кварцит"
+                  href: tombstones.qmd#category=m:кварцит
+                - text: "искусственный камень"
+                  href: tombstones.qmd#category=m:искусственный камень
+                - text: "бетон"
+                  href: tombstones.qmd#category=m:бетон
+                - text: "мозаичный бетон"
+                  href: tombstones.qmd#category=m:мозаичный бетон
+                - text: "кирпич"
+                  href: tombstones.qmd#category=m:кирпич
+                - text: "керамика"
+                  href: tombstones.qmd#category=m:керамика
+                - text: "металл"
+                  href: tombstones.qmd#category=m:металл
+                - text: "дерево"
+                  href: tombstones.qmd#category=m:дерево
+                - text: "другой"
+                  href: tombstones.qmd#category=m:другой
+            - text: "---"
+            - section: "ДЕКОР"
+              contents:
+                - text: "архитектурно-орнаментальный"
+                  href: tombstones.qmd#category=d:архитектурно-орнаментальный
+                - text: "эпиграфический"
+                  href: tombstones.qmd#category=d:эпиграфический
+                - text: "растительный"
+                  href: tombstones.qmd#category=d:растительный
+                - text: "зооморфный"
+                  href: tombstones.qmd#category=d:зооморфный
+                - text: "антропоморфный"
+                  href: tombstones.qmd#category=d:антропоморфный
+                - text: "портретный"
+                  href: tombstones.qmd#category=d:портретный
+                - text: "предметно-бытовой"
+                  href: tombstones.qmd#category=d:предметно-бытовой
+                - text: "традиционная символика"
+                  href: tombstones.qmd#category=d:традиционный
+                - text: "другое"
+                  href: tombstones.qmd#category=d:другое
+format: 
+  html:
+    lang: ru
+    title-block-categories: false
+    date-format: DD.MM.YYYY
+    theme: 
+       - spacelab
+       - styles.scss
+    page-layout: full

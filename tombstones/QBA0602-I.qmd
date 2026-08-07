@@ -1,0 +1,193 @@
+---
+title: "QBA0602"
+sidebar: tomb-list
+sex: мужской
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    Яаков, сын Йехошуа
+    
+    יעקב בן יהושע
+name-he: |
+    יעקב בן יהושע
+    
+    Яаков, сын Йехошуа
+year-gr: 1914
+year-he: 5674
+categories:
+  - c:QBA
+  - g:мужской
+  - tt:шатёр (охель)
+
+  - l:иврит
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:песчаник
+  - m:известняк
+  - t:знаток Писания
+  - t:юноша
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0602
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0602_1.JPG")
+knitr::include_graphics("../images/QBA0602_2.JPG")
+knitr::include_graphics("../images/QBA0602_3.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+Яаков, сын Йехошуа
+:::
+
+::: {style="font-size: 1.2em;"}
+יעקב בן יהושע
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+  /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+09.04.1914* / 13.Ni.5674
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "עדה המצבה
+פ׳נ׳
+נטע נעמן
+האב״רך המשכיל
+בת״ויר
+פרי עץ הדר*
+מ׳ יעקב במו֮
+יהושע נ״ע הה
+פּתאום אבדה
+תקות הוריו
+בדמי ימיו ה׳
+בשב׳ י״ג ניסן
+הא תרעד לב׳ע׳",
+       `Перевод` = "Свидетель сей камень.
+Здесь покоится 
+прекрасный саженец,
+молодой человек, просвещённый
+в Торе и богобоязненный,
+плод прекрасного древа,
+господин Яаков, сын господина
+Йехоше, душа его в раю. Он был,
+и вдруг пропала 
+надежда родителей его,
+в расцвете дней, в четверг,
+13 нисана
+5674 года от сотворения мира.") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**|*Левит 23:40|
+|**Язык**      |иврит    |
+|**Метки**     |знаток Писания, юноша    |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |шатёр (охель)                                                                         |
+|**Материал**        |песчаник, известняк (следы эрозии, скол у основания, трещины)                                                     |
+|**Размеры**         |175×44×18  --- стела; 160×150×290  --- саркофаг                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |звезда Давида в окружении цветов, три фигурные рамки для текста, витые полуколонны, полукруглое завершение саркофага                                                                          |
+|**Координаты**      |[41.37080223, 48.50826839](https://www.google.com/maps/place/41.37080223, 48.50826839)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+

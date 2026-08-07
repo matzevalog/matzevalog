@@ -1,0 +1,188 @@
+---
+title: "QBA0562"
+sidebar: tomb-list
+sex: женский
+place: |
+    Куба (центральное)
+
+    Азербайджан
+name-ru: |
+    МИШИЕВЫ Йалта, дочь Рахамима (Яльта Рахамимовна)
+    
+    ילתא בת רחמים
+name-he: |
+    ילתא בת רחמים
+    
+    МИШИЕВЫ Йалта, дочь Рахамима (Яльта Рахамимовна)
+year-gr: 1974
+year-he: 5734
+categories:
+  - c:QBA
+  - g:женский
+  - tt:L-образный
+
+  - l:иврит
+  - l:русский
+  - d:архитектурно-орнаментальный
+  - d:растительный
+  - d:традиционная символика
+  - m:известняк
+  - m:мрамор
+  
+lightbox: true
+format:
+  html:
+    df-print: kable
+include-in-header:
+  - text: |
+      <style>
+         .quarto-title { display: none; }
+         .tab-content {
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+         }
+         .panel-tabset { margin-top: 1em; }
+         table tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.04) !important;
+         }
+         table, table tr, table th, table td {
+            border: none !important;
+            border-bottom: none !important;
+            border-top: none !important;
+         }
+          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
+          #title-block-header { margin-block-end: 0em; }
+      </style>
+---
+
+::: {style="font-size: 1em; margin-bottom: 1.2em"}
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0562
+:::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+```{r}
+#| lightbox:
+#|   group: photos
+
+knitr::include_graphics("../images/QBA0562_0.JPG")
+knitr::include_graphics("../images/QBA0562_1.JPG")
+knitr::include_graphics("../images/QBA0562_2.JPG")
+knitr::include_graphics("../images/QBA0562_3.JPG")
+
+```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="74%"}
+
+::: {.name-style}
+МИШИЕВЫ Йалта, дочь Рахамима (Яльта Рахамимовна)
+:::
+
+::: {style="font-size: 1.2em;"}
+ילתא בת רחמים
+:::
+
+:::: {.columns}
+::: {.column width="5%"}
+![](../additional_images/Cradle.svg){width=1.3em}
+:::
+
+::: {.column style="width: 40%; padding-left: 0.2em;"}
+-.-.1894 /  
+:::
+
+::: {.column width="5%"}
+![](../additional_images/Tombstone.svg){width=1.3em}
+:::
+
+::: {.column style="width: 50%; padding-left: 0.2em;"}
+24.04.1974 / 02.Iy.5734
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+#### Эпитафия
+
+```{r}
+tibble(`Оригинал` = "פנ
+אשה זקנה וכשרה
+ילתא בת רחמים
+ב לחד׳ אייר ת׳ש׳ל׳ד׳
+Мишиевы
+Яльта Рахамимовна
+1894 -1974 24/IV
+Заволу Шуминович
+Шумин-сион
+Заволунович",
+       `Перевод` = "Здесь покоится
+пожилая и добродетельная женщина,
+Ялта, дочь Рахамима.
+2 число месяца ияр, {5}734.
+Мишиевы
+Яльта Рахамимовна
+1894 - 24.04.1974
+Заволу Шуминович
+Шумин-сион
+Заволунович") |>
+  mutate(`Оригинал` = str_split(`Оригинал`, "
+"),
+         `Перевод` = str_split(`Перевод`, "
+")) |>
+  unnest_longer(c(`Оригинал`, `Перевод`)) |> 
+  mutate(id = 1:n()) |> 
+  relocate(id, .before = Перевод) |> 
+  rename(` ` = id) |> 
+  knitr::kable(align = c("r", "c", "l"))
+```
+
+|||
+|-|---|
+|**Примечания**| |
+|**Язык**      |иврит, русский    |
+|**Метки**     |     |
+: {tbl-colwidths="[25,75]"}
+
+#### Памятник
+
+|||
+|-|---|
+|**Тип памятника**   |L-образный                                                                         |
+|**Материал**        |известняк, мрамор (следы эрозии и цементного раствора; две мраморные вставки для текста; полуразрушенный керамический медальон с фотопортретом)                                                     |
+|**Размеры**         |228×74×57  --- стела; 17×64×116  --- плита; 31×91×184  --- основание                                                                        |
+|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика                                                                        |
+|**Элементы декора** |архитектурное завершение с бутоном; три орнаментальных пояса;  гирлянда из лент и цветка; два цветка по обеим сторонам от таблички с текстом; рамы с вогнутыми углами по обеим сторонам стелы; звезда Давида на текстовой вставке и портрет                                                                          |
+|**Координаты**      |[41.37106223, 48.50795032](https://www.google.com/maps/place/41.37106223, 48.50795032)                    |
+: {tbl-colwidths="[25,75]"}
+
+#### Источник
+
+|||
+|-|---|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
+|**Контакты**              |students@sefer.ru    |
+|**Ссылка**                |https://sfira.org        |
+|**Исходный ID**           |  |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::::
+
