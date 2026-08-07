@@ -37,18 +37,10 @@
 
 - Для ссылок в электронном формате укажите название ресурса и активную ссылку (встроенную или отдельно):
 
-```
-[Мацевалог](https://matzevalog.github.io/matzevalog)
-```
+    - [Мацевалог](https://matzevalog.github.io/matzevalog) или
+    - Мацевалог ([https://matzevalog.github.io/matzevalog](https://matzevalog.github.io/matzevalog))
 
-или
-
-```
-Мацевалог ([https://matzevalog.github.io/matzevalog](https://matzevalog.github.io/matzevalog))
-```
-
-
-- Для ссылок в печатных изданиях используйте текст или BibTex-формат:
+- Для ссылок в печатных изданиях используйте следующий текст или BibTex-формат:
 
 ```
 Васильев, М. Е., Мороз, Г. А. (2026). Мацевалог: корпус еврейской надгробной эпиграфики
