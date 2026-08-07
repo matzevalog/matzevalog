@@ -62,7 +62,4 @@ include-in-header:
 :::{#table-view}
 :::
 
-### {{< fa regular map size=sm title="На карте" >}} На карте
-
-
 ::::
