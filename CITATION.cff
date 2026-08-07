@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+type: software
+license: Creative Commons BY-NC 4.0
+title: 'Мацевалог'
+version: '1.0.0'
+identifiers:
+- type: doi
+  value: 10.xxxx/yyyy
+abstract: Онлайн-база данных для сбора, хранения и публикации памятников еврейской эпиграфики в цифровом формате.
+authors:
+- family-names: Мороз
+  given-names: Георгий Алексеевич
+  orcid: https://orcid.org/0000-0003-1990-6083
+- family-names: Васильев
+  given-names: Михаил Евгеньевич
+institution:
+- name: НИУ ВШЭ
+  address: Москва
+- name: ИВ РАН
+  address: Москва
+repository: https://github.com/matzevalog/matzevalog
+url: https://matzevalog.github.io/matzevalog/
+date-released: '2026-08-07'
+contact:
+- family-names: Васильев
+  given-names: Михаил Евгеньевич
+  email: matzevalog@gmail.com
