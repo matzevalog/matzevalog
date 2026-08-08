@@ -101,7 +101,7 @@ include-in-header:
 ### Текст ссылки
 
 Мороз, Г. А., Васильев, М. Е. (2026). Мацевалог: корпус еврейской надгробной эпиграфики
-(v1.0.0). Москва. DOI: 10.5281/zenodo.xxxxxxx. <https://matzevalog.github.io/matzevalog>.
+(v1.0.0). Москва. DOI: 10.5281/zenodo.21841442. <https://matzevalog.github.io/matzevalog>.
 
 ### BibTeX формат
 
@@ -113,7 +113,7 @@ include-in-header:
   publisher = {НИУ ВШЭ, ИВ РАН},
   address = {Москва},
   url = {https://matzevalog.github.io/matzevalog},
-  doi = {10.5281/zenodo.xxxxxxx},
+  doi = {10.5281/zenodo.21841442},
 }
 ```
 
