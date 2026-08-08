@@ -41,13 +41,6 @@ include-in-header:
 
       .panel-tabset { margin-top: 2em; }
 
-      .d-flex { display: none !important; 
-          }
-
-      .callout.callout-style-default .callout-body {
-            padding-left: 1em;
-          }
-
       .quarto-title-block .quarto-title-banner {
         height: 0;
       }
