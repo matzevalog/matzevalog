@@ -44,7 +44,7 @@
 
 ```
 Васильев, М. Е., Мороз, Г. А. (2026). Мацевалог: корпус еврейской надгробной эпиграфики
-(v1.0.0). Москва. DOI: 10.5281/zenodo.xxxxxxx. <https://matzevalog.github.io/matzevalog>.
+(v1.0.0). Москва. DOI: 10.5281/zenodo.21841442. <https://matzevalog.github.io/matzevalog>.
 
 
 @misc{matzevalog,
@@ -54,7 +54,7 @@
   publisher = {НИУ ВШЭ, ИВ РАН},
   address = {Москва},
   url = {https://matzevalog.github.io/matzevalog},
-  doi = {10.5281/zenodo.xxxxxxx},
+  doi = {10.5281/zenodo.21841442},
 }
 ```
 
