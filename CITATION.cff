@@ -14,6 +14,3 @@ title: "Мацевалог"
 date-released: 2026-08-07
 license: "Creative Commons BY-NC 4.0"
 abstract: "Онлайн-база данных для сбора, хранения и публикации памятников еврейской эпиграфики в цифровом формате."
-identifiers:
-- type: "doi"
-  value: "10.5281/zenodo.21841442"
