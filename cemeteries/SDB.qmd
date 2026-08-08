@@ -1,10 +1,10 @@
 ---
-title: "Cтародуб"
+title: "Стародуб"
 subtitle: "Россия"
 place: "Стародуб"
 country: "Россия"
 hist-location: "Российская империя, Черниговская губерния, Гомельская губерния"
-catalog: 'Cмотреть [{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle; "}'
+catalog: 'В работе [{{< fa arrow-up-from-bracket size=sm >}}]{style="vertical-align: middle; "}'
 lat: 41.370501
 lng: 48.507433
 community: "евреи-ашкеназы"
@@ -60,7 +60,7 @@ include-in-header:
             rgba(0, 0, 0, 0),
             rgba(0, 0, 0, 0)
           ),
-          url(../additional_images/QBA_banner.png);
+          url(../additional_images/SDB_banner.png);
         background-size: contain; 
         background-repeat: no-repeat;
         aspect-ratio: 1920 / 360;
@@ -90,7 +90,7 @@ include-in-header:
 |--|-----|--|-----|
 | **Место:**       | Стародуб                                                             | **Площадь:**         | 3 га |
 | **Расположение:**| Россия, Брянская область                                             | **Памятников:**      | 791 |
-| **Координаты:**  | [52°35'22"N 32°44'30"E](https://www.google.com/maps/place/41.37067061, 48.50581156)   | **Датировка:**       | 1847--2011 |
+| **Координаты:**  | [52°35'22"N 32°44'30"E](https://www.google.com/maps/place/52.5893971, 32.7416198)   | **Датировка:**       | 1847--2011 |
 | **Община:**      | евреи-ашкеназы                                                       | **Год описания:**    | 2018 |
 | **Статус:**      | недействующее                                                        | **Источник данных:** | Архив полевых исследований центра «Сэфер»|
 
@@ -124,105 +124,9 @@ include-in-header:
 [{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} [Скачать файл](../data/SDB_map.pdf)
 :::
 
----
-
-**Онлайн карта**
-
-- Нажмите [{{< fa layer-group size=sm >}}]{style="vertical-align: middle;"} чтобы выбрать вид карты и тип отображаемых памятников
-- Нажмите [{{< fa magnifying-glass size=sm >}}]{style="vertical-align: middle;"} для поиска памятника по номеру
-
-```{r}
-#| fig-height: 9
-#| fig-width: 9
-
-suppressPackageStartupMessages(library(tidyverse))
-library(leaflet)
-library(leaflet.extras)
-
-read_csv("../data/data.csv", show_col_types = FALSE, progress = FALSE) |> 
-  filter(place == "Стародуб\n\n    Россия",
-         !is.na(Longitude),
-         !is.na(Latitude)) |> 
-  mutate(Sex = case_when(Sex == "женский" ~ "женские", 
-                         Sex == "мужской" ~ "мужские",
-                         Sex == "неизвестный" ~ "неизвестные",
-                         TRUE ~ "смешанные"),
-         Sex = factor(Sex, levels = c("мужские", "женские", "смешанные", "неизвестные")),
-         icons = case_when(Sex == "мужские" ~ "../additional_images/Tomb-men.svg",
-                           Sex == "женские" ~ "../additional_images/Tomb-women.svg",
-                           Sex == "смешанные" ~ "../additional_images/Tomb-mix.svg",
-                           Sex == "неизвестные" ~ "../additional_images/Tomb-unknown.svg"),
-         url = str_c("<div style='text-align: center;'><b>", Number, "</b>", "<br>",
-                     "<a href = ../tombstones/", Number, "-I.html>На страницу памятника</a></div>")) ->
-  for_map
-
-pal_gender <- colorFactor(palette = c("#964265", "#4B64BE", "#A7A7A7", "#E9B424"), 
-                          domain = c("мужские","женские","смешанные","неизвестные"))
-
-tombIcons <- icons(
-  iconUrl = for_map$icons,
-  iconWidth = 10, iconHeight = 12,
-  iconAnchorX = 5, iconAnchorY = 12
-)
-
-for_map |> 
-  leaflet() |>  
-  addTiles(group = "OSM") |> 
-  addProviderTiles(providers$Esri.WorldImagery, group = "Esri") |> 
-  addMarkers(lng = ~Longitude,
-             lat = ~Latitude,
-             label = ~Number,
-             icon = tombIcons,
-             group = ~Sex,
-             popup =  ~url) |> 
-  addLegend(pal = pal_gender,
-            values = ~Sex,
-            title = "", 
-            position = "bottomleft") |>
-  addLayersControl(baseGroups = c("Esri","OSM"), 
-                   overlayGroups = c("мужские","женские","смешанные","неизвестные")) |> 
-  addSearchFeatures(targetGroups = c("мужские","женские","смешанные","неизвестные"),
-                    options = searchFeaturesOptions(zoom = 20,
-                                                    position = "topright"))
-```
-
-
 ### [{{< fa regular images size=sm >}}]{style="vertical-align: middle;"}  Фотогалерея
 
-::: {layout-ncol=4}
-
-![Надгробия середины XIX в. на старом участке кладбища](../additional_images/QBA_01.JPG){group="my-gallery"}
-
-![Панорамный вид верхней части кладбища](../additional_images/QBA_02.JPG){group="my-gallery"}
-
-![Вид на современный участок кладбища](../additional_images/QBA_03.JPG){group="my-gallery"}
-
-![Современные памятники рядом с верхним (северным) входом на кладбище](../additional_images/QBA_04.JPG){group="my-gallery"}
-
-![Стелы начала XX в. на верхнем участке кладбища](../additional_images/QBA_05.JPG){group="my-gallery"}
-
-![Надгробие в виде саркофага, 1935 г.](../additional_images/QBA_06.JPG){group="my-gallery"}
-
-![Памятники разных типов в центральной части кладбища, середина XX в.](../additional_images/QBA_07.JPG){group="my-gallery"}
-
-![Горизонтальные надгробия в форме плиты с изголовьем, 1930--1940 гг.](../additional_images/QBA_08.JPG){group="my-gallery"}
-
-![Памятник с надмогильным саркофагом, 1912 г.](../additional_images/QBA_09_1.JPG){group="my-gallery"}
-
-![Семейное захоронение в центральной части кладбища, середина -- конец XX в.](../additional_images/QBA_10.JPG){group="my-gallery"}
-
-![Геометрический орнамент на стеле середины XIX в.](../additional_images/QBA_11.JPG){group="my-gallery"}
-
-![Памятники с навершиями-вазонами в форме бутонов, 1900--2000 гг.](../additional_images/QBA_13.JPG){group="my-gallery"}
-
-![Резной декор на надгробии в виде цветков и звезды Давида, 1911 г.](../additional_images/QBA_12.JPG){group="my-gallery"}
-
-![Древовидное навершие с обломленной ветвью и фигуркой горлицы, 1964 г.](../additional_images/QBA_14.JPG){group="my-gallery"}
-
-![Старейшее датированное надгробие, сохранившееся на кладбище, 1806/1807 г.](../additional_images/QBA_15.JPG){group="my-gallery"}
-
-![Надгробие Гершона, сына Реувена Мизрахи (1815--1891) -- раввина Кубы и духовного лидера общины с 1853 по 1891 г.](../additional_images/QBA_16.JPG){group="my-gallery"}
-:::
+*Материалы будут добавлены позже.*
 
 ### [{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle;"}  Каталог
 
@@ -231,11 +135,5 @@ for_map |>
 Работа по каталогизации включала комплексное описание всех сохранившихся надгробных памятников, а также выполнение геодезической съёмки некрополя. В электронном каталоге, подготовленном по результатам экспедиции, доступны подробные сведения о каждом надгробии, а также карта кладбища в онлайн- и pdf-форматах. 
 
 Материалы предоставлены для публикации Центром «Сэфер», каталог готовится к публикации.
-
-::: {.reduced-intervals style="margin-left: 1em;"}
-[{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle; "} Перейти в каталог
-
-[{{< fa file-excel size=sm >}}]{style="vertical-align: middle; "} Скачать данные (XLS-файл)
-:::
 
 ::::
