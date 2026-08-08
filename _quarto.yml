@@ -50,7 +50,7 @@ website:
             - text: "---"
             - section: "МЕСТА"
               contents:
-                - text: "Куба--I"
+                - text: "Куба (центральное)"
                   href: "tombstones.qmd#category=c:QBA"
                 - text: "Cтародуб"
                   href: "tombstones.qmd#category=c:SDB"
