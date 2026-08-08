@@ -124,6 +124,69 @@ include-in-header:
 [{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} [Скачать файл](../data/SDB_map.pdf)
 :::
 
+---
+
+**Онлайн карта**
+
+- Нажмите [{{< fa layer-group size=sm >}}]{style="vertical-align: middle;"} чтобы выбрать вид карты и тип отображаемых памятников
+- Нажмите [{{< fa magnifying-glass size=sm >}}]{style="vertical-align: middle;"} для поиска памятника по номеру
+
+```{r}
+#| fig-height: 9
+#| fig-width: 9
+
+suppressPackageStartupMessages(library(tidyverse))
+library(leaflet)
+library(leaflet.extras)
+
+read_csv("../data/data.csv", show_col_types = FALSE, progress = FALSE) |> 
+  filter(place == "Стародуб\n\n    Россия",
+         !is.na(Longitude),
+         !is.na(Latitude)) |> 
+  mutate(Sex = case_when(Sex == "женский" ~ "женские", 
+                         Sex == "мужской" ~ "мужские",
+                         Sex == "неизвестный" ~ "неизвестные",
+                         TRUE ~ "смешанные"),
+         Sex = factor(Sex, levels = c("мужские", "женские", "смешанные", "неизвестные")),
+         icons = case_when(Sex == "мужские" ~ "../additional_images/Tomb-men.svg",
+                           Sex == "женские" ~ "../additional_images/Tomb-women.svg",
+                           Sex == "смешанные" ~ "../additional_images/Tomb-mix.svg",
+                           Sex == "неизвестные" ~ "../additional_images/Tomb-unknown.svg"),
+         url = str_c("<div style='text-align: center;'><b>", Number, "</b>", "<br>",
+                     "<a href = ../tombstones/", Number, "-I.html>На страницу памятника</a></div>")) ->
+  for_map
+
+pal_gender <- colorFactor(palette = c("#964265", "#4B64BE", "#A7A7A7", "#E9B424"), 
+                          domain = c("мужские","женские","смешанные","неизвестные"))
+
+tombIcons <- icons(
+  iconUrl = for_map$icons,
+  iconWidth = 10, iconHeight = 12,
+  iconAnchorX = 5, iconAnchorY = 12
+)
+
+for_map |> 
+  leaflet() |>  
+  addTiles(group = "OSM") |> 
+  addProviderTiles(providers$Esri.WorldImagery, group = "Esri") |> 
+  addMarkers(lng = ~Longitude,
+             lat = ~Latitude,
+             label = ~Number,
+             icon = tombIcons,
+             group = ~Sex,
+             popup =  ~url) |> 
+  addLegend(pal = pal_gender,
+            values = ~Sex,
+            title = "", 
+            position = "bottomleft") |>
+  addLayersControl(baseGroups = c("Esri","OSM"), 
+                   overlayGroups = c("мужские","женские","смешанные","неизвестные")) |> 
+  addSearchFeatures(targetGroups = c("мужские","женские","смешанные","неизвестные"),
+                    options = searchFeaturesOptions(zoom = 20,
+                                                    position = "topright"))
+```
+
+
 ### [{{< fa regular images size=sm >}}]{style="vertical-align: middle;"}  Фотогалерея
 
 *Материалы будут добавлены позже.*
