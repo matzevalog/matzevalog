@@ -4,7 +4,7 @@ subtitle: "Россия"
 place: "Стародуб"
 country: "Россия"
 hist-location: "Российская империя, Черниговская губерния, Гомельская губерния"
-catalog: 'В работе [{{< fa arrow-up-from-bracket size=sm >}}]{style="vertical-align: middle; "}'
+catalog: '[{{< fa arrow-up-from-bracket size=sm >}}]{style="vertical-align: middle;"} В работе'
 lat: 41.370501
 lng: 48.507433
 community: "евреи-ашкеназы"
@@ -108,6 +108,8 @@ include-in-header:
 В 2018 г., благодаря усилиям местной администрации и помощи жителей г. Стародуб, была проведена масштабная работа по расчистке территории кладбища от мусора, а также кустарника и подлеска.
 
 Каталогизация и геодезическая съёмка кладбища выполнены в августе 2018 г. в рамках [исследовательской полевой школы](https://sefer.ru/rus/education/educational_programmes/Summer/breansk_starodub.php) Центра «Сэфер» в Брянской области.
+
+*Текст подготовил: М. Васильев*
 
 ### [{{< fa regular map size=sm >}}]{style="vertical-align: middle;"}  Карта
 
