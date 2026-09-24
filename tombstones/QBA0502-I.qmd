@@ -1,7 +1,5 @@
 ---
 title: "QBA0502"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -108,7 +106,7 @@ knitr::include_graphics("../images/QBA0502_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1894 /  
+-.-.1894 / ---
 :::
 
 ::: {.column width="5%"}
@@ -116,7 +114,7 @@ knitr::include_graphics("../images/QBA0502_2.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
--.-.1918 /  
+-.-.1918 / ---
 :::
 
 ::::

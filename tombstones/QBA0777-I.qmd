@@ -1,7 +1,5 @@
 ---
 title: "QBA0777"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0777_3.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-06.01.1938 /  
+06.01.1938 / ---
 :::
 
 ::: {.column width="5%"}

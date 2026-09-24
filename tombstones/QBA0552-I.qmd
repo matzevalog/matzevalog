@@ -1,7 +1,5 @@
 ---
 title: "QBA0552"
-sidebar: tomb-list
-sex: неизвестный
 place: |
     Куба (центральное)
 
@@ -94,7 +92,7 @@ knitr::include_graphics("../images/QBA0552_1.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-  /  
+--- / ---
 :::
 
 ::: {.column width="5%"}

@@ -1,7 +1,5 @@
 ---
 title: "QBA0624"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -14,7 +12,7 @@ name-he: |
     משה בן יוסף
     
     Моше, сын Йосефа
-year-gr: 0
+year-gr: 1881
 year-he: 5641
 categories:
   - c:QBA
@@ -94,7 +92,7 @@ knitr::include_graphics("../images/QBA0624_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-  /  
+--- / ---
 :::
 
 ::: {.column width="5%"}
@@ -102,7 +100,7 @@ knitr::include_graphics("../images/QBA0624_2.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-  / 18.Ad1.5641
+17.02.1881* / 18.Ad1.5641
 :::
 
 ::::

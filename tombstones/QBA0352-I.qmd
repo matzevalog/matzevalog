@@ -1,7 +1,5 @@
 ---
 title: "QBA0352"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0352_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-16.12.1944 /  
+16.12.1944 / ---
 :::
 
 ::: {.column width="5%"}

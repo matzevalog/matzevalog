@@ -1,7 +1,5 @@
 ---
 title: "QBA0616"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0616_1.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-26.03.1907 /  
+26.03.1907 / ---
 :::
 
 ::: {.column width="5%"}

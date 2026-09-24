@@ -1,7 +1,5 @@
 ---
 title: "QBA0674"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0674_4.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-01.11.1924 /  
+01.11.1924 / ---
 :::
 
 ::: {.column width="5%"}

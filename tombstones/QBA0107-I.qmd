@@ -1,7 +1,5 @@
 ---
 title: "QBA0107"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -14,7 +12,7 @@ name-he: |
     אביי בן רבא
     
     Абайя, сын Рабы (Абаи)
-year-gr: 0
+year-gr: 1913
 year-he: 5673
 categories:
   - c:QBA
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0107_3.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-  /  
+--- / ---
 :::
 
 ::: {.column width="5%"}
@@ -106,7 +104,7 @@ knitr::include_graphics("../images/QBA0107_3.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-  / 15.Ad1.5673
+22.02.1913* / 15.Ad1.5673
 :::
 
 ::::

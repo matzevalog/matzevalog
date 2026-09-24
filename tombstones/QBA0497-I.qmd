@@ -1,7 +1,5 @@
 ---
 title: "QBA0497"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -95,7 +93,7 @@ knitr::include_graphics("../images/QBA0497.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-12.01.1933 /  
+12.01.1933 / ---
 :::
 
 ::: {.column width="5%"}

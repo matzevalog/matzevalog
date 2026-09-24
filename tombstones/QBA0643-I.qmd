@@ -1,7 +1,5 @@
 ---
 title: "QBA0643"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -95,7 +93,7 @@ knitr::include_graphics("../images/QBA0643_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-10.06.1928 /  
+10.06.1928 / ---
 :::
 
 ::: {.column width="5%"}

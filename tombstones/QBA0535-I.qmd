@@ -1,7 +1,5 @@
 ---
 title: "QBA0535"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0535_3.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-09.05.1961 /  
+09.05.1961 / ---
 :::
 
 ::: {.column width="5%"}

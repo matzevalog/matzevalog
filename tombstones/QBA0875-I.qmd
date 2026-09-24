@@ -1,7 +1,5 @@
 ---
 title: "QBA0875"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0875_3.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1908 /  
+-.-.1908 / ---
 :::
 
 ::: {.column width="5%"}
@@ -106,7 +104,7 @@ knitr::include_graphics("../images/QBA0875_3.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-31.05.1985 /  
+31.05.1985 / ---
 :::
 
 ::::

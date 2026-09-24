@@ -1,7 +1,5 @@
 ---
 title: "QBA0122"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 

@@ -1,7 +1,5 @@
 ---
 title: "QBA0851"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -97,7 +95,7 @@ knitr::include_graphics("../images/QBA0851_3.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-20.12.1935 /  
+20.12.1935 / ---
 :::
 
 ::: {.column width="5%"}

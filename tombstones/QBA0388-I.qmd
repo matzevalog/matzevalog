@@ -1,7 +1,5 @@
 ---
 title: "QBA0388"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -96,7 +94,7 @@ knitr::include_graphics("../images/QBA0388_1.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-20.04.1907 /  
+20.04.1907 / ---
 :::
 
 ::: {.column width="5%"}

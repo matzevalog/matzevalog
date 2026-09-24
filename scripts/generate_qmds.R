@@ -173,34 +173,36 @@ read_csv("data/data.csv", show_col_types = FALSE) |>
 for_qmd_generation |>
   filter(is.na(DDate_GR) & !is.na(DDate_HE)) |>
   select(Number, DDate_HE) |>
-  mutate(DDate_HE = str_replace_all(DDate_HE, "Ad1", "Ad")) |> 
+  mutate(DDate_HE_new = str_replace_all(DDate_HE, "Ad1", "Ad")) |> 
   rowwise() |>
-  mutate(DDate_GR_suggestion = hebrew2greg(DDate_HE)) |>
+  mutate(DDate_GR_suggestion2 = hebrew2greg(DDate_HE_new)) |>
   ungroup() |>
   na.omit() |>
-  mutate(DDate_HE_comment = if_else(nchar(DDate_GR_suggestion) > 10, DDate_GR_suggestion, NA),
-         DDate_GR_suggestion = if_else(nchar(DDate_GR_suggestion) > 10, NA, DDate_GR_suggestion),
-         across(everything(), as.character)) ->
+  mutate(DDate_HE_comment = if_else(nchar(DDate_GR_suggestion2) > 10, DDate_GR_suggestion2, NA),
+         DDate_GR_suggestion2 = if_else(nchar(DDate_GR_suggestion2) > 10, NA, DDate_GR_suggestion2),
+         across(everything(), as.character)) |> 
+  select(-DDate_HE_new)->
   DDate_GR_suggestions
 
 for_qmd_generation |>
   filter(is.na(BDate_GR) & !is.na(BDate_HE)) |>
   select(Number, BDate_HE) |> 
-  mutate(BDate_HE = str_replace_all(BDate_HE, "Ad1", "Ad")) |> 
+  mutate(BDate_HE_new = str_replace_all(BDate_HE, "Ad1", "Ad")) |> 
   rowwise() |>
-  mutate(BDate_GR_suggestion = hebrew2greg(BDate_HE)) |>
+  mutate(BDate_GR_suggestion2 = hebrew2greg(BDate_HE_new)) |>
   ungroup() |>
   na.omit() |>
-  mutate(BDate_HE_comment = if_else(nchar(BDate_GR_suggestion) > 10, BDate_GR_suggestion, NA),
-         BDate_GR_suggestion = if_else(nchar(BDate_GR_suggestion) > 10, NA, BDate_GR_suggestion),
-         across(everything(), as.character)) ->
+  mutate(BDate_HE_comment = if_else(nchar(BDate_GR_suggestion2) > 10, BDate_GR_suggestion2, NA),
+         BDate_GR_suggestion2 = if_else(nchar(BDate_GR_suggestion2) > 10, NA, BDate_GR_suggestion2),
+         across(everything(), as.character)) |> 
+  select(-BDate_HE_new)->
   BDate_GR_suggestions
 
 for_qmd_generation |>
-  left_join(DDate_GR_suggestions, by = c("Number", "DDate_HE", "DDate_GR_suggestion", "DDate_HE_comment")) |>
-  left_join(BDate_GR_suggestions, by = c("Number", "BDate_HE", "BDate_GR_suggestion", "BDate_HE_comment")) |>
-  mutate(DDate_GR = if_else(is.na(DDate_GR), str_c(DDate_GR_suggestion, "*"), DDate_GR),
-         BDate_GR = if_else(is.na(BDate_GR), str_c(BDate_GR_suggestion, "*"), BDate_GR),
+  left_join(DDate_GR_suggestions, by = c("Number", "DDate_HE")) |>
+  left_join(BDate_GR_suggestions, by = c("Number", "BDate_HE")) |>
+  mutate(DDate_GR = if_else(is.na(DDate_GR), str_c(DDate_GR_suggestion2, "*"), DDate_GR),
+         BDate_GR = if_else(is.na(BDate_GR), str_c(BDate_GR_suggestion2, "*"), BDate_GR),
          geography = str_extract(Tags, "\\%.*?\\%"),
          geography = str_remove_all(geography, "\\%"),
          Source_Code = as.character(Source_Code)) |>
@@ -221,17 +223,33 @@ for_qmd_generation |>
          year = str_replace(year, "-", "0") |> as.double(),
          year_he = if_else(is.na(year_he), "0", year_he),
          Material_code_new = str_split(Material_code, ", ") |> unlist() |> str_c("  - m:", ... = _, collapse = "\n") |> str_remove_all("- m: "),
+         Tag_code_new = str_split(Tags, ", ") |> unlist() |> str_c("  - t:", ... = _, collapse = "\n") |> str_remove_all("- t: "),
+         Tomb_type_new = Tomb_type |> str_c("  - tt:", ... = _, collapse = "\n") |> str_remove_all("  - tt: "),
          Lang_new = str_split(Lang, ", ") |> unlist() |> str_c("  - la:", ... = _, collapse = "\n") |> str_remove_all("- la: "),
+         Decor_code_new = str_split(Decor_code, ", ") |> unlist() |> str_c("  - d:", ... = _, collapse = "\n") |> str_remove_all("- d: "),
+         geography_new = geography |> str_c("  - ge:", ... = _, collapse = "\n") |> str_remove_all("  - ge: "),
+         Lang_new = str_split(Lang, ", ") |> unlist() |> str_c("  - l:", ... = _, collapse = "\n") |> str_remove_all("- l: "),
          Decor_code_new = str_split(Decor_code, ", ") |> unlist() |> str_c("  - d:", ... = _, collapse = "\n") |> str_remove_all("- d: ")) |>
   ungroup() |>
   mutate(place_tag = case_when(str_detect(Number, "QBA") ~ "QBA",
                                str_detect(Number, "SDB") ~ "SDB",
-                               TRUE ~ NA)) ->
+                               TRUE ~ NA)) |> 
+  distinct() ->
   for_qmd_generation_second_step
 
 for_qmd_generation_second_step |>
   filter(str_detect(Number, "QBA")) |> 
-  mutate(name_dates = str_glue(
+  mutate(gender_new = str_c("  - g:", Sex),
+         place_tag_new = place_tag |> str_c("  - c:", ... = _),
+         BDate_GR = str_squish(BDate_GR),
+         BDate_GR = if_else(BDate_GR == "", "---", BDate_GR),
+         DDate_GR = str_squish(DDate_GR),
+         DDate_GR = if_else(DDate_GR == "", "---", DDate_GR),
+         BDate_HE = str_squish(BDate_HE),
+         BDate_HE = if_else(BDate_HE == "", "---", BDate_HE),
+         DDate_HE = str_squish(DDate_HE),
+         DDate_HE = if_else(DDate_HE == "", "---", DDate_HE),
+         name_dates = str_glue(
 '
 ::: {{.name-style}}
 {Name_RU}
@@ -263,21 +281,11 @@ for_qmd_generation_second_step |>
 ')) |>
   group_by(Number) |>
   mutate(name_dates = str_c(name_dates, collapse = "\n---\n\n"),
-         Place2 = str_remove(place, "\n\n.*$") |> str_squish(),
-         Material_code_new = str_split(Material_code, ", ") |> unlist() |> str_c("  - m:", ... = _, collapse = "\n") |> str_remove_all("- m: "),
-         Tag_code_new = str_split(Tags, ", ") |> unlist() |> str_c("  - t:", ... = _, collapse = "\n") |> str_remove_all("- t: "),
-         place_tag_new = place_tag |> str_c("  - c:", ... = _, collapse = "\n") |> str_remove_all("  - c: "),
-         gender_new = Sex |> str_c("  - g:", ... = _, collapse = "\n") |> str_remove_all("  - g: "),
-         Tomb_type_new = Tomb_type |> str_c("  - tt:", ... = _, collapse = "\n") |> str_remove_all("  - tt: "),
-         geography_new = geography |> str_c("  - ge:", ... = _, collapse = "\n") |> str_remove_all("  - ge: "),
-         Lang_new = str_split(Lang, ", ") |> unlist() |> str_c("  - l:", ... = _, collapse = "\n") |> str_remove_all("- l: "),
-         Decor_code_new = str_split(Decor_code, ", ") |> unlist() |> str_c("  - d:", ... = _, collapse = "\n") |> str_remove_all("- d: ")) |>
+         Place2 = str_remove(place, "\n\n.*$") |> str_squish()) |>
   str_glue_data(
 '
 ---
 title: "{Number}"
-sidebar: tomb-list
-sex: {Sex}
 place: |
     {place}
 name-ru: |

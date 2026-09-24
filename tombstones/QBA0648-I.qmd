@@ -1,7 +1,5 @@
 ---
 title: "QBA0648"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0648_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1878 /  
+-.-.1878 / ---
 :::
 
 ::: {.column width="5%"}

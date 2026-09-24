@@ -1,7 +1,5 @@
 ---
 title: "QBA0031"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0031_3.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-20.03.1907 /  
+20.03.1907 / ---
 :::
 
 ::: {.column width="5%"}

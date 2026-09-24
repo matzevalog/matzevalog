@@ -1,7 +1,5 @@
 ---
 title: "QBA0381"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0381_1.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-19.02.1977 /  
+19.02.1977 / ---
 :::
 
 ::: {.column width="5%"}

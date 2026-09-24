@@ -329,25 +329,27 @@ map(codes, function(code){
 res |> 
   filter(is.na(DDate_GR) & !is.na(DDate_HE)) |> 
   select(Number, DDate_HE) |> 
-  mutate(DDate_HE = str_replace_all(DDate_HE, "Ad1", "Ad")) |> 
+  mutate(DDate_HE_new = str_replace_all(DDate_HE, "Ad1", "Ad")) |> 
   rowwise() |>
-  mutate(DDate_GR_suggestion = hebrew2greg(DDate_HE)) |>
+  mutate(DDate_GR_suggestion = hebrew2greg(DDate_HE_new)) |>
   ungroup() |> 
   na.omit() |> 
   mutate(DDate_HE_comment = if_else(nchar(DDate_GR_suggestion) > 10, DDate_GR_suggestion, NA),
-         DDate_GR_suggestion = if_else(nchar(DDate_GR_suggestion) > 10, NA, DDate_GR_suggestion)) ->
+         DDate_GR_suggestion = if_else(nchar(DDate_GR_suggestion) > 10, NA, DDate_GR_suggestion)) |> 
+  select(-DDate_HE_new) ->
   DDate_GR_suggestions
 
 res |> 
   filter(is.na(BDate_GR) & !is.na(BDate_HE)) |> 
   select(Number, BDate_HE) |> 
-  mutate(BDate_HE = str_replace_all(BDate_HE, "Ad1", "Ad")) |> 
+  mutate(BDate_HE_new = str_replace_all(BDate_HE, "Ad1", "Ad")) |> 
   rowwise() |>
-  mutate(BDate_GR_suggestion = hebrew2greg(BDate_HE)) |>
+  mutate(BDate_GR_suggestion = hebrew2greg(BDate_HE_new)) |>
   ungroup() |> 
   na.omit() |> 
   mutate(BDate_HE_comment = if_else(nchar(BDate_GR_suggestion) > 10, BDate_GR_suggestion, NA),
-         BDate_GR_suggestion = if_else(nchar(BDate_GR_suggestion) > 10, NA, BDate_GR_suggestion)) ->
+         BDate_GR_suggestion = if_else(nchar(BDate_GR_suggestion) > 10, NA, BDate_GR_suggestion)) |> 
+  select(-BDate_HE_new) ->
   BDate_GR_suggestions
 
 res |> 
@@ -359,3 +361,11 @@ res |>
 
 read_csv("data/data.csv", show_col_types = FALSE, progress = FALSE) |> 
   writexl::write_xlsx("data/data.xlsx")
+
+read_csv("data/data.csv", show_col_types = FALSE, progress = FALSE) |> 
+  filter(str_detect(Number, "QBA")) |> 
+  writexl::write_xlsx("data/QBA_data.xlsx")
+
+read_csv("data/data.csv", show_col_types = FALSE, progress = FALSE) |> 
+  filter(str_detect(Number, "SDB")) |> 
+  writexl::write_xlsx("data/SDB_data.xlsx")

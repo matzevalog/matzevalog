@@ -1,7 +1,5 @@
 ---
 title: "QBA0915"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0915_4.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-02.02.1932 /  
+02.02.1932 / ---
 :::
 
 ::: {.column width="5%"}

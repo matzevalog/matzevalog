@@ -1,7 +1,5 @@
 ---
 title: "QBA0429"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0429_1.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-05.05.1935 /  
+05.05.1935 / ---
 :::
 
 ::: {.column width="5%"}

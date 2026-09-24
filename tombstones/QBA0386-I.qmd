@@ -1,7 +1,5 @@
 ---
 title: "QBA0386"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0386_1.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-10.04.1880 /  
+10.04.1880 / ---
 :::
 
 ::: {.column width="5%"}

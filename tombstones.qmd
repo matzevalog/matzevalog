@@ -15,7 +15,6 @@ listing:
     field-display-names:
       title: "Памятник"
       name-ru: "Имя"
-      sex: "Пол"
       year-gr: 'Гр. год'
       year-he: 'Ев. год'
       place: "Место"
@@ -32,7 +31,6 @@ listing:
     field-display-names:
       title: "Памятник"
       name-he: "Имя"
-      sex: "Пол"
       year-gr: "Гр. год"
       year-he: "Ев. год"
       place: "Место"

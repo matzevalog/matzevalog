@@ -1,7 +1,5 @@
 ---
 title: "QBA0771"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -97,7 +95,7 @@ knitr::include_graphics("../images/QBA0771_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-17.05.1926 /  
+17.05.1926 / ---
 :::
 
 ::: {.column width="5%"}
@@ -105,7 +103,7 @@ knitr::include_graphics("../images/QBA0771_2.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-06.01.1997 /  
+06.01.1997 / ---
 :::
 
 ::::

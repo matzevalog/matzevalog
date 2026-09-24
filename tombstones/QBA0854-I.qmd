@@ -1,9 +1,7 @@
 ---
 title: "QBA0854"
-sidebar: tomb-list
-sex: мужской
 place: |
-    Куба (центр.)
+    Куба (центральное)
 
     Азербайджан
 name-ru: |
@@ -57,7 +55,7 @@ include-in-header:
 ---
 
 ::: {style="font-size: 1em; margin-bottom: 1.2em"}
-[Куба (центр.) Азербайджан](../cemeteries/QBA.html) > QBA0854
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0854
 :::
 
 ```{r}
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0854_3.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1904 /  
+-.-.1904 / ---
 :::
 
 ::: {.column width="5%"}

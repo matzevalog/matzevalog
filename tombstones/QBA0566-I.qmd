@@ -1,7 +1,5 @@
 ---
 title: "QBA0566"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -97,7 +95,7 @@ knitr::include_graphics("../images/QBA0566_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-07.03.1935 /  
+07.03.1935 / ---
 :::
 
 ::: {.column width="5%"}

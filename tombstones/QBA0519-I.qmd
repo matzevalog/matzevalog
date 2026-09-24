@@ -1,7 +1,5 @@
 ---
 title: "QBA0519"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -97,7 +95,7 @@ knitr::include_graphics("../images/QBA0519_1.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-02.06.1929 /  
+02.06.1929 / ---
 :::
 
 ::: {.column width="5%"}

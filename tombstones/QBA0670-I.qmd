@@ -1,7 +1,5 @@
 ---
 title: "QBA0670"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -96,7 +94,7 @@ knitr::include_graphics("../images/QBA0670_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-12.03.1919 /  
+12.03.1919 / ---
 :::
 
 ::: {.column width="5%"}

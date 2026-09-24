@@ -1,7 +1,5 @@
 ---
 title: "QBA0893"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0893_3.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1928 /  
+-.-.1928 / ---
 :::
 
 ::: {.column width="5%"}

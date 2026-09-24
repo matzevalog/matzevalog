@@ -1,7 +1,5 @@
 ---
 title: "QBA0430"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -18,28 +16,16 @@ year-gr: 1988
 year-he: 0
 categories:
   - c:QBA
-  - c:QBA
   - g:мужской
-  - g:женский
   - tt:L-образный
-  - tt:L-образный
-  - ge:география
   - ge:география
   - l:иврит
   - l:русский
-  - l:иврит
-  - l:русский
-  - d:архитектурно-орнаментальный
-  - d:традиционная символика
   - d:архитектурно-орнаментальный
   - d:традиционная символика
   - m:известняк
   - m:гранит
   - m:мрамор
-  - m:известняк
-  - m:гранит
-  - m:мрамор
-  - t:%география%
   - t:%география%
 lightbox: true
 format:
@@ -110,7 +96,7 @@ knitr::include_graphics("../images/QBA0430_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-22.09.1924 /  
+22.09.1924 / ---
 :::
 
 ::: {.column width="5%"}
@@ -118,7 +104,7 @@ knitr::include_graphics("../images/QBA0430_2.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-26.12.1988 /  
+26.12.1988 / ---
 :::
 
 ::::
@@ -139,7 +125,7 @@ knitr::include_graphics("../images/QBA0430_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-11.01.1908 /  
+11.01.1908 / ---
 :::
 
 ::: {.column width="5%"}

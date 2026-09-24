@@ -1,7 +1,5 @@
 ---
 title: "QBA1085"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -94,7 +92,7 @@ knitr::include_graphics("../images/QBA1085_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-  /  
+--- / ---
 :::
 
 ::: {.column width="5%"}

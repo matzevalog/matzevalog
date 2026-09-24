@@ -1,7 +1,5 @@
 ---
 title: "QBA0323"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -14,7 +12,7 @@ name-he: |
     אסתר בת אמירגו
     
     Эстер, дочь Амирджо
-year-gr: 0
+year-gr: 1913
 year-he: 5673
 categories:
   - c:QBA
@@ -96,7 +94,7 @@ knitr::include_graphics("../images/QBA0323_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-  /  
+--- / ---
 :::
 
 ::: {.column width="5%"}
@@ -104,7 +102,7 @@ knitr::include_graphics("../images/QBA0323_2.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-  / 01.Ad1.5673
+08.02.1913* / 01.Ad1.5673
 :::
 
 ::::

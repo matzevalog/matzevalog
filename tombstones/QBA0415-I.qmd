@@ -1,7 +1,5 @@
 ---
 title: "QBA0415"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0415_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-17.09.1920 /  
+17.09.1920 / ---
 :::
 
 ::: {.column width="5%"}

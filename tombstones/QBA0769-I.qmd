@@ -1,7 +1,5 @@
 ---
 title: "QBA0769"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -97,7 +95,7 @@ knitr::include_graphics("../images/QBA0769_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-12.02.1954 /  
+12.02.1954 / ---
 :::
 
 ::: {.column width="5%"}

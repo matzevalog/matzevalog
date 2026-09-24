@@ -1,7 +1,5 @@
 ---
 title: "QBA0253"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -100,7 +98,7 @@ knitr::include_graphics("../images/QBA0253_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-17.07.1973 /  
+17.07.1973 / ---
 :::
 
 ::: {.column width="5%"}

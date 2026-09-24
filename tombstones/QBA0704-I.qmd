@@ -1,7 +1,5 @@
 ---
 title: "QBA0704"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -95,7 +93,7 @@ knitr::include_graphics("../images/QBA0704_1.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-29.09.1970 /  
+29.09.1970 / ---
 :::
 
 ::: {.column width="5%"}

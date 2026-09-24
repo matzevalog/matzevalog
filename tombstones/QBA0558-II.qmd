@@ -1,7 +1,5 @@
 ---
 title: "QBA0558"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -18,30 +16,17 @@ year-gr: 2005
 year-he: 5765
 categories:
   - c:QBA
-  - c:QBA
-  - g:мужской
   - g:женский
   - tt:L-образный
-  - tt:L-образный
-
 
   - l:иврит
   - l:русский
-  - l:иврит
-  - l:русский
-  - d:архитектурно-орнаментальный
-  - d:растительный
-  - d:традиционная символика
   - d:архитектурно-орнаментальный
   - d:растительный
   - d:традиционная символика
   - m:песчаник
   - m:известняк
   - m:гранит
-  - m:песчаник
-  - m:известняк
-  - m:гранит
-  
   
 lightbox: true
 format:
@@ -112,7 +97,7 @@ knitr::include_graphics("../images/QBA0558_1.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1954 /  
+-.-.1954 / ---
 :::
 
 ::: {.column width="5%"}
@@ -120,7 +105,7 @@ knitr::include_graphics("../images/QBA0558_1.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
--.-.1993 /  
+-.-.1993 / ---
 :::
 
 ::::
@@ -141,7 +126,7 @@ knitr::include_graphics("../images/QBA0558_1.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1912 /  
+-.-.1912 / ---
 :::
 
 ::: {.column width="5%"}

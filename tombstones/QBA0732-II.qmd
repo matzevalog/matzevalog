@@ -1,7 +1,5 @@
 ---
 title: "QBA0732"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -18,28 +16,16 @@ year-gr: 0
 year-he: 0
 categories:
   - c:QBA
-  - c:QBA
-  - g:мужской
   - g:мужской
   - tt:L-образный
-  - tt:L-образный
 
-
-  - l:иврит
-  - l:русский
   - l:иврит
   - l:русский
   - d:архитектурно-орнаментальный
   - d:растительный
   - d:традиционная символика
-  - d:архитектурно-орнаментальный
-  - d:растительный
-  - d:традиционная символика
   - m:габбро-диорит
   - m:лабрадорит
-  - m:габбро-диорит
-  - m:лабрадорит
-  
   
 lightbox: true
 format:
@@ -111,7 +97,7 @@ knitr::include_graphics("../images/QBA0732_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-03.03.1931 /  
+03.03.1931 / ---
 :::
 
 ::: {.column width="5%"}
@@ -140,7 +126,7 @@ knitr::include_graphics("../images/QBA0732_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1922 /  
+-.-.1922 / ---
 :::
 
 ::: {.column width="5%"}
@@ -148,7 +134,7 @@ knitr::include_graphics("../images/QBA0732_2.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-  / 
+--- / ---
 :::
 
 ::::

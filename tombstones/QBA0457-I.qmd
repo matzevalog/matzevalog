@@ -1,7 +1,5 @@
 ---
 title: "QBA0457"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0457_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-04.01.1955 /  
+04.01.1955 / ---
 :::
 
 ::: {.column width="5%"}

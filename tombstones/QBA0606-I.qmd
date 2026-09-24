@@ -1,7 +1,5 @@
 ---
 title: "QBA0606"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0606_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-10.04.1933 /  
+10.04.1933 / ---
 :::
 
 ::: {.column width="5%"}

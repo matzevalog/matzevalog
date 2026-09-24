@@ -1,7 +1,5 @@
 ---
 title: "QBA0857"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0857_3.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-02.02.1901 /  
+02.02.1901 / ---
 :::
 
 ::: {.column width="5%"}

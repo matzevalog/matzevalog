@@ -1,9 +1,7 @@
 ---
 title: "QBA0603"
-sidebar: tomb-list
-sex: мужской
 place: |
-    Куба (центр.)
+    Куба (центральное)
 
     Азербайджан
 name-ru: |
@@ -56,7 +54,7 @@ include-in-header:
 ---
 
 ::: {style="font-size: 1em; margin-bottom: 1.2em"}
-[Куба (центр.) Азербайджан](../cemeteries/QBA.html) > QBA0603
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0603
 :::
 
 ```{r}
@@ -97,7 +95,7 @@ knitr::include_graphics("../images/QBA0603_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-04.01.1931 /  
+04.01.1931 / ---
 :::
 
 ::: {.column width="5%"}

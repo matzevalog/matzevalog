@@ -1,7 +1,5 @@
 ---
 title: "QBA0792"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0792_1.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.06.1927 /  
+-.06.1927 / ---
 :::
 
 ::: {.column width="5%"}

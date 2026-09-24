@@ -1,7 +1,5 @@
 ---
 title: "QBA0790"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0790_3.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1928 /  
+-.-.1928 / ---
 :::
 
 ::: {.column width="5%"}

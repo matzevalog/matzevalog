@@ -1,7 +1,5 @@
 ---
 title: "QBA0944"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0944_4.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-02.02.1936 /  
+02.02.1936 / ---
 :::
 
 ::: {.column width="5%"}

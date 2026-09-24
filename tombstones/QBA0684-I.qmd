@@ -1,7 +1,5 @@
 ---
 title: "QBA0684"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -100,7 +98,7 @@ knitr::include_graphics("../images/QBA0684_5.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-01.03.1938 /  
+01.03.1938 / ---
 :::
 
 ::: {.column width="5%"}

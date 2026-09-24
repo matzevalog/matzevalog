@@ -1,7 +1,5 @@
 ---
 title: "QBA0410"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0410_3.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-05.06.1931 /  
+05.06.1931 / ---
 :::
 
 ::: {.column width="5%"}

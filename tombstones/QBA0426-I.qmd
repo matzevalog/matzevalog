@@ -1,7 +1,5 @@
 ---
 title: "QBA0426"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 

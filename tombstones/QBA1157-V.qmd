@@ -1,7 +1,5 @@
 ---
 title: "QBA1157"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -14,48 +12,16 @@ name-he: |
     רבקה
     
     Ривка
-year-gr: 0
+year-gr: 1817
 year-he: 5577
 categories:
   - c:QBA
-  - c:QBA
-  - c:QBA
-  - c:QBA
-  - c:QBA
-  - g:женский
-  - g:мужской
-  - g:мужской
-  - g:мужской
   - g:женский
   - tt:стела
-  - tt:стела
-  - tt:стела
-  - tt:стела
-  - tt:стела
-
-
-
-
 
   - l:иврит
-  - l:иврит
-  - l:иврит
-  - l:иврит
-  - l:иврит
-  - d:архитектурно-орнаментальный
-  - d:архитектурно-орнаментальный
-  - d:архитектурно-орнаментальный
-  - d:архитектурно-орнаментальный
   - d:архитектурно-орнаментальный
   - m:известняк
-  - m:известняк
-  - m:известняк
-  - m:известняк
-  - m:известняк
-  
-  
-  
-  
   
 lightbox: true
 format:
@@ -128,7 +94,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-  /  
+--- / ---
 :::
 
 ::: {.column width="5%"}
@@ -136,7 +102,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-  / 15.Ni.5577
+01.04.1817* / 15.Ni.5577
 :::
 
 ::::
@@ -157,7 +123,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-  /  
+--- / ---
 :::
 
 ::: {.column width="5%"}
@@ -165,7 +131,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-  / 15.Ni.5577
+01.04.1817* / 15.Ni.5577
 :::
 
 ::::
@@ -186,7 +152,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-  /  
+--- / ---
 :::
 
 ::: {.column width="5%"}
@@ -194,7 +160,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-  / 15.Ni.5577
+01.04.1817* / 15.Ni.5577
 :::
 
 ::::
@@ -215,7 +181,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-  /  
+--- / ---
 :::
 
 ::: {.column width="5%"}
@@ -223,7 +189,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-  / 15.Ni.5577
+01.04.1817* / 15.Ni.5577
 :::
 
 ::::
@@ -244,7 +210,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-  /  
+--- / ---
 :::
 
 ::: {.column width="5%"}
@@ -252,7 +218,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-  / 15.Ni.5577
+01.04.1817* / 15.Ni.5577
 :::
 
 ::::

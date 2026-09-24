@@ -1,7 +1,5 @@
 ---
 title: "QBA0423"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -97,7 +95,7 @@ knitr::include_graphics("../images/QBA0423_4.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-02.10.1963 /  
+02.10.1963 / ---
 :::
 
 ::: {.column width="5%"}

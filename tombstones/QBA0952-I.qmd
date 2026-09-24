@@ -1,7 +1,5 @@
 ---
 title: "QBA0952"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0952_3.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-01.10.1912 /  
+01.10.1912 / ---
 :::
 
 ::: {.column width="5%"}

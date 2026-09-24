@@ -1,7 +1,5 @@
 ---
 title: "QBA1100"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -14,7 +12,7 @@ name-he: |
     אליעזר בן אבשלום
     
     Элиэзер, сын Авшалома
-year-gr: 0
+year-gr: 1889
 year-he: 5649
 categories:
   - c:QBA
@@ -96,7 +94,7 @@ knitr::include_graphics("../images/QBA1100_4.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-  /  
+--- / ---
 :::
 
 ::: {.column width="5%"}
@@ -104,7 +102,7 @@ knitr::include_graphics("../images/QBA1100_4.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-  / 12.Ad1.5649
+13.02.1889* / 12.Ad1.5649
 :::
 
 ::::

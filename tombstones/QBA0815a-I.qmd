@@ -1,7 +1,5 @@
 ---
 title: "QBA0815a"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0815a_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1930 /  
+-.-.1930 / ---
 :::
 
 ::: {.column width="5%"}

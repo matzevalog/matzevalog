@@ -1,7 +1,5 @@
 ---
 title: "QBA0714"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -97,7 +95,7 @@ knitr::include_graphics("../images/QBA0714_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-28.09.1938 /  
+28.09.1938 / ---
 :::
 
 ::: {.column width="5%"}

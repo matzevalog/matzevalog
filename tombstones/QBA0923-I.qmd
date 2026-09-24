@@ -1,7 +1,5 @@
 ---
 title: "QBA0923"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -97,7 +95,7 @@ knitr::include_graphics("../images/QBA0923_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-01.07.1931 /  
+01.07.1931 / ---
 :::
 
 ::: {.column width="5%"}

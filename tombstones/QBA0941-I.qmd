@@ -1,7 +1,5 @@
 ---
 title: "QBA0941"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -100,7 +98,7 @@ knitr::include_graphics("../images/QBA0941_4.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1913 /  
+-.-.1913 / ---
 :::
 
 ::: {.column width="5%"}

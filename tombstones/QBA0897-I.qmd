@@ -1,7 +1,5 @@
 ---
 title: "QBA0897"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0897_4.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-17.11.1965 /  
+17.11.1965 / ---
 :::
 
 ::: {.column width="5%"}

@@ -1,7 +1,5 @@
 ---
 title: "QBA1139"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -14,7 +12,7 @@ name-he: |
     בנימין בן אברהם
     
     Беньямин, сын Авраама
-year-gr: 0
+year-gr: 1890
 year-he: 5650
 categories:
   - c:QBA
@@ -94,7 +92,7 @@ knitr::include_graphics("../images/QBA1139_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-  /  
+--- / ---
 :::
 
 ::: {.column width="5%"}
@@ -102,7 +100,7 @@ knitr::include_graphics("../images/QBA1139_2.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-  / 16.Ad1.5650
+08.03.1890* / 16.Ad1.5650
 :::
 
 ::::

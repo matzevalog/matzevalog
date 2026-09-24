@@ -1,7 +1,5 @@
 ---
 title: "QBA0179"
-sidebar: tomb-list
-sex: мужской
 place: |
     Куба (центральное)
 
@@ -94,7 +92,7 @@ knitr::include_graphics("../images/QBA0179.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1936 /  
+-.-.1936 / ---
 :::
 
 ::: {.column width="5%"}

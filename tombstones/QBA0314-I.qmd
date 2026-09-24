@@ -1,7 +1,5 @@
 ---
 title: "QBA0314"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -97,7 +95,7 @@ knitr::include_graphics("../images/QBA0314_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-16.04.1910 /  
+16.04.1910 / ---
 :::
 
 ::: {.column width="5%"}

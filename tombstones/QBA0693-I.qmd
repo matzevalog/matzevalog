@@ -1,7 +1,5 @@
 ---
 title: "QBA0693"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -96,7 +94,7 @@ knitr::include_graphics("../images/QBA0693_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-02.05.1969 /  
+02.05.1969 / ---
 :::
 
 ::: {.column width="5%"}

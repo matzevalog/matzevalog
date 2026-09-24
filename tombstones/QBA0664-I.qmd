@@ -1,7 +1,5 @@
 ---
 title: "QBA0664"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -98,7 +96,7 @@ knitr::include_graphics("../images/QBA0664_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1920 /  
+-.-.1920 / ---
 :::
 
 ::: {.column width="5%"}

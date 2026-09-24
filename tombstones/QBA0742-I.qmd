@@ -1,7 +1,5 @@
 ---
 title: "QBA0742"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -97,7 +95,7 @@ knitr::include_graphics("../images/QBA0742_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-26.06.1915 /  
+26.06.1915 / ---
 :::
 
 ::: {.column width="5%"}

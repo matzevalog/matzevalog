@@ -1,7 +1,5 @@
 ---
 title: "QBA0315"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -95,7 +93,7 @@ knitr::include_graphics("../images/QBA0315_1.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-14.10.1891 /  
+14.10.1891 / ---
 :::
 
 ::: {.column width="5%"}

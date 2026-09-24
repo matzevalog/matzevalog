@@ -1,9 +1,7 @@
 ---
 title: "QBA0507"
-sidebar: tomb-list
-sex: мужской
 place: |
-    Куба (центр.)
+    Куба (центральное)
 
     Азербайджан
 name-ru: |
@@ -68,7 +66,7 @@ include-in-header:
 ---
 
 ::: {style="font-size: 1em; margin-bottom: 1.2em"}
-[Куба (центр.) Азербайджан](../cemeteries/QBA.html) > QBA0507
+[Куба (центральное)](../cemeteries/QBA.html) > QBA0507
 :::
 
 ```{r}
@@ -109,7 +107,7 @@ knitr::include_graphics("../images/QBA0507_1.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-19.11.1945 /  
+19.11.1945 / ---
 :::
 
 ::: {.column width="5%"}

@@ -1,7 +1,5 @@
 ---
 title: "QBA0658"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -99,7 +97,7 @@ knitr::include_graphics("../images/QBA0658_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-29.01.1930 /  
+29.01.1930 / ---
 :::
 
 ::: {.column width="5%"}

@@ -1,7 +1,5 @@
 ---
 title: "QBA0402"
-sidebar: tomb-list
-sex: женский
 place: |
     Куба (центральное)
 
@@ -97,7 +95,7 @@ knitr::include_graphics("../images/QBA0402_2.JPG")
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-19.08.1987 /  
+19.08.1987 / ---
 :::
 
 ::: {.column width="5%"}
