@@ -19,7 +19,6 @@ year-he: 5742
 categories:
   - c:QBA
   - c:QBA
-  - g:мужской
   - g:женский
   - tt:L-образный
   - tt:L-образный
