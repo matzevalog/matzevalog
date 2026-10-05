@@ -91,7 +91,7 @@ knitr::include_graphics("../images/QBA0801_3.JPG")
 
 :::: {.columns}
 ::: {.column width="5%"}
-![](../additional_images/Cradle.svg){width=1.3em}
+![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
@@ -99,7 +99,7 @@ knitr::include_graphics("../images/QBA0801_3.JPG")
 :::
 
 ::: {.column width="5%"}
-![](../additional_images/Tombstone.svg){width=1.3em}
+![](../additional_images/Tombstone.svg){width=1.3em .nolightbox}
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
@@ -120,7 +120,7 @@ knitr::include_graphics("../images/QBA0801_3.JPG")
 
 :::: {.columns}
 ::: {.column width="5%"}
-![](../additional_images/Cradle.svg){width=1.3em}
+![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
@@ -128,7 +128,7 @@ knitr::include_graphics("../images/QBA0801_3.JPG")
 :::
 
 ::: {.column width="5%"}
-![](../additional_images/Tombstone.svg){width=1.3em}
+![](../additional_images/Tombstone.svg){width=1.3em .nolightbox}
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}

@@ -28,15 +28,6 @@ website:
     right: '[{{< fa brands creative-commons size=lg >}}]{style="vertical-align: middle; color: #dbae63;"} [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru), 2026'
   bread-crumbs: false
   sidebar:
-      - id: tomb-list
-        style: "floating"
-        alignment: left
-        collapse-level: 2
-        search: true
-        contents:
-          - section: "**Cписок памятников**"
-            contents: 
-              - auto: "tombstones/*.qmd"
       - id: filter-list
         style: "floating"
         alignment: left

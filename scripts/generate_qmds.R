@@ -261,7 +261,7 @@ for_qmd_generation_second_step |>
 
 :::: {{.columns}}
 ::: {{.column width="5%"}}
-![](../additional_images/Cradle.svg){{width=1.3em}}
+![](../additional_images/Cradle.svg){{width=1.3em .nolightbox}}
 :::
 
 ::: {{.column style="width: 40%; padding-left: 0.2em;"}}
@@ -269,7 +269,7 @@ for_qmd_generation_second_step |>
 :::
 
 ::: {{.column width="5%"}}
-![](../additional_images/Tombstone.svg){{width=1.3em}}
+![](../additional_images/Tombstone.svg){{width=1.3em .nolightbox}}
 :::
 
 ::: {{.column style="width: 50%; padding-left: 0.2em;"}}
