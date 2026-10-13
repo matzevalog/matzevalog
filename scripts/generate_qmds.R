@@ -176,9 +176,13 @@ for_qmd_generation |>
   mutate(DDate_HE_new = str_replace_all(DDate_HE, "Ad1", "Ad")) |> 
   rowwise() |>
   mutate(DDate_GR_suggestion2 = hebrew2greg(DDate_HE_new),
-         DDate_GR_suggestion2 = if_else(str_detect(DDate_HE_new, "-.-.\\d{4}"),
-                                       str_c("-.-.", as.character(as.double(str_extract(DDate_HE_new, "\\d{4}")) - 3760)),
-                                       as.character(DDate_GR_suggestion2))) |> 
+         month = str_extract(DDate_HE_new, "(?<=\\.).*?(?=\\.)"),
+         year = str_extract(DDate_HE_new, "(?<=\\.)\\d{4}$") |> as.double(),
+         result = case_when(month %in% c("-", "Ki", "Te", "Sh") ~ str_c("-.-.", year-3760, "/", year-3761),
+                            month %in% c("Ti", "Ch") ~ str_c("-.-.", year-3761),
+                            TRUE ~ str_c("-.-.", year-3760)),
+         DDate_GR_suggestion2 = if_else(is.na(DDate_GR_suggestion2), result, DDate_GR_suggestion2)) |> 
+  select(-year, -month, -result) |> 
   ungroup() |>
   na.omit() |>
   mutate(DDate_HE_comment = if_else(nchar(DDate_GR_suggestion2) > 10, DDate_GR_suggestion2, NA),
@@ -193,9 +197,13 @@ for_qmd_generation |>
   mutate(BDate_HE_new = str_replace_all(BDate_HE, "Ad1", "Ad")) |> 
   rowwise() |>
   mutate(BDate_GR_suggestion2 = hebrew2greg(BDate_HE_new),
-         BDate_GR_suggestion2 = if_else(str_detect(BDate_HE_new, "-.-.\\d{4}"),
-                                       str_c("-.-.", as.character(as.double(str_extract(BDate_HE_new, "\\d{4}")) - 3760)),
-                                       as.character(BDate_GR_suggestion2))) |>
+         month = str_extract(BDate_HE_new, "(?<=\\.).*?(?=\\.)"),
+         year = str_extract(BDate_HE_new, "(?<=\\.)\\d{4}$") |> as.double(),
+         result = case_when(month %in% c("-", "Ki", "Te", "Sh") ~ str_c("-.-.", year-3760, "/", year-3761),
+                            month %in% c("Ti", "Ch") ~ str_c("-.-.", year-3761),
+                            TRUE ~ str_c("-.-.", year-3760)),
+         BDate_GR_suggestion2 = if_else(is.na(BDate_GR_suggestion2), result, BDate_GR_suggestion2)) |> 
+  select(-year, -month, -result) |> 
   ungroup() |>
   na.omit() |>
   mutate(BDate_HE_comment = if_else(nchar(BDate_GR_suggestion2) > 10, BDate_GR_suggestion2, NA),
