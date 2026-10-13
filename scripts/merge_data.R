@@ -342,14 +342,15 @@ res |>
   select(-year, -month, -result) |> 
   ungroup() |> 
   na.omit() |> 
-  mutate(DDate_HE_comment = if_else(nchar(DDate_GR_suggestion) > 10, DDate_GR_suggestion, NA),
-         DDate_GR_suggestion = if_else(nchar(DDate_GR_suggestion) > 10, NA, DDate_GR_suggestion)) |> 
+  mutate(DDate_HE_comment = if_else(str_detect(DDate_GR_suggestion, "is not a leap year"), DDate_GR_suggestion, NA),
+         DDate_GR_suggestion = if_else(str_detect(DDate_GR_suggestion, "is not a leap year"), NA, DDate_GR_suggestion)) |> 
   select(-DDate_HE_new) ->
   DDate_GR_suggestions
 
 res |> 
   filter(is.na(BDate_GR) & !is.na(BDate_HE)) |> 
   select(Number, BDate_HE) |> 
+  bind_rows(tibble(Number = "1", BDate_HE = "hi")) |> 
   mutate(BDate_HE_new = str_replace_all(BDate_HE, "Ad1", "Ad")) |> 
   rowwise() |>
   mutate(BDate_GR_suggestion = hebrew2greg(BDate_HE_new),
@@ -362,8 +363,8 @@ res |>
   select(-year, -month, -result) |> 
   ungroup() |> 
   na.omit() |> 
-  mutate(BDate_HE_comment = if_else(nchar(BDate_GR_suggestion) > 10, BDate_GR_suggestion, NA),
-         BDate_GR_suggestion = if_else(nchar(BDate_GR_suggestion) > 10, NA, BDate_GR_suggestion)) |> 
+  mutate(BDate_HE_comment = if_else(str_detect(BDate_GR_suggestion, "is not a leap year"), BDate_GR_suggestion, NA),
+         BDate_GR_suggestion = if_else(str_detect(BDate_GR_suggestion, "is not a leap year"), NA, BDate_GR_suggestion)) |> 
   select(-BDate_HE_new) ->
   BDate_GR_suggestions
 

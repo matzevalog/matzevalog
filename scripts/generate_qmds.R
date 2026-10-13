@@ -181,12 +181,12 @@ for_qmd_generation |>
          result = case_when(month %in% c("-", "Ki", "Te", "Sh") ~ str_c("-.-.", year-3760, "/", year-3761),
                             month %in% c("Ti", "Ch") ~ str_c("-.-.", year-3761),
                             TRUE ~ str_c("-.-.", year-3760)),
-         DDate_GR_suggestion2 = if_else(is.na(DDate_GR_suggestion2), result, DDate_GR_suggestion2)) |> 
+         DDate_GR_suggestion2 = if_else(is.na(DDate_GR_suggestion2), result, as.character(DDate_GR_suggestion2))) |> 
   select(-year, -month, -result) |> 
   ungroup() |>
   na.omit() |>
-  mutate(DDate_HE_comment = if_else(nchar(DDate_GR_suggestion2) > 10, DDate_GR_suggestion2, NA),
-         DDate_GR_suggestion2 = if_else(nchar(DDate_GR_suggestion2) > 10, NA, DDate_GR_suggestion2),
+  mutate(DDate_HE_comment = if_else(str_detect(DDate_GR_suggestion2, "is not a leap year"), DDate_GR_suggestion2, NA),
+         DDate_GR_suggestion2 = if_else(str_detect(DDate_GR_suggestion2, "is not a leap year"), NA, DDate_GR_suggestion2),
          across(everything(), as.character)) |> 
   select(-DDate_HE_new)->
   DDate_GR_suggestions
@@ -202,12 +202,12 @@ for_qmd_generation |>
          result = case_when(month %in% c("-", "Ki", "Te", "Sh") ~ str_c("-.-.", year-3760, "/", year-3761),
                             month %in% c("Ti", "Ch") ~ str_c("-.-.", year-3761),
                             TRUE ~ str_c("-.-.", year-3760)),
-         BDate_GR_suggestion2 = if_else(is.na(BDate_GR_suggestion2), result, BDate_GR_suggestion2)) |> 
+         BDate_GR_suggestion2 = if_else(is.na(BDate_GR_suggestion2), result, as.character(BDate_GR_suggestion2))) |> 
   select(-year, -month, -result) |> 
   ungroup() |>
   na.omit() |>
-  mutate(BDate_HE_comment = if_else(nchar(BDate_GR_suggestion2) > 10, BDate_GR_suggestion2, NA),
-         BDate_GR_suggestion2 = if_else(nchar(BDate_GR_suggestion2) > 10, NA, BDate_GR_suggestion2),
+  mutate(BDate_HE_comment = if_else(str_detect(BDate_GR_suggestion2, "is not a leap year"), BDate_GR_suggestion2, NA),
+         BDate_GR_suggestion2 = if_else(str_detect(BDate_GR_suggestion2, "is not a leap year"), NA, BDate_GR_suggestion2),
          across(everything(), as.character)) |> 
   select(-BDate_HE_new)->
   BDate_GR_suggestions
