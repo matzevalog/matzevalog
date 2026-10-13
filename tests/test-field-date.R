@@ -5,7 +5,7 @@ library(testthat)
 test_that("Проверка заполнения григорианской даты смерти", {
   
   read_csv("../data/data.csv", show_col_types = FALSE, progress = FALSE) |> 
-    mutate(DDate_GR = str_remove_all(DDate_GR, "[\\d\\s\\+\\./-]")) |> 
+    mutate(DDate_GR = str_remove_all(DDate_GR, "[\\d\\*\\s\\+\\./-]")) |> 
     select(DDate_GR, Number) |>
     na.omit() |> 
     filter(DDate_GR != "") |> 
@@ -54,7 +54,7 @@ test_that("Проверка заполнения григорианской да
 test_that("Проверка заполнения григорианской даты рождения", {
   
   read_csv("../data/data.csv", show_col_types = FALSE, progress = FALSE) |> 
-    mutate(BDate_GR = str_remove_all(DDate_GR, "[\\d\\s\\+\\./-]")) |> 
+    mutate(BDate_GR = str_remove_all(DDate_GR, "[\\d\\s\\*\\+\\./-]")) |> 
     select(BDate_GR, Number) |>
     na.omit() |> 
     filter(BDate_GR != "") |> 

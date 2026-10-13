@@ -64,7 +64,8 @@ hebrew2greg <- function(hebrew_date) {
 # hebrew2greg("29.Ad.5710")
 # hebrew2greg("30.Ad.5710")
 
-codes <- c("QBA", "SDB")
+# codes <- c("QBA", "SDB")
+codes <- c("QBA")
 
 map(codes, function(code){
   
