@@ -12,7 +12,7 @@ name-he: |
     רבקה
     
     Ривка
-year-gr: 1817
+year-gr: 0
 year-he: 5577
 categories:
   - c:QBA
@@ -102,7 +102,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
--.-.1817* / 15.Ni.5577
+--- / 15.Ni.5577
 :::
 
 ::::
@@ -131,7 +131,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
--.-.1817* / 15.Ni.5577
+--- / 15.Ni.5577
 :::
 
 ::::
@@ -160,7 +160,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
--.-.1817* / 15.Ni.5577
+--- / 15.Ni.5577
 :::
 
 ::::
@@ -189,7 +189,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
--.-.1817* / 15.Ni.5577
+--- / 15.Ni.5577
 :::
 
 ::::
@@ -218,7 +218,7 @@ knitr::include_graphics("../images/QBA1157_4.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
--.-.1817* / 15.Ni.5577
+--- / 15.Ni.5577
 :::
 
 ::::
