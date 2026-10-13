@@ -114,7 +114,7 @@ knitr::include_graphics("../images/QBA0930_4.JPG")
 ---
 
 ::: {.name-style}
-ИЛХАНАНОВ Юнун Хаймишиевич
+ИЛХАНАНОВ Юнун (Хаймишиевич)
 :::
 
 ::: {style="font-size: 1.2em;"}

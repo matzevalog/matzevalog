@@ -111,7 +111,7 @@ knitr::include_graphics("../images/QBA0801_3.JPG")
 ---
 
 ::: {.name-style}
-МААСИЯЕВА Турунож Якубовна
+МААСИЯЕВА Турунож (Якубовна)
 :::
 
 ::: {style="font-size: 1.2em;"}

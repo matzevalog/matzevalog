@@ -112,7 +112,7 @@ knitr::include_graphics("../images/QBA0838_1.JPG")
 ---
 
 ::: {.name-style}
-ЗАРБАИЛОВ Шамаил Юсуфович
+ЗАРБАИЛОВ Шамаил (Юсуфович)
 :::
 
 ::: {style="font-size: 1.2em;"}

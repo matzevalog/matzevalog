@@ -5,13 +5,13 @@ place: |
 
     Азербайджан
 name-ru: |
-    ШАМАИЛОВ Емил Сионович
+    ШАМАИЛОВ Емил (Сионович)
     
     
 name-he: |
     
     
-    ШАМАИЛОВ Емил Сионович
+    ШАМАИЛОВ Емил (Сионович)
 year-gr: 2012
 year-he: 0
 categories:
@@ -84,7 +84,7 @@ knitr::include_graphics("../images/QBA0980_2.JPG")
 ::: {.column width="74%"}
 
 ::: {.name-style}
-ШАМАИЛОВ Емил Сионович
+ШАМАИЛОВ Емил (Сионович)
 :::
 
 ::: {style="font-size: 1.2em;"}

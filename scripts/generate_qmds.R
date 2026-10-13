@@ -153,7 +153,7 @@ read_csv("data/data.csv", show_col_types = FALSE) |>
          alt_name_full = str_c(alt_name, " ", patronim_ru_alt),
          alt_name_full = str_squish(alt_name_full),
          alt_name_full = if_else(alt_name_full != "", str_c("(", alt_name_full, ")"), ""),
-         alt_name_full = if_else(patronim_ru_1 == "", str_remove_all(alt_name_full, "[\\)\\(]"), alt_name_full),
+         # alt_name_full = if_else(patronim_ru_1 == "", str_remove_all(alt_name_full, "[\\)\\(]"), alt_name_full),
          Name_RU = str_c(ru_last_name, " ", Name_RU, child_type_ru, " ", patronim_ru_1, " ", patronim_ru_2, " ", patronim_ru_3, " ", patronim_ru_4, alt_name_full),
          Name_HE = str_c(he_last_name, " ", Name_HE, " ", child_type_he, " ", patronim_he_first_part, " ", patronim_he),
          Name_RU = str_squish(Name_RU),
@@ -175,7 +175,10 @@ for_qmd_generation |>
   select(Number, DDate_HE) |>
   mutate(DDate_HE_new = str_replace_all(DDate_HE, "Ad1", "Ad")) |> 
   rowwise() |>
-  mutate(DDate_GR_suggestion2 = hebrew2greg(DDate_HE_new)) |>
+  mutate(DDate_GR_suggestion2 = hebrew2greg(DDate_HE_new),
+         DDate_GR_suggestion2 = if_else(str_detect(DDate_HE_new, "-.-.\\d{4}"),
+                                       str_c("-.-.", as.character(as.double(str_extract(DDate_HE_new, "\\d{4}")) - 3760)),
+                                       as.character(DDate_GR_suggestion2))) |> 
   ungroup() |>
   na.omit() |>
   mutate(DDate_HE_comment = if_else(nchar(DDate_GR_suggestion2) > 10, DDate_GR_suggestion2, NA),
@@ -189,7 +192,10 @@ for_qmd_generation |>
   select(Number, BDate_HE) |> 
   mutate(BDate_HE_new = str_replace_all(BDate_HE, "Ad1", "Ad")) |> 
   rowwise() |>
-  mutate(BDate_GR_suggestion2 = hebrew2greg(BDate_HE_new)) |>
+  mutate(BDate_GR_suggestion2 = hebrew2greg(BDate_HE_new),
+         BDate_GR_suggestion2 = if_else(str_detect(BDate_HE_new, "-.-.\\d{4}"),
+                                       str_c("-.-.", as.character(as.double(str_extract(BDate_HE_new, "\\d{4}")) - 3760)),
+                                       as.character(BDate_GR_suggestion2))) |>
   ungroup() |>
   na.omit() |>
   mutate(BDate_HE_comment = if_else(nchar(BDate_GR_suggestion2) > 10, BDate_GR_suggestion2, NA),
@@ -238,7 +244,6 @@ for_qmd_generation |>
   for_qmd_generation_second_step
 
 for_qmd_generation_second_step |>
-  filter(str_detect(Number, "QBA")) |> 
   mutate(gender_new = str_c("  - g:", Sex),
          place_tag_new = place_tag |> str_c("  - c:", ... = _),
          BDate_GR = str_squish(BDate_GR),

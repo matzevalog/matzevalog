@@ -5,13 +5,13 @@ place: |
 
     Азербайджан
 name-ru: |
-    ЯКУБОВ Бинямин Якубович
+    ЯКУБОВ Бинямин (Якубович)
     
     
 name-he: |
     
     
-    ЯКУБОВ Бинямин Якубович
+    ЯКУБОВ Бинямин (Якубович)
 year-gr: 1942
 year-he: 0
 categories:
@@ -113,7 +113,7 @@ knitr::include_graphics("../images/QBA0548_1.JPG")
 ---
 
 ::: {.name-style}
-ЯКУБОВ Бинямин Якубович
+ЯКУБОВ Бинямин (Якубович)
 :::
 
 ::: {style="font-size: 1.2em;"}
@@ -142,7 +142,7 @@ knitr::include_graphics("../images/QBA0548_1.JPG")
 ---
 
 ::: {.name-style}
-ЯКУБОВ Агарун Якубович
+ЯКУБОВ Агарун (Якубович)
 :::
 
 ::: {style="font-size: 1.2em;"}

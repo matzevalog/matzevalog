@@ -114,7 +114,7 @@ knitr::include_graphics("../images/QBA0936_3.JPG")
 ---
 
 ::: {.name-style}
-ПАРДИЛОВ Абай Шомоилович
+ПАРДИЛОВ Абай (Шомоилович)
 :::
 
 ::: {style="font-size: 1.2em;"}

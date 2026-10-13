@@ -114,7 +114,7 @@ knitr::include_graphics("../images/QBA0825_3.JPG")
 ---
 
 ::: {.name-style}
-ЗАХАРЬЯЕВ Ивотор Захарьяевич
+ЗАХАРЬЯЕВ Ивотор (Захарьяевич)
 :::
 
 ::: {style="font-size: 1.2em;"}

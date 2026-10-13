@@ -5,13 +5,13 @@ place: |
 
     Азербайджан
 name-ru: |
-    Моше Миши
+    Моше (Миши)
     
     משה
 name-he: |
     משה
     
-    Моше Миши
+    Моше (Миши)
 year-gr: 1900
 year-he: 5660
 categories:
@@ -79,7 +79,7 @@ knitr::include_graphics("../images/QBA0003_2.JPG")
 ::: {.column width="74%"}
 
 ::: {.name-style}
-Моше Миши
+Моше (Миши)
 :::
 
 ::: {style="font-size: 1.2em;"}

@@ -111,7 +111,7 @@ knitr::include_graphics("../images/QBA0940_3.JPG")
 ---
 
 ::: {.name-style}
-ИСАКОВ Имту Нафталиевич
+ИСАКОВ Имту (Нафталиевич)
 :::
 
 ::: {style="font-size: 1.2em;"}

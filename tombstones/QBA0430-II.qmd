@@ -83,7 +83,7 @@ knitr::include_graphics("../images/QBA0430_2.JPG")
 ::: {.column width="74%"}
 
 ::: {.name-style}
-АГАБАБАЕВ Ифраим Ярухомович
+АГАБАБАЕВ Ифраим (Ярухомович)
 :::
 
 ::: {style="font-size: 1.2em;"}

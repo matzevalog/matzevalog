@@ -111,7 +111,7 @@ knitr::include_graphics("../images/QBA0521_2.JPG")
 ---
 
 ::: {.name-style}
-ГУРШУМОВ Йехуда Евда
+ГУРШУМОВ Йехуда (Евда)
 :::
 
 ::: {style="font-size: 1.2em;"}

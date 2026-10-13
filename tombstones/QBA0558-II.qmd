@@ -84,7 +84,7 @@ knitr::include_graphics("../images/QBA0558_1.JPG")
 ::: {.column width="74%"}
 
 ::: {.name-style}
-НИСАНОВ Гуршум Нисанович
+НИСАНОВ Гуршум (Нисанович)
 :::
 
 ::: {style="font-size: 1.2em;"}

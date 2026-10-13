@@ -5,13 +5,13 @@ place: |
 
     Азербайджан
 name-ru: |
-    ЕЛИЗАРОВ Яков Хаимович
+    ЕЛИЗАРОВ Яков (Хаимович)
     
     
 name-he: |
     
     
-    ЕЛИЗАРОВ Яков Хаимович
+    ЕЛИЗАРОВ Яков (Хаимович)
 year-gr: 1975
 year-he: 0
 categories:
@@ -111,7 +111,7 @@ knitr::include_graphics("../images/QBA0715_2.JPG")
 ---
 
 ::: {.name-style}
-ЕЛИЗАРОВ Абрам Хаимович
+ЕЛИЗАРОВ Абрам (Хаимович)
 :::
 
 ::: {style="font-size: 1.2em;"}
@@ -140,7 +140,7 @@ knitr::include_graphics("../images/QBA0715_2.JPG")
 ---
 
 ::: {.name-style}
-ЕЛИЗАРОВ Яков Хаимович
+ЕЛИЗАРОВ Яков (Хаимович)
 :::
 
 ::: {style="font-size: 1.2em;"}

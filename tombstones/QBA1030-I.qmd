@@ -5,13 +5,13 @@ place: |
 
     Азербайджан
 name-ru: |
-    ПАЛЬЦЕВ Иосиф Ильич
+    ПАЛЬЦЕВ Иосиф (Ильич)
     
     
 name-he: |
     
     
-    ПАЛЬЦЕВ Иосиф Ильич
+    ПАЛЬЦЕВ Иосиф (Ильич)
 year-gr: 1949
 year-he: 0
 categories:
@@ -79,7 +79,7 @@ knitr::include_graphics("../images/QBA1030_1.JPG")
 ::: {.column width="74%"}
 
 ::: {.name-style}
-ПАЛЬЦЕВ Иосиф Ильич
+ПАЛЬЦЕВ Иосиф (Ильич)
 :::
 
 ::: {style="font-size: 1.2em;"}

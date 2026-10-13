@@ -111,7 +111,7 @@ knitr::include_graphics("../images/QBA0098_2.JPG")
 ---
 
 ::: {.name-style}
-ГИЛИЛОВ Гилил Сасунович
+ГИЛИЛОВ Гилил (Сасунович)
 :::
 
 ::: {style="font-size: 1.2em;"}

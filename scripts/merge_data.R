@@ -332,7 +332,10 @@ res |>
   select(Number, DDate_HE) |> 
   mutate(DDate_HE_new = str_replace_all(DDate_HE, "Ad1", "Ad")) |> 
   rowwise() |>
-  mutate(DDate_GR_suggestion = hebrew2greg(DDate_HE_new)) |>
+  mutate(DDate_GR_suggestion = hebrew2greg(DDate_HE_new),
+         DDate_GR_suggestion = if_else(str_detect(DDate_HE_new, "-.-.\\d{4}"),
+                                       str_c("-.-.", as.character(as.double(str_extract(DDate_HE_new, "\\d{4}")) - 3760)),
+                                       as.character(DDate_GR_suggestion))) |>
   ungroup() |> 
   na.omit() |> 
   mutate(DDate_HE_comment = if_else(nchar(DDate_GR_suggestion) > 10, DDate_GR_suggestion, NA),
@@ -345,7 +348,10 @@ res |>
   select(Number, BDate_HE) |> 
   mutate(BDate_HE_new = str_replace_all(BDate_HE, "Ad1", "Ad")) |> 
   rowwise() |>
-  mutate(BDate_GR_suggestion = hebrew2greg(BDate_HE_new)) |>
+  mutate(BDate_GR_suggestion = hebrew2greg(BDate_HE_new),
+         BDate_GR_suggestion = if_else(str_detect(BDate_HE_new, "-.-.\\d{4}"),
+                                       str_c("-.-.", as.character(as.double(str_extract(BDate_HE_new, "\\d{4}")) - 3760)),
+                                       as.character(BDate_GR_suggestion))) |> 
   ungroup() |> 
   na.omit() |> 
   mutate(BDate_HE_comment = if_else(nchar(BDate_GR_suggestion) > 10, BDate_GR_suggestion, NA),

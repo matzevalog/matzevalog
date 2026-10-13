@@ -113,7 +113,7 @@ knitr::include_graphics("../images/QBA0732_2.JPG")
 ---
 
 ::: {.name-style}
-АГАРУНОВ А. Израилович
+АГАРУНОВ А. (Израилович)
 :::
 
 ::: {style="font-size: 1.2em;"}

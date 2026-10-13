@@ -113,7 +113,7 @@ knitr::include_graphics("../images/QBA0938_3.JPG")
 ---
 
 ::: {.name-style}
-ИЛЬХАНАНОВ Якуб Натанилович
+ИЛЬХАНАНОВ Якуб (Натанилович)
 :::
 
 ::: {style="font-size: 1.2em;"}

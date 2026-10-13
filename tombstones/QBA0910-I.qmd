@@ -114,7 +114,7 @@ knitr::include_graphics("../images/QBA0910_3.JPG")
 ---
 
 ::: {.name-style}
-ШАЛУМОВ Асаф Ашурович
+ШАЛУМОВ Асаф (Ашурович)
 :::
 
 ::: {style="font-size: 1.2em;"}

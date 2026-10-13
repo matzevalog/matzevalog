@@ -111,7 +111,7 @@ knitr::include_graphics("../images/QBA0715_2.JPG")
 ---
 
 ::: {.name-style}
-ЕЛИЗАРОВ Абрам Хаимович
+ЕЛИЗАРОВ Абрам (Хаимович)
 :::
 
 ::: {style="font-size: 1.2em;"}
@@ -140,7 +140,7 @@ knitr::include_graphics("../images/QBA0715_2.JPG")
 ---
 
 ::: {.name-style}
-ЕЛИЗАРОВ Яков Хаимович
+ЕЛИЗАРОВ Яков (Хаимович)
 :::
 
 ::: {style="font-size: 1.2em;"}
