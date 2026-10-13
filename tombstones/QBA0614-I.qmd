@@ -5,13 +5,13 @@ place: |
 
     Азербайджан
 name-ru: |
-    РУВИНОВ Данил (Рубинович)
+    РУВИНОВ Данил Рубинович
     
     
 name-he: |
     
     
-    РУВИНОВ Данил (Рубинович)
+    РУВИНОВ Данил Рубинович
 year-gr: 1979
 year-he: 0
 categories:
@@ -46,7 +46,7 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }
-          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .name-style p { font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }
           .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
           #title-block-header { margin-block-end: 0em; }
       </style>
@@ -81,20 +81,20 @@ knitr::include_graphics("../images/QBA0614_1.JPG")
 ::: {.column width="74%"}
 
 ::: {.name-style}
-РУВИНОВ Данил (Рубинович)
+РУВИНОВ Данил Рубинович
 :::
 
 ::: {style="font-size: 1.2em;"}
 
 :::
 
-:::: {.columns}
+:::: {.columns style="margin-top: 1em"}
 ::: {.column width="5%"}
 ![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-14.06.1914 / ---
+14.06.1914 [/]{style="color: #adb5bd"} --
 :::
 
 ::: {.column width="5%"}
@@ -102,7 +102,7 @@ knitr::include_graphics("../images/QBA0614_1.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-05.05.1979 / ---
+05.05.1979 [/]{style="color: #adb5bd"} --
 :::
 
 ::::
@@ -167,13 +167,13 @@ tibble(`Оригинал` = "Рувинов
 
 #### Источник
 
-|||
-|-|---|
-|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
-|**Контакты**              |students@sefer.ru    |
-|**Ссылка**                |https://sfira.org        |
-|**Исходный ID**           |  |
-|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+|                          |                 |
+|--------------------------|-----------------|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»        |
+|**Контакты**              |students@sefer.ru       |
+|**Ссылка**                |[https://sfira.org](https://sfira.org) |
+|**Исходный ID**           |     |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
 : {tbl-colwidths="[25,75]"}
 
 :::

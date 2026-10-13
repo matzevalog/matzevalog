@@ -160,7 +160,8 @@ read_csv("data/data.csv", show_col_types = FALSE) |>
          alt_name_full = str_c(alt_name, " ", patronim_ru_alt),
          alt_name_full = str_squish(alt_name_full),
          alt_name_full = if_else(alt_name_full != "", str_c("(", alt_name_full, ")"), ""),
-         # alt_name_full = if_else(patronim_ru_1 == "", str_remove_all(alt_name_full, "[\\)\\(]"), alt_name_full),
+         alt_name_full = if_else(patronim_ru_1 == "", str_remove_all(alt_name_full, "[\\)\\(]"), alt_name_full),
+         alt_name_full = if_else((patronim_ru_1 == "" & patronim_ru_alt == "" & alt_name_full != ""), str_c("(", alt_name_full, ")"), alt_name_full),
          Name_RU = str_c(ru_last_name, " ", Name_RU, child_type_ru, " ", patronim_ru_1, " ", patronim_ru_2, " ", patronim_ru_3, " ", patronim_ru_4, alt_name_full),
          Name_HE = str_c(he_last_name, " ", Name_HE, " ", child_type_he, " ", patronim_he_first_part, " ", patronim_he),
          Name_RU = str_squish(Name_RU),
@@ -262,13 +263,13 @@ for_qmd_generation_second_step |>
   mutate(gender_new = str_c("  - g:", Sex),
          place_tag_new = place_tag |> str_c("  - c:", ... = _),
          BDate_GR = str_squish(BDate_GR),
-         BDate_GR = if_else(BDate_GR == "", "---", BDate_GR),
+         BDate_GR = if_else(BDate_GR == "", "--", BDate_GR),
          DDate_GR = str_squish(DDate_GR),
-         DDate_GR = if_else(DDate_GR == "", "---", DDate_GR),
+         DDate_GR = if_else(DDate_GR == "", "--", DDate_GR),
          BDate_HE = str_squish(BDate_HE),
-         BDate_HE = if_else(BDate_HE == "", "---", BDate_HE),
+         BDate_HE = if_else(BDate_HE == "", "--", BDate_HE),
          DDate_HE = str_squish(DDate_HE),
-         DDate_HE = if_else(DDate_HE == "", "---", DDate_HE),
+         DDate_HE = if_else(DDate_HE == "", "--", DDate_HE),
          name_dates = str_glue(
 '
 ::: {{.name-style}}
@@ -279,13 +280,13 @@ for_qmd_generation_second_step |>
 {Name_HE}
 :::
 
-:::: {{.columns}}
+:::: {{.columns style="margin-top: 1em"}}
 ::: {{.column width="5%"}}
 ![](../additional_images/Cradle.svg){{width=1.3em .nolightbox}}
 :::
 
 ::: {{.column style="width: 40%; padding-left: 0.2em;"}}
-{BDate_GR} / {BDate_HE}
+{BDate_GR} [/]{{style="color: #adb5bd"}} {BDate_HE}
 :::
 
 ::: {{.column width="5%"}}
@@ -293,7 +294,7 @@ for_qmd_generation_second_step |>
 :::
 
 ::: {{.column style="width: 50%; padding-left: 0.2em;"}}
-{DDate_GR} / {DDate_HE}
+{DDate_GR} [/]{{style="color: #adb5bd"}} {DDate_HE}
 :::
 
 ::::
@@ -348,7 +349,7 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }}
-          .name-style p {{ font-weight: bold; margin-bottom: 0.1em; }}
+          .name-style p {{ font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }}
           .sidebar.sidebar-navigation>* {{ padding-top: 1.1em; }}
           #title-block-header {{ margin-block-end: 0em; }}
       </style>
@@ -420,13 +421,13 @@ tibble(`Оригинал` = "{Epitaph}",
 
 #### Источник
 
-|||
-|-|---|
-|**Место хранения**        |{Archive}     |
-|**Контакты**              |{Contacts}    |
-|**Ссылка**                |{Link}        |
-|**Исходный ID**           |{Source_Code} |
-|**Условия использования** |{license}     |
+|                          |                 |
+|--------------------------|-----------------|
+|**Место хранения**        |{Archive}        |
+|**Контакты**              |{Contacts}       |
+|**Ссылка**                |[{Link}]({Link}) |
+|**Исходный ID**           |{Source_Code}    |
+|**Условия использования** |{license}        |
 : {{tbl-colwidths="[25,75]"}}
 
 :::
@@ -447,4 +448,5 @@ walk(seq_along(result),
     write_lines(str_c("tombstones/", for_qmd_generation$Number[i], "-", for_qmd_generation$person_id[i], ".qmd"))
 
 })
+
 

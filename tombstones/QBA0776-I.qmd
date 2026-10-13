@@ -49,7 +49,7 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }
-          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .name-style p { font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }
           .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
           #title-block-header { margin-block-end: 0em; }
       </style>
@@ -92,13 +92,13 @@ knitr::include_graphics("../images/QBA0776_2.JPG")
 מרים בת יעגב
 :::
 
-:::: {.columns}
+:::: {.columns style="margin-top: 1em"}
 ::: {.column width="5%"}
 ![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
-17.01.1902 / ---
+17.01.1902 [/]{style="color: #adb5bd"} --
 :::
 
 ::: {.column width="5%"}
@@ -106,7 +106,7 @@ knitr::include_graphics("../images/QBA0776_2.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-19.12.2000 / 22.Ki.5761
+19.12.2000 [/]{style="color: #adb5bd"} 22.Ki.5761
 :::
 
 ::::
@@ -173,13 +173,13 @@ tibble(`Оригинал` = "פה נקבר
 
 #### Источник
 
-|||
-|-|---|
-|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
-|**Контакты**              |students@sefer.ru    |
-|**Ссылка**                |https://sfira.org        |
-|**Исходный ID**           |  |
-|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+|                          |                 |
+|--------------------------|-----------------|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»        |
+|**Контакты**              |students@sefer.ru       |
+|**Ссылка**                |[https://sfira.org](https://sfira.org) |
+|**Исходный ID**           |     |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
 : {tbl-colwidths="[25,75]"}
 
 :::

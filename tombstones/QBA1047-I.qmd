@@ -47,7 +47,7 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }
-          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .name-style p { font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }
           .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
           #title-block-header { margin-block-end: 0em; }
       </style>
@@ -88,13 +88,13 @@ knitr::include_graphics("../images/QBA1047.JPG")
 יהודה בן ישעיה
 :::
 
-:::: {.columns}
+:::: {.columns style="margin-top: 1em"}
 ::: {.column width="5%"}
 ![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
---- / ---
+-- [/]{style="color: #adb5bd"} --
 :::
 
 ::: {.column width="5%"}
@@ -102,7 +102,7 @@ knitr::include_graphics("../images/QBA1047.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-12.09.1911* / 19.El.5671
+12.09.1911* [/]{style="color: #adb5bd"} 19.El.5671
 :::
 
 ::::
@@ -177,13 +177,13 @@ tibble(`Оригинал` = "ציו׳
 
 #### Источник
 
-|||
-|-|---|
-|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
-|**Контакты**              |students@sefer.ru    |
-|**Ссылка**                |https://sfira.org        |
-|**Исходный ID**           |  |
-|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+|                          |                 |
+|--------------------------|-----------------|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»        |
+|**Контакты**              |students@sefer.ru       |
+|**Ссылка**                |[https://sfira.org](https://sfira.org) |
+|**Исходный ID**           |     |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
 : {tbl-colwidths="[25,75]"}
 
 :::

@@ -5,13 +5,13 @@ place: |
 
     Азербайджан
 name-ru: |
-    ИЛХАНАНОВ Юнун (Хаймишиевич)
+    ИЛХАНАНОВ Юнун Хаймишиевич
     
     
 name-he: |
     
     
-    ИЛХАНАНОВ Юнун (Хаймишиевич)
+    ИЛХАНАНОВ Юнун Хаймишиевич
 year-gr: 1944
 year-he: 0
 categories:
@@ -48,7 +48,7 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }
-          .name-style p { font-weight: bold; margin-bottom: 0.1em; }
+          .name-style p { font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }
           .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
           #title-block-header { margin-block-end: 0em; }
       </style>
@@ -92,13 +92,13 @@ knitr::include_graphics("../images/QBA0930_4.JPG")
 חיים משה בן יניון
 :::
 
-:::: {.columns}
+:::: {.columns style="margin-top: 1em"}
 ::: {.column width="5%"}
 ![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1897 / ---
+-.-.1897 [/]{style="color: #adb5bd"} --
 :::
 
 ::: {.column width="5%"}
@@ -106,7 +106,7 @@ knitr::include_graphics("../images/QBA0930_4.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-28.08.1977 / 14.El.5737
+28.08.1977 [/]{style="color: #adb5bd"} 14.El.5737
 :::
 
 ::::
@@ -114,20 +114,20 @@ knitr::include_graphics("../images/QBA0930_4.JPG")
 ---
 
 ::: {.name-style}
-ИЛХАНАНОВ Юнун (Хаймишиевич)
+ИЛХАНАНОВ Юнун Хаймишиевич
 :::
 
 ::: {style="font-size: 1.2em;"}
 
 :::
 
-:::: {.columns}
+:::: {.columns style="margin-top: 1em"}
 ::: {.column width="5%"}
 ![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
 :::
 
 ::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1923 / ---
+-.-.1923 [/]{style="color: #adb5bd"} --
 :::
 
 ::: {.column width="5%"}
@@ -135,7 +135,7 @@ knitr::include_graphics("../images/QBA0930_4.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
--.-.1944 / ---
+-.-.1944 [/]{style="color: #adb5bd"} --
 :::
 
 ::::
@@ -224,13 +224,13 @@ tibble(`Оригинал` = "פ׳ נ׳
 
 #### Источник
 
-|||
-|-|---|
-|**Место хранения**        |Архив полевых исследований Центра «Сэфер»     |
-|**Контакты**              |students@sefer.ru    |
-|**Ссылка**                |https://sfira.org        |
-|**Исходный ID**           |  |
-|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)     |
+|                          |                 |
+|--------------------------|-----------------|
+|**Место хранения**        |Архив полевых исследований Центра «Сэфер»        |
+|**Контакты**              |students@sefer.ru       |
+|**Ссылка**                |[https://sfira.org](https://sfira.org) |
+|**Исходный ID**           |     |
+|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
 : {tbl-colwidths="[25,75]"}
 
 :::
