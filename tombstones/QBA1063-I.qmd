@@ -12,7 +12,7 @@ name-he: |
     נחום גרשון בן יצחק
     
     КОЗИМЯКОВ Нахум Гершон, сын Ицхака
-year-gr: 1918
+year-gr: 0
 year-he: 5678
 categories:
   - c:QBA
@@ -103,7 +103,7 @@ knitr::include_graphics("../images/QBA1063_3.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-14.02.1918* / 02.Ad.5678
+--- / 02.Ad.5678
 :::
 
 ::::
@@ -132,7 +132,7 @@ knitr::include_graphics("../images/QBA1063_3.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
-07.03.1917* / 13.Ad.5677
+--- / 13.Ad.5677
 :::
 
 ::::

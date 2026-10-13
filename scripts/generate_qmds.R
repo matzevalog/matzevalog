@@ -58,6 +58,13 @@ hebrew2greg <- function(hebrew_date) {
 }
 
 read_csv("data/data.csv", show_col_types = FALSE) |> 
+  mutate(ep_n = str_count(Epitaph, "\n"),
+         trans_n = str_count(Trans_RU, "\n"),
+         diff = ep_n - trans_n) |>
+  rowwise() |>
+  mutate(Trans_RU = str_c(Trans_RU, str_dup("\n", times = abs(diff)), collapse = "")) |>
+  ungroup() |>
+  select(-ep_n, -trans_n, -diff) |>
   filter(str_count(Epitaph, "\n") == str_count(Trans_RU, "\n")) |>
   mutate(images = if_else(is.na(images), "No_photo.png", images),
          image = str_replace_all(images, "; ", '")\nknitr::include_graphics("../images/'),
@@ -65,7 +72,7 @@ read_csv("data/data.csv", show_col_types = FALSE) |>
          across(c(Name_RU, Name_EN, Name_HE), function(x) ifelse(is.na(x), "", x))) |> 
   mutate(ru_plus_n = str_count(Name_RU, "\\+"),
          en_plus_n = str_count(Name_EN, "\\+"),
-         he_plus_n = str_count(Name_HE, "\\+")) |> 
+         he_plus_n = str_count(Name_HE, "\\+")) |>
   filter(ru_plus_n == en_plus_n, 
          en_plus_n == he_plus_n) |> 
   mutate(across(.cols = c("Name_RU", "Name_EN", "Name_HE", "Sex", "BDate_GR",
