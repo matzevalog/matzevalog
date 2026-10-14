@@ -74,5 +74,3 @@
 ### Партнёры
 
 [Центр «Сэфер»](https://sefercenter.org)
-
-[![](additional_images/Sefer_3.png)](https://sefercenter.org)

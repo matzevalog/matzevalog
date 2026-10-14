@@ -22,9 +22,18 @@ include-in-header:
 
       .panel-tabset { margin-left: 2em; }
 
+      .hover-color img {
+            filter: grayscale(100%) brightness(140%);
+            transition: filter 0.2s ease;
+      }
+
+      .hover-color img:hover {
+            filter: grayscale(0%) brightness(100%);
+      }
+
       #quarto-document-content {
             margin-top: 0px !important;
-          }
+      }
 
       #title-block-header.quarto-title-block.default .quarto-title-meta {
         color: rgba(255, 255, 255, 0.9);
@@ -127,7 +136,7 @@ include-in-header:
 
 Мацевалог придумали и сделали:
 
-:::: {.columns .reduced-intervals}
+:::: {.columns}
 
 ::: {.column width="20%" .text-center}
 :::
@@ -136,10 +145,11 @@ include-in-header:
 
 ![](additional_images/MV.png){width=12em}
 
+::: {.reduced-intervals}
 **Михаил Васильев**
 
 ИВ РАН
-
+:::
 :::
 
 ::: {.column width="8%" .text-center}
@@ -149,10 +159,11 @@ include-in-header:
 
 ![](additional_images/GM.png){width=12em}
 
+::: {.reduced-intervals}
 **Георгий Мороз**
 
 НИУ ВШЭ
-
+:::
 :::
 
 ::: {.column width="20%" .text-center}
@@ -162,16 +173,13 @@ include-in-header:
 
 ### Партнёры
 
-:::: {.columns}
+:::: {.columns .hover-color}
 
-::: {.column width="20%" .text-center}
+::: {.column width="50%" .text-left}
+[![](additional_images/Sefer_1.png){style="max-height: 2.5em; margin-top: 1em;"}](https://sefercenter.org)
 :::
 
-::: {.column width="60%" .text-center}
-
-[![](additional_images/Sefer_1.png){heigt=2em style="margin-top: 1.5em"}](https://sefercenter.org)
-
+::: {.column width="50%" .text-center}
 :::
-::: {.column width="20%" .text-center}
-:::
+
 ::::
