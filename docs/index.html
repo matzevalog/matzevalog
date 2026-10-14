@@ -97,9 +97,18 @@ background: #00000000;
 
 .panel-tabset { margin-left: 2em; }
 
+.hover-color img {
+      filter: grayscale(100%) brightness(140%);
+      transition: filter 0.2s ease;
+}
+
+.hover-color img:hover {
+      filter: grayscale(0%) brightness(100%);
+}
+
 #quarto-document-content {
       margin-top: 0px !important;
-    }
+}
 
 #title-block-header.quarto-title-block.default .quarto-title-meta {
   color: rgba(255, 255, 255, 0.9);
@@ -280,19 +289,23 @@ div.callout-tip-callout.callout-style-default .callout-icon::before, div.callout
 <section id="о-создателях" class="level3">
 <h3 class="anchored" data-anchor-id="о-создателях">О создателях</h3>
 <p>Мацевалог придумали и сделали:</p>
-<div class="columns reduced-intervals">
+<div class="columns">
 <div class="column text-center" style="width:20%;">
 
 </div><div class="column text-center" style="width:26%;">
 <p><img src="additional_images/MV.png" class="img-fluid" style="width:12em"></p>
+<div class="reduced-intervals">
 <p><strong>Михаил Васильев</strong></p>
 <p>ИВ РАН</p>
+</div>
 </div><div class="column text-center" style="width:8%;">
 
 </div><div class="column text-center" style="width:26%;">
 <p><img src="additional_images/GM.png" class="img-fluid" style="width:12em"></p>
+<div class="reduced-intervals">
 <p><strong>Георгий Мороз</strong></p>
 <p>НИУ ВШЭ</p>
+</div>
 </div><div class="column text-center" style="width:20%;">
 
 </div>
@@ -300,12 +313,10 @@ div.callout-tip-callout.callout-style-default .callout-icon::before, div.callout
 </section>
 <section id="партнёры" class="level3">
 <h3 class="anchored" data-anchor-id="партнёры">Партнёры</h3>
-<div class="columns">
-<div class="column text-center" style="width:20%;">
-
-</div><div class="column text-center" style="width:60%;">
-<p><a href="https://sefercenter.org"><img src="additional_images/Sefer_1.png" class="img-fluid" style="margin-top: 1.5em" data-heigt="2em"></a></p>
-</div><div class="column text-center" style="width:20%;">
+<div class="columns hover-color">
+<div class="column text-left" style="width:50%;">
+<p><a href="https://sefercenter.org"><img src="additional_images/Sefer_1.png" class="img-fluid" style="max-height: 2.5em; margin-top: 1em;"></a></p>
+</div><div class="column text-center" style="width:50%;">
 
 </div>
 </div>
