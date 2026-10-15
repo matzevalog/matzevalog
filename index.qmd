@@ -18,7 +18,7 @@ format:
 include-in-header:
   - text: |
       <style>
-      .reduced-intervals p { margin-bottom: 0.3em; }
+      .reduced-intervals p { margin-bottom: 0.2em; }
 
       .panel-tabset { margin-left: 2em; }
 
@@ -132,18 +132,15 @@ include-in-header:
 
 Вся информация, размещенная на сайте, предоставляется на условиях «как есть» и «насколько доступно». Команда Мацевалога стремится следовать академическим принципам и стандартам при публикации материалов, однако не может гарантировать полноту, точность и надёжность данных, а также отсутствие ошибок, допущенных авторами или возникших в ходе загрузки. Создатели ресурса не несут ответственности за ущерб и любые другие нежелательные последствия, наступившие вследствие использования материалов, представленных на сайте, или их недоступности.
 
-### О создателях
-
-Мацевалог придумали и сделали:
+### Команда
 
 :::: {.columns}
 
-::: {.column width="20%" .text-center}
+::: {.column width="20%" .text-center style="margin-top: 1em"}
+
+::: {style="margin-bottom: 0.8em"}
+![](additional_images/MV.png){width=9em}
 :::
-
-::: {.column width="26%" .text-center}
-
-![](additional_images/MV.png){width=12em}
 
 ::: {.reduced-intervals}
 **Михаил Васильев**
@@ -152,12 +149,14 @@ include-in-header:
 :::
 :::
 
-::: {.column width="8%" .text-center}
+::: {.column width="5%" .text-center style="margin-top: 1em"}
 :::
 
-::: {.column width="26%" .text-center}
+::: {.column width="20%" .text-center style="margin-top: 1em"}
 
-![](additional_images/GM.png){width=12em}
+::: {style="margin-bottom: 0.8em"}
+![](additional_images/GM.png){width=9em}
+:::
 
 ::: {.reduced-intervals}
 **Георгий Мороз**
@@ -175,11 +174,11 @@ include-in-header:
 
 :::: {.columns .hover-color}
 
-::: {.column width="50%" .text-left}
+::: {.column width="40%" .text-left}
 [![](additional_images/Sefer_1.png){style="max-height: 2.5em; margin-top: 1em;"}](https://sefercenter.org)
 :::
 
-::: {.column width="50%" .text-center}
+::: {.column width="60%" .text-center}
 :::
 
 ::::
