@@ -11,7 +11,7 @@ lat: 41.370501
 lng: 48.507433
 community: "горские евреи"
 tomb-dating: "1806--2024"
-status: "недействующее"
+status: "действующее"
 tomb-amount: 1194
 area: "6,7 га"
 year: 2025
