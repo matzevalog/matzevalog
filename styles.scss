@@ -20,6 +20,7 @@ $body-bg:                   #f8f9fa;
 .navbar-title {
   font-family: GaramondPremrPro-Smbd;
   color: #ffffff;
+  transition: color 0.3s ease-in-out;
 }
 
 .navbar-title:hover {
@@ -42,6 +43,8 @@ $body-bg:                   #f8f9fa;
 
 .nav-footer a {
     color: $link-color;
+    transition: color 0.2s ease-in-out;
+
   &:hover {
     color: $link-hover-color;
   }
