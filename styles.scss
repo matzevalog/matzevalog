@@ -37,7 +37,10 @@ $body-bg:                   #F8F9FA;
 
 
 .nav-footer {
-    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 14px;
     padding-bottom: 14px;
 }
 
