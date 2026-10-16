@@ -2,7 +2,8 @@
 $primary:                   #363636;
 $info:                      #DBAE63;
 $navbar-light-hover-color:  #FFE092;
-
+$body-color:                #525456;
+$body-bg:                   #f8f9fa;
 
 /*-- scss:rules --*/
 @mixin btn-shadow($color) {
@@ -44,6 +45,12 @@ $navbar-light-hover-color:  #FFE092;
   &:hover {
     color: $link-hover-color;
   }
+}
+
+.tab-content > .tab-pane.active {
+  background-color: #ffffff;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
 }
 
 .callout.no-title .callout-header {
