@@ -2,8 +2,8 @@
 $primary:                   #363636;
 $info:                      #DBAE63;
 $navbar-light-hover-color:  #FFE092;
-$body-color:                #525456;
-$body-bg:                   #f8f9fa;
+$body-color:                #5A5B5D;
+$body-bg:                   #F8F9FA;
 
 /*-- scss:rules --*/
 @mixin btn-shadow($color) {
@@ -55,7 +55,7 @@ $body-bg:                   #f8f9fa;
       transition: filter 0.2s ease;
 
   &:hover {
-      filter: brightness(110%);
+      filter: brightness(100%);
   }
 }
 
