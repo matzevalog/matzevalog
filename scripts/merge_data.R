@@ -335,7 +335,7 @@ res |>
   mutate(DDate_GR_suggestion = hebrew2greg(DDate_HE_new),
          month = str_extract(DDate_HE_new, "(?<=\\.).*?(?=\\.)"),
          year = str_extract(DDate_HE_new, "(?<=\\.)\\d{4}$") |> as.double(),
-         result = case_when(month %in% c("-", "Ki", "Te", "Sh") ~ str_c("-.-.", year-3760, "/", year-3761),
+         result = case_when(month %in% c("-", "Ki", "Te", "Sh") ~ str_c("-.-.", year-3761, "/", year-3760),
                             month %in% c("Ti", "Ch") ~ str_c("-.-.", year-3761),
                             TRUE ~ str_c("-.-.", year-3760)),
          DDate_GR_suggestion = if_else(is.na(DDate_GR_suggestion), result, DDate_GR_suggestion)) |> 
@@ -356,7 +356,7 @@ res |>
   mutate(BDate_GR_suggestion = hebrew2greg(BDate_HE_new),
          month = str_extract(BDate_HE_new, "(?<=\\.).*?(?=\\.)"),
          year = str_extract(BDate_HE_new, "(?<=\\.)\\d{4}$") |> as.double(),
-         result = case_when(month %in% c("-", "Ki", "Te", "Sh") ~ str_c("-.-.", year-3760, "/", year-3761),
+         result = case_when(month %in% c("-", "Ki", "Te", "Sh") ~ str_c("-.-.", year-3761, "/", year-3760),
                             month %in% c("Ti", "Ch") ~ str_c("-.-.", year-3761),
                             TRUE ~ str_c("-.-.", year-3760)),
          BDate_GR_suggestion = if_else(is.na(BDate_GR_suggestion), result, BDate_GR_suggestion)) |> 
