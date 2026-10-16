@@ -8,7 +8,7 @@ execute:
   echo: false
 
 website:
-  site-url: "https://agricolamz.github.io/sfira_clone/"
+  site-url: "https://matzevalog.github.io/matzevalog/"
   title: "Мацевалог"
   navbar:
     logo: "additional_images/Logo.svg"
@@ -23,9 +23,9 @@ website:
   page-footer:
     border: false
     background: "#363636"
-    left: '[![](/additional_images/Logo-light.svg){height=3.5em}](../index.qmd)'
-    center: '[{{< fa regular envelope size=lg >}}]{style="vertical-align: middle; color: #dbae63;"} [matzevalog@gmail.com](mailto:matzevalog@gmail.com)'
-    right: '[{{< fa brands creative-commons size=lg >}}]{style="vertical-align: middle; color: #dbae63;"} [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru), 2026'
+    left: '[![](/additional_images/Logo-light.svg){.footer-style height="3em"}](https://matzevalog.github.io/matzevalog/)'
+    center: '[{{< fa regular envelope size=lg >}}]{style="vertical-align: middle; color: #af8b4f;"} [matzevalog@gmail.com](mailto:matzevalog@gmail.com)'
+    right: '[{{< fa brands creative-commons size=lg >}}]{style="vertical-align: middle; color: #af8b4f;"} [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru), 2026'
   bread-crumbs: false
   sidebar:
       - id: filter-list
