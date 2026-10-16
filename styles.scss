@@ -42,11 +42,20 @@ $body-bg:                   #f8f9fa;
 }
 
 .nav-footer a {
-    color: $link-color;
+    color: #af8b4f;
     transition: color 0.2s ease-in-out;
 
   &:hover {
-    color: $link-hover-color;
+    color: $link-color;
+  }
+}
+
+.footer-logo {
+      filter: brightness(80%);
+      transition: filter 0.2s ease;
+
+  &:hover {
+      filter: brightness(110%);
   }
 }
 
