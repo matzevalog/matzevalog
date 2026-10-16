@@ -10,6 +10,7 @@ execute:
 website:
   site-url: "https://matzevalog.github.io/matzevalog/"
   title: "Мацевалог"
+
   navbar:
     logo: "additional_images/Logo.svg"
     right:
@@ -20,13 +21,19 @@ website:
       - href: tombstones.qmd
         text: Памятники
     search: true
+
   page-footer:
     border: false
     background: "#363636"
-    left: '[![](/additional_images/Logo-light.svg){.footer-logo height="3em"}](https://matzevalog.github.io/matzevalog/)'
+    left: '[![](/additional_images/Logo-light.svg){.footer-logo height="3.2em"}](https://matzevalog.github.io/matzevalog/)'
     center: '[{{< fa regular envelope size=lg >}}]{style="vertical-align: middle; color: #af8b4f;"} [matzevalog@gmail.com](mailto:matzevalog@gmail.com)'
-    right: '[{{< fa brands creative-commons size=lg >}}]{style="vertical-align: middle; color: #af8b4f;"} [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru), 2026'
+    right: |
+        '[{{< fa regular copyright size=sm >}}]{style="vertical-align: top;"} Интерфейс и структура сайта защищены авторским правом, 2026.'
+        
+        '[{{< fa brands creative-commons size=sm >}}]{style="vertical-align: top;"} Содержание доступно по лицензии [CС BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru), 2026'
+        
   bread-crumbs: false
+  
   sidebar:
       - id: filter-list
         style: "floating"
