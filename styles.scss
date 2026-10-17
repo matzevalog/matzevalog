@@ -51,6 +51,11 @@ $nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;
     min-height: fit-content;
 }
 
+.nav-footer div {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 .nav-footer a {
     color: #af8b4f;
     transition: color 0.2s ease-in-out;
