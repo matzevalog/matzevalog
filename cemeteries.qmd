@@ -46,7 +46,17 @@ include-in-header:
             padding-left: 0px;
             vertical-align: middle;
           }
-       
+ 
+         .g-col-1 {
+            border-radius: var(--bs-border-radius);  
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+          }
+
+         .g-col-1:hover {
+            transform: translateY(0px);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+          }
+
       </style>
 ---
 
