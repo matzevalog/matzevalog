@@ -121,7 +121,7 @@ include-in-header:
 
 ---
 
-**Онлайн карта**
+**Онлайн--карта**
 
 - Нажмите [{{< fa layer-group size=sm >}}]{style="vertical-align: middle;"} чтобы выбрать вид карты и тип отображаемых памятников
 - Нажмите [{{< fa magnifying-glass size=sm >}}]{style="vertical-align: middle;"} для поиска памятника по номеру

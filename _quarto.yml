@@ -26,9 +26,9 @@ website:
     border: false
     background: "#363636"
     left: '[![](/additional_images/Logo-light.svg){.footer-logo height="3.2em"}](https://matzevalog.github.io/matzevalog/)'
-    center: '[{{< fa regular envelope size=lg >}}]{style="vertical-align: middle; color: #af8b4f;"} [matzevalog@gmail.com](mailto:matzevalog@gmail.com)'
+    center: '[{{< fa regular envelope size=1x >}}]{style="vertical-align: middle; min-height: 0em; color: #af8b4f;"} [matzevalog@gmail.com](mailto:matzevalog@gmail.com)'
     right: |
-        [{{< fa regular copyright size=sm >}}]{style="vertical-align: top;"} Интерфейс и структура сайта защищены авторским правом, 2026.
+        [{{< fa regular copyright size=sm >}}]{style="vertical-align: top; margin-bottom: 0.2em"} Интерфейс и структура сайта защищены авторским правом, 2026.
         
         [{{< fa brands creative-commons size=sm >}}]{style="vertical-align: top;"} Содержание доступно по лицензии [CС BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
         
