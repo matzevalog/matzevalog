@@ -46,6 +46,11 @@ $nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;
     padding-bottom: 20px;
 }
 
+.nav-footer p {
+    margin-bottom: 0px;
+    min-height: fit-content;
+}
+
 .nav-footer a {
     color: #af8b4f;
     transition: color 0.2s ease-in-out;
