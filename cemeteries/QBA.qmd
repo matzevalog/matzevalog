@@ -43,6 +43,8 @@ include-in-header:
 
       .quarto-title-block .quarto-title-banner {
         height: 0;
+        padding-top: 0;
+        padding-bottom: 0;
       }
 
       #title-block-header.quarto-title-block.default .quarto-title-meta {
@@ -50,6 +52,7 @@ include-in-header:
       }
 
       #title-block-header {
+        align-items: center;
         background: 
           linear-gradient(
             rgba(0, 0, 0, 0),
