@@ -12,7 +12,7 @@ name-he: |
     ישעיה בן יוסף
     
     Йешая, сын Йосефа
-year-gr: 1914
+year-gr: 1915
 year-he: 5675
 categories:
   - c:QBA
@@ -101,7 +101,7 @@ knitr::include_graphics("../images/QBA0450.JPG")
 :::
 
 ::: {.column style="width: 50%; padding-left: 0.2em;"}
--.-.1915/1914 [/]{style="color: #adb5bd"} -.-.5675
+-.-.1914/1915 [/]{style="color: #adb5bd"} -.-.5675
 :::
 
 ::::
