@@ -74,6 +74,24 @@ include-in-header:
         border-bottom: none !important;
         border-top: none !important;
       }  
+
+     figure.figure p {
+          overflow: hidden;
+          border-radius: var(--bs-border-radius);
+          margin-bottom: 0.5em !important;
+      }
+      
+      figure.figure img {
+          transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+          margin-bottom: 0em;
+          display: block;
+      }
+    
+      figure.figure img:hover {
+          transform: scale(1.05);
+          filter: brightness(108%);
+      }
+
       </style>
 ---
 
@@ -81,6 +99,7 @@ include-in-header:
 [Кладбища](../cemeteries.qmd) > QBA
 :::
 
+::: {.custom-frame}
 |||||
 |--|-----|--|-----|
 | **Место:**       | Куба́ (Губа́), *азерб.* Quba, *лезг.* Къуба                          | **Площадь:**         | 6,7 га |
@@ -88,6 +107,7 @@ include-in-header:
 | **Координаты:**  | [41°22'13"N 48°30'27"E](https://maps.app.goo.gl/kzjccoRgN5MnRHhX6) | **Датировка:**       | 1806--2024 |
 | **Община:**      | горские евреи                                                      | **Год описания:**    | 2025 |
 | **Статус:**      | недействующее                                                      | **Источник данных:** | Архив полевых исследований Центра «Сэфер»|
+:::
 
 :::: {.panel-tabset}
 
@@ -186,37 +206,37 @@ for_map |>
 
 ::: {layout-ncol=4}
 
-![Надгробия середины XIX в. на старом участке кладбища](../additional_images/QBA_01.JPG){group="my-gallery"}
+![Надгробия середины XIX в. на старом участке кладбища](../additional_images/QBA_01.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Панорамный вид верхней части кладбища](../additional_images/QBA_02.JPG){group="my-gallery"}
+![Панорамный вид верхней части кладбища](../additional_images/QBA_02.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Вид на современный участок кладбища](../additional_images/QBA_03.JPG){group="my-gallery"}
+![Вид на современный участок кладбища](../additional_images/QBA_03.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Современные памятники рядом с верхним (северным) входом на кладбище](../additional_images/QBA_04.JPG){group="my-gallery"}
+![Современные памятники рядом с верхним (северным) входом на кладбище](../additional_images/QBA_04.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Стелы начала XX в. на верхнем участке кладбища](../additional_images/QBA_05.JPG){group="my-gallery"}
+![Стелы начала XX в. на верхнем участке кладбища](../additional_images/QBA_05.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Надгробие в виде саркофага, 1935 г.](../additional_images/QBA_06.JPG){group="my-gallery"}
+![Надгробие в виде саркофага, 1935 г.](../additional_images/QBA_06.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Памятники разных типов в центральной части кладбища, середина XX в.](../additional_images/QBA_07.JPG){group="my-gallery"}
+![Памятники разных типов в центральной части кладбища, середина XX в.](../additional_images/QBA_07.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Горизонтальные надгробия в форме плиты с изголовьем, 1930--1940 гг.](../additional_images/QBA_08.JPG){group="my-gallery"}
+![Горизонтальные надгробия в форме плиты с изголовьем, 1930--1940 гг.](../additional_images/QBA_08.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Памятник с надмогильным саркофагом, 1912 г.](../additional_images/QBA_09_1.JPG){group="my-gallery"}
+![Памятник с надмогильным саркофагом, 1912 г.](../additional_images/QBA_09_1.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Семейное захоронение в центральной части кладбища, середина -- конец XX в.](../additional_images/QBA_10.JPG){group="my-gallery"}
+![Семейное захоронение в центральной части кладбища, середина -- конец XX в.](../additional_images/QBA_10.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Геометрический орнамент на стеле середины XIX в.](../additional_images/QBA_11.JPG){group="my-gallery"}
+![Геометрический орнамент на стеле середины XIX в.](../additional_images/QBA_11.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Памятники с навершиями-вазонами в форме бутонов, 1900--2000 гг.](../additional_images/QBA_13.JPG){group="my-gallery"}
+![Памятники с навершиями-вазонами в форме бутонов, 1900--2000 гг.](../additional_images/QBA_13.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Резной декор на надгробии в виде цветков и звезды Давида, 1911 г.](../additional_images/QBA_12.JPG){group="my-gallery"}
+![Резной декор на надгробии в виде цветков и звезды Давида, 1911 г.](../additional_images/QBA_12.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Древовидное навершие с обломленной ветвью и фигуркой горлицы, 1964 г.](../additional_images/QBA_14.JPG){group="my-gallery"}
+![Древовидное навершие с обломленной ветвью и фигуркой горлицы, 1964 г.](../additional_images/QBA_14.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Старейшее датированное надгробие, сохранившееся на кладбище, 1806/1807 г.](../additional_images/QBA_15.JPG){group="my-gallery"}
+![Старейшее датированное надгробие, сохранившееся на кладбище, 1806/1807 г.](../additional_images/QBA_15.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 
-![Надгробие Гершона, сына Реувена Мизрахи (1815--1891) -- раввина Кубы и духовного лидера общины с 1853 по 1891 г.](../additional_images/QBA_16.JPG){group="my-gallery"}
+![Надгробие Гершона, сына Реувена Мизрахи (1815--1891) -- раввина Кубы и духовного лидера общины с 1853 по 1891 г.](../additional_images/QBA_16.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
 :::
 
 ### [{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle;"}  Каталог
