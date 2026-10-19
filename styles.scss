@@ -88,6 +88,20 @@ $nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
 }  
 
+.btn-outline-info {
+--bs-btn-color: #DBAE63;
+--bs-btn-border-color: #DBAE63;
+--bs-btn-hover-color: #ffffff;
+--bs-btn-hover-bg: #DBAE63;
+--bs-btn-hover-border-color: #DBAE63;
+--bs-btn-active-color: #fff;
+--bs-btn-active-bg: #af8b4f;
+--bs-btn-active-border-color: #af8b4f;
+--bs-btn-disabled-color: #bdbdbd;
+--bs-btn-disabled-border-color: #bdbdbd;
+--bs-btn-bg: transparent;
+}
+
 .callout.no-title .callout-header {
   display: none !important;
 }
