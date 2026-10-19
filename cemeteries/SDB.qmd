@@ -4,7 +4,7 @@ subtitle: "Россия"
 place: "Стародуб"
 country: "Россия"
 hist-location: "Российская империя, Черниговская губерния, Гомельская губерния"
-catalog: '[{{< fa arrow-up-from-bracket size=sm >}}]{style="vertical-align: middle;"} В работе'
+catalog: '[[{{< fa arrow-up-from-bracket size=sm >}}]{style="vertical-align: middle;"} В работе]{.btn .btn-outline-info .btn-sm .disabled role="button"}'
 lat: 41.370501
 lng: 48.507433
 community: "евреи-ашкеназы"
@@ -62,11 +62,7 @@ include-in-header:
         opacity: 1;
         z-index: -1;
       }
-      
-      table tbody tr:nth-of-type(odd) {
-          background-color: rgba(0, 0, 0, 0.04) !important;
-      }
-        
+           
       table, table tr, table th, table td {
         border: none !important;
         border-bottom: none !important;
@@ -80,13 +76,17 @@ include-in-header:
 :::
 
 ::: {.custom-frame}
+
 |||||
-|--|-----|--|-----|
-| **Место:**       | Стародуб                                                             | **Площадь:**         | 3 га |
-| **Расположение:**| Россия, Брянская область                                             | **Памятников:**      | 791 |
-| **Координаты:**  | [52°35'22"N 32°44'30"E](https://www.google.com/maps/place/52.5893971, 32.7416198)   | **Датировка:**       | 1847--2011 |
-| **Община:**      | евреи-ашкеназы                                                       | **Год описания:**    | 2018 |
+|------------------|----------------------------------------------------------------------|----------------------|------------------------------------------|
+| **Место:**       | Стародуб                                                             | **Площадь:**         | 3 га                                     |
+| **Расположение:**| Россия, Брянская область                                             | **Памятников:**      | 791                                      |
+| **Координаты:**  | [52°35'22"N 32°44'30"E](https://www.google.com/maps/place/52.5893971, 32.7416198)   | **Датировка:**       | 1847--2011                |
+| **Община:**      | евреи-ашкеназы                                                       | **Год описания:**    | 2018                                     |
 | **Статус:**      | недействующее                                                        | **Источник данных:** | Архив полевых исследований центра «Сэфер»|
+
+: {.striped tbl-colwidths="[14,36,14,36]"}
+
 :::
 
 :::: {.panel-tabset}
@@ -115,15 +115,17 @@ include-in-header:
 
 ### [{{< fa regular map size=sm >}}]{style="vertical-align: middle;"}  Карта
 
-**PDF--карта**
+::::{.columns}
 
-::: {style="margin-left: 1em;"}
-[{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} [Скачать файл](../data/SDB_map.pdf)
+::: {.column .text-left style="width: 50%"}
+**Онлайн--карта**
 :::
 
----
+::: {.column .text-right style="width: 50%"}
+[[{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle"} Скачать файл](../data/SDB_map.pdf){.btn .btn-outline-info role="button"}
+:::
 
-**Онлайн карта**
+::::
 
 - Нажмите [{{< fa layer-group size=sm >}}]{style="vertical-align: middle;"} чтобы выбрать вид карты и тип отображаемых памятников
 - Нажмите [{{< fa magnifying-glass size=sm >}}]{style="vertical-align: middle;"} для поиска памятника по номеру
@@ -195,5 +197,8 @@ for_map |>
 Работа по каталогизации включала комплексное описание всех сохранившихся надгробных памятников, а также выполнение геодезической съёмки некрополя. В электронном каталоге, подготовленном по результатам экспедиции, доступны подробные сведения о каждом надгробии, а также карта кладбища в онлайн- и pdf-форматах. 
 
 Материалы предоставлены для публикации Центром «Сэфер», каталог готовится к публикации.
+
+[[{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle;"} Перейти в каталог]{.btn .btn-outline-info .disabled role="button"}
+[[{{< fa file-excel size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} Скачать данные (XLS-файл)]{.btn .btn-outline-info .disabled role="button" style="margin-left: 1em;"}
 
 ::::
