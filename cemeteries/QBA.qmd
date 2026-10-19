@@ -6,7 +6,7 @@ short-title: "Куба--I"
 place: "Куба (Красная Слобода)"
 country: "Азербайджан"
 hist-location: "Российская империя, Дербентская губерния, Бакинская губерния"
-catalog: '[{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} [Cмотреть](/tombstones.qmd#category=c:QBA)'
+catalog: '[[{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle;"} Cмотреть](/tombstones.qmd#category=c:QBA){.btn .btn-outline-info .btn-sm role="button"}'
 lat: 41.370501
 lng: 48.507433
 community: "горские евреи"
@@ -66,12 +66,8 @@ include-in-header:
         margin-block-end: 0em;
         opacity: 1;
         z-index: -1;
-      }
-      
-      table tbody tr:nth-of-type(odd) {
-          background-color: rgba(0, 0, 0, 0.04) !important;
-      }
-        
+      }    
+     
       table, table tr, table th, table td {
         border: none !important;
         border-bottom: none !important;
@@ -103,13 +99,17 @@ include-in-header:
 :::
 
 ::: {.custom-frame}
+
 |||||
-|--|-----|--|-----|
-| **Место:**       | Куба́ (Губа́), *азерб.* Quba, *лезг.* Къуба                          | **Площадь:**         | 6,7 га |
-| **Расположение:**| Азербайджан, Губинский район                                       | **Памятников:**      | 1194 |
-| **Координаты:**  | [41°22'13"N 48°30'27"E](https://maps.app.goo.gl/kzjccoRgN5MnRHhX6) | **Датировка:**       | 1806--2024 |
-| **Община:**      | горские евреи                                                      | **Год описания:**    | 2025 |
+|------------------|--------------------------------------------------------------------|----------------------|------------------------------------------|
+| **Место:**       | Куба́ (Губа́), *азерб.* Quba, *лезг.* Къуба                          | **Площадь:**         | 6,7 га                                   |
+| **Расположение:**| Азербайджан, Губинский район                                       | **Памятников:**      | 1194                                     |
+| **Координаты:**  | [41°22'13"N 48°30'27"E](https://maps.app.goo.gl/kzjccoRgN5MnRHhX6) | **Датировка:**       | 1806--2024                               |
+| **Община:**      | горские евреи                                                      | **Год описания:**    | 2025                                     |
 | **Статус:**      | недействующее                                                      | **Источник данных:** | Архив полевых исследований Центра «Сэфер»|
+
+: {.striped tbl-colwidths="[14,36,14,36]"}
+
 :::
 
 :::: {.panel-tabset}
@@ -136,15 +136,17 @@ include-in-header:
 
 ### [{{< fa regular map size=sm >}}]{style="vertical-align: middle;"}  Карта
 
-**PDF--карта**
+::::{.columns}
 
-::: {style="margin-left: 1em;"}
-[{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} [Скачать файл](../data/QBA_map.pdf)
+::: {.column .text-left style="width: 50%"}
+**Онлайн--карта**
 :::
 
----
+::: {.column .text-right style="width: 50%"}
+[[{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle"} Скачать файл](../data/QBA_map.pdf){.btn .btn-outline-info role="button"}
+:::
 
-**Онлайн--карта**
+::::
 
 - Нажмите [{{< fa layer-group size=sm >}}]{style="vertical-align: middle;"} чтобы выбрать вид карты и тип отображаемых памятников
 - Нажмите [{{< fa magnifying-glass size=sm >}}]{style="vertical-align: middle;"} для поиска памятника по номеру
@@ -250,10 +252,7 @@ for_map |>
 
 Материалы предоставлены для публикации Центром «Сэфер».
 
-::: {.reduced-intervals style="margin-left: 1em;"}
-[{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} [Перейти в каталог](/tombstones.qmd#category=c:QBA)
-
-[{{< fa file-excel size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} [Скачать данные (XLS-файл)](../data/QBA_data.xlsx)
-:::
+[[{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle;"} Перейти в каталог](/tombstones.qmd#category=c:QBA){.btn .btn-outline-info role="button"}
+[[{{< fa file-excel size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} Скачать данные (XLS-файл)](../data/QBA_data.xlsx){.btn .btn-outline-info role="button" style="margin-left: 1em;"}
 
 ::::
