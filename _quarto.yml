@@ -43,9 +43,7 @@ website:
         contents:
           - section: "**Фильтры**"
             contents:
-            - text: "Сбросить"
-              href: tombstones.qmd
-            - text: "---"
+            - text: ""
             - section: "МЕСТА"
               contents:
                 - text: "Куба (центральное)"
@@ -310,6 +308,9 @@ website:
                   href: tombstones.qmd#category=d:традиционный
                 - text: "другое"
                   href: tombstones.qmd#category=d:другое
+            - text: "Сбросить"
+              href: tombstones.qmd
+                  
 format: 
   html:
     lang: ru
