@@ -30,7 +30,7 @@ website:
     right: |
         [{{< fa regular copyright size=sm >}}]{style="vertical-align: top;"} Интерфейс и структура сайта защищены авторским правом, 2026.
         
-        [{{< fa brands creative-commons size=sm >}}]{style="vertical-align: top;"} Материалы размещаются по лицензии [CС BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru) или на условиях правообладателей.
+        [{{< fa brands creative-commons size=sm >}}]{style="vertical-align: top;"} Материалы доступны по лицензии [CС BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru) или на условиях правообладателей.
         
   bread-crumbs: false
   
