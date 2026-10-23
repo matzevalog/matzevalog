@@ -205,7 +205,7 @@ website:
                     - text: "Холокост"
                       href: tombstones.qmd#category=t:Холокост
                 - section: "География"
-                  href: tombstones.qmd#category=t:География
+                  href: tombstones.qmd#category=ge:география
             - text: "---"
             - section: "ЯЗЫК"
               contents:
@@ -243,9 +243,9 @@ website:
                 - text: "L-образный"
                   href: tombstones.qmd#category=tt:L-образный
                 - text: "плита/саркофаг"
-                  href: tombstones.qmd#category=tt:саркофаг
+                  href: tombstones.qmd#category=tt:плита/саркофаг
                 - text: "шатер (*охель*)"
-                  href: tombstones.qmd#category=tt:шатер
+                  href: tombstones.qmd#category=tt:шатёр (охель)
                 - text: "особый"
                   href: tombstones.qmd#category=tt:индивидуальный
                 - text: "табличка"
@@ -305,7 +305,7 @@ website:
                 - text: "предметно-бытовой"
                   href: tombstones.qmd#category=d:предметно-бытовой
                 - text: "традиционная символика"
-                  href: tombstones.qmd#category=d:традиционный
+                  href: tombstones.qmd#category=d:традиционная символика
                 - text: "другое"
                   href: tombstones.qmd#category=d:другое
             - text: "Сбросить"
