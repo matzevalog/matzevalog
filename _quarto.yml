@@ -205,7 +205,9 @@ website:
                     - text: "Холокост"
                       href: tombstones.qmd#category=t:Холокост
                 - section: "География"
-                  href: tombstones.qmd#category=ge:география
+                  contents:
+                    - text: "география"
+                      href: tombstones.qmd#category=ge:география
             - text: "---"
             - section: "ЯЗЫК"
               contents:
@@ -320,3 +322,4 @@ format:
        - spacelab
        - styles.scss
     page-layout: full
+

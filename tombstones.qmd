@@ -53,7 +53,7 @@ include-in-header:
             background-color: #fff;
          }
 
-          div.sidebar-item-container a.sidebar-link.active .menu-text {
+         div.sidebar-item-container a.sidebar-link.active .menu-text {
             display: inline-block;
             width: 100%;
             margin-top: 0.6rem;

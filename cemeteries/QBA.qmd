@@ -72,14 +72,14 @@ include-in-header:
         border: none !important;
         border-bottom: none !important;
         border-top: none !important;
-      }  
-
-     figure.figure p {
-          overflow: hidden;
-          border-radius: var(--bs-border-radius);
-          margin-bottom: 0.5em !important;
-      }
+      } 
       
+      .figure p {
+        overflow: hidden;
+        border-radius: 5px;
+        margin-bottom: 0.5em !important;
+      }
+
       figure.figure img {
           transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
           margin-bottom: 0em;

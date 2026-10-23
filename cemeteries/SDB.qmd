@@ -133,6 +133,7 @@ include-in-header:
 ```{r}
 #| fig-height: 9
 #| fig-width: 9
+#| eval: false
 
 suppressPackageStartupMessages(library(tidyverse))
 library(leaflet)
