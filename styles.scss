@@ -39,17 +39,17 @@ $nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;
     @extend .table-striped !optional;
 }
 
-
 .nav-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .nav-footer p {
     margin-bottom: 0px;
+}
+
+.nav-footer-center {
     min-height: fit-content;
 }
 
