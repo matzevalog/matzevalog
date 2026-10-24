@@ -18,11 +18,11 @@ listing:
     contents: "../cemeteries/"
     type: table
     table-striped: true
-    table-hover: false
+    table-hover: true
     fields: [code, title, country, status, tomb-dating, tomb-amount, catalog]
-    sort-ui: [code, title, country, status, tomb-dating, tomb-amount]
+    sort-ui: [code, title, country, status, tomb-dating, tomb-amount, catalog]
     filter-ui: [code, title, country, status]    
-    field-links: [title]
+    field-links: [code]
     field-display-names:
       code: "Код"
       title: "Место"
@@ -55,6 +55,53 @@ include-in-header:
          .g-col-1:hover {
             transform: translateY(0px);
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+          }
+
+          table.card-other-values {
+              line-height: 1.8em;
+              top-margin: 1em;
+              bottom-margin: 0;
+          }
+      
+          table.card-other-values tbody td:first-child {
+              text-align: left;
+              font-weight: normal !important;
+              color: #828282;
+          }
+      
+          table.card-other-values tbody td:last-child {
+               text-align: right;
+          }
+      
+          .quarto-grid-item .custom-btn {
+               --bs-btn-padding-y: 0.2rem; 
+               --bs-btn-padding-x: 0.5rem; 
+               --bs-btn-font-size: 0.8rem;
+          }
+      
+          .quarto-listing-table .custom-btn {
+               --bs-btn-padding-y: 0.25rem; 
+               --bs-btn-padding-x: 0.5rem; 
+               --bs-btn-font-size: 0.875rem;
+          }
+      
+          .quarto-listing-table tr {
+              vertical-align: middle;
+              text-align: center;
+          }
+
+          .listing-title { 
+              font-weight: bold; 
+          }
+
+          .quarto-listing-table th:nth-child(2),
+          .quarto-listing-table td:nth-child(2) {
+              text-align: left;
+          }
+
+          .quarto-listing-table th:nth-child(7),
+          .quarto-listing-table td:nth-child(7) {
+              text-align: left;
           }
 
       </style>
