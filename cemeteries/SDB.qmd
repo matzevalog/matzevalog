@@ -4,10 +4,10 @@ subtitle: "Россия"
 place: "Стародуб"
 country: "Россия"
 hist-location: "Российская империя, Черниговская губерния, Гомельская губерния"
-catalog: '[[{{< fa arrow-up-from-bracket size=sm >}}]{style="vertical-align: middle;"} В работе]{.btn .btn-outline-info .btn-sm .disabled role="button"}'
+catalog: '[[{{< fa solid magnifying-glass size=sm >}}]{style="vertical-align: middle;"} Cмотреть]{.btn .btn-outline-info .custom-btn .disabled role="button"}'
 lat: 41.370501
 lng: 48.507433
-community: "евреи-ашкеназы"
+community: "ашкеназы"
 tomb-dating: "1847--2011"
 status: "недействующее"
 tomb-amount: 791
@@ -68,6 +68,28 @@ include-in-header:
         border-bottom: none !important;
         border-top: none !important;
       }  
+
+      .figure p {
+        overflow: hidden;
+        border-radius: 0.25em;
+        margin-bottom: 0.5em !important;
+      }
+
+      .figure img {
+          transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+          margin-bottom: 0em;
+          display: block;
+      }
+    
+      .figure img:hover {
+          transform: scale(1.05);
+          filter: brightness(110%);
+      }
+
+      .figure figcaption {
+          display: none;
+      }
+
       </style>
 ---
 
@@ -117,12 +139,12 @@ include-in-header:
 
 ::::{.columns}
 
-::: {.column .text-left style="width: 50%"}
+::: {.column style="width: 50%; text-align: left; margin-bottom: 0;"}
 **Онлайн--карта**
 :::
 
-::: {.column .text-right style="width: 50%"}
-[[{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle"} Скачать файл](../data/SDB_map.pdf){.btn .btn-outline-info role="button"}
+::: {.column style="width: 50%; text-align: right; margin-bottom: 0;"}
+[[{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle"} Скачать pdf-карту](../data/SDB_map.pdf){.btn .btn-outline-info .btn-sm role="button"}
 :::
 
 ::::
@@ -199,7 +221,11 @@ for_map |>
 
 Материалы предоставлены для публикации Центром «Сэфер», каталог готовится к публикации.
 
-[[{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle;"} Перейти в каталог]{.btn .btn-outline-info .disabled role="button"}
-[[{{< fa file-excel size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} Скачать данные (XLS-файл)]{.btn .btn-outline-info .disabled role="button" style="margin-left: 1em;"}
+::: {style="margin-top: 1em"}
+
+[[{{< fa solid magnifying-glass size=sm >}}]{style="vertical-align: middle;"} Перейти в каталог]{.btn .btn-outline-info .disabled role="button"}
+[[{{< fa solid download size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} Скачать данные (XLS-файл)]{.btn .btn-outline-info .disabled role="button" style="margin-left: 1em;"}
+
+:::
 
 ::::
