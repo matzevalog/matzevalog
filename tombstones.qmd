@@ -41,6 +41,22 @@ include-in-header:
             margin-bottom: 0em;
          }
 
+         .quarto-listing-table tr {
+            vertical-align: middle;
+            text-align: center;
+         }
+
+         .quarto-listing-table thead { 
+            color: #a78f70; 
+         }
+
+         .quarto-listing-table th:nth-child(1),
+         .quarto-listing-table td:nth-child(1),
+         .quarto-listing-table th:nth-child(2),
+         .quarto-listing-table td:nth-child(2) {
+              text-align: left;
+         }
+
          ul.pagination li {
             padding-right: 0;
          }
