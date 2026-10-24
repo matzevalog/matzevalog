@@ -43,7 +43,6 @@ website:
         contents:
           - section: "**Фильтры**"
             contents:
-            - text: "---"
             - section: "МЕСТА"
               contents:
                 - text: "- Куба (центральное)"
