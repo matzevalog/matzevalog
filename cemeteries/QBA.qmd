@@ -6,7 +6,7 @@ short-title: "Куба--I"
 place: "Куба (Красная Слобода)"
 country: "Азербайджан"
 hist-location: "Российская империя, Дербентская губерния, Бакинская губерния"
-catalog: '[[{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle;"} Cмотреть](/tombstones.qmd#category=c:QBA){.btn .btn-outline-info .btn-sm role="button"}'
+catalog: '[[{{< fa solid magnifying-glass size=sm >}}]{style="vertical-align: middle;"} Cмотреть](/tombstones.qmd#category=c:QBA){.btn .btn-outline-info .custom-btn role="button"}'
 lat: 41.370501
 lng: 48.507433
 community: "горские евреи"
@@ -76,22 +76,55 @@ include-in-header:
       
       .figure p {
         overflow: hidden;
-        border-radius: 5px;
+        border-radius: 0.25em;
         margin-bottom: 0.5em !important;
       }
 
-      figure.figure img {
+      .figure img {
           transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
           margin-bottom: 0em;
           display: block;
       }
     
-      figure.figure img:hover {
+      .figure img:hover {
           transform: scale(1.05);
-          filter: brightness(108%);
+          filter: brightness(110%);
+      }
+
+      .figure figcaption {
+          display: none;
+      }
+
+      .table-striped td:nth-child(1),
+      .table-striped td:nth-child(3) {
+          color: #a78f70;
+      }
+
+      .table-striped {
+          --bs-table-accent-bg: #fff;
       }
 
       </style>
+
+include-after-body:
+  - text: |
+      <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            const lightboxLinks = document.querySelectorAll('a.lightbox');
+            
+            lightboxLinks.forEach(link => {
+              const img = link.querySelector('img');
+              if (img && img.alt) {
+                link.setAttribute('data-bs-toggle', 'tooltip');
+                link.setAttribute('data-bs-placement', 'bottom');
+                
+                new bootstrap.Tooltip(link, {
+                  title: img.alt
+                });
+              }
+            });
+          });
+      </script>
 ---
 
 ::: {style="font-size: 1em; margin-bottom: 1.5em"}
@@ -101,12 +134,12 @@ include-in-header:
 ::: {.custom-frame}
 
 |||||
-|------------------|--------------------------------------------------------------------|----------------------|------------------------------------------|
-| **Место:**       | Куба́ (Губа́), *азерб.* Quba, *лезг.* Къуба                          | **Площадь:**         | 6,7 га                                   |
-| **Расположение:**| Азербайджан, Губинский район                                       | **Памятников:**      | 1194                                     |
-| **Координаты:**  | [41°22'13"N 48°30'27"E](https://maps.app.goo.gl/kzjccoRgN5MnRHhX6) | **Датировка:**       | 1806--2024                               |
-| **Община:**      | горские евреи                                                      | **Год описания:**    | 2025                                     |
-| **Статус:**      | недействующее                                                      | **Источник данных:** | Архив полевых исследований Центра «Сэфер»|
+|--------------|--------------------------------------------------------------------|------------------|------------------------------------------|
+| Место:       | Куба́ (Губа́), *азерб.* Quba, *лезг.* Къуба                          | Площадь:         | 6,7 га                                   |
+| Расположение:| Азербайджан, Губинский район                                       | Памятников:      | 1194                                     |
+| Координаты:  | [41°22'13"N 48°30'27"E](https://maps.app.goo.gl/kzjccoRgN5MnRHhX6) | Датировка:       | 1806--2024                               |
+| Община:      | горские евреи                                                      | Год описания:    | 2025                                     |
+| Статус:      | недействующее                                                      | Источник данных: | Архив полевых исследований Центра «Сэфер»|
 
 : {.striped tbl-colwidths="[14,36,14,36]"}
 
@@ -138,12 +171,12 @@ include-in-header:
 
 ::::{.columns}
 
-::: {.column .text-left style="width: 50%"}
+::: {.column style="width: 50%; text-align: left; margin-bottom: 0;"}
 **Онлайн--карта**
 :::
 
-::: {.column .text-right style="width: 50%"}
-[[{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle"} Скачать файл](../data/QBA_map.pdf){.btn .btn-outline-info role="button"}
+::: {.column style="width: 50%; text-align: right; margin-bottom: 0;"}
+[[{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle"} Скачать pdf-карту](../data/QBA_map.pdf){.btn .btn-outline-info .btn-sm role="button"}
 :::
 
 ::::
@@ -211,37 +244,37 @@ for_map |>
 
 ::: {layout-ncol=4}
 
-![Надгробия середины XIX в. на старом участке кладбища](../additional_images/QBA_01.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Надгробия середины XIX в. на старом участке кладбища](../additional_images/QBA_01.JPG){group="my-gallery"}
 
-![Панорамный вид верхней части кладбища](../additional_images/QBA_02.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Панорамный вид верхней части кладбища](../additional_images/QBA_02.JPG){group="my-gallery"}
 
-![Вид на современный участок кладбища](../additional_images/QBA_03.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Вид на современный участок кладбища](../additional_images/QBA_03.JPG){group="my-gallery"}
 
-![Современные памятники рядом с верхним (северным) входом на кладбище](../additional_images/QBA_04.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Современные памятники рядом с верхним (северным) входом на кладбище](../additional_images/QBA_04.JPG){group="my-gallery"}
 
-![Стелы начала XX в. на верхнем участке кладбища](../additional_images/QBA_05.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Стелы начала XX в. на верхнем участке кладбища](../additional_images/QBA_05.JPG){group="my-gallery"}
 
-![Надгробие в виде саркофага, 1935 г.](../additional_images/QBA_06.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Надгробие в виде саркофага, 1935 г.](../additional_images/QBA_06.JPG){group="my-gallery"}
 
-![Памятники разных типов в центральной части кладбища, середина XX в.](../additional_images/QBA_07.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Памятники разных типов в центральной части кладбища, середина XX в.](../additional_images/QBA_07.JPG){group="my-gallery"}
 
-![Горизонтальные надгробия в форме плиты с изголовьем, 1930--1940 гг.](../additional_images/QBA_08.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Горизонтальные надгробия в форме плиты с изголовьем, 1930--1940 гг.](../additional_images/QBA_08.JPG){group="my-gallery"}
 
-![Памятник с надмогильным саркофагом, 1912 г.](../additional_images/QBA_09_1.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Памятник с надмогильным саркофагом, 1912 г.](../additional_images/QBA_09_1.JPG){group="my-gallery"}
 
-![Семейное захоронение в центральной части кладбища, середина -- конец XX в.](../additional_images/QBA_10.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Семейное захоронение в центральной части кладбища, середина -- конец XX в.](../additional_images/QBA_10.JPG){group="my-gallery"}
 
-![Геометрический орнамент на стеле середины XIX в.](../additional_images/QBA_11.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Геометрический орнамент на стеле середины XIX в.](../additional_images/QBA_11.JPG){group="my-gallery"}
 
-![Памятники с навершиями-вазонами в форме бутонов, 1900--2000 гг.](../additional_images/QBA_13.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Памятники с навершиями-вазонами в форме бутонов, 1900--2000 гг.](../additional_images/QBA_13.JPG){group="my-gallery"}
 
-![Резной декор на надгробии в виде цветков и звезды Давида, 1911 г.](../additional_images/QBA_12.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Резной декор на надгробии в виде цветков и звезды Давида, 1911 г.](../additional_images/QBA_12.JPG){group="my-gallery"}
 
-![Древовидное навершие с обломленной ветвью и фигуркой горлицы, 1964 г.](../additional_images/QBA_14.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Древовидное навершие с обломленной ветвью и фигуркой горлицы, 1964 г.](../additional_images/QBA_14.JPG){group="my-gallery"}
 
-![Старейшее датированное надгробие, сохранившееся на кладбище, 1806/1807 г.](../additional_images/QBA_15.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Старейшее датированное надгробие, сохранившееся на кладбище, 1806/1807 г.](../additional_images/QBA_15.JPG){group="my-gallery"}
 
-![Надгробие Гершона, сына Реувена Мизрахи (1815--1891) -- раввина Кубы и духовного лидера общины с 1853 по 1891 г.](../additional_images/QBA_16.JPG "Нажмите, чтобы увеличить"){group="my-gallery"}
+![Надгробие Гершона, сына Реувена Мизрахи (1815--1891) -- раввина Кубы и духовного лидера общины с 1853 по 1891 г.](../additional_images/QBA_16.JPG){group="my-gallery"}
 :::
 
 ### [{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle;"}  Каталог
@@ -252,7 +285,11 @@ for_map |>
 
 Материалы предоставлены для публикации Центром «Сэфер».
 
-[[{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle;"} Перейти в каталог](/tombstones.qmd#category=c:QBA){.btn .btn-outline-info role="button"}
-[[{{< fa file-excel size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} Скачать данные (XLS-файл)](../data/QBA_data.xlsx){.btn .btn-outline-info role="button" style="margin-left: 1em;"}
+::: { style="margin-top: 1em" }
+
+[[{{< fa solid magnifying-glass size=sm >}}]{style="vertical-align: middle;"} Смотреть каталог](/tombstones.qmd#category=c:QBA){.btn .btn-outline-info role="button"}
+[[{{< fa solid download size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} Скачать данные (XLS-файл)](../data/QBA_data.xlsx){.btn .btn-outline-info role="button" style="margin-left: 1em;"}
+
+:::
 
 ::::
