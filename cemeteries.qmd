@@ -66,7 +66,7 @@ include-in-header:
           table.card-other-values tbody td:first-child {
               text-align: left;
               font-weight: normal !important;
-              color: #828282;
+              color: #a78f70;
           }
       
           table.card-other-values tbody td:last-child {
