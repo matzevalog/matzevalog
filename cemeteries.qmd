@@ -90,15 +90,16 @@ include-in-header:
               text-align: center;
           }
 
+          .quarto-listing-table thead { 
+            color: #a78f70; 
+          }
+
           .listing-title { 
               font-weight: bold; 
           }
 
           .quarto-listing-table th:nth-child(2),
-          .quarto-listing-table td:nth-child(2) {
-              text-align: left;
-          }
-
+          .quarto-listing-table td:nth-child(2),
           .quarto-listing-table th:nth-child(7),
           .quarto-listing-table td:nth-child(7) {
               text-align: left;
