@@ -4,7 +4,7 @@ subtitle: "Россия"
 place: "Стародуб"
 country: "Россия"
 hist-location: "Российская империя, Черниговская губерния, Гомельская губерния"
-catalog: '[[{{< fa solid magnifying-glass size=sm >}}]{style="vertical-align: middle;"} Cмотреть]{.btn .btn-outline-info .custom-btn .disabled role="button"}'
+catalog: '[[{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle;"} Каталог]{.btn .btn-outline-info .custom-btn .disabled role="button"}'
 lat: 41.370501
 lng: 48.507433
 community: "ашкеназы"
