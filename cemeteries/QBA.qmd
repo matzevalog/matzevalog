@@ -6,7 +6,7 @@ short-title: "Куба--I"
 place: "Куба (Красная Слобода)"
 country: "Азербайджан"
 hist-location: "Российская империя, Дербентская губерния, Бакинская губерния"
-catalog: '[[{{< fa solid magnifying-glass size=sm >}}]{style="vertical-align: middle;"} Cмотреть](/tombstones.qmd#category=c:QBA){.btn .btn-outline-info .custom-btn role="button"}'
+catalog: '[[{{< fa regular folder-open size=sm >}}]{style="vertical-align: middle;"} Каталог](/tombstones.qmd#category=c:QBA){.btn .btn-outline-info .custom-btn role="button"}'
 lat: 41.370501
 lng: 48.507433
 community: "горские евреи"
@@ -97,7 +97,7 @@ include-in-header:
 
       .table-striped td:nth-child(1),
       .table-striped td:nth-child(3) {
-          color: #a78f70;
+          color: #929292;
       }
 
       .table-striped {
