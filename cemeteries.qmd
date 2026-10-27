@@ -13,14 +13,14 @@ listing:
       status: "Статус"
       area: "Площадь"
       tomb-amount: "Памятников"
-      catalog: "Каталог"
+      catalog: " "
   - id: table-view
     contents: "../cemeteries/"
     type: table
     table-striped: true
     table-hover: true
     fields: [code, title, country, status, tomb-dating, tomb-amount, catalog]
-    sort-ui: [code, title, country, status, tomb-dating, tomb-amount, catalog]
+    sort-ui: [code, title, country, status, tomb-dating, tomb-amount]
     filter-ui: [code, title, country, status]    
     field-links: [code]
     field-display-names:
@@ -30,7 +30,7 @@ listing:
       tomb-dating: "Датировка"
       status: "Статус"
       tomb-amount: "Памятников"
-      catalog: "Каталог"
+      catalog: " "
 include-in-header:
   - text: |
       <style>
@@ -59,14 +59,14 @@ include-in-header:
 
           table.card-other-values {
               line-height: 1.8em;
-              top-margin: 1em;
-              bottom-margin: 0;
+              margin-top: 1em;
+              margin-bottom: 0;
           }
       
           table.card-other-values tbody td:first-child {
               text-align: left;
               font-weight: normal !important;
-              color: #a78f70;
+              color: #929292;
           }
       
           table.card-other-values tbody td:last-child {
@@ -77,6 +77,7 @@ include-in-header:
                --bs-btn-padding-y: 0.2rem; 
                --bs-btn-padding-x: 0.5rem; 
                --bs-btn-font-size: 0.8rem;
+               margin-bottom: 1em;
           }
       
           .quarto-listing-table .custom-btn {
@@ -91,11 +92,11 @@ include-in-header:
           }
 
           .quarto-listing-table thead { 
-            color: #a78f70; 
+            color: #929292; 
           }
 
           .listing-title { 
-              font-weight: bold; 
+              font-weight: bold;
           }
 
           .quarto-listing-table th:nth-child(2),
