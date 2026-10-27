@@ -12,7 +12,8 @@ test_that("Проверка количества плюсов на полипе�
     filter(ru_plus_n != en_plus_n | en_plus_n != he_plus_n | he_plus_n != he_date_plus_n | he_date_plus_n != gr_date_plus_n) |> 
     select(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Неправильное количество плюсов в полиперсонном памятнике с кодом", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "неправильное количество плюсов в полиперсонном памятнике")) ->
     observed
   
   expected <- character(length = length(observed))

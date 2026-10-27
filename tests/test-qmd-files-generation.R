@@ -11,7 +11,8 @@ test_that("Проверка генерации qmd-файлов.", {
     filter(!(Number %in% generated)) |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Не сгенерирован qmd-файл для следующего памятника", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"),
+                        "не сгенерирован qmd-файл")) ->
     observed
   
   expected <- character(length = length(observed))

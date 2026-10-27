@@ -8,7 +8,8 @@ test_that("Заполненено ли поле Sex, если есть запо�
            !is.na(Name_RU)) |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Незаполнено поле 'пол', хотя заполнено имя на памятнике с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "незаполнено поле 'пол', хотя заполнено имя")) ->
     observed
   
   expected <- character(length = length(observed))
@@ -26,7 +27,8 @@ test_that("Содержит ли поле Sex что-то кроме 'женск
     filter(Sex != "") |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Необычное заполнение поля 'пол' в памятнике с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "необычное заполнение поля 'пол'")) ->
     observed
   
   expected <- character(length = length(observed))

@@ -10,7 +10,8 @@ test_that("Проверка разного количества строчек �
     filter(Trans_RU != "См. оригинал") |> 
     count(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Разное количество строчек в эпитафии и русском переводе в памятнике с кодом", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "разное количество строчек в эпитафии и русском переводе в памятнике")) ->
     observed
   
   expected <- character(length = length(observed))

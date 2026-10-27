@@ -8,7 +8,8 @@ test_that("Заполненено ли поле Material_code, если есть
            !is.na(Dimensions)) |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Незаполнено поле 'материал', хотя заполнены размеры памятника с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "незаполнено поле 'материал', хотя заполнены размеры")) ->
     observed
   
   expected <- character(length = length(observed))
@@ -26,7 +27,8 @@ test_that("Содержит ли поле Material_code что-то неподх
     filter(Material_code != "") |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Необычное заполнение поля Material_code в памятнике с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "необычное заполнение поля Material_code")) ->
     observed
   
   expected <- character(length = length(observed))

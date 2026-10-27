@@ -7,7 +7,8 @@ test_that("Заполненено ли поле размеры.", {
     filter(is.na(Dimensions)) |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Незаполнен размеры памятника с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "незаполнен размеры")) ->
     observed
   
   expected <- character(length = length(observed))

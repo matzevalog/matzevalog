@@ -11,7 +11,8 @@ test_that("Проверка заполнения григорианской да
     filter(DDate_GR != "") |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Необычное заполнение григорианской даты смерти в памятнике с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"),
+                        "необычное заполнение григорианской даты смерти")) ->
     observed
   
   expected <- character(length = length(observed))
@@ -42,7 +43,8 @@ test_that("Проверка заполнения григорианской да
     filter(DDate_GR != "") |> 
     distinct(Number) |> 
     arrange(Number) |>  
-    str_glue_data(str_c(str_pad("Неверное заполнение григорианской даты смерти в памятнике с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"),
+                        "Неверное заполнение григорианской даты смерти в памятнике с номером")) ->
     observed
   
   expected <- character(length = length(observed))
@@ -60,7 +62,8 @@ test_that("Проверка заполнения григорианской да
     filter(BDate_GR != "") |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Необычное заполнение григорианской даты рождения в памятнике с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"),
+                        "необычное заполнение григорианской даты рождения")) ->
     observed
   
   expected <- character(length = length(observed))
@@ -90,7 +93,8 @@ test_that("Проверка заполнения григорианской да
     filter(BDate_GR != "") |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Необычное заполнение григорианской даты рождения в памятнике с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"),
+                        "необычное заполнение григорианской даты рождения")) ->
     observed
   
   expected <- character(length = length(observed))
@@ -120,7 +124,8 @@ test_that("Проверка заполнения еврейской даты р�
     filter(BDate_HE != "") |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Необычное заполнение еврейской даты рождения в памятнике с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "необычное заполнение еврейской даты рождения")) ->
     observed
   
   expected <- character(length = length(observed))
@@ -150,7 +155,8 @@ test_that("Проверка заполнения еврейской даты с�
     filter(DDate_HE != "") |>
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Необычное заполнение еврейской даты смерти в памятнике с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "необычное заполнение еврейской даты смерти")) ->
     observed
   
   expected <- character(length = length(observed))

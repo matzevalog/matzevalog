@@ -9,7 +9,8 @@ test_that("Заполненено ли поле Lang, если есть запо
            Name_RU != "Неизвестный(-ая)") |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Незаполнено поле 'Lang', хотя заполнено имя на памятнике с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "незаполнено поле 'Lang', хотя заполнено имя")) ->
     observed
   
   expected <- character(length = length(observed))
@@ -27,7 +28,8 @@ test_that("Содержит ли поле Lang что-то кроме 'иври�
     filter(Lang != "") |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Необычное заполнение поля 'Lang' в памятнике с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"),
+                        "необычное заполнение поля 'Lang'")) ->
     observed
   
   expected <- character(length = length(observed))

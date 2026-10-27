@@ -8,7 +8,8 @@ test_that("Проверка дубликатов памятников", {
     count(Number) |> 
     arrange(Number) |> 
     filter(n > 1) |> 
-    str_glue_data(str_c(str_pad("В данных несколько памятников ({n}) с одним и тем же кодом", 102, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "несколько памятников ({n}) с одним и тем же кодом")) ->
     observed
   
   expected <- character(length = length(observed))

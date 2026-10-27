@@ -7,7 +7,7 @@ test_that("Проверка наличия фотографий.", {
     filter(is.na(images)) |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("В папке отсутствуют фотографии для памятника с кодом", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), "отсутствуют фотографии в папке")) ->
     observed
   
   expected <- character(length = length(observed))

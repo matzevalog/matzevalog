@@ -8,7 +8,8 @@ test_that("Заполненено ли поле координаты, если �
            !is.na(Name_RU)) |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Незаполнены координаты, хотя заполнено имя на памятнике с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "незаполнены координаты, хотя заполнено имя")) ->
     observed
   
   expected <- character(length = length(observed))

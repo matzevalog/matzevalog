@@ -10,7 +10,8 @@ test_that("Содержит ли поле Tomb_type верную помету и
     filter(Tomb_type != "") |> 
     distinct(Number) |> 
     arrange(Number) |> 
-    str_glue_data(str_c(str_pad("Необычное заполнение поля 'Tomb_type' в памятнике с номером", 100, side = "right"), "{Number}")) ->
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"),
+                        "необычное заполнение поля 'Tomb_type'")) ->
     observed
   
   expected <- character(length = length(observed))
