@@ -18,7 +18,7 @@ format:
 include-in-header:
   - text: |
       <style>
-      .reduced-intervals p { margin-bottom: 0.2em; }
+      .reduced-intervals p { margin-bottom: 0; }
 
       .panel-tabset { margin-left: 2em; }
 
@@ -136,9 +136,9 @@ include-in-header:
 
 :::: {.columns}
 
-::: {.column .text-center style="width: 20%; margin-top: 1em"}
+::: {.column .text-center width="20%"}
 
-::: {style="margin-bottom: 0.8em"}
+::: {style="margin-bottom: 0.6em; margin-top: 1em;"}
 ![](additional_images/MV.png){width=9em}
 :::
 
@@ -149,12 +149,12 @@ include-in-header:
 :::
 :::
 
-::: {.column .text-center style="width: 5%; margin-top: 1em"}
+::: {.column .text-center width="5%"}
 :::
 
-::: {.column .text-center style="width: 20%; margin-top: 1em"}
+::: {.column .text-center style="width: 20%"}
 
-::: {style="margin-bottom: 0.8em"}
+::: {style="margin-bottom: 0.6em; margin-top: 1em"}
 ![](additional_images/GM.png){width=9em}
 :::
 
