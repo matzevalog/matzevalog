@@ -35,7 +35,12 @@ include-in-header:
       <style>
       .description { display: none; }
 
-      .reduced-intervals p { margin-bottom: 0.3em; }
+      .reduced-intervals p { margin-bottom: 0; }
+
+      .button-intervals p {
+        margin-top: 1.5em;
+        margin-bottom: 0;
+      }
 
       .panel-tabset { margin-top: 2em; }
 
@@ -67,7 +72,16 @@ include-in-header:
         border: none !important;
         border-bottom: none !important;
         border-top: none !important;
-      }  
+      } 
+
+      .table-striped td:nth-child(1),
+      .table-striped td:nth-child(3) {
+          color: #a78f70;
+      }
+
+      .table-striped {
+          --bs-table-accent-bg: #fff;
+      }
 
       .figure p {
         overflow: hidden;
@@ -100,12 +114,12 @@ include-in-header:
 ::: {.custom-frame}
 
 |||||
-|------------------|----------------------------------------------------------------------|----------------------|------------------------------------------|
-| **Место:**       | Стародуб                                                             | **Площадь:**         | 3 га                                     |
-| **Расположение:**| Россия, Брянская область                                             | **Памятников:**      | 791                                      |
-| **Координаты:**  | [52°35'22"N 32°44'30"E](https://www.google.com/maps/place/52.5893971, 32.7416198)   | **Датировка:**       | 1847--2011                |
-| **Община:**      | евреи-ашкеназы                                                       | **Год описания:**    | 2018                                     |
-| **Статус:**      | недействующее                                                        | **Источник данных:** | Архив полевых исследований центра «Сэфер»|
+|-------------|----------------------------------------------------------------------|-----------------|------------------------------------------|
+| Место       | Стародуб                                                             | Площадь         | 3 га                                     |
+| Расположение| Россия, Брянская область                                             | Памятников      | 791                                      |
+| Координаты  | [52°35'22"N 32°44'30"E](https://www.google.com/maps/place/52.5893971, 32.7416198)   | Датировка       | 1847--2011                |
+| Община      | евреи-ашкеназы                                                       | Год описания    | 2018                                     |
+| Статус      | недействующее                                                        | Источник        | Архив полевых исследований центра «Сэфер»|
 
 : {.striped tbl-colwidths="[14,36,14,36]"}
 
@@ -139,11 +153,11 @@ include-in-header:
 
 ::::{.columns}
 
-::: {.column style="width: 50%; text-align: left; margin-bottom: 0;"}
+::: {.column .reduced-intervals style="width: 50%; text-align: left;"}
 **Онлайн--карта**
 :::
 
-::: {.column style="width: 50%; text-align: right; margin-bottom: 0;"}
+::: {.column .reduced-intervals style="width: 50%; text-align: right;"}
 [[{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle"} Скачать pdf-карту](../data/SDB_map.pdf){.btn .btn-outline-info .btn-sm role="button"}
 :::
 
@@ -221,10 +235,10 @@ for_map |>
 
 Материалы предоставлены для публикации Центром «Сэфер», каталог готовится к публикации.
 
-::: {style="margin-top: 1em"}
+::: {.button-intervals}
 
 [[{{< fa solid magnifying-glass size=sm >}}]{style="vertical-align: middle;"} Перейти в каталог]{.btn .btn-outline-info .disabled role="button"}
-[[{{< fa solid download size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} Скачать данные (XLS-файл)]{.btn .btn-outline-info .disabled role="button" style="margin-left: 1em;"}
+[[{{< fa solid download size=sm >}}]{style="vertical-align: middle;"} Скачать данные (XLS-файл)]{.btn .btn-outline-info .disabled role="button" style="margin-left: 1em;"}
 
 :::
 
