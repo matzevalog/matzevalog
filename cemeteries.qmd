@@ -77,13 +77,14 @@ include-in-header:
                --bs-btn-padding-y: 0.2rem; 
                --bs-btn-padding-x: 0.5rem; 
                --bs-btn-font-size: 0.8rem;
-               margin-bottom: 1em;
+               margin-top: 1em;
           }
       
           .quarto-listing-table .custom-btn {
                --bs-btn-padding-y: 0.25rem; 
                --bs-btn-padding-x: 0.5rem; 
                --bs-btn-font-size: 0.875rem;
+               --bs-table-accent-bg: #fff;
           }
       
           .quarto-listing-table tr {
