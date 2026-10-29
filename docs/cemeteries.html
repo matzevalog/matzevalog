@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9dfa3a0840daf36708a4381d07bf6e2f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6de6ebef4e15a8892b907fa1ca8744fa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -115,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-code','listing-title','listing-country','listing-status','listing-tomb-dating','listing-tomb-amount','listing-catalog',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-code','listing-title','listing-country','listing-status','listing-tomb-dating','listing-tomb-amount','listing-catalog',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-code-sort'] }],
       
       searchColumns: ["listing-code","listing-title","listing-country","listing-status"],
     };
@@ -156,6 +156,55 @@ ul.task-list li input[type="checkbox"] {
    .g-col-1:hover {
       transform: translateY(0px);
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    table.card-other-values {
+        line-height: 1.8em;
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+
+    table.card-other-values tbody td:first-child {
+        text-align: left;
+        font-weight: normal !important;
+        color: #929292;
+    }
+
+    table.card-other-values tbody td:last-child {
+         text-align: right;
+    }
+
+    .quarto-grid-item .custom-btn {
+         --bs-btn-padding-y: 0.2rem;
+         --bs-btn-padding-x: 0.5rem;
+         --bs-btn-font-size: 0.8rem;
+         margin-bottom: 1em;
+    }
+
+    .quarto-listing-table .custom-btn {
+         --bs-btn-padding-y: 0.25rem;
+         --bs-btn-padding-x: 0.5rem;
+         --bs-btn-font-size: 0.875rem;
+    }
+
+    .quarto-listing-table tr {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .quarto-listing-table thead {
+      color: #929292;
+    }
+
+    .listing-title {
+        font-weight: bold;
+    }
+
+    .quarto-listing-table th:nth-child(2),
+    .quarto-listing-table td:nth-child(2),
+    .quarto-listing-table th:nth-child(7),
+    .quarto-listing-table td:nth-child(7) {
+        text-align: left;
     }
 
 </style>
@@ -293,7 +342,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1792769068605" data-listing-reading-time-sort="10" data-listing-word-count-sort="1844">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1793252744241" data-listing-reading-time-sort="10" data-listing-word-count-sort="1807">
 <a href="./cemeteries/QBA.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -346,10 +395,9 @@ window.Quarto = {
 
 <tr>
 <td>
-Каталог
 </td>
 <td class="catalog">
-<a href="./tombstones.html#category=c:QBA" class="btn btn-outline-info btn-sm" role="button"><span style="vertical-align: middle;"><i class="fa-regular fa-folder-open fa-sm" aria-label="folder-open"></i></span> Cмотреть</a>
+<a href="./tombstones.html#category=c:QBA" class="btn btn-outline-info custom-btn" role="button"><span style="vertical-align: middle;"><i class="fa-regular fa-folder-open fa-sm" aria-label="folder-open"></i></span> Каталог</a>
 </td>
 </tr>
 
@@ -357,7 +405,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1792768907346" data-listing-reading-time-sort="9" data-listing-word-count-sort="1675">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1793252744241" data-listing-reading-time-sort="9" data-listing-word-count-sort="1685">
 <a href="./cemeteries/SDB.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -410,10 +458,9 @@ window.Quarto = {
 
 <tr>
 <td>
-Каталог
 </td>
 <td class="catalog">
-<span class="btn btn-outline-info btn-sm disabled" role="button"><span style="vertical-align: middle;"><i class="fa-solid fa-arrow-up-from-bracket fa-sm" aria-label="arrow-up-from-bracket"></i></span> В работе</span>
+<span class="btn btn-outline-info custom-btn disabled" role="button"><span style="vertical-align: middle;"><i class="fa-regular fa-folder-open fa-sm" aria-label="folder-open"></i></span> Каталог</span>
 </td>
 </tr>
 
@@ -433,10 +480,10 @@ window.Quarto = {
     <select id="listing-table-view-sort" class="form-select" aria-label="Сортировать по" onchange="window['quarto-listings']['listing-table-view'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Сортировать по</option>
       <option value="index" data-direction="asc">предварительно выбранный</option>
-      <option value="listing-code" data-direction="asc">
+      <option value="listing-code-sort" data-direction="asc">
         Код
       </option>
-      <option value="listing-title-sort" data-direction="asc">
+      <option value="listing-title" data-direction="asc">
         Место
       </option>
       <option value="listing-country" data-direction="asc">
@@ -458,16 +505,16 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Фильтр">
     </div>
 </div>
-<table class="quarto-listing-table table table-striped">
+<table class="quarto-listing-table table table-striped table-hover">
 <thead>
 <tr>
 
 <th>
-<a class="sort" data-sort="listing-code" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Код</a>
+<a class="sort" data-sort="listing-code-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Код</a>
 </th>
 
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Место</a>
+<a class="sort" data-sort="listing-title" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Место</a>
 </th>
 
 <th>
@@ -487,19 +534,20 @@ window.Quarto = {
 </th>
 
 <th>
-Каталог
+ 
 </th>
 
 </tr>
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1792769068605" data-listing-reading-time-sort="10" data-listing-word-count-sort="1844" data-listing-title-sort="Куба (центральное)">
+<tr data-index="0" data-listing-file-modified-sort="1793252744241" data-listing-reading-time-sort="10" data-listing-word-count-sort="1807" data-listing-code-sort="QBA" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
 <td>
-<span class="listing-code">QBA</span>
+<a href="./cemeteries/QBA.html" class="code listing-code">QBA</a>
 </td>
 <td>
-<a href="./cemeteries/QBA.html" class="title listing-title">Куба (центральное)</a>
+<span class="listing-title">Куба (центральное)</span>
 </td>
 <td>
 <span class="listing-country">Азербайджан</span>
@@ -514,17 +562,18 @@ window.Quarto = {
 <span class="listing-tomb-amount">1194</span>
 </td>
 <td>
-<span class="listing-catalog"><a href="./tombstones.html#category=c:QBA" class="btn btn-outline-info btn-sm" role="button"><span style="vertical-align: middle;"><i class="fa-regular fa-folder-open fa-sm" aria-label="folder-open"></i></span> Cмотреть</a></span>
+<span class="listing-catalog"><a href="./tombstones.html#category=c:QBA" class="btn btn-outline-info custom-btn" role="button"><span style="vertical-align: middle;"><i class="fa-regular fa-folder-open fa-sm" aria-label="folder-open"></i></span> Каталог</a></span>
 </td>
 
 </tr>
 
-<tr data-index="1" data-listing-file-modified-sort="1792768907346" data-listing-reading-time-sort="9" data-listing-word-count-sort="1675" data-listing-title-sort="Стародуб">
+<tr data-index="1" data-listing-file-modified-sort="1793252744241" data-listing-reading-time-sort="9" data-listing-word-count-sort="1685" data-listing-code-sort="SDB" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
 <td>
-<span class="listing-code">SDB</span>
+<a href="./cemeteries/SDB.html" class="code listing-code">SDB</a>
 </td>
 <td>
-<a href="./cemeteries/SDB.html" class="title listing-title">Стародуб</a>
+<span class="listing-title">Стародуб</span>
 </td>
 <td>
 <span class="listing-country">Россия</span>
@@ -539,7 +588,7 @@ window.Quarto = {
 <span class="listing-tomb-amount">791</span>
 </td>
 <td>
-<span class="listing-catalog"><span class="btn btn-outline-info btn-sm disabled" role="button"><span style="vertical-align: middle;"><i class="fa-solid fa-arrow-up-from-bracket fa-sm" aria-label="arrow-up-from-bracket"></i></span> В работе</span></span>
+<span class="listing-catalog"><span class="btn btn-outline-info custom-btn disabled" role="button"><span style="vertical-align: middle;"><i class="fa-regular fa-folder-open fa-sm" aria-label="folder-open"></i></span> Каталог</span></span>
 </td>
 
 </tr>

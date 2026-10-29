@@ -8,7 +8,7 @@ test_that("Заполненено ли поле размеры.", {
     distinct(Number) |> 
     arrange(Number) |> 
     str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
-                        "незаполнен размеры")) ->
+                        "незаполнен размеры"))
     observed
   
   expected <- character(length = length(observed))
@@ -16,3 +16,4 @@ test_that("Заполненено ли поле размеры.", {
   write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)
 })
+
