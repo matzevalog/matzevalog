@@ -37,7 +37,12 @@ include-in-header:
       <style>
       .description { display: none; }
 
-      .reduced-intervals p { margin-bottom: 0.3em; }
+      .reduced-intervals p { margin-bottom: 0; }
+
+      .button-intervals p {
+        margin-top: 1.5em;
+        margin-bottom: 0;
+      }
 
       .panel-tabset { margin-top: 2em; }
 
@@ -134,12 +139,12 @@ include-after-body:
 ::: {.custom-frame}
 
 |||||
-|--------------|--------------------------------------------------------------------|------------------|------------------------------------------|
-| Место:       | Куба́ (Губа́), *азерб.* Quba, *лезг.* Къуба                          | Площадь:         | 6,7 га                                   |
-| Расположение:| Азербайджан, Губинский район                                       | Памятников:      | 1194                                     |
-| Координаты:  | [41°22'13"N 48°30'27"E](https://maps.app.goo.gl/kzjccoRgN5MnRHhX6) | Датировка:       | 1806--2024                               |
-| Община:      | горские евреи                                                      | Год описания:    | 2025                                     |
-| Статус:      | недействующее                                                      | Источник данных: | Архив полевых исследований Центра «Сэфер»|
+|-------------|--------------------------------------------------------------------|-----------------|------------------------------------------|
+| Место       | Куба́ (Губа́), *азерб.* Quba, *лезг.* Къуба                          | Площадь         | 6,7 га                                   |
+| Расположение| Азербайджан, Губинский район                                       | Памятников      | 1194                                     |
+| Координаты  | [41°22'13"N 48°30'27"E](https://maps.app.goo.gl/kzjccoRgN5MnRHhX6) | Датировка       | 1806--2024                               |
+| Община      | горские евреи                                                      | Год описания    | 2025                                     |
+| Статус      | недействующее                                                      | Источник        | Архив полевых исследований Центра «Сэфер»|
 
 : {.striped tbl-colwidths="[14,36,14,36]"}
 
@@ -171,11 +176,11 @@ include-after-body:
 
 ::::{.columns}
 
-::: {.column style="width: 50%; text-align: left; margin-bottom: 0;"}
+::: {.column .reduced-intervals style="width: 50%; text-align: left;"}
 **Онлайн--карта**
 :::
 
-::: {.column style="width: 50%; text-align: right; margin-bottom: 0;"}
+::: {.column .reduced-intervals style="width: 50%; text-align: right;"}
 [[{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle"} Скачать pdf-карту](../data/QBA_map.pdf){.btn .btn-outline-info .btn-sm role="button"}
 :::
 
@@ -285,10 +290,10 @@ for_map |>
 
 Материалы предоставлены для публикации Центром «Сэфер».
 
-::: { style="margin-top: 1em" }
+::: {.button-intervals}
 
 [[{{< fa solid magnifying-glass size=sm >}}]{style="vertical-align: middle;"} Смотреть каталог](/tombstones.qmd#category=c:QBA){.btn .btn-outline-info role="button"}
-[[{{< fa solid download size=sm >}}]{style="vertical-align: middle; color: #DBAE63;"} Скачать данные (XLS-файл)](../data/QBA_data.xlsx){.btn .btn-outline-info role="button" style="margin-left: 1em;"}
+[[{{< fa solid download size=sm >}}]{style="vertical-align: middle;"} Скачать данные (XLS-файл)](../data/QBA_data.xlsx){.btn .btn-outline-info role="button" style="margin-left: 1em;"}
 
 :::
 
