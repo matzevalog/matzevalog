@@ -8,7 +8,7 @@ test_that("Заполненено ли поле размеры.", {
     distinct(Number) |> 
     arrange(Number) |> 
     str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
-                        "незаполнен размеры"))
+                        "незаполнен размеры")) ->
     observed
   
   expected <- character(length = length(observed))
