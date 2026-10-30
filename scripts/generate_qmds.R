@@ -282,7 +282,7 @@ for_qmd_generation_second_step |>
 
 :::: {{.columns .date-panel .align-items-center}}
 ::: {{.column width="1.5em" .text-center}}
-![](../additional_images/Cradle.svg "Дата рождения"){{width=1.3em .nolightbox}}
+![](../additional_images/Cradle-b.svg "Дата рождения"){{width=1.3em .nolightbox}}
 :::
 
 ::: {{.column style="width: fit-content; padding-left: 0.4em; padding-right: 4em;"}}
@@ -292,7 +292,7 @@ for_qmd_generation_second_step |>
 :::
 
 ::: {{.column width="1.5em" .text-center}}
-![](../additional_images/Tombstone.svg "Дата смерти"){{width=1.3em .nolightbox}}
+![](../additional_images/Tombstone-b.svg "Дата смерти"){{width=1.3em .nolightbox}}
 :::
 
 ::: {{.column style="width: fit-content; padding-left: 0.4em;"}}
@@ -413,7 +413,7 @@ suppressPackageStartupMessages(library(tidyverse))
 ```
 :::
 
-::: {{.column width="5%"}}
+::: {{.column width="1.5em"}}
 :::
 
 ::: {{.column width="74%"}}
@@ -443,7 +443,7 @@ tibble(`Оригинал` = "{Epitaph}",
 |Примечания|{Notes_RU}|
 |Язык      |{Lang}    |
 |Метки     |{Tags}    |
-: {{.striped .custom-table tbl-colwidths="[25,75]"}}
+: {{.striped .custom-table tbl-colwidths="[21,79]"}}
 
 #### Памятник
 
@@ -454,8 +454,8 @@ tibble(`Оригинал` = "{Epitaph}",
 |Размеры         |{Dimensions}                                                                        |
 |Тип декора      |{Decor_code}                                                                        |
 |Элементы декора |{Decor_RU}                                                                          |
-|Координаты      |[{Coordinates}](https://www.google.com/maps/place/{Coordinates})                    |
-: {{.striped .custom-table tbl-colwidths="[25,75]"}}
+|Координаты      |{Coordinates} [[{{{< fa solid map-location-dot size=sm >}}}]{{style="vertical-align: middle;"}} Смотреть на карте](https://www.google.com/maps/place/{Coordinates}){{.btn .btn-outline-info role="button"}}   |
+: {{.striped .custom-table tbl-colwidths="[21,79]"}}
 
 #### Источник
 
@@ -466,7 +466,7 @@ tibble(`Оригинал` = "{Epitaph}",
 |Ссылка                |[{Link}]({Link}) |
 |Исходный ID           |{Source_Code}    |
 |Условия использования |{license}        |
-: {{.striped .custom-table tbl-colwidths="[25,75]"}}
+: {{.striped .custom-table tbl-colwidths="[21,79]"}}
 
 :::
 
