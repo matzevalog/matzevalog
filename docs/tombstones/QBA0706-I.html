@@ -93,9 +93,43 @@ ul.task-list li input[type="checkbox"] {
       border-bottom: none !important;
       border-top: none !important;
    }
-    .name-style p { font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }
+    .name-style p { font-size: 1.2em; margin-bottom: 0.1em; }
     .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
     #title-block-header { margin-block-end: 0em; }
+
+    .date-panel .column p {margin-top: 0;
+                            margin-bottom: 0;
+    }
+
+    .date-panel .columns {display: flex !important;
+                           align-items: center;
+    }
+
+   .figure p {
+        overflow: hidden;
+        border-radius: 0.25rem;
+        margin-bottom: 1.2em !important;
+    }
+
+    .figure img {
+        transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+        margin-bottom: 0em;
+        display: block;
+    }
+
+    .figure img:hover {
+        transform: scale(1.05);
+        filter: brightness(108%);
+    }
+
+    .custom-table td:nth-child(1) {
+        color: #929292;
+    }
+
+  .table-striped tr {
+      --bs-table-accent-bg: #fff;
+      vertical-align: middle;
+  }
 </style>
 
 
@@ -199,21 +233,25 @@ ul.task-list li input[type="checkbox"] {
 </div><div class="column" style="width:5%;">
 
 </div><div class="column" style="width:74%;">
+<div class="custom-frame">
 <div class="name-style">
-<p>ЕЛЕЗАРОВА Антонина, дочь Анталии (Антонина Анатольевна)</p>
+<p><strong>ЕЛЕЗАРОВА Антонина, дочь Анталии (Антонина Анатольевна)</strong></p>
 </div>
-<div style="font-size: 1.2em;">
+<div style="font-size: 1.2em; color: #929292;">
 <p>אנתניינא בת אנתליא</p>
 </div>
-<div class="columns" style="margin-top: 1em">
-<div class="column" style="width:5%;">
-<p><img src="../additional_images/Cradle.svg" class="nolightbox img-fluid" style="width:1.3em"></p>
-</div><div class="column" style="width: 40%; padding-left: 0.2em;">
-<p>24.03.1972 <span style="color: #adb5bd">/</span> –</p>
-</div><div class="column" style="width:5%;">
-<p><img src="../additional_images/Tombstone.svg" class="nolightbox img-fluid" style="width:1.3em"></p>
-</div><div class="column" style="width: 50%; padding-left: 0.2em;">
-<p>15.03.1992 <span style="color: #adb5bd">/</span> 11.Ad.5752</p>
+<div class="columns date-panel align-items-center">
+<div class="column text-center" style="width:1.5em;">
+<p><img src="../additional_images/Cradle.svg" title="Дата рождения" class="nolightbox img-fluid" style="width:1.3em"></p>
+</div><div class="column" style="width: fit-content; padding-left: 0.4em; padding-right: 4em;">
+<p>24.03.1972</p>
+<p><span style="color: #929292">–</span></p>
+</div><div class="column text-center" style="width:1.5em;">
+<p><img src="../additional_images/Tombstone.svg" title="Дата смерти" class="nolightbox img-fluid" style="width:1.3em"></p>
+</div><div class="column" style="width: fit-content; padding-left: 0.4em;">
+<p>15.03.1992</p>
+<p><span style="color: #929292">11.Ad.5752</span></p>
+</div>
 </div>
 </div>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
@@ -275,86 +313,86 @@ ul.task-list li input[type="checkbox"] {
 </table>
 </div>
 </div>
-<table class="caption-top table">
+<table class="table-striped custom-table caption-top table">
 <colgroup>
 <col style="width: 25%">
 <col style="width: 75%">
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Примечания</strong></td>
+<td>Примечания</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><strong>Язык</strong></td>
+<td>Язык</td>
 <td>иврит, русский</td>
 </tr>
 <tr class="odd">
-<td><strong>Метки</strong></td>
+<td>Метки</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<table class="caption-top table">
+<table class="table-striped custom-table caption-top table">
 <colgroup>
 <col style="width: 25%">
 <col style="width: 75%">
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Тип памятника</strong></td>
+<td>Тип памятника</td>
 <td>L-образный</td>
 </tr>
 <tr class="even">
-<td><strong>Материал</strong></td>
+<td>Материал</td>
 <td>известняк, габбро-диорит (вставка из тёмного камня с портретом и текстом, побелка, цементный раствор, трещины, следы ремонта)</td>
 </tr>
 <tr class="odd">
-<td><strong>Размеры</strong></td>
+<td>Размеры</td>
 <td>242×69×41 — стела; 19×55×124 — плита; 28×90×194 — основание</td>
 </tr>
 <tr class="even">
-<td><strong>Тип декора</strong></td>
+<td>Тип декора</td>
 <td>архитектурно-орнаментальный, растительный, традиционная символика, портретный</td>
 </tr>
 <tr class="odd">
-<td><strong>Элементы декора</strong></td>
+<td>Элементы декора</td>
 <td>архитектурное навершие с бутоном, на блоке с гирляндой из лент и листьев, полукруглая арка на витых полуколоннах, звезда Давида на вставке с портретом на стеле</td>
 </tr>
 <tr class="even">
-<td><strong>Координаты</strong></td>
+<td>Координаты</td>
 <td><a href="https://www.google.com/maps/place/41.37121376,%2048.50861488">41.37121376, 48.50861488</a></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<table class="caption-top table">
+<table class="table-striped custom-table caption-top table">
 <colgroup>
 <col style="width: 25%">
 <col style="width: 75%">
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Место хранения</strong></td>
+<td>Место хранения</td>
 <td>Архив полевых исследований Центра «Сэфер»</td>
 </tr>
 <tr class="even">
-<td><strong>Контакты</strong></td>
+<td>Контакты</td>
 <td>students@sefer.ru</td>
 </tr>
 <tr class="odd">
-<td><strong>Ссылка</strong></td>
+<td>Ссылка</td>
 <td><a href="https://sfira.org">https://sfira.org</a></td>
 </tr>
 <tr class="even">
-<td><strong>Исходный ID</strong></td>
+<td>Исходный ID</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><strong>Условия использования</strong></td>
+<td>Условия использования</td>
 <td><a href="https://creativecommons.org/licenses/by-nc/4.0/deed.ru">CC BY-NC 4.0</a></td>
 </tr>
 </tbody>

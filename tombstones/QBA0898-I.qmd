@@ -1,17 +1,9 @@
 ---
 title: "QBA0898"
-place: |
-    Куба (центральное)
-
-    Азербайджан
-name-ru: |
-    АГАРОНОВА Шушан, дочь Захарьи (Шушан Захарияевна)
-    
-    שושן בת זכריה
-name-he: |
-    שושן בת זכריה
-    
-    АГАРОНОВА Шушан, дочь Захарьи (Шушан Захарияевна)
+place: Куба (цент.)
+flag: 🇦🇿
+name-ru: АГАРОНОВА Шушан, дочь Захарьи (Шушан Захарияевна)
+name-he: שושן בת זכריה
 year-gr: 1997
 year-he: 5757
 categories:
@@ -49,9 +41,43 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }
-          .name-style p { font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }
+          .name-style p { font-size: 1.2em; margin-bottom: 0.1em; }
           .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
           #title-block-header { margin-block-end: 0em; }
+          
+          .date-panel .column p {margin-top: 0;
+                                  margin-bottom: 0;
+          }
+          
+          .date-panel .columns {display: flex !important;
+                                 align-items: center;
+          }
+          
+         .figure p {
+              overflow: hidden;
+              border-radius: 0.25rem;
+              margin-bottom: 1.2em !important;
+          }
+          
+          .figure img {
+              transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+              margin-bottom: 0em;
+              display: block;
+          }
+        
+          .figure img:hover {
+              transform: scale(1.05);
+              filter: brightness(108%);
+          }
+
+          .custom-table td:nth-child(1) {
+              color: #929292;
+          }
+
+        .table-striped tr {
+            --bs-table-accent-bg: #fff;
+            vertical-align: middle;
+        }
       </style>
 ---
 
@@ -84,33 +110,39 @@ knitr::include_graphics("../images/QBA0898_3.JPG")
 
 ::: {.column width="74%"}
 
+::: {.custom-frame}
 ::: {.name-style}
-АГАРОНОВА Шушан, дочь Захарьи (Шушан Захарияевна)
+**АГАРОНОВА Шушан, дочь Захарьи (Шушан Захарияевна)**
 :::
 
-::: {style="font-size: 1.2em;"}
+::: {style="font-size: 1.2em; color: #929292;"}
 שושן בת זכריה
 :::
 
-:::: {.columns style="margin-top: 1em"}
-::: {.column width="5%"}
-![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
+:::: {.columns .date-panel .align-items-center}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Cradle.svg "Дата рождения"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1918 [/]{style="color: #adb5bd"} --
+::: {.column style="width: fit-content; padding-left: 0.4em; padding-right: 4em;"}
+-.-.1918 
+
+[--]{style="color: #929292"}
 :::
 
-::: {.column width="5%"}
-![](../additional_images/Tombstone.svg){width=1.3em .nolightbox}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Tombstone.svg "Дата смерти"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 50%; padding-left: 0.2em;"}
-12.03.1997 [/]{style="color: #adb5bd"} 03.Ad.5757
+::: {.column style="width: fit-content; padding-left: 0.4em;"}
+12.03.1997 
+
+[03.Ad.5757]{style="color: #929292"}
 :::
 
 ::::
 
+:::
 
 ::: {.panel-tabset}
 
@@ -148,33 +180,33 @@ tibble(`Оригинал` = "פ״ נ״
 
 |||
 |-|---|
-|**Примечания**| |
-|**Язык**      |иврит, русский    |
-|**Метки**     |     |
-: {tbl-colwidths="[25,75]"}
+|Примечания| |
+|Язык      |иврит, русский    |
+|Метки     |     |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Памятник
 
 |||
 |-|---|
-|**Тип памятника**   |L-образный                                                                         |
-|**Материал**        |известняк, габбро-диорит (вставка для текста и портрета из темного камня, цементный раствор, следы эрозии, сколы, трещины)                                                     |
-|**Размеры**         |173×64×32  --- стела; 18×55×112  --- плита; 40×142×230  --- основание                                                                        |
-|**Тип декора**      |архитектурно-орнаментальный, растительный, традиционная символика, портретный                                                                        |
-|**Элементы декора** |треугольное завершение с волютами и растительными мотивами, конек в виде листа, звезда Давида , пояс из пальметок, витые полуколонны, звезда Давида и портрет на вставке, на плите по краям растительный орнамент                                                                          |
-|**Координаты**      |[41.37131699, 48.50910851](https://www.google.com/maps/place/41.37131699, 48.50910851)                    |
-: {tbl-colwidths="[25,75]"}
+|Тип памятника   |L-образный                                                                         |
+|Материал        |известняк, габбро-диорит (вставка для текста и портрета из темного камня, цементный раствор, следы эрозии, сколы, трещины)                                                     |
+|Размеры         |173×64×32  --- стела; 18×55×112  --- плита; 40×142×230  --- основание                                                                        |
+|Тип декора      |архитектурно-орнаментальный, растительный, традиционная символика, портретный                                                                        |
+|Элементы декора |треугольное завершение с волютами и растительными мотивами, конек в виде листа, звезда Давида , пояс из пальметок, витые полуколонны, звезда Давида и портрет на вставке, на плите по краям растительный орнамент                                                                          |
+|Координаты      |[41.37131699, 48.50910851](https://www.google.com/maps/place/41.37131699, 48.50910851)                    |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Источник
 
 |                          |                 |
 |--------------------------|-----------------|
-|**Место хранения**        |Архив полевых исследований Центра «Сэфер»        |
-|**Контакты**              |students@sefer.ru       |
-|**Ссылка**                |[https://sfira.org](https://sfira.org) |
-|**Исходный ID**           |     |
-|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
-: {tbl-colwidths="[25,75]"}
+|Место хранения        |Архив полевых исследований Центра «Сэфер»        |
+|Контакты              |students@sefer.ru       |
+|Ссылка                |[https://sfira.org](https://sfira.org) |
+|Исходный ID           |     |
+|Условия использования |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 :::
 

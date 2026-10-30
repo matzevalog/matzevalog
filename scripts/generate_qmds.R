@@ -273,28 +273,32 @@ for_qmd_generation_second_step |>
          name_dates = str_glue(
 '
 ::: {{.name-style}}
-{Name_RU}
+**{Name_RU}**
 :::
 
-::: {{style="font-size: 1.2em;"}}
+::: {{style="font-size: 1.2em; color: #929292;"}}
 {Name_HE}
 :::
 
-:::: {{.columns style="margin-top: 1em"}}
-::: {{.column width="5%"}}
-![](../additional_images/Cradle.svg){{width=1.3em .nolightbox}}
+:::: {{.columns .date-panel .align-items-center}}
+::: {{.column width="1.5em" .text-center}}
+![](../additional_images/Cradle.svg "Дата рождения"){{width=1.3em .nolightbox}}
 :::
 
-::: {{.column style="width: 40%; padding-left: 0.2em;"}}
-{BDate_GR} [/]{{style="color: #adb5bd"}} {BDate_HE}
+::: {{.column style="width: fit-content; padding-left: 0.4em; padding-right: 4em;"}}
+{BDate_GR} 
+
+[{BDate_HE}]{{style="color: #929292"}}
 :::
 
-::: {{.column width="5%"}}
-![](../additional_images/Tombstone.svg){{width=1.3em .nolightbox}}
+::: {{.column width="1.5em" .text-center}}
+![](../additional_images/Tombstone.svg "Дата смерти"){{width=1.3em .nolightbox}}
 :::
 
-::: {{.column style="width: 50%; padding-left: 0.2em;"}}
-{DDate_GR} [/]{{style="color: #adb5bd"}} {DDate_HE}
+::: {{.column style="width: fit-content; padding-left: 0.4em;"}}
+{DDate_GR} 
+
+[{DDate_HE}]{{style="color: #929292"}}
 :::
 
 ::::
@@ -302,21 +306,16 @@ for_qmd_generation_second_step |>
 ')) |>
   group_by(Number) |>
   mutate(name_dates = str_c(name_dates, collapse = "\n---\n\n"),
-         Place2 = str_remove(place, "\n\n.*$") |> str_squish()) |>
+         Place2 = case_when(place == "Куба (цент.)" ~ "Куба (центральное)",
+                            place == "Стародуб" ~ "Стародуб")) |>
   str_glue_data(
 '
 ---
 title: "{Number}"
-place: |
-    {place}
-name-ru: |
-    {Name_RU}
-    
-    {Name_HE}
-name-he: |
-    {Name_HE}
-    
-    {Name_RU}
+place: {place}
+flag: {flag}
+name-ru: {Name_RU}
+name-he: {Name_HE}
 year-gr: {year}
 year-he: {year_he}
 categories:
@@ -349,9 +348,43 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }}
-          .name-style p {{ font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }}
+          .name-style p {{ font-size: 1.2em; margin-bottom: 0.1em; }}
           .sidebar.sidebar-navigation>* {{ padding-top: 1.1em; }}
           #title-block-header {{ margin-block-end: 0em; }}
+          
+          .date-panel .column p {{margin-top: 0;
+                                  margin-bottom: 0;
+          }}
+          
+          .date-panel .columns {{display: flex !important;
+                                 align-items: center;
+          }}
+          
+         .figure p {{
+              overflow: hidden;
+              border-radius: 0.25rem;
+              margin-bottom: 1.2em !important;
+          }}
+          
+          .figure img {{
+              transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+              margin-bottom: 0em;
+              display: block;
+          }}
+        
+          .figure img:hover {{
+              transform: scale(1.05);
+              filter: brightness(108%);
+          }}
+
+          .custom-table td:nth-child(1) {{
+              color: #929292;
+          }}
+
+        .table-striped tr {{
+            --bs-table-accent-bg: #fff;
+            vertical-align: middle;
+        }}
       </style>
 ---
 
@@ -382,7 +415,9 @@ suppressPackageStartupMessages(library(tidyverse))
 
 ::: {{.column width="74%"}}
 
+::: {{.custom-frame}}
 {name_dates}
+:::
 
 ::: {{.panel-tabset}}
 
@@ -402,33 +437,33 @@ tibble(`Оригинал` = "{Epitaph}",
 
 |||
 |-|---|
-|**Примечания**|{Notes_RU}|
-|**Язык**      |{Lang}    |
-|**Метки**     |{Tags}    |
-: {{tbl-colwidths="[25,75]"}}
+|Примечания|{Notes_RU}|
+|Язык      |{Lang}    |
+|Метки     |{Tags}    |
+: {{.striped .custom-table tbl-colwidths="[25,75]"}}
 
 #### Памятник
 
 |||
 |-|---|
-|**Тип памятника**   |{Tomb_type}                                                                         |
-|**Материал**        |{Material_code} ({Material_RU})                                                     |
-|**Размеры**         |{Dimensions}                                                                        |
-|**Тип декора**      |{Decor_code}                                                                        |
-|**Элементы декора** |{Decor_RU}                                                                          |
-|**Координаты**      |[{Coordinates}](https://www.google.com/maps/place/{Coordinates})                    |
-: {{tbl-colwidths="[25,75]"}}
+|Тип памятника   |{Tomb_type}                                                                         |
+|Материал        |{Material_code} ({Material_RU})                                                     |
+|Размеры         |{Dimensions}                                                                        |
+|Тип декора      |{Decor_code}                                                                        |
+|Элементы декора |{Decor_RU}                                                                          |
+|Координаты      |[{Coordinates}](https://www.google.com/maps/place/{Coordinates})                    |
+: {{.striped .custom-table tbl-colwidths="[25,75]"}}
 
 #### Источник
 
 |                          |                 |
 |--------------------------|-----------------|
-|**Место хранения**        |{Archive}        |
-|**Контакты**              |{Contacts}       |
-|**Ссылка**                |[{Link}]({Link}) |
-|**Исходный ID**           |{Source_Code}    |
-|**Условия использования** |{license}        |
-: {{tbl-colwidths="[25,75]"}}
+|Место хранения        |{Archive}        |
+|Контакты              |{Contacts}       |
+|Ссылка                |[{Link}]({Link}) |
+|Исходный ID           |{Source_Code}    |
+|Условия использования |{license}        |
+: {{.striped .custom-table tbl-colwidths="[25,75]"}}
 
 :::
 

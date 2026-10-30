@@ -1,17 +1,9 @@
 ---
 title: "QBA0613"
-place: |
-    Куба (центральное)
-
-    Азербайджан
-name-ru: |
-    АГИВАЕВ Рашбил, сын Мелеха (Рашбил Милихович)
-    
-    רשביל בן מלך
-name-he: |
-    רשביל בן מלך
-    
-    АГИВАЕВ Рашбил, сын Мелеха (Рашбил Милихович)
+place: Куба (цент.)
+flag: 🇦🇿
+name-ru: АГИВАЕВ Рашбил, сын Мелеха (Рашбил Милихович)
+name-he: רשביל בן מלך
 year-gr: 2012
 year-he: 5773
 categories:
@@ -46,9 +38,43 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }
-          .name-style p { font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }
+          .name-style p { font-size: 1.2em; margin-bottom: 0.1em; }
           .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
           #title-block-header { margin-block-end: 0em; }
+          
+          .date-panel .column p {margin-top: 0;
+                                  margin-bottom: 0;
+          }
+          
+          .date-panel .columns {display: flex !important;
+                                 align-items: center;
+          }
+          
+         .figure p {
+              overflow: hidden;
+              border-radius: 0.25rem;
+              margin-bottom: 1.2em !important;
+          }
+          
+          .figure img {
+              transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+              margin-bottom: 0em;
+              display: block;
+          }
+        
+          .figure img:hover {
+              transform: scale(1.05);
+              filter: brightness(108%);
+          }
+
+          .custom-table td:nth-child(1) {
+              color: #929292;
+          }
+
+        .table-striped tr {
+            --bs-table-accent-bg: #fff;
+            vertical-align: middle;
+        }
       </style>
 ---
 
@@ -82,33 +108,39 @@ knitr::include_graphics("../images/QBA0613_3.JPG")
 
 ::: {.column width="74%"}
 
+::: {.custom-frame}
 ::: {.name-style}
-АГИВАЕВ Рашбил, сын Мелеха (Рашбил Милихович)
+**АГИВАЕВ Рашбил, сын Мелеха (Рашбил Милихович)**
 :::
 
-::: {style="font-size: 1.2em;"}
+::: {style="font-size: 1.2em; color: #929292;"}
 רשביל בן מלך
 :::
 
-:::: {.columns style="margin-top: 1em"}
-::: {.column width="5%"}
-![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
+:::: {.columns .date-panel .align-items-center}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Cradle.svg "Дата рождения"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 40%; padding-left: 0.2em;"}
-07.04.1936 [/]{style="color: #adb5bd"} --
+::: {.column style="width: fit-content; padding-left: 0.4em; padding-right: 4em;"}
+07.04.1936 
+
+[--]{style="color: #929292"}
 :::
 
-::: {.column width="5%"}
-![](../additional_images/Tombstone.svg){width=1.3em .nolightbox}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Tombstone.svg "Дата смерти"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 50%; padding-left: 0.2em;"}
-06.12.2012 [/]{style="color: #adb5bd"} 23.Ki.5773
+::: {.column style="width: fit-content; padding-left: 0.4em;"}
+06.12.2012 
+
+[23.Ki.5773]{style="color: #929292"}
 :::
 
 ::::
 
+:::
 
 ::: {.panel-tabset}
 
@@ -146,33 +178,33 @@ tibble(`Оригинал` = "פ׳נ׳
 
 |||
 |-|---|
-|**Примечания**| |
-|**Язык**      |иврит, русский    |
-|**Метки**     |     |
-: {tbl-colwidths="[25,75]"}
+|Примечания| |
+|Язык      |иврит, русский    |
+|Метки     |     |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Памятник
 
 |||
 |-|---|
-|**Тип памятника**   |L-образный                                                                         |
-|**Материал**        |габбро-диорит (цементный раствор, стоит на плитах)                                                     |
-|**Размеры**         |280×80×22  --- стела; 13×66×130  --- плита; 25×93×183  --- основание                                                                        |
-|**Тип декора**      |традиционная символика, портретный                                                                        |
-|**Элементы декора** |фотопортрет, звезда Давида                                                                          |
-|**Координаты**      |[41.37114284, 48.50816015](https://www.google.com/maps/place/41.37114284, 48.50816015)                    |
-: {tbl-colwidths="[25,75]"}
+|Тип памятника   |L-образный                                                                         |
+|Материал        |габбро-диорит (цементный раствор, стоит на плитах)                                                     |
+|Размеры         |280×80×22  --- стела; 13×66×130  --- плита; 25×93×183  --- основание                                                                        |
+|Тип декора      |традиционная символика, портретный                                                                        |
+|Элементы декора |фотопортрет, звезда Давида                                                                          |
+|Координаты      |[41.37114284, 48.50816015](https://www.google.com/maps/place/41.37114284, 48.50816015)                    |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Источник
 
 |                          |                 |
 |--------------------------|-----------------|
-|**Место хранения**        |Архив полевых исследований Центра «Сэфер»        |
-|**Контакты**              |students@sefer.ru       |
-|**Ссылка**                |[https://sfira.org](https://sfira.org) |
-|**Исходный ID**           |     |
-|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
-: {tbl-colwidths="[25,75]"}
+|Место хранения        |Архив полевых исследований Центра «Сэфер»        |
+|Контакты              |students@sefer.ru       |
+|Ссылка                |[https://sfira.org](https://sfira.org) |
+|Исходный ID           |     |
+|Условия использования |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 :::
 

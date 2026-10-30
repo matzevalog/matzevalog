@@ -1,17 +1,9 @@
 ---
 title: "QBA0912"
-place: |
-    Куба (центральное)
-
-    Азербайджан
-name-ru: |
-    ЯКУБОВ Яаков, сын Йирмии (Яагув Ирмияевич)
-    
-    יעקב בן ירמיה
-name-he: |
-    יעקב בן ירמיה
-    
-    ЯКУБОВ Яаков, сын Йирмии (Яагув Ирмияевич)
+place: Куба (цент.)
+flag: 🇦🇿
+name-ru: ЯКУБОВ Яаков, сын Йирмии (Яагув Ирмияевич)
+name-he: יעקב בן ירמיה
 year-gr: 1965
 year-he: 5725
 categories:
@@ -49,9 +41,43 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }
-          .name-style p { font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }
+          .name-style p { font-size: 1.2em; margin-bottom: 0.1em; }
           .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
           #title-block-header { margin-block-end: 0em; }
+          
+          .date-panel .column p {margin-top: 0;
+                                  margin-bottom: 0;
+          }
+          
+          .date-panel .columns {display: flex !important;
+                                 align-items: center;
+          }
+          
+         .figure p {
+              overflow: hidden;
+              border-radius: 0.25rem;
+              margin-bottom: 1.2em !important;
+          }
+          
+          .figure img {
+              transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+              margin-bottom: 0em;
+              display: block;
+          }
+        
+          .figure img:hover {
+              transform: scale(1.05);
+              filter: brightness(108%);
+          }
+
+          .custom-table td:nth-child(1) {
+              color: #929292;
+          }
+
+        .table-striped tr {
+            --bs-table-accent-bg: #fff;
+            vertical-align: middle;
+        }
       </style>
 ---
 
@@ -85,33 +111,39 @@ knitr::include_graphics("../images/QBA0912_4.JPG")
 
 ::: {.column width="74%"}
 
+::: {.custom-frame}
 ::: {.name-style}
-ЯКУБОВ Яаков, сын Йирмии (Яагув Ирмияевич)
+**ЯКУБОВ Яаков, сын Йирмии (Яагув Ирмияевич)**
 :::
 
-::: {style="font-size: 1.2em;"}
+::: {style="font-size: 1.2em; color: #929292;"}
 יעקב בן ירמיה
 :::
 
-:::: {.columns style="margin-top: 1em"}
-::: {.column width="5%"}
-![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
+:::: {.columns .date-panel .align-items-center}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Cradle.svg "Дата рождения"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1879 [/]{style="color: #adb5bd"} --
+::: {.column style="width: fit-content; padding-left: 0.4em; padding-right: 4em;"}
+-.-.1879 
+
+[--]{style="color: #929292"}
 :::
 
-::: {.column width="5%"}
-![](../additional_images/Tombstone.svg){width=1.3em .nolightbox}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Tombstone.svg "Дата смерти"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 50%; padding-left: 0.2em;"}
--.-.1965 [/]{style="color: #adb5bd"} 04.Ta.5725
+::: {.column style="width: fit-content; padding-left: 0.4em;"}
+-.-.1965 
+
+[04.Ta.5725]{style="color: #929292"}
 :::
 
 ::::
 
+:::
 
 ::: {.panel-tabset}
 
@@ -155,33 +187,33 @@ _B_
 
 |||
 |-|---|
-|**Примечания**| |
-|**Язык**      |иврит, русский    |
-|**Метки**     |     |
-: {tbl-colwidths="[25,75]"}
+|Примечания| |
+|Язык      |иврит, русский    |
+|Метки     |     |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Памятник
 
 |||
 |-|---|
-|**Тип памятника**   |L-образный                                                                         |
-|**Материал**        |песчаник, известняк, габбро-диорит (следы эрозии, цементный раствор, габбро-диоритовые таблички на плите и стеле)                                                     |
-|**Размеры**         |269×70×40  --- стела; 20×56×117  --- плита; 27×85×185  --- основание                                                                        |
-|**Тип декора**      |архитектурно-орнаментальный, традиционная символика, портретный                                                                        |
-|**Элементы декора** |архитектурное завершение со звездой Давида,  портал с геометрическим орнаментом на витых полуколоннах, звезда Давида и два портрета на табличке на стеле                                                                          |
-|**Координаты**      |[41.37121671, 48.50917816](https://www.google.com/maps/place/41.37121671, 48.50917816)                    |
-: {tbl-colwidths="[25,75]"}
+|Тип памятника   |L-образный                                                                         |
+|Материал        |песчаник, известняк, габбро-диорит (следы эрозии, цементный раствор, габбро-диоритовые таблички на плите и стеле)                                                     |
+|Размеры         |269×70×40  --- стела; 20×56×117  --- плита; 27×85×185  --- основание                                                                        |
+|Тип декора      |архитектурно-орнаментальный, традиционная символика, портретный                                                                        |
+|Элементы декора |архитектурное завершение со звездой Давида,  портал с геометрическим орнаментом на витых полуколоннах, звезда Давида и два портрета на табличке на стеле                                                                          |
+|Координаты      |[41.37121671, 48.50917816](https://www.google.com/maps/place/41.37121671, 48.50917816)                    |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Источник
 
 |                          |                 |
 |--------------------------|-----------------|
-|**Место хранения**        |Архив полевых исследований Центра «Сэфер»        |
-|**Контакты**              |students@sefer.ru       |
-|**Ссылка**                |[https://sfira.org](https://sfira.org) |
-|**Исходный ID**           |     |
-|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
-: {tbl-colwidths="[25,75]"}
+|Место хранения        |Архив полевых исследований Центра «Сэфер»        |
+|Контакты              |students@sefer.ru       |
+|Ссылка                |[https://sfira.org](https://sfira.org) |
+|Исходный ID           |     |
+|Условия использования |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 :::
 

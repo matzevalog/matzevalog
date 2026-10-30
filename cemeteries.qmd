@@ -18,7 +18,7 @@ listing:
     contents: "../cemeteries/"
     type: table
     table-striped: true
-    table-hover: true
+    table-hover: false
     fields: [code, title, country, status, tomb-dating, tomb-amount, catalog]
     sort-ui: [code, title, country, status, tomb-dating, tomb-amount]
     filter-ui: [code, title, country, status]    

@@ -4,14 +4,12 @@ library(testthat)
 test_that("Проверка разного количества строчек в эпитафии и его русском переводе.", {
   
   read_csv("../data/data.csv", show_col_types = FALSE, progress = FALSE) |> 
-    mutate(Epitaph_original = str_replace_all(Epitaph_original, "_((R)|(L)|(C)|(FR)|(RV)|(LS)|(RS)|(T)|(B)|(UD)|(I)|(A)|(TB))_", ""),
-           Epitaph_original = str_remove(Epitaph_original, "^\n")) |> 
     filter(str_count(Epitaph_original, "\n") != str_count(Trans_RU, "\n")) |> 
-    filter(Trans_RU != "См. оригинал") |> 
+    filter(str_detect(Trans_RU, "См. оригинал", negate = TRUE)) |> 
     count(Number) |> 
     arrange(Number) |> 
     str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
-                        "разное количество строчек в эпитафии и русском переводе в памятнике")) ->
+                        "разное количество строчек в эпитафии и русском переводе")) ->
     observed
   
   expected <- character(length = length(observed))

@@ -2,38 +2,24 @@
 title: "Именной указатель"
 sidebar: filter-list
 listing:
-  - id: rus-heb
+  - id: our-data
     contents: "../tombstones/"
     type: table
     categories: false
     table-striped: true
     table-hover: true
     sort: "name-ru"
-    fields: [title, name-ru, year-gr, year-he, place]
-    filter-ui: [title, name-ru, year-gr, year-he]
-    sort-ui: [title, name-ru, year-gr, year-he, place]
+    fields: [title, name-ru, name-he, year-gr, year-he, place, flag]
+    filter-ui: [title, name-ru, name-he, year-gr, year-he]
+    sort-ui: [title, name-ru, name-he, year-gr, year-he, place]
     field-display-names:
       title: "Памятник"
       name-ru: "Имя"
+      name-he: "Имя (евр.)"
       year-gr: 'Гр. год'
       year-he: 'Ев. год'
       place: "Место"
-  - id: heb-rus
-    contents: "../tombstones/"
-    type: table
-    categories: false
-    table-striped: true
-    table-hover: true
-    sort: "name-he"
-    fields: [title, name-he, year-gr, year-he, place]
-    filter-ui: [title, name-he, year-gr, year-he]
-    sort-ui: [title, name-he, year-gr, year-he, place]
-    field-display-names:
-      title: "Памятник"
-      name-he: "Имя"
-      year-gr: "Гр. год"
-      year-he: "Ев. год"
-      place: "Место"
+      flag: " "
 include-in-header:
   - text: |
       <style>
@@ -55,6 +41,11 @@ include-in-header:
          .quarto-listing-table th:nth-child(2),
          .quarto-listing-table td:nth-child(2) {
               text-align: left;
+         }
+         
+         .quarto-listing-table th:nth-child(3),
+         .quarto-listing-table td:nth-child(3) {
+              text-align: right;
          }
 
          ul.pagination li {
@@ -106,16 +97,9 @@ include-in-header:
       </style>
 ---
 
-::: {.panel-tabset .reduced-intervals}
+::: {.custom-frame}
 
-### Рус/Евр
-
-:::{#rus-heb}
-:::
-
-### Евр/Рус
-
-:::{#heb-rus}
+:::{#our-data}
 :::
 
 :::

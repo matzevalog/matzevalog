@@ -1,17 +1,9 @@
 ---
 title: "QBA0390"
-place: |
-    Куба (центральное)
-
-    Азербайджан
-name-ru: |
-    ДАВЫДОВ Ариэль, сын Гада (Ариил Годович)
-    
-    אריאל בן גד
-name-he: |
-    אריאל בן גד
-    
-    ДАВЫДОВ Ариэль, сын Гада (Ариил Годович)
+place: Куба (цент.)
+flag: 🇦🇿
+name-ru: ДАВЫДОВ Ариэль, сын Гада (Ариил Годович)
+name-he: אריאל בן גד
 year-gr: 1995
 year-he: 5755
 categories:
@@ -47,9 +39,43 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }
-          .name-style p { font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }
+          .name-style p { font-size: 1.2em; margin-bottom: 0.1em; }
           .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
           #title-block-header { margin-block-end: 0em; }
+          
+          .date-panel .column p {margin-top: 0;
+                                  margin-bottom: 0;
+          }
+          
+          .date-panel .columns {display: flex !important;
+                                 align-items: center;
+          }
+          
+         .figure p {
+              overflow: hidden;
+              border-radius: 0.25rem;
+              margin-bottom: 1.2em !important;
+          }
+          
+          .figure img {
+              transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+              margin-bottom: 0em;
+              display: block;
+          }
+        
+          .figure img:hover {
+              transform: scale(1.05);
+              filter: brightness(108%);
+          }
+
+          .custom-table td:nth-child(1) {
+              color: #929292;
+          }
+
+        .table-striped tr {
+            --bs-table-accent-bg: #fff;
+            vertical-align: middle;
+        }
       </style>
 ---
 
@@ -81,33 +107,39 @@ knitr::include_graphics("../images/QBA0390_1.JPG")
 
 ::: {.column width="74%"}
 
+::: {.custom-frame}
 ::: {.name-style}
-ДАВЫДОВ Ариэль, сын Гада (Ариил Годович)
+**ДАВЫДОВ Ариэль, сын Гада (Ариил Годович)**
 :::
 
-::: {style="font-size: 1.2em;"}
+::: {style="font-size: 1.2em; color: #929292;"}
 אריאל בן גד
 :::
 
-:::: {.columns style="margin-top: 1em"}
-::: {.column width="5%"}
-![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
+:::: {.columns .date-panel .align-items-center}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Cradle.svg "Дата рождения"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 40%; padding-left: 0.2em;"}
-09.11.1930 [/]{style="color: #adb5bd"} --
+::: {.column style="width: fit-content; padding-left: 0.4em; padding-right: 4em;"}
+09.11.1930 
+
+[--]{style="color: #929292"}
 :::
 
-::: {.column width="5%"}
-![](../additional_images/Tombstone.svg){width=1.3em .nolightbox}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Tombstone.svg "Дата смерти"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 50%; padding-left: 0.2em;"}
-02.03.1995 [/]{style="color: #adb5bd"} 30.Ad.5755
+::: {.column style="width: fit-content; padding-left: 0.4em;"}
+02.03.1995 
+
+[30.Ad.5755]{style="color: #929292"}
 :::
 
 ::::
 
+:::
 
 ::: {.panel-tabset}
 
@@ -143,33 +175,33 @@ tibble(`Оригинал` = "פה נקבר
 
 |||
 |-|---|
-|**Примечания**| |
-|**Язык**      |иврит, русский    |
-|**Метки**     |     |
-: {tbl-colwidths="[25,75]"}
+|Примечания| |
+|Язык      |иврит, русский    |
+|Метки     |     |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Памятник
 
 |||
 |-|---|
-|**Тип памятника**   |L-образный                                                                         |
-|**Материал**        |гранит, мрамор (мраморное основание, цементный раствор, трещина на вазе)                                                     |
-|**Размеры**         |176×78×22  --- стела; 12×57×130  --- плита; 9×78×140  --- основание                                                                        |
-|**Тип декора**      |традиционная символика, портретный                                                                        |
-|**Элементы декора** |рядом ваза, портрет, звезда Давида                                                                          |
-|**Координаты**      |[41.37090379, 48.50750375](https://www.google.com/maps/place/41.37090379, 48.50750375)                    |
-: {tbl-colwidths="[25,75]"}
+|Тип памятника   |L-образный                                                                         |
+|Материал        |гранит, мрамор (мраморное основание, цементный раствор, трещина на вазе)                                                     |
+|Размеры         |176×78×22  --- стела; 12×57×130  --- плита; 9×78×140  --- основание                                                                        |
+|Тип декора      |традиционная символика, портретный                                                                        |
+|Элементы декора |рядом ваза, портрет, звезда Давида                                                                          |
+|Координаты      |[41.37090379, 48.50750375](https://www.google.com/maps/place/41.37090379, 48.50750375)                    |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Источник
 
 |                          |                 |
 |--------------------------|-----------------|
-|**Место хранения**        |Архив полевых исследований Центра «Сэфер»        |
-|**Контакты**              |students@sefer.ru       |
-|**Ссылка**                |[https://sfira.org](https://sfira.org) |
-|**Исходный ID**           |     |
-|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
-: {tbl-colwidths="[25,75]"}
+|Место хранения        |Архив полевых исследований Центра «Сэфер»        |
+|Контакты              |students@sefer.ru       |
+|Ссылка                |[https://sfira.org](https://sfira.org) |
+|Исходный ID           |     |
+|Условия использования |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 :::
 

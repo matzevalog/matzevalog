@@ -1,17 +1,9 @@
 ---
 title: "QBA0384"
-place: |
-    Куба (центральное)
-
-    Азербайджан
-name-ru: |
-    ЮШВАЕВА Мирвори, дочь Шимона (Шуминовна)
-    
-    מרברי בת שמעון
-name-he: |
-    מרברי בת שמעון
-    
-    ЮШВАЕВА Мирвори, дочь Шимона (Шуминовна)
+place: Куба (цент.)
+flag: 🇦🇿
+name-ru: ЮШВАЕВА Мирвори, дочь Шимона (Шуминовна)
+name-he: מרברי בת שמעון
 year-gr: 1993
 year-he: 5753
 categories:
@@ -46,9 +38,43 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }
-          .name-style p { font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }
+          .name-style p { font-size: 1.2em; margin-bottom: 0.1em; }
           .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
           #title-block-header { margin-block-end: 0em; }
+          
+          .date-panel .column p {margin-top: 0;
+                                  margin-bottom: 0;
+          }
+          
+          .date-panel .columns {display: flex !important;
+                                 align-items: center;
+          }
+          
+         .figure p {
+              overflow: hidden;
+              border-radius: 0.25rem;
+              margin-bottom: 1.2em !important;
+          }
+          
+          .figure img {
+              transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+              margin-bottom: 0em;
+              display: block;
+          }
+        
+          .figure img:hover {
+              transform: scale(1.05);
+              filter: brightness(108%);
+          }
+
+          .custom-table td:nth-child(1) {
+              color: #929292;
+          }
+
+        .table-striped tr {
+            --bs-table-accent-bg: #fff;
+            vertical-align: middle;
+        }
       </style>
 ---
 
@@ -81,29 +107,34 @@ knitr::include_graphics("../images/QBA0384_2.JPG")
 
 ::: {.column width="74%"}
 
+::: {.custom-frame}
 ::: {.name-style}
-ЮШВАЕВА Мирвори, дочь Шимона (Шуминовна)
+**ЮШВАЕВА Мирвори, дочь Шимона (Шуминовна)**
 :::
 
-::: {style="font-size: 1.2em;"}
+::: {style="font-size: 1.2em; color: #929292;"}
 מרברי בת שמעון
 :::
 
-:::: {.columns style="margin-top: 1em"}
-::: {.column width="5%"}
-![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
+:::: {.columns .date-panel .align-items-center}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Cradle.svg "Дата рождения"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 40%; padding-left: 0.2em;"}
-17.01.1930 [/]{style="color: #adb5bd"} --
+::: {.column style="width: fit-content; padding-left: 0.4em; padding-right: 4em;"}
+17.01.1930 
+
+[--]{style="color: #929292"}
 :::
 
-::: {.column width="5%"}
-![](../additional_images/Tombstone.svg){width=1.3em .nolightbox}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Tombstone.svg "Дата смерти"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 50%; padding-left: 0.2em;"}
-07.09.1993 [/]{style="color: #adb5bd"} 21.Ta.5753
+::: {.column style="width: fit-content; padding-left: 0.4em;"}
+07.09.1993 
+
+[21.Ta.5753]{style="color: #929292"}
 :::
 
 ::::
@@ -111,32 +142,37 @@ knitr::include_graphics("../images/QBA0384_2.JPG")
 ---
 
 ::: {.name-style}
-МАРДАХАЕВ Гаврил Шуминович
+**МАРДАХАЕВ Гаврил Шуминович**
 :::
 
-::: {style="font-size: 1.2em;"}
+::: {style="font-size: 1.2em; color: #929292;"}
 
 :::
 
-:::: {.columns style="margin-top: 1em"}
-::: {.column width="5%"}
-![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
+:::: {.columns .date-panel .align-items-center}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Cradle.svg "Дата рождения"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 40%; padding-left: 0.2em;"}
--.-.1941 [/]{style="color: #adb5bd"} --
+::: {.column style="width: fit-content; padding-left: 0.4em; padding-right: 4em;"}
+-.-.1941 
+
+[--]{style="color: #929292"}
 :::
 
-::: {.column width="5%"}
-![](../additional_images/Tombstone.svg){width=1.3em .nolightbox}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Tombstone.svg "Дата смерти"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 50%; padding-left: 0.2em;"}
--.-.1945 [/]{style="color: #adb5bd"} --
+::: {.column style="width: fit-content; padding-left: 0.4em;"}
+-.-.1945 
+
+[--]{style="color: #929292"}
 :::
 
 ::::
 
+:::
 
 ::: {.panel-tabset}
 
@@ -188,33 +224,33 @@ _RV_
 
 |||
 |-|---|
-|**Примечания**| |
-|**Язык**      |иврит, русский    |
-|**Метки**     |     |
-: {tbl-colwidths="[25,75]"}
+|Примечания| |
+|Язык      |иврит, русский    |
+|Метки     |     |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Памятник
 
 |||
 |-|---|
-|**Тип памятника**   |L-образный                                                                         |
-|**Материал**        |гранит (цементный раствор, основание немного деформировано)                                                     |
-|**Размеры**         |220×80×19  --- стела; 10×62×130  --- плита; 17×84×168  --- основание                                                                        |
-|**Тип декора**      |традиционная символика, портретный                                                                        |
-|**Элементы декора** |звезда Давида, женский портрет на лицевой стороне, на обратной стороне портрет мужчины в буденовке с пятиконечной звездой с серпом и молотом                                                                          |
-|**Координаты**      |[41.3710268, 48.50743286](https://www.google.com/maps/place/41.3710268, 48.50743286)                    |
-: {tbl-colwidths="[25,75]"}
+|Тип памятника   |L-образный                                                                         |
+|Материал        |гранит (цементный раствор, основание немного деформировано)                                                     |
+|Размеры         |220×80×19  --- стела; 10×62×130  --- плита; 17×84×168  --- основание                                                                        |
+|Тип декора      |традиционная символика, портретный                                                                        |
+|Элементы декора |звезда Давида, женский портрет на лицевой стороне, на обратной стороне портрет мужчины в буденовке с пятиконечной звездой с серпом и молотом                                                                          |
+|Координаты      |[41.3710268, 48.50743286](https://www.google.com/maps/place/41.3710268, 48.50743286)                    |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Источник
 
 |                          |                 |
 |--------------------------|-----------------|
-|**Место хранения**        |Архив полевых исследований Центра «Сэфер»        |
-|**Контакты**              |students@sefer.ru       |
-|**Ссылка**                |[https://sfira.org](https://sfira.org) |
-|**Исходный ID**           |     |
-|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
-: {tbl-colwidths="[25,75]"}
+|Место хранения        |Архив полевых исследований Центра «Сэфер»        |
+|Контакты              |students@sefer.ru       |
+|Ссылка                |[https://sfira.org](https://sfira.org) |
+|Исходный ID           |     |
+|Условия использования |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 :::
 

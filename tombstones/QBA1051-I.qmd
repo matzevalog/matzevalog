@@ -1,23 +1,15 @@
 ---
 title: "QBA1051"
-place: |
-    Куба (центральное)
-
-    Азербайджан
-name-ru: |
-    Гершон, сын Реувена
-    
-    גרשון בן ראובן
-name-he: |
-    גרשון בן ראובן
-    
-    Гершон, сын Реувена
+place: Куба (цент.)
+flag: 🇦🇿
+name-ru: Гершон, сын Реувена
+name-he: גרשון בן ראובן
 year-gr: 1891
 year-he: 5651
 categories:
   - c:QBA
   - g:мужской
-
+  - tt:шатёр (охель), L-образный
 
   - l:иврит
   - d:архитектурно-орнаментальный
@@ -47,9 +39,43 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }
-          .name-style p { font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }
+          .name-style p { font-size: 1.2em; margin-bottom: 0.1em; }
           .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
           #title-block-header { margin-block-end: 0em; }
+          
+          .date-panel .column p {margin-top: 0;
+                                  margin-bottom: 0;
+          }
+          
+          .date-panel .columns {display: flex !important;
+                                 align-items: center;
+          }
+          
+         .figure p {
+              overflow: hidden;
+              border-radius: 0.25rem;
+              margin-bottom: 1.2em !important;
+          }
+          
+          .figure img {
+              transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+              margin-bottom: 0em;
+              display: block;
+          }
+        
+          .figure img:hover {
+              transform: scale(1.05);
+              filter: brightness(108%);
+          }
+
+          .custom-table td:nth-child(1) {
+              color: #929292;
+          }
+
+        .table-striped tr {
+            --bs-table-accent-bg: #fff;
+            vertical-align: middle;
+        }
       </style>
 ---
 
@@ -82,33 +108,39 @@ knitr::include_graphics("../images/QBA1051_3.JPG")
 
 ::: {.column width="74%"}
 
+::: {.custom-frame}
 ::: {.name-style}
-Гершон, сын Реувена
+**Гершон, сын Реувена**
 :::
 
-::: {style="font-size: 1.2em;"}
+::: {style="font-size: 1.2em; color: #929292;"}
 גרשון בן ראובן
 :::
 
-:::: {.columns style="margin-top: 1em"}
-::: {.column width="5%"}
-![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
+:::: {.columns .date-panel .align-items-center}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Cradle.svg "Дата рождения"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 40%; padding-left: 0.2em;"}
--- [/]{style="color: #adb5bd"} --
+::: {.column style="width: fit-content; padding-left: 0.4em; padding-right: 4em;"}
+-- 
+
+[--]{style="color: #929292"}
 :::
 
-::: {.column width="5%"}
-![](../additional_images/Tombstone.svg){width=1.3em .nolightbox}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Tombstone.svg "Дата смерти"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 50%; padding-left: 0.2em;"}
-05.09.1891* [/]{style="color: #adb5bd"} 02.El.5651
+::: {.column style="width: fit-content; padding-left: 0.4em;"}
+05.09.1891* 
+
+[02.El.5651]{style="color: #929292"}
 :::
 
 ::::
 
+:::
 
 ::: {.panel-tabset}
 
@@ -176,33 +208,33 @@ _C_
 
 |||
 |-|---|
-|**Примечания**|Гершон, сын Реувена Мизраха (ГАВАР), духовный лидер горских евреев и раввин Кубы в 1853–1891 гг.|
-|**Язык**      |иврит    |
-|**Метки**     |раввин, благородное происхождение    |
-: {tbl-colwidths="[25,75]"}
+|Примечания|Гершон, сын Реувена Мизраха (ГАВАР), духовный лидер горских евреев и раввин Кубы в 1853–1891 гг.|
+|Язык      |иврит    |
+|Метки     |раввин, благородное происхождение    |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Памятник
 
 |||
 |-|---|
-|**Тип памятника**   |                                                                          |
-|**Материал**        |известняк, бетон, кирпич (следы цементного раствора)                                                     |
-|**Размеры**         |137×46×21  --- стела; 21×83×123  --- плита; 94×129×257  --- основание                                                                        |
-|**Тип декора**      |архитектурно-орнаментальный                                                                        |
-|**Элементы декора** |три фигурные ниши для текста, две фигурные ниши по боковым сторонам памятника                                                                          |
-|**Координаты**      |[41.37054456, 48.50880774](https://www.google.com/maps/place/41.37054456, 48.50880774)                    |
-: {tbl-colwidths="[25,75]"}
+|Тип памятника   |шатёр (охель), L-образный                                                                         |
+|Материал        |известняк, бетон, кирпич (следы цементного раствора)                                                     |
+|Размеры         |137×46×21  --- стела; 21×83×123  --- плита; 94×129×257  --- основание                                                                        |
+|Тип декора      |архитектурно-орнаментальный                                                                        |
+|Элементы декора |три фигурные ниши для текста, две фигурные ниши по боковым сторонам памятника                                                                          |
+|Координаты      |[41.37054456, 48.50880774](https://www.google.com/maps/place/41.37054456, 48.50880774)                    |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Источник
 
 |                          |                 |
 |--------------------------|-----------------|
-|**Место хранения**        |Архив полевых исследований Центра «Сэфер»        |
-|**Контакты**              |students@sefer.ru       |
-|**Ссылка**                |[https://sfira.org](https://sfira.org) |
-|**Исходный ID**           |     |
-|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
-: {tbl-colwidths="[25,75]"}
+|Место хранения        |Архив полевых исследований Центра «Сэфер»        |
+|Контакты              |students@sefer.ru       |
+|Ссылка                |[https://sfira.org](https://sfira.org) |
+|Исходный ID           |     |
+|Условия использования |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 :::
 

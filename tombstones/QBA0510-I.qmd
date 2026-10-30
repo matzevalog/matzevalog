@@ -1,17 +1,9 @@
 ---
 title: "QBA0510"
-place: |
-    Куба (центральное)
-
-    Азербайджан
-name-ru: |
-    АГАРУНОВ Абром, сын Иякова
-    
-    אברהם בן יעקב
-name-he: |
-    אברהם בן יעקב
-    
-    АГАРУНОВ Абром, сын Иякова
+place: Куба (цент.)
+flag: 🇦🇿
+name-ru: АГАРУНОВ Абром, сын Иякова
+name-he: אברהם בן יעקב
 year-gr: 1924
 year-he: 5684
 categories:
@@ -48,9 +40,43 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }
-          .name-style p { font-size: 1.2em; font-weight: bold; margin-bottom: 0.1em; }
+          .name-style p { font-size: 1.2em; margin-bottom: 0.1em; }
           .sidebar.sidebar-navigation>* { padding-top: 1.1em; }
           #title-block-header { margin-block-end: 0em; }
+          
+          .date-panel .column p {margin-top: 0;
+                                  margin-bottom: 0;
+          }
+          
+          .date-panel .columns {display: flex !important;
+                                 align-items: center;
+          }
+          
+         .figure p {
+              overflow: hidden;
+              border-radius: 0.25rem;
+              margin-bottom: 1.2em !important;
+          }
+          
+          .figure img {
+              transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+              margin-bottom: 0em;
+              display: block;
+          }
+        
+          .figure img:hover {
+              transform: scale(1.05);
+              filter: brightness(108%);
+          }
+
+          .custom-table td:nth-child(1) {
+              color: #929292;
+          }
+
+        .table-striped tr {
+            --bs-table-accent-bg: #fff;
+            vertical-align: middle;
+        }
       </style>
 ---
 
@@ -83,33 +109,39 @@ knitr::include_graphics("../images/QBA0510_3.JPG")
 
 ::: {.column width="74%"}
 
+::: {.custom-frame}
 ::: {.name-style}
-АГАРУНОВ Абром, сын Иякова
+**АГАРУНОВ Абром, сын Иякова**
 :::
 
-::: {style="font-size: 1.2em;"}
+::: {style="font-size: 1.2em; color: #929292;"}
 אברהם בן יעקב
 :::
 
-:::: {.columns style="margin-top: 1em"}
-::: {.column width="5%"}
-![](../additional_images/Cradle.svg){width=1.3em .nolightbox}
+:::: {.columns .date-panel .align-items-center}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Cradle.svg "Дата рождения"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 40%; padding-left: 0.2em;"}
--- [/]{style="color: #adb5bd"} --
+::: {.column style="width: fit-content; padding-left: 0.4em; padding-right: 4em;"}
+-- 
+
+[--]{style="color: #929292"}
 :::
 
-::: {.column width="5%"}
-![](../additional_images/Tombstone.svg){width=1.3em .nolightbox}
+::: {.column width="1.5em" .text-center}
+![](../additional_images/Tombstone.svg "Дата смерти"){width=1.3em .nolightbox}
 :::
 
-::: {.column style="width: 50%; padding-left: 0.2em;"}
-01.02.1924* [/]{style="color: #adb5bd"} 26.Sh.5684
+::: {.column style="width: fit-content; padding-left: 0.4em;"}
+01.02.1924* 
+
+[26.Sh.5684]{style="color: #929292"}
 :::
 
 ::::
 
+:::
 
 ::: {.panel-tabset}
 
@@ -149,33 +181,33 @@ tibble(`Оригинал` = "פנ״ איש נאמן
 
 |||
 |-|---|
-|**Примечания**| |
-|**Язык**      |иврит, русский    |
-|**Метки**     |пожилой(-ая)    |
-: {tbl-colwidths="[25,75]"}
+|Примечания| |
+|Язык      |иврит, русский    |
+|Метки     |пожилой(-ая)    |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Памятник
 
 |||
 |-|---|
-|**Тип памятника**   |L-образный                                                                         |
-|**Материал**        |известняк, мрамор (два керамических медальона с парными фотопортретами; мраморная табличка с текстом эпитафии; трещены)                                                     |
-|**Размеры**         |155×64×29  --- стела; 112×60×21  --- плита; 24×81×182  --- основание                                                                        |
-|**Тип декора**      |архитектурно-орнаментальный, традиционная символика, портретный                                                                        |
-|**Элементы декора** |фигурное завершение; два керамических медальона с фотопортретами: верхний с мужчиной и ребенком, нижний с двумя мужчинами; мраморная табличка: текст эпитафии в фигурной раме, в верхней части звезда Давида                                                                          |
-|**Координаты**      |[41.37071541, 48.50794494](https://www.google.com/maps/place/41.37071541, 48.50794494)                    |
-: {tbl-colwidths="[25,75]"}
+|Тип памятника   |L-образный                                                                         |
+|Материал        |известняк, мрамор (два керамических медальона с парными фотопортретами; мраморная табличка с текстом эпитафии; трещены)                                                     |
+|Размеры         |155×64×29  --- стела; 112×60×21  --- плита; 24×81×182  --- основание                                                                        |
+|Тип декора      |архитектурно-орнаментальный, традиционная символика, портретный                                                                        |
+|Элементы декора |фигурное завершение; два керамических медальона с фотопортретами: верхний с мужчиной и ребенком, нижний с двумя мужчинами; мраморная табличка: текст эпитафии в фигурной раме, в верхней части звезда Давида                                                                          |
+|Координаты      |[41.37071541, 48.50794494](https://www.google.com/maps/place/41.37071541, 48.50794494)                    |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 #### Источник
 
 |                          |                 |
 |--------------------------|-----------------|
-|**Место хранения**        |Архив полевых исследований Центра «Сэфер»        |
-|**Контакты**              |students@sefer.ru       |
-|**Ссылка**                |[https://sfira.org](https://sfira.org) |
-|**Исходный ID**           |     |
-|**Условия использования** |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
-: {tbl-colwidths="[25,75]"}
+|Место хранения        |Архив полевых исследований Центра «Сэфер»        |
+|Контакты              |students@sefer.ru       |
+|Ссылка                |[https://sfira.org](https://sfira.org) |
+|Исходный ID           |     |
+|Условия использования |[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)        |
+: {.striped .custom-table tbl-colwidths="[25,75]"}
 
 :::
 
