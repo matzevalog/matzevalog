@@ -19,3 +19,38 @@ test_that("Правильно ли заполнено поле Decor code", {
   write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)
 })
+
+
+test_that("Заполнено ли поле 'Decor_RU', если заполнено поле 'Decor code'", {
+  
+  read_csv("../data/data.csv", show_col_types = FALSE, progress = FALSE) |> 
+    filter(Decor_code != "-",
+           is.na(Decor_RU)) |> 
+    distinct(Number) |> 
+    arrange(Number) |> 
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "Не заполнено поле 'Decor_RU', хотя заполнено 'Decor_code'")) ->
+    observed
+  
+  expected <- character(length = length(observed))
+  
+  write_lines(observed, "../test_logs.txt", append = TRUE)
+  expect_equal(observed, expected)
+})
+
+test_that("Заполнено ли поле 'Decor_RU', если заполнено поле 'Decor code'", {
+  
+  read_csv("../data/data.csv", show_col_types = FALSE, progress = FALSE) |> 
+    filter(!is.na(Decor_RU),
+           Decor_code == "-") |> 
+    distinct(Number) |> 
+    arrange(Number) |> 
+    str_glue_data(str_c(str_pad("{Number}", 20, side = "right"), 
+                        "Не заполнено поле 'Decor code', хотя заполнено 'Decor_RU'")) ->
+    observed
+  
+  expected <- character(length = length(observed))
+  
+  write_lines(observed, "../test_logs.txt", append = TRUE)
+  expect_equal(observed, expected)
+})
