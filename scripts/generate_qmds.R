@@ -272,11 +272,11 @@ for_qmd_generation_second_step |>
          DDate_HE = if_else(DDate_HE == "", "--", DDate_HE),
          name_dates = str_glue(
 '
-::: {{.name-style}}
+::: {{.name-ru-style}}
 **{Name_RU}**
 :::
 
-::: {{style="font-size: 1.2em; color: #929292;"}}
+::: {{.name-he-style}}
 {Name_HE}
 :::
 
@@ -348,13 +348,16 @@ include-in-header:
             border-bottom: none !important;
             border-top: none !important;
          }}
-          .name-style p {{ font-size: 1.2em; margin-bottom: 0.1em; }}
+          .name-ru-style p {{ font-size: 1.2em; margin-bottom: 0.1em; }}
+          .name-he-style p {{ font-size: 1.2em; margin-bottom: 0; color: #929292; }}
           .sidebar.sidebar-navigation>* {{ padding-top: 1.1em; }}
           #title-block-header {{ margin-block-end: 0em; }}
           
           .date-panel .column p {{margin-top: 0;
                                   margin-bottom: 0;
           }}
+
+          .date-panel .column {{ margin-top: 0.8em; }}
           
           .date-panel .columns {{display: flex !important;
                                  align-items: center;
