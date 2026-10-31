@@ -281,7 +281,7 @@ for_qmd_generation_second_step |>
 :::
 
 :::: {{.columns .date-panel style="display: flex; align-items: center; margin-top: 0.8em;"}}
-::: {{.column .text-center style="width: fit-content; flex: 0 0 auto; align-self: flex-start;"}}
+::: {{.column .text-center style="width: fit-content; flex: 0 0 auto;"}}
 ![](../additional_images/Cradle-b.svg "Дата рождения"){{width=1.5em .nolightbox}}
 :::
 
@@ -291,7 +291,7 @@ for_qmd_generation_second_step |>
 [{BDate_HE}]{{style="color: #929292"}}
 :::
 
-::: {{.column .text-center style="width: fit-content; flex: 0 0 auto; align-self: flex-start;"}}
+::: {{.column .text-center style="width: fit-content; flex: 0 0 auto;"}}
 ![](../additional_images/Tombstone-b.svg "Дата смерти"){{width=1.5em .nolightbox}}
 :::
 
