@@ -280,22 +280,22 @@ for_qmd_generation_second_step |>
 {Name_HE}
 :::
 
-:::: {{.columns .date-panel .align-items-center}}
-::: {{.column width="1.5em" .text-center}}
-![](../additional_images/Cradle-b.svg "Дата рождения"){{width=1.3em .nolightbox}}
+:::: {{.columns .date-panel style="display: flex; align-items: center; margin-top: 0.8em;"}}
+::: {{.column .text-center style="width: fit-content; flex: 0 0 auto; align-self: flex-start;"}}
+![](../additional_images/Cradle-b.svg "Дата рождения"){{width=1.5em .nolightbox}}
 :::
 
-::: {{.column style="width: fit-content; padding-left: 0.4em; padding-right: 4em;"}}
+::: {{.column style="flex: 0 0 auto; width: fit-content; padding-left: 0.8em; padding-right: 3.5em;"}}
 {BDate_GR} 
 
 [{BDate_HE}]{{style="color: #929292"}}
 :::
 
-::: {{.column width="1.5em" .text-center}}
-![](../additional_images/Tombstone-b.svg "Дата смерти"){{width=1.3em .nolightbox}}
+::: {{.column .text-center style="width: fit-content; flex: 0 0 auto; align-self: flex-start;"}}
+![](../additional_images/Tombstone-b.svg "Дата смерти"){{width=1.5em .nolightbox}}
 :::
 
-::: {{.column style="width: fit-content; padding-left: 0.4em;"}}
+::: {{.column style="flex: 0 0 auto; width: fit-content; padding-left: 0.8em;"}}
 {DDate_GR} 
 
 [{DDate_HE}]{{style="color: #929292"}}
@@ -349,20 +349,14 @@ include-in-header:
             border-top: none !important;
          }}
           .name-ru-style p {{ font-size: 1.2em; margin-bottom: 0.1em; }}
-          .name-he-style p {{ font-size: 1.2em; margin-bottom: 0; color: #929292; }}
+          .name-he-style p {{ font-size: 1.25em; margin-bottom: 0; color: #929292; }}
           .sidebar.sidebar-navigation>* {{ padding-top: 1.1em; }}
           #title-block-header {{ margin-block-end: 0em; }}
           
           .date-panel .column p {{margin-top: 0;
                                   margin-bottom: 0;
           }}
-
-          .date-panel .column {{ margin-top: 0.8em; }}
-          
-          .date-panel .columns {{display: flex !important;
-                                 align-items: center;
-          }}
-          
+                
          .figure p {{
               overflow: hidden;
               border-radius: 0.25rem;
