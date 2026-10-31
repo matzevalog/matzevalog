@@ -16,8 +16,8 @@ listing:
       title: "Памятник"
       name-ru: "Имя"
       name-he: "Имя (евр.)"
-      year-gr: 'Гр. год'
-      year-he: 'Ев. год'
+      year-gr: 'Год'
+      year-he: 'Год (евр.)'
       place: "Место"
       flag: " "
 include-in-header:
@@ -33,7 +33,7 @@ include-in-header:
          }
 
          .quarto-listing-table thead { 
-            color: #a78f70; 
+            color: #929292; 
          }
 
          .quarto-listing-table th:nth-child(1),
