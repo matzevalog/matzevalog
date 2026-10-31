@@ -48,6 +48,11 @@ include-in-header:
               text-align: right;
          }
 
+          .quarto-listing-table .listing-place a {
+              position: relative !important;
+              z-index: 2 !important;
+          }
+
          ul.pagination li {
             padding-right: 0;
          }
