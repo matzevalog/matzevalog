@@ -18,7 +18,7 @@ listing:
     contents: "../cemeteries/"
     type: table
     table-striped: true
-    table-hover: false
+    table-hover: true
     fields: [code, title, country, status, tomb-dating, tomb-amount, catalog]
     sort-ui: [code, title, country, status, tomb-dating, tomb-amount]
     filter-ui: [code, title, country, status]    
@@ -96,8 +96,13 @@ include-in-header:
             color: #929292; 
           }
 
+          .quarto-listing-table .listing-catalog a {
+              position: relative !important;
+              z-index: 2 !important;
+          }
+
           .listing-title { 
-              font-weight: bold;
+              font-weight: normal;
           }
 
           .quarto-listing-table th:nth-child(2),
