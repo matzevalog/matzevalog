@@ -134,7 +134,7 @@ include-in-header:
 
 ### Команда
 
-:::: {.columns}
+:::: {.columns .reduced-intervals}
 
 ::: {.column .text-center width="20%"}
 
@@ -142,11 +142,9 @@ include-in-header:
 ![](additional_images/MV.png){width=9em}
 :::
 
-::: {.reduced-intervals}
 **Михаил Васильев**
 
 ИВ РАН
-:::
 :::
 
 ::: {.column .text-center width="5%"}
@@ -158,11 +156,9 @@ include-in-header:
 ![](additional_images/GM.png){width=9em}
 :::
 
-::: {.reduced-intervals}
 **Георгий Мороз**
 
 НИУ ВШЭ
-:::
 :::
 
 ::: {.column width="55%" .text-center}
