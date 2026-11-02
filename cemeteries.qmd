@@ -96,7 +96,7 @@ include-in-header:
             color: #929292; 
           }
 
-          .quarto-listing-table .listing-catalog a {
+          .quarto-listing-table .listing-catalog .btn {
               position: relative !important;
               z-index: 2 !important;
           }
