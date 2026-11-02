@@ -432,35 +432,59 @@ tibble(`Оригинал` = "{Epitaph}",
   knitr::kable(align = c("r", "c", "l"))
 ```
 
-|||
-|-|---|
-|Примечания|{Notes_RU}|
-|Язык      |{Lang}    |
-|Метки     |{Tags}    |
-: {{.striped .custom-table tbl-colwidths="[21,79]"}}
+---
+
+::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+- - Примечания
+  - {Notes_RU}
+
+- - Язык
+  - {Lang}
+
+- - Метки
+  - {Tags}
+:::
 
 #### Памятник
 
-|||
-|-|---|
-|Тип памятника   |{Tomb_type}                                                                         |
-|Материал        |{Material_code} ({Material_RU})                                                     |
-|Размеры         |{Dimensions}                                                                        |
-|Тип декора      |{Decor_code}                                                                        |
-|Элементы декора |{Decor_RU}                                                                          |
-|Координаты      |{Coordinates} [[{{{< fa solid map-location-dot size=sm >}}}]{{style="vertical-align: middle;"}} Смотреть на карте](https://www.google.com/maps/place/{Coordinates}){{.btn .btn-outline-info role="button"}}   |
-: {{.striped .custom-table tbl-colwidths="[21,79]"}}
+::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+- - Тип памятника
+  - {Tomb_type}
+
+- - Материал
+  - {Material_code} ({Material_RU})
+
+- - Размеры
+  - {Dimensions}
+
+- - Тип декора
+  - {Decor_code}
+
+- - Элементы декора
+  - {Decor_RU}
+
+- - Координаты
+  - {Coordinates} [[{{{{< fa solid map-location-dot size=sm >}}}}]{{style="vertical-align: middle;"}} Смотреть на карте](https://www.google.com/maps/place/{Coordinates}){{.btn .btn-outline-info role="button"}}
+:::
 
 #### Источник
 
-|                          |                 |
-|--------------------------|-----------------|
-|Место хранения        |{Archive}        |
-|Контакты              |{Contacts}       |
-|Ссылка                |[{Link}]({Link}) |
-|Исходный ID           |{Source_Code}    |
-|Условия использования |{license}        |
-: {{.striped .custom-table tbl-colwidths="[21,79]"}}
+::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+- - Место хранения
+  - {Archive}
+
+- - Контакты
+  - {Contacts}
+
+- - Ссылка
+  - [{Link}]({Link})
+
+- - Исходный ID
+  - {Source_Code}
+
+- - Условия использования
+  - {license}
+:::
 
 :::
 
