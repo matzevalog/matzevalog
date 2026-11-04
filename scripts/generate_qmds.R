@@ -434,7 +434,7 @@ tibble(`Оригинал` = "{Epitaph}",
 
 ---
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {{.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}}
 - - Примечания
   - {Notes_RU}
 
@@ -447,7 +447,7 @@ tibble(`Оригинал` = "{Epitaph}",
 
 #### Памятник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {{.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}}
 - - Тип памятника
   - {Tomb_type}
 
@@ -469,7 +469,7 @@ tibble(`Оригинал` = "{Epitaph}",
 
 #### Источник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {{.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}}
 - - Место хранения
   - {Archive}
 
