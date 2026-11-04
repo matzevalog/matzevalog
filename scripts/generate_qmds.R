@@ -280,7 +280,7 @@ for_qmd_generation_second_step |>
 {Name_HE}
 :::
 
-:::: {{.columns .date-panel style="display: flex; align-items: center; margin-top: 0.8em;"}}
+:::: {{.columns .date-panel style="display: flex; align-items: top; margin-top: 0.8em;"}}
 ::: {{.column .text-center style="width: fit-content; flex: 0 0 auto;"}}
 ![](../additional_images/Cradle-b.svg "Дата рождения"){{width=1.5em .nolightbox}}
 :::
@@ -433,8 +433,8 @@ tibble(`Оригинал` = "{Epitaph}",
 ```
 
 ---
-
-::: {{.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}}
+::: {{.custom-table-wrap}}
+::: {{.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}}
 - - Примечания
   - {Notes_RU}
 
@@ -444,10 +444,12 @@ tibble(`Оригинал` = "{Epitaph}",
 - - Метки
   - {Tags}
 :::
+:::
 
 #### Памятник
 
-::: {{.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}}
+::: {{.custom-table-wrap}}
+::: {{.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}}
 - - Тип памятника
   - {Tomb_type}
 
@@ -464,12 +466,14 @@ tibble(`Оригинал` = "{Epitaph}",
   - {Decor_RU}
 
 - - Координаты
-  - {Coordinates} [[{{{{< fa solid map-location-dot size=sm >}}}}]{{style="vertical-align: middle;"}} Смотреть на карте](https://www.google.com/maps/place/{Coordinates}){{.btn .btn-outline-info role="button"}}
+  - {Coordinates} [Показать на карте](https://www.google.com/maps/place/{Coordinates}){{style="margin-left: 1em"}}
+:::
 :::
 
 #### Источник
 
-::: {{.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}}
+::: {{.custom-table-wrap}}
+::: {{.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}}
 - - Место хранения
   - {Archive}
 
@@ -484,6 +488,7 @@ tibble(`Оригинал` = "{Epitaph}",
 
 - - Условия использования
   - {license}
+:::
 :::
 
 :::
