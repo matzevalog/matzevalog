@@ -39,6 +39,20 @@ $nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;
     @extend .table-striped !optional;
 }
 
+.custom-table-wrap table > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-color-type: var(--bs-table-striped-color);
+    --bs-table-bg-type: var(--bs-table-striped-bg);  
+}
+
+.custom-table-wrap table tbody tr {
+    --bs-table-accent-bg: #fff;
+    vertical-align: middle;  
+}
+
+.custom-table-wrap table tbody td:nth-child(1) {
+    color: #929292;
+}
+
 .nav-footer {
     display: flex;
     align-items: center;
