@@ -197,8 +197,13 @@ ul.task-list li input[type="checkbox"] {
       color: #929292;
     }
 
+    .quarto-listing-table .listing-catalog .btn {
+        position: relative !important;
+        z-index: 2 !important;
+    }
+
     .listing-title {
-        font-weight: bold;
+        font-weight: normal;
     }
 
     .quarto-listing-table th:nth-child(2),
@@ -343,7 +348,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1793374929400" data-listing-reading-time-sort="10" data-listing-word-count-sort="1806">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1793810502742" data-listing-reading-time-sort="10" data-listing-word-count-sort="1801">
 <a href="./cemeteries/QBA.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -506,7 +511,7 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Фильтр">
     </div>
 </div>
-<table class="quarto-listing-table table table-striped">
+<table class="quarto-listing-table table table-striped table-hover">
 <thead>
 <tr>
 
@@ -542,7 +547,8 @@ window.Quarto = {
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1793374929400" data-listing-reading-time-sort="10" data-listing-word-count-sort="1806" data-listing-code-sort="QBA">
+<tr data-index="0" data-listing-file-modified-sort="1793810502742" data-listing-reading-time-sort="10" data-listing-word-count-sort="1801" data-listing-code-sort="QBA" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
 <td>
 <a href="./cemeteries/QBA.html" class="code listing-code">QBA</a>
 </td>
@@ -567,7 +573,8 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="1" data-listing-file-modified-sort="1793374929400" data-listing-reading-time-sort="9" data-listing-word-count-sort="1686" data-listing-code-sort="SDB">
+<tr data-index="1" data-listing-file-modified-sort="1793374929400" data-listing-reading-time-sort="9" data-listing-word-count-sort="1686" data-listing-code-sort="SDB" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
 <td>
 <a href="./cemeteries/SDB.html" class="code listing-code">SDB</a>
 </td>

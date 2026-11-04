@@ -197,8 +197,8 @@ suppressPackageStartupMessages(library(tidyverse))
 library(leaflet)
 library(leaflet.extras)
 
-read_csv("../data/data.csv", show_col_types = FALSE, progress = FALSE) |> 
-  filter(place == "Куба (центральное)\n\n    Азербайджан",
+read_csv("../data/data.csv", show_col_types = FALSE, progress = FALSE) |>
+  filter(place == "Куба (цент.)",
          !is.na(Longitude),
          !is.na(Latitude)) |> 
   mutate(Sex = case_when(Sex == "женский" ~ "женские", 
