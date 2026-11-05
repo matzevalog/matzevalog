@@ -84,21 +84,16 @@ include-in-header:
                --bs-btn-padding-y: 0.25rem; 
                --bs-btn-padding-x: 0.5rem; 
                --bs-btn-font-size: 0.875rem;
-               --bs-table-accent-bg: #fff;
           }
       
           .quarto-listing-table tr {
               vertical-align: middle;
               text-align: center;
+              --bs-table-accent-bg: #fff;
           }
 
           .quarto-listing-table thead { 
-            color: #929292; 
-          }
-
-          .quarto-listing-table .listing-catalog .btn {
-              position: relative !important;
-              z-index: 2 !important;
+              color: #929292; 
           }
 
           .listing-title { 
@@ -128,3 +123,14 @@ include-in-header:
 :::
 
 ::::
+
+```{js}
+//| echo: false
+document.addEventListener('click', function(event) {
+  const customButton = event.target.closest('.listing-catalog .btn');
+  
+  if (customButton) {
+    event.stopPropagation();
+  }
+}, true);
+```
