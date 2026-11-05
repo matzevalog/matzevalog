@@ -105,9 +105,10 @@ include-in-header:
           color: #929292;
       }
 
-      .table-striped {
+      .table-striped tr {
           --bs-table-accent-bg: #fff;
-      }
+          vertical-align: middle;
+      }     
 
       </style>
 
