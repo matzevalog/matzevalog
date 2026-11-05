@@ -79,9 +79,10 @@ include-in-header:
           color: #a78f70;
       }
 
-      .table-striped {
+      .table-striped tr {
           --bs-table-accent-bg: #fff;
-      }
+          vertical-align: middle;
+      }    
 
       .figure p {
         overflow: hidden;
