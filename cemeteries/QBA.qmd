@@ -175,13 +175,13 @@ include-after-body:
 
 ### [{{< fa regular map size=sm >}}]{style="vertical-align: middle;"}  Карта
 
-::::{.columns}
+::::{.columns .reduced-intervals}
 
-::: {.column .reduced-intervals style="width: 50%; text-align: left;"}
+::: {.column style="width: 50%; text-align: left;"}
 **Онлайн--карта**
 :::
 
-::: {.column .reduced-intervals style="width: 50%; text-align: right;"}
+::: {.column style="width: 50%; text-align: right;"}
 [[{{< fa regular file-pdf size=sm >}}]{style="vertical-align: middle"} Скачать pdf-карту](../data/QBA_map.pdf){.btn .btn-outline-info .btn-sm role="button"}
 :::
 
