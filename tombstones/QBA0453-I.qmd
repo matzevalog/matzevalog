@@ -113,7 +113,7 @@ knitr::include_graphics("../images/QBA0453_1.JPG")
 עזריה בן סעדיה
 :::
 
-:::: {.columns .date-panel style="display: flex; align-items: center; margin-top: 0.8em;"}
+:::: {.columns .date-panel style="display: flex; align-items: top; margin-top: 0.8em;"}
 ::: {.column .text-center style="width: fit-content; flex: 0 0 auto;"}
 ![](../additional_images/Cradle-b.svg "Дата рождения"){width=1.5em .nolightbox}
 :::
@@ -171,8 +171,8 @@ Cаадияевич
 ```
 
 ---
-
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
 
@@ -182,10 +182,12 @@ Cаадияевич
 - - Метки
   -  
 :::
+:::
 
 #### Памятник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
 
@@ -202,12 +204,14 @@ Cаадияевич
   - звезда Давида, цветы на плите, ваза для цветов, фотопортрет
 
 - - Координаты
-  - 41.37111427, 48.50766656 [[{{< fa solid map-location-dot size=sm >}}]{style="vertical-align: middle;"} Смотреть на карте](https://www.google.com/maps/place/41.37111427, 48.50766656){.btn .btn-outline-info role="button"}
+  - 41.37111427, 48.50766656 [Показать на карте](https://www.google.com/maps/place/41.37111427, 48.50766656){style="margin-left: 1em"}
+:::
 :::
 
 #### Источник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
 
@@ -222,6 +226,7 @@ Cаадияевич
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+:::
 :::
 
 :::

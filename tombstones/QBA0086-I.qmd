@@ -111,7 +111,7 @@ knitr::include_graphics("../images/QBA0086_2.JPG")
 גיטל בת יעקב
 :::
 
-:::: {.columns .date-panel style="display: flex; align-items: center; margin-top: 0.8em;"}
+:::: {.columns .date-panel style="display: flex; align-items: top; margin-top: 0.8em;"}
 ::: {.column .text-center style="width: fit-content; flex: 0 0 auto;"}
 ![](../additional_images/Cradle-b.svg "Дата рождения"){width=1.5em .nolightbox}
 :::
@@ -173,8 +173,8 @@ tibble(`Оригинал` = "פ״נ הבתולה
 ```
 
 ---
-
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - Год записан с помощью хронограммы в виде цитаты из Быт 35:20, в которой говорится об установке памятника Яаковом на могиле праматери Рахели. Числовое значение отмеченных букв в цитате соответствует 643.
 
@@ -184,10 +184,12 @@ tibble(`Оригинал` = "פ״נ הבתולה
 - - Метки
   - девушка
 :::
+:::
 
 #### Памятник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
 
@@ -204,12 +206,14 @@ tibble(`Оригинал` = "פ״נ הבתולה
   - две фигурные ниши для текста
 
 - - Координаты
-  - 41.37071798, 48.50619125 [[{{< fa solid map-location-dot size=sm >}}]{style="vertical-align: middle;"} Смотреть на карте](https://www.google.com/maps/place/41.37071798, 48.50619125){.btn .btn-outline-info role="button"}
+  - 41.37071798, 48.50619125 [Показать на карте](https://www.google.com/maps/place/41.37071798, 48.50619125){style="margin-left: 1em"}
+:::
 :::
 
 #### Источник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
 
@@ -224,6 +228,7 @@ tibble(`Оригинал` = "פ״נ הבתולה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+:::
 :::
 
 :::

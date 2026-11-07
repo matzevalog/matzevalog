@@ -116,7 +116,7 @@ knitr::include_graphics("../images/QBA1019_3.JPG")
 יעקב בן רפאל
 :::
 
-:::: {.columns .date-panel style="display: flex; align-items: center; margin-top: 0.8em;"}
+:::: {.columns .date-panel style="display: flex; align-items: top; margin-top: 0.8em;"}
 ::: {.column .text-center style="width: fit-content; flex: 0 0 auto;"}
 ![](../additional_images/Cradle-b.svg "Дата рождения"){width=1.5em .nolightbox}
 :::
@@ -208,8 +208,8 @@ tibble(`Оригинал` = "ציון
 ```
 
 ---
-
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - *Псалмы 50:2
 נב״צה צרורה =  נפשו בצרור החיים צרורה
@@ -221,10 +221,12 @@ tibble(`Оригинал` = "ציון
 - - Метки
   - раввин
 :::
+:::
 
 #### Памятник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
 
@@ -241,12 +243,14 @@ tibble(`Оригинал` = "ציון
   - звезда Давида в обрамлении растительных элементов; фигурные ниши для текста; две ветви у основания стелы!
 
 - - Координаты
-  - 41.37066263, 48.50898758 [[{{< fa solid map-location-dot size=sm >}}]{style="vertical-align: middle;"} Смотреть на карте](https://www.google.com/maps/place/41.37066263, 48.50898758){.btn .btn-outline-info role="button"}
+  - 41.37066263, 48.50898758 [Показать на карте](https://www.google.com/maps/place/41.37066263, 48.50898758){style="margin-left: 1em"}
+:::
 :::
 
 #### Источник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
 
@@ -261,6 +265,7 @@ tibble(`Оригинал` = "ציון
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+:::
 :::
 
 :::

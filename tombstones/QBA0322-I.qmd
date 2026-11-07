@@ -110,7 +110,7 @@ knitr::include_graphics("../images/QBA0322_1.JPG")
 עבדיה בן גבריאל
 :::
 
-:::: {.columns .date-panel style="display: flex; align-items: center; margin-top: 0.8em;"}
+:::: {.columns .date-panel style="display: flex; align-items: top; margin-top: 0.8em;"}
 ::: {.column .text-center style="width: fit-content; flex: 0 0 auto;"}
 ![](../additional_images/Cradle-b.svg "Дата рождения"){width=1.5em .nolightbox}
 :::
@@ -168,8 +168,8 @@ tibble(`Оригинал` = "פה נטמן
 ```
 
 ---
-
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
 
@@ -179,10 +179,12 @@ tibble(`Оригинал` = "פה נטמן
 - - Метки
   -  
 :::
+:::
 
 #### Памятник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
 
@@ -199,12 +201,14 @@ tibble(`Оригинал` = "פה נטמן
   - полукруглое завершение; две фигурные ниши для текста;  наверху звезда Давида с двумя примыкающими ветвями по краям
 
 - - Координаты
-  - 41.37082972, 48.50721471 [[{{< fa solid map-location-dot size=sm >}}]{style="vertical-align: middle;"} Смотреть на карте](https://www.google.com/maps/place/41.37082972, 48.50721471){.btn .btn-outline-info role="button"}
+  - 41.37082972, 48.50721471 [Показать на карте](https://www.google.com/maps/place/41.37082972, 48.50721471){style="margin-left: 1em"}
+:::
 :::
 
 #### Источник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
 
@@ -219,6 +223,7 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+:::
 :::
 
 :::

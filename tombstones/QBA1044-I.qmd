@@ -113,7 +113,7 @@ knitr::include_graphics("../images/QBA1044_1.JPG")
 יואב בן חיים
 :::
 
-:::: {.columns .date-panel style="display: flex; align-items: center; margin-top: 0.8em;"}
+:::: {.columns .date-panel style="display: flex; align-items: top; margin-top: 0.8em;"}
 ::: {.column .text-center style="width: fit-content; flex: 0 0 auto;"}
 ![](../additional_images/Cradle-b.svg "Дата рождения"){width=1.5em .nolightbox}
 :::
@@ -181,8 +181,8 @@ tibble(`Оригинал` = "פה
 ```
 
 ---
-
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
 
@@ -192,10 +192,12 @@ tibble(`Оригинал` = "פה
 - - Метки
   -  
 :::
+:::
 
 #### Памятник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
 
@@ -212,12 +214,14 @@ tibble(`Оригинал` = "פה
   - полукруглое завершение с декором в виде роз и двух свитков пергамента, звезда Давида в окружении цветов, фигурные ниши для текста, растительный орнамент
 
 - - Координаты
-  - 41.37065251, 48.5087832 [[{{< fa solid map-location-dot size=sm >}}]{style="vertical-align: middle;"} Смотреть на карте](https://www.google.com/maps/place/41.37065251, 48.5087832){.btn .btn-outline-info role="button"}
+  - 41.37065251, 48.5087832 [Показать на карте](https://www.google.com/maps/place/41.37065251, 48.5087832){style="margin-left: 1em"}
+:::
 :::
 
 #### Источник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
 
@@ -232,6 +236,7 @@ tibble(`Оригинал` = "פה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+:::
 :::
 
 :::

@@ -110,7 +110,7 @@ knitr::include_graphics("../images/QBA1035_2.JPG")
 רפאל בן מאיר
 :::
 
-:::: {.columns .date-panel style="display: flex; align-items: center; margin-top: 0.8em;"}
+:::: {.columns .date-panel style="display: flex; align-items: top; margin-top: 0.8em;"}
 ::: {.column .text-center style="width: fit-content; flex: 0 0 auto;"}
 ![](../additional_images/Cradle-b.svg "Дата рождения"){width=1.5em .nolightbox}
 :::
@@ -176,8 +176,8 @@ tibble(`Оригинал` = "פ֗מ֗ פאר הזמן
 ```
 
 ---
-
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
 
@@ -187,10 +187,12 @@ tibble(`Оригинал` = "פ֗מ֗ פאר הזמן
 - - Метки
   -  
 :::
+:::
 
 #### Памятник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
 
@@ -207,12 +209,14 @@ tibble(`Оригинал` = "פ֗מ֗ פאר הזמן
   - две фигурные ниши для текста
 
 - - Координаты
-  - 41.37063504, 48.50889042 [[{{< fa solid map-location-dot size=sm >}}]{style="vertical-align: middle;"} Смотреть на карте](https://www.google.com/maps/place/41.37063504, 48.50889042){.btn .btn-outline-info role="button"}
+  - 41.37063504, 48.50889042 [Показать на карте](https://www.google.com/maps/place/41.37063504, 48.50889042){style="margin-left: 1em"}
+:::
 :::
 
 #### Источник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
 
@@ -227,6 +231,7 @@ tibble(`Оригинал` = "פ֗מ֗ פאר הזמן
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+:::
 :::
 
 :::

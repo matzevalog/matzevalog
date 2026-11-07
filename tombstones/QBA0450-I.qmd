@@ -111,7 +111,7 @@ knitr::include_graphics("../images/QBA0450.JPG")
 ישעיה בן יוסף
 :::
 
-:::: {.columns .date-panel style="display: flex; align-items: center; margin-top: 0.8em;"}
+:::: {.columns .date-panel style="display: flex; align-items: top; margin-top: 0.8em;"}
 ::: {.column .text-center style="width: fit-content; flex: 0 0 auto;"}
 ![](../additional_images/Cradle-b.svg "Дата рождения"){width=1.5em .nolightbox}
 :::
@@ -183,8 +183,8 @@ tibble(`Оригинал` = "י״ח ב״י ע״מ
 ```
 
 ---
-
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - *Пс 149:2
 **Цит. Втор 33:12
@@ -196,10 +196,12 @@ tibble(`Оригинал` = "י״ח ב״י ע״מ
 - - Метки
   -  
 :::
+:::
 
 #### Памятник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
 
@@ -216,12 +218,14 @@ tibble(`Оригинал` = "י״ח ב״י ע״מ
   - звезда Давида в окружении растительного орнамента, три фигурные ниши для текста
 
 - - Координаты
-  - 41.37085436, 48.50767869 [[{{< fa solid map-location-dot size=sm >}}]{style="vertical-align: middle;"} Смотреть на карте](https://www.google.com/maps/place/41.37085436, 48.50767869){.btn .btn-outline-info role="button"}
+  - 41.37085436, 48.50767869 [Показать на карте](https://www.google.com/maps/place/41.37085436, 48.50767869){style="margin-left: 1em"}
+:::
 :::
 
 #### Источник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
 
@@ -236,6 +240,7 @@ tibble(`Оригинал` = "י״ח ב״י ע״מ
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+:::
 :::
 
 :::

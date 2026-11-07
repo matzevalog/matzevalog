@@ -119,7 +119,7 @@ knitr::include_graphics("../images/QBA0503.JPG")
 אבנר בן שמשון
 :::
 
-:::: {.columns .date-panel style="display: flex; align-items: center; margin-top: 0.8em;"}
+:::: {.columns .date-panel style="display: flex; align-items: top; margin-top: 0.8em;"}
 ::: {.column .text-center style="width: fit-content; flex: 0 0 auto;"}
 ![](../additional_images/Cradle-b.svg "Дата рождения"){width=1.5em .nolightbox}
 :::
@@ -181,8 +181,8 @@ tibble(`Оригинал` = "פ׳נ׳
 ```
 
 ---
-
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
 
@@ -201,10 +201,12 @@ tibble(`Оригинал` = "פ׳נ׳
 
 
 :::
+:::
 
 #### Памятник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
 
@@ -221,12 +223,14 @@ tibble(`Оригинал` = "פ׳נ׳
   - звезда Давида в завершении; два портала с текстом эпитафии и тремя полуколоннами; фигурная ниша с текстом эпитафии; между порталами и нишей два треугольных углубления
 
 - - Координаты
-  - 41.37089669, 48.50778732 [[{{< fa solid map-location-dot size=sm >}}]{style="vertical-align: middle;"} Смотреть на карте](https://www.google.com/maps/place/41.37089669, 48.50778732){.btn .btn-outline-info role="button"}
+  - 41.37089669, 48.50778732 [Показать на карте](https://www.google.com/maps/place/41.37089669, 48.50778732){style="margin-left: 1em"}
+:::
 :::
 
 #### Источник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
 
@@ -241,6 +245,7 @@ tibble(`Оригинал` = "פ׳נ׳
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+:::
 :::
 
 :::

@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6de6ebef4e15a8892b907fa1ca8744fa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3159e899a551c722363b16ac2b3f16ba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -185,21 +185,16 @@ ul.task-list li input[type="checkbox"] {
          --bs-btn-padding-y: 0.25rem;
          --bs-btn-padding-x: 0.5rem;
          --bs-btn-font-size: 0.875rem;
-         --bs-table-accent-bg: #fff;
     }
 
     .quarto-listing-table tr {
         vertical-align: middle;
         text-align: center;
+        --bs-table-accent-bg: #fff;
     }
 
     .quarto-listing-table thead {
-      color: #929292;
-    }
-
-    .quarto-listing-table .listing-catalog .btn {
-        position: relative !important;
-        z-index: 2 !important;
+        color: #929292;
     }
 
     .listing-title {
@@ -348,7 +343,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1793810502742" data-listing-reading-time-sort="10" data-listing-word-count-sort="1801">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1794051661002" data-listing-reading-time-sort="9" data-listing-word-count-sort="1800">
 <a href="./cemeteries/QBA.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -411,7 +406,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1793374929400" data-listing-reading-time-sort="9" data-listing-word-count-sort="1686">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1794051661002" data-listing-reading-time-sort="9" data-listing-word-count-sort="1686">
 <a href="./cemeteries/SDB.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -547,7 +542,7 @@ window.Quarto = {
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1793810502742" data-listing-reading-time-sort="10" data-listing-word-count-sort="1801" data-listing-code-sort="QBA" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="0" data-listing-file-modified-sort="1794051661002" data-listing-reading-time-sort="9" data-listing-word-count-sort="1800" data-listing-code-sort="QBA" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./cemeteries/QBA.html" class="code listing-code">QBA</a>
@@ -573,7 +568,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="1" data-listing-file-modified-sort="1793374929400" data-listing-reading-time-sort="9" data-listing-word-count-sort="1686" data-listing-code-sort="SDB" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="1" data-listing-file-modified-sort="1794051661002" data-listing-reading-time-sort="9" data-listing-word-count-sort="1686" data-listing-code-sort="SDB" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./cemeteries/SDB.html" class="code listing-code">SDB</a>
@@ -606,6 +601,14 @@ window.Quarto = {
 </div>
 </div>
 </div>
+<pre class="{js}"><code>//| echo: false
+document.addEventListener('click', function(event) {
+  const customButton = event.target.closest('.listing-catalog .btn');
+  
+  if (customButton) {
+    event.stopPropagation();
+  }
+}, true);</code></pre>
 
 
 

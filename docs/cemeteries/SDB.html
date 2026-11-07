@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6de6ebef4e15a8892b907fa1ca8744fa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3159e899a551c722363b16ac2b3f16ba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -95,7 +95,12 @@ background: #00000000;
 <style>
 .description { display: none; }
 
-.reduced-intervals p { margin-bottom: 0.3em; }
+.reduced-intervals p { margin-bottom: 0; }
+
+.button-intervals p {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+}
 
 .panel-tabset { margin-top: 2em; }
 
@@ -127,6 +132,16 @@ table, table tr, table th, table td {
   border: none !important;
   border-bottom: none !important;
   border-top: none !important;
+}
+
+.table-striped td:nth-child(1),
+.table-striped td:nth-child(3) {
+    color: #a78f70;
+}
+
+.table-striped tr {
+    --bs-table-accent-bg: #fff;
+    vertical-align: middle;
 }
 
 .figure p {
@@ -249,33 +264,33 @@ div.callout-tip-callout.callout-style-default .callout-icon::before, div.callout
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Место:</strong></td>
+<td>Место</td>
 <td>Стародуб</td>
-<td><strong>Площадь:</strong></td>
+<td>Площадь</td>
 <td>3 га</td>
 </tr>
 <tr class="even">
-<td><strong>Расположение:</strong></td>
+<td>Расположение</td>
 <td>Россия, Брянская область</td>
-<td><strong>Памятников:</strong></td>
+<td>Памятников</td>
 <td>791</td>
 </tr>
 <tr class="odd">
-<td><strong>Координаты:</strong></td>
+<td>Координаты</td>
 <td><a href="https://www.google.com/maps/place/52.5893971,%2032.7416198">52°35’22”N 32°44’30”E</a></td>
-<td><strong>Датировка:</strong></td>
+<td>Датировка</td>
 <td>1847–2011</td>
 </tr>
 <tr class="even">
-<td><strong>Община:</strong></td>
+<td>Община</td>
 <td>евреи-ашкеназы</td>
-<td><strong>Год описания:</strong></td>
+<td>Год описания</td>
 <td>2018</td>
 </tr>
 <tr class="odd">
-<td><strong>Статус:</strong></td>
+<td>Статус</td>
 <td>недействующее</td>
-<td><strong>Источник данных:</strong></td>
+<td>Источник</td>
 <td>Архив полевых исследований центра «Сэфер»</td>
 </tr>
 </tbody>
@@ -298,9 +313,9 @@ div.callout-tip-callout.callout-style-default .callout-icon::before, div.callout
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div class="columns">
-<div class="column" style="width: 50%; text-align: left; margin-bottom: 0;">
+<div class="column reduced-intervals" style="width: 50%; text-align: left;">
 <p><strong>Онлайн–карта</strong></p>
-</div><div class="column" style="width: 50%; text-align: right; margin-bottom: 0;">
+</div><div class="column reduced-intervals" style="width: 50%; text-align: right;">
 <p><a href="../data/SDB_map.pdf" class="btn btn-outline-info btn-sm" role="button"><span style="vertical-align: middle"><i class="fa-regular fa-file-pdf fa-sm" aria-label="file-pdf"></i></span> Скачать pdf-карту</a></p>
 </div>
 </div>
@@ -316,8 +331,8 @@ div.callout-tip-callout.callout-style-default .callout-icon::before, div.callout
 <p>Исследование и каталогизация кладбища проведены в 2018 году в рамках <a href="https://sefer.ru/rus/education/educational_programmes/Summer/breansk_starodub.php">исследовательской полевой школы</a>, организованной Центром «Сэфер» и Институтом славяноведения РАН.</p>
 <p>Работа по каталогизации включала комплексное описание всех сохранившихся надгробных памятников, а также выполнение геодезической съёмки некрополя. В электронном каталоге, подготовленном по результатам экспедиции, доступны подробные сведения о каждом надгробии, а также карта кладбища в онлайн- и pdf-форматах.</p>
 <p>Материалы предоставлены для публикации Центром «Сэфер», каталог готовится к публикации.</p>
-<div style="margin-top: 1em">
-<p><span class="btn btn-outline-info disabled" role="button"><span style="vertical-align: middle;"><i class="fa-solid fa-magnifying-glass fa-sm" aria-label="magnifying-glass"></i></span> Перейти в каталог</span> <span class="btn btn-outline-info disabled" role="button" style="margin-left: 1em;"><span style="vertical-align: middle; color: #DBAE63;"><i class="fa-solid fa-download fa-sm" aria-label="download"></i></span> Скачать данные (XLS-файл)</span></p>
+<div class="button-intervals">
+<p><span class="btn btn-outline-info disabled" role="button"><span style="vertical-align: middle;"><i class="fa-solid fa-magnifying-glass fa-sm" aria-label="magnifying-glass"></i></span> Перейти в каталог</span> <span class="btn btn-outline-info disabled" role="button" style="margin-left: 1em;"><span style="vertical-align: middle;"><i class="fa-solid fa-download fa-sm" aria-label="download"></i></span> Скачать данные (XLS-файл)</span></p>
 </div>
 </div>
 </div>

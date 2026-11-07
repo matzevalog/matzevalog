@@ -116,7 +116,7 @@ knitr::include_graphics("../images/QBA0902_3.JPG")
 שושן בת מרדכי
 :::
 
-:::: {.columns .date-panel style="display: flex; align-items: center; margin-top: 0.8em;"}
+:::: {.columns .date-panel style="display: flex; align-items: top; margin-top: 0.8em;"}
 ::: {.column .text-center style="width: fit-content; flex: 0 0 auto;"}
 ![](../additional_images/Cradle-b.svg "Дата рождения"){width=1.5em .nolightbox}
 :::
@@ -172,8 +172,8 @@ tibble(`Оригинал` = "פ׳ נ׳
 ```
 
 ---
-
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
 
@@ -183,10 +183,12 @@ tibble(`Оригинал` = "פ׳ נ׳
 - - Метки
   -  
 :::
+:::
 
 #### Памятник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
 
@@ -203,12 +205,14 @@ tibble(`Оригинал` = "פ׳ נ׳
   - треугольное завершение с волютами и растительными мотивами-зигзагами, конек, витые полуколонны, звезда Давида и портрет на вставке
 
 - - Координаты
-  - 41.37122734, 48.50914018 [[{{< fa solid map-location-dot size=sm >}}]{style="vertical-align: middle;"} Смотреть на карте](https://www.google.com/maps/place/41.37122734, 48.50914018){.btn .btn-outline-info role="button"}
+  - 41.37122734, 48.50914018 [Показать на карте](https://www.google.com/maps/place/41.37122734, 48.50914018){style="margin-left: 1em"}
+:::
 :::
 
 #### Источник
 
-::: {.list-table .striped .custom-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
+::: {.custom-table-wrap}
+::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
 
@@ -223,6 +227,7 @@ tibble(`Оригинал` = "פ׳ נ׳
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+:::
 :::
 
 :::
