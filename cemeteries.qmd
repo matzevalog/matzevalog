@@ -124,8 +124,8 @@ include-in-header:
 
 ::::
 
-```{js}
-//| echo: false
+```{=html}
+<script>
 document.addEventListener('click', function(event) {
   const customButton = event.target.closest('.listing-catalog .btn');
   
@@ -133,4 +133,5 @@ document.addEventListener('click', function(event) {
     event.stopPropagation();
   }
 }, true);
+</script>
 ```
