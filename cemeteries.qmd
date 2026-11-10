@@ -101,9 +101,7 @@ include-in-header:
           }
 
           .quarto-listing-table th:nth-child(2),
-          .quarto-listing-table td:nth-child(2),
-          .quarto-listing-table th:nth-child(7),
-          .quarto-listing-table td:nth-child(7) {
+          .quarto-listing-table td:nth-child(2), {
               text-align: left;
           }
 
