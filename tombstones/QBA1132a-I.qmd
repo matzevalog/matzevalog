@@ -1,7 +1,7 @@
 ---
 title: "QBA1132a"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Йедидья, сын Йешая Ноаха
 name-he: ידידיה בן ישי נח
 year-gr: 1843
@@ -169,7 +169,8 @@ tibble(`Оригинал` = "פה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -179,12 +180,13 @@ tibble(`Оригинал` = "פה
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -203,12 +205,13 @@ tibble(`Оригинал` = "פה
 
 - - Координаты
   - 41.36953492, 48.50704038 [Показать на карте](https://www.google.com/maps/place/41.36953492, 48.50704038){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -224,7 +227,10 @@ tibble(`Оригинал` = "פה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

@@ -1,7 +1,7 @@
 ---
 title: "QBA1140"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Элияху, сын Элияху
 name-he: אליה בן אליה
 year-gr: 1901
@@ -175,7 +175,8 @@ tibble(`Оригинал` = "פ״נ צעיר לימים
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -185,12 +186,13 @@ tibble(`Оригинал` = "פ״נ צעיר לימים
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -209,12 +211,13 @@ tibble(`Оригинал` = "פ״נ צעיר לימים
 
 - - Координаты
   - 41.36968912, 48.506718 [Показать на карте](https://www.google.com/maps/place/41.36968912, 48.506718){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -230,7 +233,10 @@ tibble(`Оригинал` = "פ״נ צעיר לימים
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

@@ -1,7 +1,7 @@
 ---
 title: "QBA0400"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: РАФАИЛОВ Борис, сын Шушана
 name-he: רפאלוב בוריס בן שושן
 year-gr: 1990
@@ -165,7 +165,8 @@ tibble(`Оригинал` = "נ״פ
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -175,12 +176,13 @@ tibble(`Оригинал` = "נ״פ
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -199,12 +201,13 @@ tibble(`Оригинал` = "נ״פ
 
 - - Координаты
   - 41.3707375, 48.50761786 [Показать на карте](https://www.google.com/maps/place/41.3707375, 48.50761786){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -220,7 +223,10 @@ tibble(`Оригинал` = "נ״פ
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

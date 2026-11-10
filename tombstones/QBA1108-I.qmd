@@ -1,7 +1,7 @@
 ---
 title: "QBA1108"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Элиэзер, сын Эфраима
 name-he: אליעזר בן אפרים
 year-gr: 1821
@@ -172,7 +172,8 @@ tibble(`Оригинал` = "יום שנפטר
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - *Песнь песней 5:2
@@ -182,12 +183,13 @@ tibble(`Оригинал` = "יום שנפטר
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -206,12 +208,13 @@ tibble(`Оригинал` = "יום שנפטר
 
 - - Координаты
   - 41.36950028, 48.50799986 [Показать на карте](https://www.google.com/maps/place/41.36950028, 48.50799986){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -227,7 +230,10 @@ tibble(`Оригинал` = "יום שנפטר
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

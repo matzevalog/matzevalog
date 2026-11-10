@@ -1,7 +1,7 @@
 ---
 title: "QBA0304"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Беньямин, сын Менаше
 name-he: בנימין בן מנשה
 year-gr: 1880
@@ -174,7 +174,8 @@ tibble(`Оригинал` = "פה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -184,12 +185,13 @@ tibble(`Оригинал` = "פה
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -208,12 +210,13 @@ tibble(`Оригинал` = "פה
 
 - - Координаты
   - 41.37087007, 48.50701842 [Показать на карте](https://www.google.com/maps/place/41.37087007, 48.50701842){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -229,7 +232,10 @@ tibble(`Оригинал` = "פה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

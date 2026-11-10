@@ -1,7 +1,7 @@
 ---
 title: "QBA0625"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ИФРАИМОВ Бенцион, сын Давида (Бенсион)
 name-he: בן ציון בן דוד
 year-gr: 1955
@@ -175,7 +175,8 @@ tibble(`Оригинал` = "פכ
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -185,12 +186,13 @@ tibble(`Оригинал` = "פכ
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -209,12 +211,13 @@ tibble(`Оригинал` = "פכ
 
 - - Координаты
   - 41.37082483, 48.50832423 [Показать на карте](https://www.google.com/maps/place/41.37082483, 48.50832423){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -230,7 +233,10 @@ tibble(`Оригинал` = "פכ
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

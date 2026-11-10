@@ -325,8 +325,8 @@ map(codes, function(code){
          place = case_when(str_detect(Number, "QBA") ~ 'Куба (цент.)',
                            str_detect(Number, "SDB") ~ 'Стародуб',
                            TRUE ~ NA),
-         flag = case_when(str_detect(Number, "QBA") ~ '🇦🇿',
-                           str_detect(Number, "SDB") ~ '🇷🇺',
+         flag = case_when(str_detect(Number, "QBA") ~ 'AZ',
+                           str_detect(Number, "SDB") ~ 'RU',
                            TRUE ~ NA)) |> 
   ungroup() ->
   res

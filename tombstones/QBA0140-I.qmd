@@ -1,7 +1,7 @@
 ---
 title: "QBA0140"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Нахум, сын Аарона
 name-he: נחום בן אהרן
 year-gr: 1910
@@ -168,7 +168,8 @@ tibble(`Оригинал` = "על אלה אני בוכיה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -178,12 +179,13 @@ tibble(`Оригинал` = "על אלה אני בוכיה
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -202,12 +204,13 @@ tibble(`Оригинал` = "על אלה אני בוכיה
 
 - - Координаты
   - 41.37040849, 48.50635216 [Показать на карте](https://www.google.com/maps/place/41.37040849, 48.50635216){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -223,7 +226,10 @@ tibble(`Оригинал` = "על אלה אני בוכיה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

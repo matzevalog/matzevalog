@@ -1,7 +1,7 @@
 ---
 title: "QBA0136"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Гад, сын Рафаэля (Год)
 name-he: גד בן רפאל
 year-gr: 1918
@@ -173,7 +173,8 @@ tibble(`Оригинал` = "פה נטמן
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -183,12 +184,13 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Метки
   - юноша, преждевременная смерть
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -207,12 +209,13 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Координаты
   - 41.37080467, 48.50620606 [Показать на карте](https://www.google.com/maps/place/41.37080467, 48.50620606){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -228,7 +231,10 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

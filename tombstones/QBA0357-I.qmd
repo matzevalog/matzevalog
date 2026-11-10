@@ -1,7 +1,7 @@
 ---
 title: "QBA0357"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Гулну, дочь Эфраима
 name-he: גולנו בת אפרימ
 year-gr: 1939
@@ -162,7 +162,8 @@ tibble(`Оригинал` = "כ׳נ׳  האשה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -172,12 +173,13 @@ tibble(`Оригинал` = "כ׳נ׳  האשה
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - плита/саркофаг
@@ -196,12 +198,13 @@ tibble(`Оригинал` = "כ׳נ׳  האשה
 
 - - Координаты
   - 41.37065688, 48.50750512 [Показать на карте](https://www.google.com/maps/place/41.37065688, 48.50750512){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -217,7 +220,10 @@ tibble(`Оригинал` = "כ׳נ׳  האשה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

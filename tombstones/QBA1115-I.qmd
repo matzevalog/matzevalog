@@ -1,7 +1,7 @@
 ---
 title: "QBA1115"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Авишалом, сын Авраама
 name-he: אבישלום בן אברהם
 year-gr: 1914
@@ -189,7 +189,8 @@ _C_
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -199,12 +200,13 @@ _C_
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -223,12 +225,13 @@ _C_
 
 - - Координаты
   - 41.36999198, 48.50708828 [Показать на карте](https://www.google.com/maps/place/41.36999198, 48.50708828){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -244,7 +247,10 @@ _C_
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

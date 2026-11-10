@@ -1,7 +1,7 @@
 ---
 title: "QBA1107"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Элияху, сын Товии
 name-he: אליהו בן טוביה
 year-gr: 0
@@ -166,7 +166,8 @@ tibble(`Оригинал` = "יום שנפטר
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -176,12 +177,13 @@ tibble(`Оригинал` = "יום שנפטר
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -200,12 +202,13 @@ tibble(`Оригинал` = "יום שנפטר
 
 - - Координаты
   - 41.36955693, 48.50800337 [Показать на карте](https://www.google.com/maps/place/41.36955693, 48.50800337){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -221,7 +224,10 @@ tibble(`Оригинал` = "יום שנפטר
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

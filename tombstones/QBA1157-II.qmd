@@ -1,7 +1,7 @@
 ---
 title: "QBA1157"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Мордехай
 name-he: מרדכי
 year-gr: 0
@@ -318,7 +318,8 @@ tibble(`Оригинал` = "ליל שנהרגו שפט׳
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - Из-за низкой сохранности памятника расшифровка текста затруднена
@@ -328,12 +329,13 @@ tibble(`Оригинал` = "ליל שנהרגו שפט׳
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -352,12 +354,13 @@ tibble(`Оригинал` = "ליל שנהרגו שפט׳
 
 - - Координаты
   - 41.36905277, 48.50741607 [Показать на карте](https://www.google.com/maps/place/41.36905277, 48.50741607){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -373,7 +376,10 @@ tibble(`Оригинал` = "ליל שנהרגו שפט׳
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

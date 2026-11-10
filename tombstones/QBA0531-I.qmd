@@ -1,7 +1,7 @@
 ---
 title: "QBA0531"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ШУМШУНОВ Йом Тов, сын Авнера (Юмтув Авнилович)
 name-he: יום טוב בן אבנר
 year-gr: 1924
@@ -167,7 +167,8 @@ tibble(`Оригинал` = "פנ הבחור
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -177,12 +178,13 @@ tibble(`Оригинал` = "פנ הבחור
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -201,12 +203,13 @@ tibble(`Оригинал` = "פנ הבחור
 
 - - Координаты
   - 41.37080449, 48.50792646 [Показать на карте](https://www.google.com/maps/place/41.37080449, 48.50792646){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -222,7 +225,10 @@ tibble(`Оригинал` = "פנ הבחור
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

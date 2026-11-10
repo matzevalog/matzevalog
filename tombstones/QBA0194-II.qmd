@@ -1,7 +1,7 @@
 ---
 title: "QBA0194"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: АЗАРИЯЕВ Авраам, сын Беньямина (Абрам Биняминович)
 name-he: אברהם בן בנימין
 year-gr: 1960
@@ -256,7 +256,8 @@ _RV_
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -266,12 +267,13 @@ _RV_
 
 - - Метки
   - %география%, военный, случай
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -290,12 +292,13 @@ _RV_
 
 - - Координаты
   - 41.36983747, 48.50680466 [Показать на карте](https://www.google.com/maps/place/41.36983747, 48.50680466){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -311,7 +314,10 @@ _RV_
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

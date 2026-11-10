@@ -1,7 +1,7 @@
 ---
 title: "QBA0305"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Шауль, сын Авшалома
 name-he: שאול בן אבשלום
 year-gr: 1927
@@ -169,7 +169,8 @@ tibble(`Оригинал` = "פה נטמן נטע נעמן
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -179,12 +180,13 @@ tibble(`Оригинал` = "פה נטמן נטע נעמן
 
 - - Метки
   - молодой человек, юноша
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - плита/саркофаг
@@ -203,12 +205,13 @@ tibble(`Оригинал` = "פה נטמן נטע נעמן
 
 - - Координаты
   - 41.370813, 48.5070288 [Показать на карте](https://www.google.com/maps/place/41.370813, 48.5070288){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -224,7 +227,10 @@ tibble(`Оригинал` = "פה נטמן נטע נעמן
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

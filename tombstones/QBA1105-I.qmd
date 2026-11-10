@@ -1,7 +1,7 @@
 ---
 title: "QBA1105"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Эфраим
 name-he: אפרים
 year-gr: 1825
@@ -170,7 +170,8 @@ tibble(`Оригинал` = "זכרון טוב
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - יהא לו לפני צורו להניח את נפשו בצרור החיים
@@ -180,12 +181,13 @@ tibble(`Оригинал` = "זכרון טוב
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -204,12 +206,13 @@ tibble(`Оригинал` = "זכרון טוב
 
 - - Координаты
   - 41.36959699, 48.50797883 [Показать на карте](https://www.google.com/maps/place/41.36959699, 48.50797883){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -225,7 +228,10 @@ tibble(`Оригинал` = "זכרון טוב
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

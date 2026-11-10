@@ -1,7 +1,7 @@
 ---
 title: "QBA1152"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Моше, сын Гавриэля
 name-he: משה בן גבריאל
 year-gr: 1865
@@ -174,7 +174,8 @@ tibble(`Оригинал` = "ציון
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -184,12 +185,13 @@ tibble(`Оригинал` = "ציון
 
 - - Метки
   - раввин
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -208,12 +210,13 @@ tibble(`Оригинал` = "ציון
 
 - - Координаты
   - 41.36942859, 48.50647854 [Показать на карте](https://www.google.com/maps/place/41.36942859, 48.50647854){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -229,7 +232,10 @@ tibble(`Оригинал` = "ציון
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

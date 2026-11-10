@@ -1,7 +1,7 @@
 ---
 title: "QBA0115"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Хаим, сын Нехемьи
 name-he: חיים בן נחמיה
 year-gr: 1911
@@ -182,7 +182,8 @@ tibble(`Оригинал` = "פנ
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -192,12 +193,13 @@ tibble(`Оригинал` = "פנ
 
 - - Метки
   - юноша, преждевременная смерть
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -216,12 +218,13 @@ tibble(`Оригинал` = "פנ
 
 - - Координаты
   - 41.36972315, 48.50652135 [Показать на карте](https://www.google.com/maps/place/41.36972315, 48.50652135){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -237,7 +240,10 @@ tibble(`Оригинал` = "פנ
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

@@ -1,7 +1,7 @@
 ---
 title: "QBA0486"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: РАФАИЛОВ Тельман, сын Бориса
 name-he: טאלמן בן בוריס
 year-gr: 1995
@@ -167,7 +167,8 @@ tibble(`Оригинал` = "נ״פ
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - *Цит. Чис 27:18
@@ -177,12 +178,13 @@ tibble(`Оригинал` = "נ״פ
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -201,12 +203,13 @@ tibble(`Оригинал` = "נ״פ
 
 - - Координаты
   - 41.37100659, 48.50771892 [Показать на карте](https://www.google.com/maps/place/41.37100659, 48.50771892){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -222,7 +225,10 @@ tibble(`Оригинал` = "נ״פ
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

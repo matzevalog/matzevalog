@@ -1,7 +1,7 @@
 ---
 title: "QBA0152a"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Беньямин, сын Менахема Нахума (Бинямин)
 name-he: בנימין בן מנחם
 year-gr: 1859
@@ -177,7 +177,8 @@ tibble(`Оригинал` = "פה נטמן
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - Текст на надгробии практически полностью повторяет эпитафию на памятнике №152. Вероятно, превоначальное надгробие (№152а) было повреждено или сломано, после чего вместо него был изготовлен и установлен новый памятник (№151).
@@ -187,12 +188,13 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -211,12 +213,13 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Координаты
   - 41.36975623, 48.50664026 [Показать на карте](https://www.google.com/maps/place/41.36975623, 48.50664026){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -232,7 +235,10 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

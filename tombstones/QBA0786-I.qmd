@@ -1,7 +1,7 @@
 ---
 title: "QBA0786"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: САСУНОВА Эстер, дочь Рабы (Истир)
 name-he: אסתר בת רבה
 year-gr: 1961
@@ -166,7 +166,8 @@ tibble(`Оригинал` = "פה נטמנה אשה הזקנה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -176,12 +177,13 @@ tibble(`Оригинал` = "פה נטמנה אשה הזקנה
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -200,12 +202,13 @@ tibble(`Оригинал` = "פה נטמנה אשה הזקנה
 
 - - Координаты
   - 41.37114815, 48.50885332 [Показать на карте](https://www.google.com/maps/place/41.37114815, 48.50885332){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -221,7 +224,10 @@ tibble(`Оригинал` = "פה נטמנה אשה הזקנה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

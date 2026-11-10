@@ -1,7 +1,7 @@
 ---
 title: "QBA0021"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Симан-Тов, сын Шломо (Симандув)
 name-he: סימנטוב בן שלמה
 year-gr: 1880
@@ -172,7 +172,8 @@ tibble(`Оригинал` = "פה ינוח
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - Цит. Ис 26:19
@@ -182,12 +183,13 @@ tibble(`Оригинал` = "פה ינוח
 
 - - Метки
   - преждевременная смерть
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -206,12 +208,13 @@ tibble(`Оригинал` = "פה ינוח
 
 - - Координаты
   - 41.37036587, 48.50615936 [Показать на карте](https://www.google.com/maps/place/41.37036587, 48.50615936){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -227,7 +230,10 @@ tibble(`Оригинал` = "פה ינוח
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

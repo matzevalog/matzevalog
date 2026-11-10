@@ -1,7 +1,7 @@
 ---
 title: "QBA0452"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ШУМШУНОВА Лея, дочь Эзры (Лия)
 name-he: לאה בת עזרא
 year-gr: 1939
@@ -165,7 +165,8 @@ tibble(`Оригинал` = "פנ אשה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -175,12 +176,13 @@ tibble(`Оригинал` = "פנ אשה
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -199,12 +201,13 @@ tibble(`Оригинал` = "פנ אשה
 
 - - Координаты
   - 41.37081243, 48.50773657 [Показать на карте](https://www.google.com/maps/place/41.37081243, 48.50773657){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -220,7 +223,10 @@ tibble(`Оригинал` = "פנ אשה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

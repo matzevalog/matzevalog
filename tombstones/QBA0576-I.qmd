@@ -1,7 +1,7 @@
 ---
 title: "QBA0576"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Моше, сын Мордехая
 name-he: משה בן מרדכי
 year-gr: 1885
@@ -171,7 +171,8 @@ tibble(`Оригинал` = "פה נטמן
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -181,12 +182,13 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -205,12 +207,13 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Координаты
   - 41.37085624, 48.50805036 [Показать на карте](https://www.google.com/maps/place/41.37085624, 48.50805036){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -226,7 +229,10 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

@@ -1,7 +1,7 @@
 ---
 title: "QBA1021"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Моше, сын Рахамима
 name-he: משה בן רחמים
 year-gr: 1909
@@ -177,7 +177,8 @@ tibble(`Оригинал` = "פ׳נ׳
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -187,12 +188,13 @@ tibble(`Оригинал` = "פ׳נ׳
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -211,12 +213,13 @@ tibble(`Оригинал` = "פ׳נ׳
 
 - - Координаты
   - 41.37057523, 48.50903828 [Показать на карте](https://www.google.com/maps/place/41.37057523, 48.50903828){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -232,7 +235,10 @@ tibble(`Оригинал` = "פ׳נ׳
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

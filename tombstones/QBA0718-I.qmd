@@ -1,7 +1,7 @@
 ---
 title: "QBA0718"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Эфраим, сын Эльханана
 name-he: אפרים בן אלחננן
 year-gr: 1922
@@ -196,7 +196,8 @@ _B_
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -206,12 +207,13 @@ _B_
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -230,12 +232,13 @@ _B_
 
 - - Координаты
   - 41.37108193, 48.50864273 [Показать на карте](https://www.google.com/maps/place/41.37108193, 48.50864273){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -251,7 +254,10 @@ _B_
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

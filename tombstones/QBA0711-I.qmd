@@ -1,7 +1,7 @@
 ---
 title: "QBA0711"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ЕЛИЗАРОВ Мардахай Ифраимович
 name-he: 
 year-gr: 1994
@@ -162,7 +162,8 @@ tibble(`Оригинал` = "Елизаров
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -172,12 +173,13 @@ tibble(`Оригинал` = "Елизаров
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -196,12 +198,13 @@ tibble(`Оригинал` = "Елизаров
 
 - - Координаты
   - 41.37115125, 48.50860501 [Показать на карте](https://www.google.com/maps/place/41.37115125, 48.50860501){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -217,7 +220,10 @@ tibble(`Оригинал` = "Елизаров
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

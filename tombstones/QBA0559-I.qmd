@@ -1,7 +1,7 @@
 ---
 title: "QBA0559"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: НИСОНОВ Нисан, сын Мордехая (Нисон Мардахаевич)
 name-he: ניסן בן מרדכי
 year-gr: 1991
@@ -172,7 +172,8 @@ tibble(`Оригинал` = "פנ
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -182,12 +183,13 @@ tibble(`Оригинал` = "פנ
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -206,12 +208,13 @@ tibble(`Оригинал` = "פנ
 
 - - Координаты
   - 41.37109854, 48.50793925 [Показать на карте](https://www.google.com/maps/place/41.37109854, 48.50793925){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -227,7 +230,10 @@ tibble(`Оригинал` = "פנ
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

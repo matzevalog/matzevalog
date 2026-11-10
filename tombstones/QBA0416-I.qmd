@@ -1,7 +1,7 @@
 ---
 title: "QBA0416"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Гуль Джиджех, дочь Йермии
 name-he: גול גיגך בת ירמיה
 year-gr: 1899
@@ -164,7 +164,8 @@ tibble(`Оригинал` = "פה נקברה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -174,12 +175,13 @@ tibble(`Оригинал` = "פה נקברה
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -198,12 +200,13 @@ tibble(`Оригинал` = "פה נקברה
 
 - - Координаты
   - 41.37070609, 48.50766442 [Показать на карте](https://www.google.com/maps/place/41.37070609, 48.50766442){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -219,7 +222,10 @@ tibble(`Оригинал` = "פה נקברה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

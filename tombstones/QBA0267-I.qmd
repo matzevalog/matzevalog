@@ -1,7 +1,7 @@
 ---
 title: "QBA0267"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Машиах, сын Асафа
 name-he: משיח בן אסף
 year-gr: 1941
@@ -160,7 +160,8 @@ tibble(`Оригинал` = "פ׳נ׳
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -170,12 +171,13 @@ tibble(`Оригинал` = "פ׳נ׳
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -194,12 +196,13 @@ tibble(`Оригинал` = "פ׳נ׳
 
 - - Координаты
   - 41.37030294, 48.50711134 [Показать на карте](https://www.google.com/maps/place/41.37030294, 48.50711134){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -215,7 +218,10 @@ tibble(`Оригинал` = "פ׳נ׳
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

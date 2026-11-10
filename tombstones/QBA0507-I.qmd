@@ -1,7 +1,7 @@
 ---
 title: "QBA0507"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: МАРДАХАЕВ Талхум, сын Иосифа (Юсуфович)
 name-he: תלחום בן יוסף
 year-gr: 1945
@@ -186,7 +186,8 @@ tibble(`Оригинал` = "פ׳נ׳
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - Написание букв во второй и четвертой строках еврейской надписи искажено.  Предполагаемое чтение:
@@ -210,12 +211,13 @@ tibble(`Оригинал` = "פ׳נ׳
 
 
 
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -234,12 +236,13 @@ tibble(`Оригинал` = "פ׳נ׳
 
 - - Координаты
   - 41.37073739, 48.50791178 [Показать на карте](https://www.google.com/maps/place/41.37073739, 48.50791178){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -255,7 +258,10 @@ tibble(`Оригинал` = "פ׳נ׳
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

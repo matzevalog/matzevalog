@@ -1,7 +1,7 @@
 ---
 title: "QBA0082"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Хаим, сын Эмануэля
 name-he: חיים בן עימנואל
 year-gr: 1903
@@ -173,7 +173,8 @@ tibble(`Оригинал` = "פה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - * Цит. Пс 149:2
@@ -183,12 +184,13 @@ tibble(`Оригинал` = "פה
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -207,12 +209,13 @@ tibble(`Оригинал` = "פה
 
 - - Координаты
   - 41.37088804, 48.50603906 [Показать на карте](https://www.google.com/maps/place/41.37088804, 48.50603906){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -228,7 +231,10 @@ tibble(`Оригинал` = "פה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

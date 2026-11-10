@@ -1,7 +1,7 @@
 ---
 title: "QBA0658"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ЯКУБОВА Хивит, дочь Цви (Севиевна)
 name-he: כבת בת צבי
 year-gr: 1993
@@ -172,7 +172,8 @@ tibble(`Оригинал` = "פה נקבּר
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -182,12 +183,13 @@ tibble(`Оригинал` = "פה נקבּר
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -206,12 +208,13 @@ tibble(`Оригинал` = "פה נקבּר
 
 - - Координаты
   - 41.37109395, 48.5083688 [Показать на карте](https://www.google.com/maps/place/41.37109395, 48.5083688){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -227,7 +230,10 @@ tibble(`Оригинал` = "פה נקבּר
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

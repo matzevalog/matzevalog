@@ -1,7 +1,7 @@
 ---
 title: "QBA0785"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: АВШАЛУМОВ Элиша Хаим, сын Сасона (Сосунович)
 name-he: אלישע חיים בן ששון
 year-gr: 1965
@@ -180,7 +180,8 @@ tibble(`Оригинал` = "פנ
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -190,12 +191,13 @@ tibble(`Оригинал` = "פנ
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -214,12 +216,13 @@ tibble(`Оригинал` = "פנ
 
 - - Координаты
   - 41.3711548, 48.50884939 [Показать на карте](https://www.google.com/maps/place/41.3711548, 48.50884939){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -235,7 +238,10 @@ tibble(`Оригинал` = "פנ
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

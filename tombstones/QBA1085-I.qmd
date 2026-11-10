@@ -1,7 +1,7 @@
 ---
 title: "QBA1085"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Мирьям, дочь Элияху
 name-he: מרים בת אליהו
 year-gr: 1860
@@ -168,7 +168,8 @@ tibble(`Оригинал` = "פה נטמנה ונפטרה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -178,12 +179,13 @@ tibble(`Оригинал` = "פה נטמנה ונפטרה
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -202,12 +204,13 @@ tibble(`Оригинал` = "פה נטמנה ונפטרה
 
 - - Координаты
   - 41.37031203, 48.50784761 [Показать на карте](https://www.google.com/maps/place/41.37031203, 48.50784761){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -223,7 +226,10 @@ tibble(`Оригинал` = "פה נטמנה ונפטרה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

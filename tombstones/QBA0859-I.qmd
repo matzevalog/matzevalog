@@ -1,7 +1,7 @@
 ---
 title: "QBA0859"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: АВШАЛУМОВ Эстер, дочь Абая (Истир Абаиевна)
 name-he: אסתר בת אביי
 year-gr: 1973
@@ -174,7 +174,8 @@ tibble(`Оригинал` = "יום ש׳ל׳ע׳ אסתר
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -184,12 +185,13 @@ tibble(`Оригинал` = "יום ש׳ל׳ע׳ אסתר
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -208,12 +210,13 @@ tibble(`Оригинал` = "יום ש׳ל׳ע׳ אסתר
 
 - - Координаты
   - 41.37122247, 48.50902164 [Показать на карте](https://www.google.com/maps/place/41.37122247, 48.50902164){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -229,7 +232,10 @@ tibble(`Оригинал` = "יום ש׳ל׳ע׳ אסתר
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

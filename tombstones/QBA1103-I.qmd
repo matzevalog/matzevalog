@@ -1,7 +1,7 @@
 ---
 title: "QBA1103"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Гавриэль, сын Аарона
 name-he: גבריאל בן אהרן
 year-gr: 1849
@@ -174,7 +174,8 @@ tibble(`Оригинал` = "פה נ הבחור המש
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -184,12 +185,13 @@ tibble(`Оригинал` = "פה נ הבחור המש
 
 - - Метки
   - преждевременная смерть, юноша, знаток Писания
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -208,12 +210,13 @@ tibble(`Оригинал` = "פה נ הבחור המש
 
 - - Координаты
   - 41.37003098, 48.50725728 [Показать на карте](https://www.google.com/maps/place/41.37003098, 48.50725728){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -229,7 +232,10 @@ tibble(`Оригинал` = "פה נ הבחור המש
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

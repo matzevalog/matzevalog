@@ -1,7 +1,7 @@
 ---
 title: "QBA0019"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ЮШВАЕВ Моше, сын Гавриэля (Миши)
 name-he: משה בן גבריאל
 year-gr: 1950
@@ -167,7 +167,8 @@ tibble(`Оригинал` = "פ֗נ֗
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -177,12 +178,13 @@ tibble(`Оригинал` = "פ֗נ֗
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -201,12 +203,13 @@ tibble(`Оригинал` = "פ֗נ֗
 
 - - Координаты
   - 41.37040473, 48.50612846 [Показать на карте](https://www.google.com/maps/place/41.37040473, 48.50612846){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -222,7 +225,10 @@ tibble(`Оригинал` = "פ֗נ֗
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

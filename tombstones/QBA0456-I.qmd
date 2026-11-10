@@ -1,7 +1,7 @@
 ---
 title: "QBA0456"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: АГАБАБАЕВ Дан, сын Гриши (Дон Гришаевич)
 name-he: 
 year-gr: 1983
@@ -163,7 +163,8 @@ IV. 29. 1983",
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -173,12 +174,13 @@ IV. 29. 1983",
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -197,12 +199,13 @@ IV. 29. 1983",
 
 - - Координаты
   - 41.37106706, 48.50765754 [Показать на карте](https://www.google.com/maps/place/41.37106706, 48.50765754){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -218,7 +221,10 @@ IV. 29. 1983",
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

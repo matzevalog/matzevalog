@@ -433,7 +433,8 @@ tibble(`Оригинал` = "{Epitaph}",
 ```
 
 ---
-::: {{.custom-table-wrap}}
+
+:::: {{.custom-table-wrap}}
 ::: {{.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}}
 - - Примечания
   - {Notes_RU}
@@ -443,12 +444,13 @@ tibble(`Оригинал` = "{Epitaph}",
 
 - - Метки
   - {Tags}
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {{.custom-table-wrap}}
+:::: {{.custom-table-wrap}}
 ::: {{.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}}
 - - Тип памятника
   - {Tomb_type}
@@ -467,12 +469,13 @@ tibble(`Оригинал` = "{Epitaph}",
 
 - - Координаты
   - {Coordinates} [Показать на карте](https://www.google.com/maps/place/{Coordinates}){{style="margin-left: 1em"}}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {{.custom-table-wrap}}
+:::: {{.custom-table-wrap}}
 ::: {{.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}}
 - - Место хранения
   - {Archive}
@@ -488,7 +491,10 @@ tibble(`Оригинал` = "{Epitaph}",
 
 - - Условия использования
   - {license}
+
 :::
+::::
+
 :::
 
 :::

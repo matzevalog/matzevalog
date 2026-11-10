@@ -1,7 +1,7 @@
 ---
 title: "QBA0094"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Ципора, дочь Песаха (Сипро)
 name-he: צפורה בת פסח
 year-gr: 1913
@@ -182,7 +182,8 @@ tibble(`Оригинал` = "מצבת
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - Год записан с помощью хроностиха в виде цитаты из Прит 12:4, в которой числовое значение отмеченных букв соответствует 673.
@@ -192,12 +193,13 @@ tibble(`Оригинал` = "מצבת
 
 - - Метки
   - преждевременная смерть
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -216,12 +218,13 @@ tibble(`Оригинал` = "מצבת
 
 - - Координаты
   - 41.37027885, 48.50637882 [Показать на карте](https://www.google.com/maps/place/41.37027885, 48.50637882){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -237,7 +240,10 @@ tibble(`Оригинал` = "מצבת
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

@@ -1,7 +1,7 @@
 ---
 title: "QBA0167"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Мордехай, сын Хизкии (Мардахай)
 name-he: מרדכי בן חזקיא
 year-gr: 2025
@@ -186,7 +186,8 @@ tibble(`Оригинал` = "פה נטמן איש
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - *Слово сокращено, поэтому установить точное значение невозможно. В переводе дано предположительное чтение.
@@ -196,12 +197,13 @@ tibble(`Оригинал` = "פה נטמן איש
 
 - - Метки
   - молодой человек, насильственная смерть, ученик, студент, мать, брат, сестра, жених, торговец
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -220,12 +222,13 @@ tibble(`Оригинал` = "פה נטמן איש
 
 - - Координаты
   - 41.36976668, 48.50668565 [Показать на карте](https://www.google.com/maps/place/41.36976668, 48.50668565){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -241,7 +244,10 @@ tibble(`Оригинал` = "פה נטמן איש
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

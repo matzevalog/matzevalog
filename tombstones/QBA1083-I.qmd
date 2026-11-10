@@ -1,7 +1,7 @@
 ---
 title: "QBA1083"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Ицхак, сын Аарона
 name-he: יצחק בן אהרן
 year-gr: 1868
@@ -176,7 +176,8 @@ tibble(`Оригинал` = "פה נטמן
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -186,12 +187,13 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Метки
   - знаток Писания, юноша
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -210,12 +212,13 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Координаты
   - 41.37033503, 48.50782197 [Показать на карте](https://www.google.com/maps/place/41.37033503, 48.50782197){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -231,7 +234,10 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

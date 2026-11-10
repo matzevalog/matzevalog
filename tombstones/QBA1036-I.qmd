@@ -1,7 +1,7 @@
 ---
 title: "QBA1036"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Элиша, сын Рафаэля
 name-he: אלישע בן רפאל
 year-gr: 1897
@@ -181,7 +181,8 @@ tibble(`Оригинал` = "א֒יש חמודות
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - Первые буквы строк образуют акростих с именем покойного.
@@ -191,12 +192,13 @@ tibble(`Оригинал` = "א֒יש חמודות
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -215,12 +217,13 @@ tibble(`Оригинал` = "א֒יש חמודות
 
 - - Координаты
   - 41.37063031, 48.50889381 [Показать на карте](https://www.google.com/maps/place/41.37063031, 48.50889381){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -236,7 +239,10 @@ tibble(`Оригинал` = "א֒יש חמודות
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

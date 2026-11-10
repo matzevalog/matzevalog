@@ -1,7 +1,7 @@
 ---
 title: "QBA1047"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Йехуда, сын Йешайаху
 name-he: יהודה בן ישעיה
 year-gr: 1911
@@ -186,7 +186,8 @@ tibble(`Оригинал` = "ציו׳
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -196,12 +197,13 @@ tibble(`Оригинал` = "ציו׳
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -220,12 +222,13 @@ tibble(`Оригинал` = "ציו׳
 
 - - Координаты
   - 41.37056821, 48.50883341 [Показать на карте](https://www.google.com/maps/place/41.37056821, 48.50883341){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -241,7 +244,10 @@ tibble(`Оригинал` = "ציו׳
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

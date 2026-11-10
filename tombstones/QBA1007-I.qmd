@@ -1,7 +1,7 @@
 ---
 title: "QBA1007"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Меир, сын Рахамима
 name-he: מאיר בן רחמים
 year-gr: 1877
@@ -172,7 +172,8 @@ tibble(`Оригинал` = "פה נטמן
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - **Цит. Кохелет рабба 1:13
@@ -182,12 +183,13 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -206,12 +208,13 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Координаты
   - 41.37083212, 48.50904496 [Показать на карте](https://www.google.com/maps/place/41.37083212, 48.50904496){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -227,7 +230,10 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

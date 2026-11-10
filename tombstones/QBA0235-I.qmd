@@ -1,7 +1,7 @@
 ---
 title: "QBA0235"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ЗАРБАИЛОВА Хана, дочь Михаэля (Михайловна)
 name-he: זרבאילובה חנה בת מיכאל
 year-gr: 1961
@@ -183,7 +183,8 @@ _TB_
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -193,12 +194,13 @@ _TB_
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -217,12 +219,13 @@ _TB_
 
 - - Координаты
   - 41.37035028, 48.50690467 [Показать на карте](https://www.google.com/maps/place/41.37035028, 48.50690467){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -238,7 +241,10 @@ _TB_
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

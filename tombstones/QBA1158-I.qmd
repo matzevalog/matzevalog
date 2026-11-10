@@ -1,7 +1,7 @@
 ---
 title: "QBA1158"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Шимон, сын Михаэля
 name-he: שמעון בן מיכאל
 year-gr: 1807
@@ -163,7 +163,8 @@ tibble(`Оригинал` = "יום שנפטר שמעון נ׳ע
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -173,12 +174,13 @@ tibble(`Оригинал` = "יום שנפטר שמעון נ׳ע
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -197,12 +199,13 @@ tibble(`Оригинал` = "יום שנפטר שמעון נ׳ע
 
 - - Координаты
   - 41.36928862, 48.50817114 [Показать на карте](https://www.google.com/maps/place/41.36928862, 48.50817114){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -218,7 +221,10 @@ tibble(`Оригинал` = "יום שנפטר שמעון נ׳ע
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

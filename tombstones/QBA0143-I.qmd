@@ -1,7 +1,7 @@
 ---
 title: "QBA0143"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: НУРИЕВА Бильхо, дочь Авадьи (Авадиевна)
 name-he: בלהה בת עבדיא
 year-gr: 1955
@@ -173,7 +173,8 @@ tibble(`Оригинал` = "פ׳ נ׳
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - Запись даты на иврите, по всей видимости, ошибочная. Григорианская дата (31.12.1955) соответствует 16 тевета 5716 года по еврейскому календарю.
@@ -183,12 +184,13 @@ tibble(`Оригинал` = "פ׳ נ׳
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -207,12 +209,13 @@ tibble(`Оригинал` = "פ׳ נ׳
 
 - - Координаты
   - 41.37032326, 48.50641378 [Показать на карте](https://www.google.com/maps/place/41.37032326, 48.50641378){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -228,7 +231,10 @@ tibble(`Оригинал` = "פ׳ נ׳
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

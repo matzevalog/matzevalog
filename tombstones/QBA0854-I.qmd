@@ -1,7 +1,7 @@
 ---
 title: "QBA0854"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ХАИМОВ Гевель, сын Шмуэля (Ивил Шамаилович)
 name-he: הבל בן שמואל
 year-gr: 1979
@@ -194,7 +194,8 @@ _L_
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - *Цит. Ис. 58:8
@@ -204,12 +205,13 @@ _L_
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -228,12 +230,13 @@ _L_
 
 - - Координаты
   - 41.37130374, 48.50900274 [Показать на карте](https://www.google.com/maps/place/41.37130374, 48.50900274){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -249,7 +252,10 @@ _L_
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

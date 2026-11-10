@@ -1,7 +1,7 @@
 ---
 title: "QBA0697"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Рут, дочь Цахалона (Илягуевой)
 name-he: רות בת צחלון
 year-gr: 1974
@@ -171,7 +171,8 @@ tibble(`Оригинал` = "רות בת צחלון יום א׳ שבת
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -181,12 +182,13 @@ tibble(`Оригинал` = "רות בת צחלון יום א׳ שבת
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -205,12 +207,13 @@ tibble(`Оригинал` = "רות בת צחלון יום א׳ שבת
 
 - - Координаты
   - 41.37109746, 48.50856535 [Показать на карте](https://www.google.com/maps/place/41.37109746, 48.50856535){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -226,7 +229,10 @@ tibble(`Оригинал` = "רות בת צחלון יום א׳ שבת
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

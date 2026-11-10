@@ -1,7 +1,7 @@
 ---
 title: "QBA1139"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Беньямин, сын Авраама
 name-he: בנימין בן אברהם
 year-gr: 1890
@@ -172,7 +172,8 @@ tibble(`Оригинал` = "בנימין
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - Значение слова в последней строке неясно.
@@ -182,12 +183,13 @@ tibble(`Оригинал` = "בנימין
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -206,12 +208,13 @@ tibble(`Оригинал` = "בנימין
 
 - - Координаты
   - 41.36930346, 48.50705117 [Показать на карте](https://www.google.com/maps/place/41.36930346, 48.50705117){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -227,7 +230,10 @@ tibble(`Оригинал` = "בנימין
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

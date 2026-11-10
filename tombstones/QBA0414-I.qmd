@@ -1,7 +1,7 @@
 ---
 title: "QBA0414"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: РАФАИЛОВА Шушан, дочь Рафаэля (Рафаиловна)
 name-he: שושן בת רפאל
 year-gr: 1978
@@ -176,7 +176,8 @@ tibble(`Оригинал` = "РАФАИЛОВА
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -186,12 +187,13 @@ tibble(`Оригинал` = "РАФАИЛОВА
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -210,12 +212,13 @@ tibble(`Оригинал` = "РАФАИЛОВА
 
 - - Координаты
   - 41.37075086, 48.50764979 [Показать на карте](https://www.google.com/maps/place/41.37075086, 48.50764979){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -231,7 +234,10 @@ tibble(`Оригинал` = "РАФАИЛОВА
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

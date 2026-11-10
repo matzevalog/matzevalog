@@ -1,7 +1,7 @@
 ---
 title: "QBA1015"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Элиэзер, сын Исраэля
 name-he: אליעזר בן ישראל
 year-gr: 1921
@@ -173,7 +173,8 @@ tibble(`Оригинал` = "פה האיש נטמן הנאמן
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - *Цит. Ис 20:8
@@ -183,12 +184,13 @@ tibble(`Оригинал` = "פה האיש נטמן הנאמן
 
 - - Метки
   - знаток Писания
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -207,12 +209,13 @@ tibble(`Оригинал` = "פה האיש נטמן הנאמן
 
 - - Координаты
   - 41.37062569, 48.50911658 [Показать на карте](https://www.google.com/maps/place/41.37062569, 48.50911658){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -228,7 +231,10 @@ tibble(`Оригинал` = "פה האיש נטמן הנאמן
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

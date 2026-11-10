@@ -1,7 +1,7 @@
 ---
 title: "QBA0228"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Исраэль, сын Хаима
 name-he: ישראל בן חיים
 year-gr: 1917
@@ -178,7 +178,8 @@ tibble(`Оригинал` = "כ֗א֗ | ו֗ב֗י֗
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -188,12 +189,13 @@ tibble(`Оригинал` = "כ֗א֗ | ו֗ב֗י֗
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -212,12 +214,13 @@ tibble(`Оригинал` = "כ֗א֗ | ו֗ב֗י֗
 
 - - Координаты
   - 41.36991032, 48.5069779 [Показать на карте](https://www.google.com/maps/place/41.36991032, 48.5069779){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -233,7 +236,10 @@ tibble(`Оригинал` = "כ֗א֗ | ו֗ב֗י֗
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

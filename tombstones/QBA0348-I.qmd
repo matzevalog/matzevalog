@@ -1,7 +1,7 @@
 ---
 title: "QBA0348"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Давид, сын Эфраима
 name-he: דוד בן אפרים
 year-gr: 1857
@@ -167,7 +167,8 @@ tibble(`Оригинал` = "יום שנפטר
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - שיהו = שהוא
@@ -177,12 +178,13 @@ tibble(`Оригинал` = "יום שנפטר
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -201,12 +203,13 @@ tibble(`Оригинал` = "יום שנפטר
 
 - - Координаты
   - 41.37046493, 48.50755947 [Показать на карте](https://www.google.com/maps/place/41.37046493, 48.50755947){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -222,7 +225,10 @@ tibble(`Оригинал` = "יום שנפטר
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

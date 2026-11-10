@@ -1,7 +1,7 @@
 ---
 title: "QBA1102"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Неизвестный(-ая)
 name-he: אלמוני(ת)
 year-gr: 1852
@@ -156,7 +156,8 @@ tibble(`Оригинал` = "[…]
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -166,12 +167,13 @@ tibble(`Оригинал` = "[…]
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -190,12 +192,13 @@ tibble(`Оригинал` = "[…]
 
 - - Координаты
   - 41.37006277, 48.50721621 [Показать на карте](https://www.google.com/maps/place/41.37006277, 48.50721621){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -211,7 +214,10 @@ tibble(`Оригинал` = "[…]
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

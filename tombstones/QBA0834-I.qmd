@@ -1,7 +1,7 @@
 ---
 title: "QBA0834"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: АВШАЛУМОВ Авраам, сын Авшалома (Абром Авшолумович)
 name-he: אברהם בן אבשלום
 year-gr: 1931
@@ -167,7 +167,8 @@ tibble(`Оригинал` = "פ׳ נ׳ האיש
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -177,12 +178,13 @@ tibble(`Оригинал` = "פ׳ נ׳ האיש
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -201,12 +203,13 @@ tibble(`Оригинал` = "פ׳ נ׳ האיש
 
 - - Координаты
   - 41.37090109, 48.50906503 [Показать на карте](https://www.google.com/maps/place/41.37090109, 48.50906503){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -222,7 +225,10 @@ tibble(`Оригинал` = "פ׳ נ׳ האיש
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

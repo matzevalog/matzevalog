@@ -1,7 +1,7 @@
 ---
 title: "QBA0246"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Хуна, сын Давида
 name-he: הונה בן דוד
 year-gr: 1853
@@ -172,7 +172,8 @@ tibble(`Оригинал` = "פה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -182,12 +183,13 @@ tibble(`Оригинал` = "פה
 
 - - Метки
   - знаток Писания, юноша
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -206,12 +208,13 @@ tibble(`Оригинал` = "פה
 
 - - Координаты
   - 41.37012528, 48.50714303 [Показать на карте](https://www.google.com/maps/place/41.37012528, 48.50714303){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -227,7 +230,10 @@ tibble(`Оригинал` = "פה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

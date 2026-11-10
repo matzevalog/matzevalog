@@ -1,7 +1,7 @@
 ---
 title: "QBA0015"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Хаим, сын Узияху (Хэим)
 name-he: חיים בן עזיהו
 year-gr: 1899
@@ -167,7 +167,8 @@ tibble(`Оригинал` = "פה נטמן
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - Слово גביר во второй строке, вероятно, означает влиятельного или особенно уважаемого члена общины.
@@ -177,12 +178,13 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Метки
   - пожилой(-ая)
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -201,12 +203,13 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Координаты
   - 41.37072649, 48.50590499 [Показать на карте](https://www.google.com/maps/place/41.37072649, 48.50590499){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -222,7 +225,10 @@ tibble(`Оригинал` = "פה נטמן
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

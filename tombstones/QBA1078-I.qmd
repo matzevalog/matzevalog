@@ -1,7 +1,7 @@
 ---
 title: "QBA1078"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Беньямин, сын Моше
 name-he: בנימין בן משה
 year-gr: 1851
@@ -175,7 +175,8 @@ tibble(`Оригинал` = "פה נטמן איש
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -185,12 +186,13 @@ tibble(`Оригинал` = "פה נטמן איש
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -209,12 +211,13 @@ tibble(`Оригинал` = "פה נטמן איש
 
 - - Координаты
   - 41.3702398, 48.50813149 [Показать на карте](https://www.google.com/maps/place/41.3702398, 48.50813149){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -230,7 +233,10 @@ tibble(`Оригинал` = "פה נטמן איש
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

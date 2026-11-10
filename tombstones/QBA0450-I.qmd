@@ -1,7 +1,7 @@
 ---
 title: "QBA0450"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Йешая, сын Йосефа
 name-he: ישעיה בן יוסף
 year-gr: 1915
@@ -183,7 +183,8 @@ tibble(`Оригинал` = "י״ח ב״י ע״מ
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - *Пс 149:2
@@ -195,12 +196,13 @@ tibble(`Оригинал` = "י״ח ב״י ע״מ
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -219,12 +221,13 @@ tibble(`Оригинал` = "י״ח ב״י ע״מ
 
 - - Координаты
   - 41.37085436, 48.50767869 [Показать на карте](https://www.google.com/maps/place/41.37085436, 48.50767869){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -240,7 +243,10 @@ tibble(`Оригинал` = "י״ח ב״י ע״מ
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

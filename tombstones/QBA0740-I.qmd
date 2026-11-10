@@ -1,7 +1,7 @@
 ---
 title: "QBA0740"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ЗАРБАИЛОВА Зехавит, дочь Пинхаса (Зоовут Пинхасовна)
 name-he: זהבית בת פינחס
 year-gr: 1947
@@ -170,7 +170,8 @@ tibble(`Оригинал` = "פ׳ נ׳
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -180,12 +181,13 @@ tibble(`Оригинал` = "פ׳ נ׳
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -204,12 +206,13 @@ tibble(`Оригинал` = "פ׳ נ׳
 
 - - Координаты
   - 41.37084721, 48.50881411 [Показать на карте](https://www.google.com/maps/place/41.37084721, 48.50881411){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -225,7 +228,10 @@ tibble(`Оригинал` = "פ׳ נ׳
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

@@ -1,7 +1,7 @@
 ---
 title: "QBA0245"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Ханука, сын Даниэля
 name-he: חנוכה בן דניאל
 year-gr: 1852
@@ -171,7 +171,8 @@ tibble(`Оригинал` = "פה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -181,12 +182,13 @@ tibble(`Оригинал` = "פה
 
 - - Метки
   - знаток Писания
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -205,12 +207,13 @@ tibble(`Оригинал` = "פה
 
 - - Координаты
   - 41.3700966, 48.50717899 [Показать на карте](https://www.google.com/maps/place/41.3700966, 48.50717899){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -226,7 +229,10 @@ tibble(`Оригинал` = "פה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

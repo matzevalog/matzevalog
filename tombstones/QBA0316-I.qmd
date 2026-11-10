@@ -1,7 +1,7 @@
 ---
 title: "QBA0316"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ШАМАИЛОВА Ципора, дочь Цви (Сипуро Савиевна)
 name-he: צפורה בת צבי
 year-gr: 1969
@@ -180,7 +180,8 @@ tibble(`Оригинал` = "צפרה בת צבי
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -190,12 +191,13 @@ tibble(`Оригинал` = "צפרה בת צבי
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -214,12 +216,13 @@ tibble(`Оригинал` = "צפרה בת צבי
 
 - - Координаты
   - 41.37062431, 48.50723637 [Показать на карте](https://www.google.com/maps/place/41.37062431, 48.50723637){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -235,7 +238,10 @@ tibble(`Оригинал` = "צפרה בת צבי
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

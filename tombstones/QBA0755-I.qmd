@@ -1,7 +1,7 @@
 ---
 title: "QBA0755"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Песах, дочь Ханины
 name-he: פסח בת חנינה
 year-gr: 1985
@@ -177,7 +177,8 @@ tibble(`Оригинал` = "Вечная
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -187,12 +188,13 @@ tibble(`Оригинал` = "Вечная
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -211,12 +213,13 @@ tibble(`Оригинал` = "Вечная
 
 - - Координаты
   - 41.37099129, 48.508805 [Показать на карте](https://www.google.com/maps/place/41.37099129, 48.508805){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -232,7 +235,10 @@ tibble(`Оригинал` = "Вечная
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

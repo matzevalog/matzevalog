@@ -1,7 +1,7 @@
 ---
 title: "QBA0350"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: САЛАМОНОВО Рахель, дочь Элиягу (Рахил Элиягуевна)
 name-he: רחל בת אליהו
 year-gr: 1943
@@ -180,7 +180,8 @@ tibble(`Оригинал` = "פ֗נ֗
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -190,12 +191,13 @@ tibble(`Оригинал` = "פ֗נ֗
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -214,12 +216,13 @@ tibble(`Оригинал` = "פ֗נ֗
 
 - - Координаты
   - 41.37029192, 48.50763344 [Показать на карте](https://www.google.com/maps/place/41.37029192, 48.50763344){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -235,7 +238,10 @@ tibble(`Оригинал` = "פ֗נ֗
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

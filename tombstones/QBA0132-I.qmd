@@ -1,7 +1,7 @@
 ---
 title: "QBA0132"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Шеалтиэль, сын Зерубавеля (Шалтиил)
 name-he: שאלתיאל בן זרבאל
 year-gr: 1861
@@ -170,7 +170,8 @@ tibble(`Оригинал` = "פה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - * Имеется в виду штадлан - человек, представляющий и отстаивающий интересы общины перед официальными властями.
@@ -180,12 +181,13 @@ tibble(`Оригинал` = "פה
 
 - - Метки
   - представитель общины (штадлан)
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -204,12 +206,13 @@ tibble(`Оригинал` = "פה
 
 - - Координаты
   - 41.36969418, 48.50660467 [Показать на карте](https://www.google.com/maps/place/41.36969418, 48.50660467){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -225,7 +228,10 @@ tibble(`Оригинал` = "פה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

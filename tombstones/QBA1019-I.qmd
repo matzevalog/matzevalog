@@ -1,7 +1,7 @@
 ---
 title: "QBA1019"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Яаков, сын Рафаэля
 name-he: יעקב בן רפאל
 year-gr: 1914
@@ -208,7 +208,8 @@ tibble(`Оригинал` = "ציון
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - *Псалмы 50:2
@@ -220,12 +221,13 @@ tibble(`Оригинал` = "ציון
 
 - - Метки
   - раввин
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -244,12 +246,13 @@ tibble(`Оригинал` = "ציון
 
 - - Координаты
   - 41.37066263, 48.50898758 [Показать на карте](https://www.google.com/maps/place/41.37066263, 48.50898758){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -265,7 +268,10 @@ tibble(`Оригинал` = "ציון
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

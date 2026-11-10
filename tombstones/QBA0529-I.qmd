@@ -1,7 +1,7 @@
 ---
 title: "QBA0529"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: АГАБАБАЕВА Хава, дочь Йерухама (Ярухомовна)
 name-he: חוה בת ירוחם
 year-gr: 1954
@@ -178,7 +178,8 @@ tibble(`Оригинал` = "פ״ ציון לנפש נ״
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -188,12 +189,13 @@ tibble(`Оригинал` = "פ״ ציון לנפש נ״
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -212,12 +214,13 @@ tibble(`Оригинал` = "פ״ ציון לנפש נ״
 
 - - Координаты
   - 41.37094475, 48.50783832 [Показать на карте](https://www.google.com/maps/place/41.37094475, 48.50783832){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -233,7 +236,10 @@ tibble(`Оригинал` = "פ״ ציון לנפש נ״
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

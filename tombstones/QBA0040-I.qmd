@@ -1,7 +1,7 @@
 ---
 title: "QBA0040"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Фридл, дочь Шраги
 name-he: פרידל בת שרגה
 year-gr: 1891
@@ -175,7 +175,8 @@ tibble(`Оригинал` = "פה נקבר
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -185,12 +186,13 @@ tibble(`Оригинал` = "פה נקבר
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -209,12 +211,13 @@ tibble(`Оригинал` = "פה נקבר
 
 - - Координаты
   - 41.37082293, 48.50603306 [Показать на карте](https://www.google.com/maps/place/41.37082293, 48.50603306){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -230,7 +233,10 @@ tibble(`Оригинал` = "פה נקבר
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

@@ -1,7 +1,7 @@
 ---
 title: "QBA0712"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ЕЛИЗАРОВА Хатуна Шауловна
 name-he: 
 year-gr: 1993
@@ -163,7 +163,8 @@ tibble(`Оригинал` = "Елизарова
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -173,12 +174,13 @@ tibble(`Оригинал` = "Елизарова
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -197,12 +199,13 @@ tibble(`Оригинал` = "Елизарова
 
 - - Координаты
   - 41.37113213, 48.50859566 [Показать на карте](https://www.google.com/maps/place/41.37113213, 48.50859566){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -218,7 +221,10 @@ tibble(`Оригинал` = "Елизарова
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

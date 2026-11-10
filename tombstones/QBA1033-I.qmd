@@ -1,7 +1,7 @@
 ---
 title: "QBA1033"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Элиэзер, сын Беньямина
 name-he: אליעזר בן בנימין
 year-gr: 1920
@@ -166,7 +166,8 @@ tibble(`Оригинал` = "יום שהלך לבית עולמו
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -176,12 +177,13 @@ tibble(`Оригинал` = "יום שהלך לבית עולמו
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -200,12 +202,13 @@ tibble(`Оригинал` = "יום שהלך לבית עולמו
 
 - - Координаты
   - 41.37049886, 48.50898666 [Показать на карте](https://www.google.com/maps/place/41.37049886, 48.50898666){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -221,7 +224,10 @@ tibble(`Оригинал` = "יום שהלך לבית עולמו
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

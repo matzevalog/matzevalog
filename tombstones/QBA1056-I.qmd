@@ -1,7 +1,7 @@
 ---
 title: "QBA1056"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Неизвестный(-ая)
 name-he: אלמוני(ת)
 year-gr: 0
@@ -154,7 +154,8 @@ tibble(`Оригинал` = "–",
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -164,12 +165,13 @@ tibble(`Оригинал` = "–",
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - табличка
@@ -188,12 +190,13 @@ tibble(`Оригинал` = "–",
 
 - - Координаты
   - 41.37036923, 48.50898635 [Показать на карте](https://www.google.com/maps/place/41.37036923, 48.50898635){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -209,7 +212,10 @@ tibble(`Оригинал` = "–",
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

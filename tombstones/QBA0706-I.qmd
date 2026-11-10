@@ -1,7 +1,7 @@
 ---
 title: "QBA0706"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ЕЛЕЗАРОВА Антонина, дочь Анталии (Антонина Анатольевна)
 name-he: אנתניינא בת אנתליא
 year-gr: 1992
@@ -174,7 +174,8 @@ tibble(`Оригинал` = "אנתניינא בת אנתליא
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -184,12 +185,13 @@ tibble(`Оригинал` = "אנתניינא בת אנתליא
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -208,12 +210,13 @@ tibble(`Оригинал` = "אנתניינא בת אנתליא
 
 - - Координаты
   - 41.37121376, 48.50861488 [Показать на карте](https://www.google.com/maps/place/41.37121376, 48.50861488){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -229,7 +232,10 @@ tibble(`Оригинал` = "אנתניינא בת אנתליא
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

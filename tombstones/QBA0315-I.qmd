@@ -1,7 +1,7 @@
 ---
 title: "QBA0315"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ШУМУНОВА Мирьям, дочь Гершома (Марям Гиршумовна)
 name-he: מרים בת גרשום
 year-gr: 1955
@@ -163,7 +163,8 @@ tibble(`Оригинал` = "פנ מרים בת גרשם
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -173,12 +174,13 @@ tibble(`Оригинал` = "פנ מרים בת גרשם
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -197,12 +199,13 @@ tibble(`Оригинал` = "פנ מרים בת גרשם
 
 - - Координаты
   - 41.37065005, 48.50727085 [Показать на карте](https://www.google.com/maps/place/41.37065005, 48.50727085){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -218,7 +221,10 @@ tibble(`Оригинал` = "פנ מרים בת גרשם
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

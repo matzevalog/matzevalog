@@ -1,7 +1,7 @@
 ---
 title: "QBA0832"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: АВШАЛУМОВА Хадаса, дочь Пайанды (Хадосо Пояндановна)
 name-he: הדסה בת פיינדא
 year-gr: 1943
@@ -167,7 +167,8 @@ tibble(`Оригинал` = "פ׳ נ׳ ה[אשה]
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -177,12 +178,13 @@ tibble(`Оригинал` = "פ׳ נ׳ ה[אשה]
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -201,12 +203,13 @@ tibble(`Оригинал` = "פ׳ נ׳ ה[אשה]
 
 - - Координаты
   - 41.37091333, 48.50905449 [Показать на карте](https://www.google.com/maps/place/41.37091333, 48.50905449){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -222,7 +225,10 @@ tibble(`Оригинал` = "פ׳ נ׳ ה[אשה]
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

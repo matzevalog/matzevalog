@@ -1,7 +1,7 @@
 ---
 title: "QBA0526"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: СУМХАЕВА Батшева, дочь Менаше (Батшива Манашировна)
 name-he: בתשבע בת מנשה
 year-gr: 1986
@@ -176,7 +176,8 @@ tibble(`Оригинал` = "פה נקברה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - *Притч 31:20
@@ -186,12 +187,13 @@ tibble(`Оригинал` = "פה נקברה
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -210,12 +212,13 @@ tibble(`Оригинал` = "פה נקברה
 
 - - Координаты
   - 41.37103801, 48.50783652 [Показать на карте](https://www.google.com/maps/place/41.37103801, 48.50783652){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -231,7 +234,10 @@ tibble(`Оригинал` = "פה נקברה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

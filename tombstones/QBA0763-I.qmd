@@ -1,7 +1,7 @@
 ---
 title: "QBA0763"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: САСУНОВ Симан-Тов, сын Лиша (Симондув)
 name-he: סימנטוב בן אלישע
 year-gr: 1940
@@ -166,7 +166,8 @@ tibble(`Оригинал` = "פה נטמן איש נאמן
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - По всей видимости, надгробие является дубликатом памятника №764, установленного ранее.
@@ -176,12 +177,13 @@ tibble(`Оригинал` = "פה נטמן איש נאמן
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -200,12 +202,13 @@ tibble(`Оригинал` = "פה נטמן איש נאמן
 
 - - Координаты
   - 41.37111424, 48.50878734 [Показать на карте](https://www.google.com/maps/place/41.37111424, 48.50878734){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -221,7 +224,10 @@ tibble(`Оригинал` = "פה נטמן איש נאמן
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

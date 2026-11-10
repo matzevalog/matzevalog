@@ -1,7 +1,7 @@
 ---
 title: "QBA0451"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: ЯКУБОВА Михал, дочь Авшалома (Авшалумовна)
 name-he: מיכל בת אבשלום
 year-gr: 1982
@@ -227,7 +227,8 @@ _R_
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -237,12 +238,13 @@ _R_
 
 - - Метки
   - муж, жена
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -261,12 +263,13 @@ _R_
 
 - - Координаты
   - 41.370805, 48.50771099 [Показать на карте](https://www.google.com/maps/place/41.370805, 48.50771099){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -282,7 +285,10 @@ _R_
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

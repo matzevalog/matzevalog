@@ -1,7 +1,7 @@
 ---
 title: "QBA1090"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Захарья, сын Моше
 name-he: זכריה בן משה
 year-gr: 1854
@@ -168,7 +168,8 @@ tibble(`Оригинал` = "פה נטמן ונקב֗
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -178,12 +179,13 @@ tibble(`Оригинал` = "פה נטמן ונקב֗
 
 - - Метки
   - знаток Писания
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -202,12 +204,13 @@ tibble(`Оригинал` = "פה נטמן ונקב֗
 
 - - Координаты
   - 41.3701791, 48.5076706 [Показать на карте](https://www.google.com/maps/place/41.3701791, 48.5076706){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -223,7 +226,10 @@ tibble(`Оригинал` = "פה נטמן ונקב֗
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

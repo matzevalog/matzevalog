@@ -1,7 +1,7 @@
 ---
 title: "QBA0601"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Яаков, сын Баны
 name-he: יעקב בן בנאה
 year-gr: 1880
@@ -174,7 +174,8 @@ tibble(`Оригинал` = "פה הונח
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   - *Цит. Пс 149:2
@@ -184,12 +185,13 @@ tibble(`Оригинал` = "פה הונח
 
 - - Метки
   - знаток Писания, раввин
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -208,12 +210,13 @@ tibble(`Оригинал` = "פה הונח
 
 - - Координаты
   - 41.37081696, 48.50827226 [Показать на карте](https://www.google.com/maps/place/41.37081696, 48.50827226){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -229,7 +232,10 @@ tibble(`Оригинал` = "פה הונח
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

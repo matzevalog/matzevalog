@@ -1,7 +1,7 @@
 ---
 title: "QBA0972"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: МИШАИЛОВ Рахамим, сын Рахамима (Рахамим)
 name-he: רחמים בן רחמים
 year-gr: 1954
@@ -167,7 +167,8 @@ tibble(`Оригинал` = "פ֗נ֗ האיש
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -177,12 +178,13 @@ tibble(`Оригинал` = "פ֗נ֗ האיש
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - L-образный
@@ -201,12 +203,13 @@ tibble(`Оригинал` = "פ֗נ֗ האיש
 
 - - Координаты
   - 41.37109892, 48.50994282 [Показать на карте](https://www.google.com/maps/place/41.37109892, 48.50994282){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -222,7 +225,10 @@ tibble(`Оригинал` = "פ֗נ֗ האיש
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

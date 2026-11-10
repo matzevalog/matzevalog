@@ -1,7 +1,7 @@
 ---
 title: "QBA1061"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Боаз, сын Элиэзера
 name-he: בעז בן אליעזר
 year-gr: 1902
@@ -175,7 +175,8 @@ tibble(`Оригинал` = "עדה המצבה
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -185,12 +186,13 @@ tibble(`Оригинал` = "עדה המצבה
 
 - - Метки
   - знаток Писания, преждевременная смерть
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -209,12 +211,13 @@ tibble(`Оригинал` = "עדה המצבה
 
 - - Координаты
   - 41.37044285, 48.50882262 [Показать на карте](https://www.google.com/maps/place/41.37044285, 48.50882262){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -230,7 +233,10 @@ tibble(`Оригинал` = "עדה המצבה
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::

@@ -1,7 +1,7 @@
 ---
 title: "QBA0359"
 place: Куба (цент.)
-flag: 🇦🇿
+flag: AZ
 name-ru: Беньямин, сын Давида
 name-he: בנימן בן דוד
 year-gr: 1843
@@ -165,7 +165,8 @@ tibble(`Оригинал` = "פה נטמן ונפטר
 ```
 
 ---
-::: {.custom-table-wrap}
+
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Примечания
   -  
@@ -175,12 +176,13 @@ tibble(`Оригинал` = "פה נטמן ונפטר
 
 - - Метки
   -  
+
 :::
-:::
+::::
 
 #### Памятник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Тип памятника
   - стела
@@ -199,12 +201,13 @@ tibble(`Оригинал` = "פה נטמן ונפטר
 
 - - Координаты
   - 41.3705374, 48.50757717 [Показать на карте](https://www.google.com/maps/place/41.3705374, 48.50757717){style="margin-left: 1em"}
+
 :::
-:::
+::::
 
 #### Источник
 
-::: {.custom-table-wrap}
+:::: {.custom-table-wrap}
 ::: {.list-table .borderless header-rows=0 aligns="l,l" tbl-colwidths="[21,79]"}
 - - Место хранения
   - Архив полевых исследований Центра «Сэфер»
@@ -220,7 +223,10 @@ tibble(`Оригинал` = "פה נטמן ונפטר
 
 - - Условия использования
   - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
+
 :::
+::::
+
 :::
 
 :::
