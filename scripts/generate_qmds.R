@@ -282,7 +282,7 @@ for_qmd_generation_second_step |>
 
 :::: {{.columns .date-panel style="display: flex; align-items: top; margin-top: 0.8em;"}}
 ::: {{.column .text-center style="width: fit-content; flex: 0 0 auto;"}}
-![](../additional_images/Cradle-b.svg "Дата рождения"){{width=1.5em .nolightbox}}
+![](../additional_images/Cradle-b.svg "Дата рождения"){{width=1.4em .nolightbox}}
 :::
 
 ::: {{.column style="flex: 0 0 auto; width: fit-content; padding-left: 0.8em; padding-right: 3.5em;"}}
@@ -292,7 +292,7 @@ for_qmd_generation_second_step |>
 :::
 
 ::: {{.column .text-center style="width: fit-content; flex: 0 0 auto;"}}
-![](../additional_images/Tombstone-b.svg "Дата смерти"){{width=1.5em .nolightbox}}
+![](../additional_images/Tombstone-b.svg "Дата смерти"){{width=1.4em .nolightbox}}
 :::
 
 ::: {{.column style="flex: 0 0 auto; width: fit-content; padding-left: 0.8em;"}}
@@ -494,8 +494,6 @@ tibble(`Оригинал` = "{Epitaph}",
 
 :::
 ::::
-
-:::
 
 :::
 
