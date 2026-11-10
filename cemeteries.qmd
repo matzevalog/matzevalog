@@ -106,6 +106,17 @@ include-in-header:
           }
 
       </style>
+include-after-body:
+  - text: |
+      <script>
+      document.addEventListener('click', function(event) {
+        const customButton = event.target.closest('.listing-catalog .btn');
+        
+        if (customButton) {
+          event.stopPropagation();
+        }
+      }, true);
+      </script>
 ---
 
 :::: {.panel-tabset .reduced-intervals}
@@ -121,15 +132,3 @@ include-in-header:
 :::
 
 ::::
-
-```{=html}
-<script>
-document.addEventListener('click', function(event) {
-  const customButton = event.target.closest('.listing-catalog .btn');
-  
-  if (customButton) {
-    event.stopPropagation();
-  }
-}, true);
-</script>
-```
