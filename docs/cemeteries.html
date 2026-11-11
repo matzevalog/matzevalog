@@ -202,9 +202,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     .quarto-listing-table th:nth-child(2),
-    .quarto-listing-table td:nth-child(2),
-    .quarto-listing-table th:nth-child(7),
-    .quarto-listing-table td:nth-child(7) {
+    .quarto-listing-table td:nth-child(2), {
         text-align: left;
     }
 
@@ -469,7 +467,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1794317773285">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1794335253525">
 <a href="./cemeteries/QBA.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 
@@ -524,7 +522,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1794317773865">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1794335254115">
 <a href="./cemeteries/SDB.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 
@@ -704,7 +702,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="2" data-listing-file-modified-sort="1794317773285" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="2" data-listing-file-modified-sort="1794335253525" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./cemeteries/QBA.html" class="code listing-code">&nbsp;</a>
@@ -730,7 +728,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="3" data-listing-file-modified-sort="1794317773865" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="3" data-listing-file-modified-sort="1794335254115" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./cemeteries/SDB.html" class="code listing-code">&nbsp;</a>
@@ -763,14 +761,6 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<pre class="{js}"><code>//| echo: false
-document.addEventListener('click', function(event) {
-  const customButton = event.target.closest('.listing-catalog .btn');
-  
-  if (customButton) {
-    event.stopPropagation();
-  }
-}, true);</code></pre>
 
 
 
@@ -1191,6 +1181,15 @@ document.addEventListener('click', function(event) {
 </div>
   </div>
 </footer>
+<script>
+document.addEventListener('click', function(event) {
+  const customButton = event.target.closest('.listing-catalog .btn');
+
+  if (customButton) {
+    event.stopPropagation();
+  }
+}, true);
+</script>
 
 
 
