@@ -44,12 +44,20 @@ include-in-header:
 
       .panel-tabset { margin-top: 2em; }
 
-      .quarto-title-block .quarto-title-banner {
-        height: 0;
+      #title-block-header .quarto-title-banner {
+        display: grid !important;
+        align-items: center;
+        min-height: fit-content;
       }
-
-      #title-block-header.quarto-title-block.default .quarto-title-meta {
-        color: rgba(255, 255, 255, 0.9);
+      
+      #title-block-header .quarto-title {
+        align-self: center;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      
+      #title-block-header .quarto-title-meta {
+        display: none !important;
       }
 
       #title-block-header {
@@ -62,6 +70,7 @@ include-in-header:
         background-size: contain; 
         background-repeat: no-repeat;
         aspect-ratio: 1920 / 360;
+        min-height: 100px;
         background-position-y: top;
         margin-block-end: 0em;
         opacity: 1;
