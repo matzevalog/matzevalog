@@ -313,7 +313,7 @@ for_qmd_generation_second_step |>
 '
 ---
 title: "{Number}"
-place: {place}
+place: "[{place} "{country}"](../cemeteries/{place_tag}.html)"
 flag: {flag}
 name-ru: {Name_RU}
 name-he: {Name_HE}
@@ -372,7 +372,7 @@ include-in-header:
         
           .figure img:hover {{
               transform: scale(1.05);
-              filter: brightness(108%);
+              filter: brightness(100%);
           }}
 
           .custom-table td:nth-child(1) {{
