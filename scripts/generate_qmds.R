@@ -312,7 +312,7 @@ for_qmd_generation_second_step |>
 '
 ---
 title: "{Number}"
-place: {place}
+place: "[{place} "{country}"](../cemeteries/{place_tag}.html)"
 flag: {flag}
 name-ru: {Name_RU}
 name-he: {Name_HE}
