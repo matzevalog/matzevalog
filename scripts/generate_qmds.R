@@ -371,7 +371,7 @@ include-in-header:
         
           .figure img:hover {{
               transform: scale(1.05);
-              filter: brightness(108%);
+              filter: brightness(100%);
           }}
 
           .custom-table td:nth-child(1) {{
