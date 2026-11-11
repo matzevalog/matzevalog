@@ -244,14 +244,15 @@ for_qmd_generation |>
          year_he = str_replace(year_he, "-", "0"),
          year = str_replace(year, "-", "0") |> as.double(),
          year_he = if_else(is.na(year_he), "0", year_he),
-         Material_code_new = str_split(Material_code, ", ") |> unlist() |> str_c("  - m:", ... = _, collapse = "\n") |> str_remove_all("- m: "),
-         Tag_code_new = str_split(Tags, ", ") |> unlist() |> str_c("  - t:", ... = _, collapse = "\n") |> str_remove_all("- t: "),
+         Tags = str_squish(Tags),
+         Material_code_new = str_split(Material_code, ", ") |> unlist() |> str_c("  - m:", ... = _, collapse = "\n") |> str_remove_all("  - m: "),
+         Tag_code_new = str_split(Tags, ", ") |> unlist() |> str_c("  - t:", ... = _, collapse = "\n") |> str_remove_all("  - t:"),
          Tomb_type_new = Tomb_type |> str_c("  - tt:", ... = _, collapse = "\n") |> str_remove_all("  - tt: "),
-         Lang_new = str_split(Lang, ", ") |> unlist() |> str_c("  - la:", ... = _, collapse = "\n") |> str_remove_all("- la: "),
-         Decor_code_new = str_split(Decor_code, ", ") |> unlist() |> str_c("  - d:", ... = _, collapse = "\n") |> str_remove_all("- d: "),
+         Lang_new = str_split(Lang, ", ") |> unlist() |> str_c("  - la:", ... = _, collapse = "\n") |> str_remove_all("  - la: "),
+         Decor_code_new = str_split(Decor_code, ", ") |> unlist() |> str_c("  - d:", ... = _, collapse = "\n") |> str_remove_all("  - d: "),
          geography_new = geography |> str_c("  - ge:", ... = _, collapse = "\n") |> str_remove_all("  - ge: "),
-         Lang_new = str_split(Lang, ", ") |> unlist() |> str_c("  - l:", ... = _, collapse = "\n") |> str_remove_all("- l: "),
-         Decor_code_new = str_split(Decor_code, ", ") |> unlist() |> str_c("  - d:", ... = _, collapse = "\n") |> str_remove_all("- d: ")) |>
+         Lang_new = str_split(Lang, ", ") |> unlist() |> str_c("  - l:", ... = _, collapse = "\n") |> str_remove_all("  - l: "),
+         Decor_code_new = str_split(Decor_code, ", ") |> unlist() |> str_c("  - d:", ... = _, collapse = "\n") |> str_remove_all("  - d: ")) |>
   ungroup() |>
   mutate(place_tag = case_when(str_detect(Number, "QBA") ~ "QBA",
                                str_detect(Number, "SDB") ~ "SDB",
