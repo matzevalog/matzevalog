@@ -45,10 +45,14 @@ website:
             contents:
             - section: "МЕСТА"
               contents:
-                - text: "- Куба (центральное)"
-                  href: "tombstones.qmd#category=c:QBA"
-                - text: "- Cтародуб"
-                  href: "tombstones.qmd#category=c:SDB"
+                - section: "Азербайджан"
+                  contents:              
+                    - text: "- Куба (центральное)"
+                      href: "tombstones.qmd#category=c:QBA"
+                - section: "Россия"
+                  contents:
+                    - text: "- Cтародуб"
+                      href: "tombstones.qmd#category=c:SDB"
             - text: "---"
             - section: "ПОЛ"
               contents:
