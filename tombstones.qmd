@@ -9,7 +9,7 @@ listing:
     table-striped: true
     table-hover: true
     sort: "name-ru"
-    fields: [title, name-ru, name-he, year-gr, year-he, place, flag]
+    fields: [title, name-ru, name-he, year-gr, year-he, place]
     filter-ui: [title, name-ru, name-he, year-gr, year-he]
     sort-ui: [title, name-ru, name-he, year-gr, year-he, place]
     field-display-names:
@@ -19,7 +19,6 @@ listing:
       year-gr: 'Год'
       year-he: 'Год (евр.)'
       place: "Место"
-      flag: " "
 include-in-header:
   - text: |
       <style>
@@ -100,6 +99,18 @@ include-in-header:
          .sidebar-item { line-height: 1.5em; }
 
       </style>
+
+include-after-body:
+  - text: |
+      <script>
+      document.addEventListener('click', function(event) {
+        const customButton = event.target.closest('.listing-catalog .btn, .listing-catalog a');
+        
+        if (customButton) {
+          event.stopPropagation();
+        }
+      }, true);
+      </script>
 ---
 
 ::: {.custom-frame}
