@@ -407,6 +407,7 @@ suppressPackageStartupMessages(library(tidyverse))
 :::: {{.columns}}
 
 ::: {{.column width="20%"}}
+::: {{layout-ncol=4}}
 
 ```{{r}}
 #| lightbox:
@@ -415,6 +416,7 @@ suppressPackageStartupMessages(library(tidyverse))
 {image}
 
 ```
+:::
 :::
 
 ::: {{.column width="1.5em"}}
