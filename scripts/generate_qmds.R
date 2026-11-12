@@ -281,22 +281,25 @@ for_qmd_generation_second_step |>
 {Name_HE}
 :::
 
-:::: {{.columns .date-panel style="display: flex; align-items: top; margin-top: 0.8em;"}}
+:::: {{.columns .date-panel style="display: flex; margin-top: 0.8em;"}}
 ::: {{.column .text-center style="width: fit-content; flex: 0 0 auto;"}}
 ![](../additional_images/Cradle-b.svg "Дата рождения"){{width=1.4em .nolightbox}}
 :::
 
-::: {{.column style="flex: 0 0 auto; width: fit-content; padding-left: 0.8em; padding-right: 3.5em;"}}
+::: {{.column style="flex: 0 0 auto; width: fit-content; min-width: 6.5em; padding-left: 0.6em;"}}
 {BDate_GR} 
 
 [{BDate_HE}]{{style="color: #929292"}}
+:::
+
+::: {{.column .text-center style="width: 5%; min-width: 1em; flex: 0 0 auto;"}}
 :::
 
 ::: {{.column .text-center style="width: fit-content; flex: 0 0 auto;"}}
 ![](../additional_images/Tombstone-b.svg "Дата смерти"){{width=1.4em .nolightbox}}
 :::
 
-::: {{.column style="flex: 0 0 auto; width: fit-content; padding-left: 0.8em;"}}
+::: {{.column style="flex: 0 0 auto; width: fit-content; padding-left: 0.6em;"}}
 {DDate_GR} 
 
 [{DDate_HE}]{{style="color: #929292"}}
@@ -379,10 +382,16 @@ include-in-header:
               color: #929292;
           }}
 
-        .table-striped tr {{
+          .table-striped tr {{
             --bs-table-accent-bg: #fff;
             vertical-align: middle;
-        }}
+          }}
+
+          .custom-frame,
+          .tab-content {{ 
+            min-width: 20em; 
+          }}
+      
       </style>
 ---
 
@@ -469,7 +478,7 @@ tibble(`Оригинал` = "{Epitaph}",
   - {Decor_RU}
 
 - - Координаты
-  - {Coordinates} [Показать на карте](https://www.google.com/maps/place/{Coordinates}){{style="margin-left: 1em"}}
+  - [{Coordinates} "Показать на карте"](https://www.google.com/maps/place/{Coordinates})
 
 :::
 ::::
