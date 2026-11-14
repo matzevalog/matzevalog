@@ -37,7 +37,7 @@ include-in-header:
       <style>
       .description { display: none; }
 
-      .reduced-intervals p { margin-bottom: 0; }
+      .reduced-intervals p { margin-bottom: 0.4em; }
 
       .button-intervals p {
         margin-top: 1.5em;
